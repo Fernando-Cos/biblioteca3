@@ -77,9 +77,7 @@
         		<link href='https://biblioteca.ufam.edu.br/templates/padraogoverno01/css/fontes.css' rel='stylesheet' type='text/css'>
 			<script language="javascript">function sizeFont(elem,acao){var tamInic=12;var tamMin=4;var tamMax=40;if(document.getElementById(elem).style.fontSize==""){var tamFonte=tamInic;}else{var tamFonte=parseInt(document.getElementById(elem).style.fontSize);}switch(acao){case'+':if(tamFonte<tamMax)document.getElementById(elem).style.fontSize=(tamFonte+2)+"px";break;case'-':if(tamFonte>tamMin)document.getElementById(elem).style.fontSize=(tamFonte-2)+"px";break;case'default':document.getElementById(elem).style.fontSize=(tamFonte=16)+"px";break;}}</script>
 	<h2 class="hide">Seletor idioma</h2>		
-	<script type="text/javascript">//<![CDATA[
-function GTranslateGetCurrentLang(){var keyValue=document.cookie.match('(^|;) ?googtrans=([^;]*)(;|$)');return keyValue?keyValue[2].split('/')[2]:null;}function GTranslateFireEvent(element,event){try{if(document.createEventObject){var evt=document.createEventObject();element.fireEvent('on'+event,evt)}else{var evt=document.createEvent('HTMLEvents');evt.initEvent(event,true,true);element.dispatchEvent(evt)}}catch(e){}}function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];if(GTranslateGetCurrentLang()==null&&lang==lang_pair.split('|')[0])return;var teCombo;var sel=document.getElementsByTagName('select');for(var i=0;i<sel.length;i++)if(sel[i].className=='goog-te-combo')teCombo=sel[i];if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0){setTimeout(function(){doGTranslate(lang_pair)},500)}else{teCombo.value=lang;GTranslateFireEvent(teCombo,'change');GTranslateFireEvent(teCombo,'change')}}
-//]]></script>
+	
     	<div id="google_translate_element2"></div>
     	<script type="text/javascript">function googleTranslateElementInit2(){new google.translate.TranslateElement({pageLanguage:'pt',autoDisplay:false},'google_translate_element2');}</script>
     	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
@@ -111,50 +109,40 @@ function GTranslateGetCurrentLang(){var keyValue=document.cookie.match('(^|;) ?g
 				<div class="span6 language-and-actions-container">
 		<h2 class="hide">Opções de acessibilidade</h2>
 <ul class="pull-right" id="portal-siteactions">
-<li class="item-140"><a href="/acessibilidade.html" accesskey="5">Acessibilidade</a></li><li class="item-141 toggle-contraste"><a class="toggle-contraste" href="#" accesskey="6">Alto contraste</a></li><li class="item-142"><a href="/mapa-do-site.html" accesskey="7">Mapa do site</a></li></ul>
-	
-	<div style="text-align:right;">
+<li class="item-140">
+<a href="/acessibilidade.html" accesskey="5">Acessibilidade</a></li><li class="item-141 toggle-contraste">
+	<a class="toggle-contraste" href="#" accesskey="6">Alto contraste</a></li><li class="item-142">
+		<a href="/mapa-do-site.html" accesskey="7">Mapa do site</a></li></ul>
+			<div style="text-align:right;">
 		<ul id="accessibility">
-			<li>
-				<a href="#" onclick="sizeFont('conteudo','+');" title="Aumentar a fonte" class="flag nturl notranslate">A+</a>
-			</li>
-			<li>
-				<a href="#" onclick="sizeFont('conteudo','default');" title="Voltar ao tamanho normal" class="flag nturl notranslate">A</a>
-			</li>
-			<li>
-				<a href="#" onclick="sizeFont('conteudo','-');" title="Diminuir a fonte" class="flag nturl notranslate">A-</a>&nbsp;
-			</li>
-                        <li>
-                                <a href="#" onclick="doGTranslate('pt|pt');return false;" title="Portuguese" class="flag nturl notranslate">PT</a>
-                        </li>
-                        <li>
-                                <a href="#" onclick="doGTranslate('pt|en');return false;" title="English" class="flag nturl notranslate">EN</a>
-                        </li>
-                        <li>
-                                <a href="#" onclick="doGTranslate('pt|es');return false;" title="Spanish" class="flag nturl notranslate">ES</a>&nbsp;
-                        </li>
 		</ul>
 	</div>
-                   </div>
-                    <!-- fim div.span6 -->
-                </div>
-                <!-- fim .row-fluid -->
-                <div class="row-fluid">
-                    <div id="logo" class="span8">
-                        <a href="https://biblioteca.ufam.edu.br/" title="SISTEBIB">
-                                                        <img src="https://biblioteca.ufam.edu.br/images/ufam.png" alt="SISTEBIB"/>
-                                                        <span class="portal-title-1">Sistema de Bibliotecas da Universidade Federal do Amazonas</span>
-                            <h1 class="portal-title corto">SISTEBIB</h1>
-                            <span class="portal-description">Universidade Federal do Amazonas</span>
-                        </a>
-                    </div>
-                    <!-- fim .span8 -->
-                    <div class="span4">
-                        	<div id="social-icons" class="row">
-    	<h2 class="hidden">Redes Sociais</h2>
-    	
+	</div>
+	<!-- fim div.span6 -->
+</div>
+<!-- fim .row-fluid -->
+<div class="row-fluid">
+	<div id="logo" class="span8">
+		<a href="https://biblioteca.ufam.edu.br/" title="">
+			<img style="max-height: 134px;" src="{{ asset('images/front_images/saude.png')}}" alt=""/>
+			<span class="portal-title-1">Sistema de Biblioteca</span>
+			<h1 class="portal-title corto">BIBLIOTECA</h1>
+			<span class="portal-description">Secretaria de Estdo de Saúde do Amazonas</span>
+		</a>
+	</div>
+	<!-- fim .span8 -->
+	<div class="span4">
+			<div id="social-icons" class="row">
+<h2 class="hidden">Redes Sociais</h2>
 <ul class="pull-right">
-<li class="portalredes-item item-136"><a href="https://twitter.com/twiiter"><i class="icon-twitter-sign"><span>Twitter</span></i></a></li><li class="portalredes-item item-138"><a href="http://facebook.com/facebook"><i class="icon-facebook-sign"><span>Facebook</span></i></a></li><li class="portalredes-item item-225"><a href="http://plus.google.com/google+"><i class="icon-google-plus-sign"><span>Google Plus</span></i></a></li><li class="portalredes-item item-257"><a href="http://instagram.com/instagram"><i class="icon-instagram"><span>Instagram</span></i></a></li></ul>
+<li class="portalredes-item item-136"><a href="https://twitter.com/twiiter"><i class="icon-twitter-sign">
+	<span>Twitter</span></i></a></li><li class="portalredes-item item-138">
+		<a href="http://facebook.com/facebook"><i class="icon-facebook-sign">
+			<span>Facebook</span></i></a></li><li class="portalredes-item item-225">
+		<a href="http://plus.google.com/google+">
+			<i class="icon-google-plus-sign"><span>Google Plus</span></i></a></li>
+			<li class="portalredes-item item-257"><a href="http://instagram.com/instagram">
+		<i class="icon-instagram"><span>Instagram</span></i></a></li></ul>
     </div>
 		<div id="portal-searchbox" class="row">
     	<h2 class="hidden">Buscar no portal</h2>
@@ -165,7 +153,8 @@ function GTranslateGetCurrentLang(){var keyValue=document.cookie.match('(^|;) ?g
         <div class="input-append">
         	<label for="portal-searchbox-field" class="hide">Busca: </label>
         	<input type="text" id="portal-searchbox-field" class="searchField" placeholder="Buscar no portal" title="Buscar no portal" name="searchword">       
-            <button type="submit" class="btn searchButton"><span class="hide">Buscar</span><i class="icon-search"></i></button>
+            <button type="submit" class="btn searchButton">
+			<span class="hide">Buscar</span><i class="icon-search"></i></button>
 		</div>
 		<input type="hidden" name="task" value="search"/>
 		<input type="hidden" name="option" value="com_search"/>
@@ -173,101 +162,110 @@ function GTranslateGetCurrentLang(){var keyValue=document.cookie.match('(^|;) ?g
 	</fieldset>
 </form>
     </div>
-	
-                    </div>
-                    <!-- fim .span4 -->
-                </div>
-                <!-- fim .row-fluid -->
-            </div>
-            <!-- fim div.container -->
-            <div class="sobre">
-                <div class="container">
-                    
-                </div>
-                <!-- .container -->
-            </div>
-            <!-- fim .sobre -->
-        </header>
-        <main>
-            <div class="container">
-                	<div class="row-fluid">
-		<section>
-						
-
+		</div>
+		<!-- fim .span4 -->
+	</div>
+	<!-- fim .row-fluid -->
+</div>
+<!-- fim div.container -->
+<div class="sobre">
+	<div class="container">
+		
+	</div>
+	<!-- .container -->
+</div>
+<!-- fim .sobre -->
+</header>
+<main>
+<div class="container">
+		<div class="row-fluid">
+<section>
 <div class="custom">
-	<center><a href="https://pergamum.ufam.edu.br/" target="_blank" rel="noopener noreferrer"><img src="/images/imagens_menu/link_superior/pergamumcat.png" width="155"/></a><a href="/deposito-de-teses-e-dissertacoes.html"><img src="/images/imagens_menu/link_superior/depteses.png" width="155"/></a><a href="/deposito-de-trabalho-de-conclusao-de-curso.html"><img src="/images/imagens_menu/link_superior/deptcc.png" width="155"/></a><a href="/elaboracao-de-ficha-catalografica.html"><img src="/images/imagens_menu/link_superior/fichacat.png" width="155"/></a><a href="/nada-consta.html"><img src="/images/imagens_menu/link_superior/nadaconsta2.png" width="155"/></a><a href="/contatos.html"><img src="/images/imagens_menu/link_superior/contatos.png" width="155"/></a></center></div>
+	<center>
+		<a href="" target="_blank" rel="noopener noreferrer">
+			<img src="/images/imagens_menu/link_superior/pergamumcat.png" width="155"/></a>
+			<a href="/deposito-de-teses-e-dissertacoes.html">
+				<img src="/images/imagens_menu/link_superior/depteses.png" width="155"/></a>
+				<a href="/deposito-de-trabalho-de-conclusao-de-curso.html">
+					<img src="/images/imagens_menu/link_superior/deptcc.png" width="155"/>
+				</a><a href="/elaboracao-de-ficha-catalografica.html">
+					<img src="/images/imagens_menu/link_superior/fichacat.png" width="155"/></a>
+					<a href="/nada-consta.html">
+						<img src="/images/imagens_menu/link_superior/nadaconsta2.png" width="155"/></a>
+						<a href="/contatos.html">
+						<img src="/images/imagens_menu/link_superior/contatos.png" width="155"/></a>
+					</center></div>
 		</section>
 	</div>
 		<div class="row-fluid">
 		<section>
-						<p>
-<br>
-<br>
-</p>		</section>
+		<p>
+	<br>
+	<br>
+</p></section>
 	</div>
+	<div class="row-fluid">
+		<div id="navigation" class="span3">
+			<a href="#" class="visible-phone visible-tablet mainmenu-toggle btn">
+				<i class="icon-list"></i>&nbsp;Menu</a>
+			<section id="navigation-section">
+				<span class="hide">Início do menu principal</span>
+					<nav class="menu-de-apoio span9">
+		<h2 class="hide">Menu de Relevância </h2>
+
+	</nav>
+
+
+
 	
-                <div class="row-fluid">
-                                        <div id="navigation" class="span3">
-                        <a href="#" class="visible-phone visible-tablet mainmenu-toggle btn"><i class="icon-list"></i>&nbsp;Menu</a>
-                        <section id="navigation-section">
-                            <span class="hide">Início do menu principal</span>
-                            	<nav class="menu-de-apoio span9">
-		<h2 class="hide">Menu de Relevância </h2><!-- visible-phone visible-tablet -->
-		
+<nav class="principal span9 closed">
+	<h2>Serviços<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 <ul>
-<li class="item-262"><a href="/"><img src="/images/SISTEBIB_logo.png" alt="LOGO"/></a></li></ul>
-	</nav>
-		<nav class="principal span9 closed">
-		<h2>sistebib <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
-		
+<li class="item-336"><a href="">Ficha Catalografica</a></li>
+<li class="item-343"><a href="/missao-e-visao.html">ISBN</a></li>
+<li class="item-338"><a href="/organograma.html">Apoio a Pesquisa</a></li>
+<li class="item-340"><a href="/equipe.html">Emprestimo de Obras</a></li><li class="item-348"
+><a href="/normativas.html">agendamento</a></li><li class="item-350"><a href="/relatorios.html">sala de estudos</a></li>
+<li class="item-361"><a href="/contatos.html">fonte de Informação</a></li><li class="item-296">
+</nav>
+
+<nav class="principal span9 closed">
+	<h2>Produtos<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 <ul>
-<li class="item-336"><a href="/sobre-o-sistema.html">Sobre o Sistema</a></li><li class="item-343"><a href="/missao-e-visao.html">Missão e Visão</a></li><li class="item-338"><a href="/organograma.html">Organograma</a></li><li class="item-340"><a href="/equipe.html">Equipe</a></li><li class="item-348"><a href="/normativas.html">Normativas</a></li><li class="item-350"><a href="/relatorios.html">Relatórios</a></li><li class="item-361"><a href="/contatos.html">Contatos</a></li><li class="item-296"><a href="/acesso-restrito.html">Acesso restrito</a></li></ul>
-	</nav>
-		<nav class="principal span9 closed">
-		<h2>Apoio ao ensino <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
-		
-<ul>
-<li class="item-291"><a href="/apresentacoes-e-materiais-de-apoio.html">Apresentações e materiais de apoio</a></li><li class="item-362"><a href="/bases-de-dados.html">Bases de dados</a></li><li class="item-323"><a href="/audiovisual.html">Criação de apresentações</a></li><li class="item-324"><a href="/criacao-de-linha-do-tempo.html">Criação de linha do tempo</a></li><li class="item-325"><a href="/criacao-de-mapas.html">Criação de mapas</a></li><li class="item-326"><a href="/craiacao-de-questionarios.html">Criação de questionários</a></li><li class="item-327"><a href="/criador-de-referencias.html"> Criador de referências</a></li><li class="item-328"><a href="/exercicios-interativos.html">Exercícios interativos</a></li><li class="item-329"><a href="/infografico.html">Infográfico</a></li><li class="item-330"><a href="/livros-e-revistas.html">Livros e revistas</a></li><li class="item-331"><a href="/mapa-mental.html">Mapa mental</a></li><li class="item-332"><a href="/marcadores-e-organizacao.html">Marcadores e organização</a></li><li class="item-333"><a href="/rede-de-aprendizagem.html">Rede de aprendizagem</a></li><li class="item-289"><a href="/treinamento.html">Treinamento</a></li><li class="item-290"><a href="/tutoriais.html">Tutoriais</a></li><li class="item-334"><a href="/verificador-de-conteudo.html">Verificador de conteúdo</a></li></ul>
-	</nav>
-		<nav class="principal span9 closed">
-		<h2>Serviços <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
-		
+<li class="item-291">
+<a href="/apresentacoes-e-materiais-de-apoio.html">Treinamentos</a></li>
+<li class="item-362"><a href="/bases-de-dados.html">Resumo de Atos</a></li><li class="item-323">
+<a href="/audiovisual.html">Normatização</a></li><li class="item-324">
+<a href="/criacao-de-linha-do-tempo.html">Boletim Informativo</a></li><li class="item-325">
+				
+</nav>
+	<nav class="principal span9 closed">
+	<h2>Serviços <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
 <ul>
 <li class="item-281"><a href="/deposito-de-teses-e-dissertacoes.html">Depósito de Teses e Dissertações</a></li><li class="item-282"><a href="/deposito-de-trabalho-de-conclusao-de-curso.html">Depósito de Trabalho de Conclusão de Curso</a></li><li class="item-280"><a href="/elaboracao-de-ficha-catalografica.html">Elaboração de ficha catalográfica</a></li><li class="item-277"><a href="/politicas-de-emprestimo.html">Políticas de empréstimo</a></li><li class="item-279"><a href="/nada-consta.html">Nada consta</a></li><li class="item-312"><a href="/por-doacao.html">Doação</a></li><li class="item-360"><a href="/formularios.html">Formulários</a></li><li class="item-283"><a href="/salas-de-estudo.html">Salas de estudo</a></li><li class="item-307"><a href="/comutacao-bibliografica.html">Comutação Bibliográfica</a></li><li class="item-284"><a href="/aquisicao-de-acervos.html">Aquisição de acervos</a></li></ul>
 	</nav>
-		<nav class="principal span9 closed">
-		<h2>Produtos <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
-		
-<ul>
-<li class="item-287"><a href="https://tede.ufam.edu.br/" target="_blank">Biblioteca Digital de Teses e Dissertações</a></li><li class="item-286"><a href="http://riu.ufam.edu.br/" target="_blank">Repositório institucional</a></li><li class="item-285"><a href="https://pergamum.ufam.edu.br/pergamum/biblioteca/index.php" target="_blank">Pergamum - Catálogo online</a></li><li class="item-288"><a href="/publicacoes-sistebib.html">Publicações SISTEBIB</a></li></ul>
-	</nav>
-		<nav class="central-conteudos span9 closed">
-		<h2>Mídia <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
-		
-<ul>
-<li class="item-146"><a class="videos" href="https://www.youtube.com/channel/UCphduPeCDe3u4VtgKM0OvdA" target="_blank"><span class="icon-li icon-stack"><i class="icon-circle icon-stack-base"><span class="hide">&nbsp;</span></i><i class="icon-play icon-light"><span class="hide">&nbsp;</span></i></span>
-Canal SISTEBIB</a></li></ul>
-	</nav>
-	
-                            <span class="hide">Fim do menu principal</span>
-                        </section>
-                    </div>
-                    <!-- fim #navigation.span3 -->
-                                        <div id="content" class="span9">
-                        <section id="content-section">
-                            <span class="hide">Início do conteúdo da página</span>
+<nav class="principal span9 closed">
+<h2>Saúde literaria <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
 
-                            
-                            
-                                		<div class="row-fluid module ">
-							<div class="outstanding-header">			 	<h2 class="outstanding-title"><span>Sistema de Bibliotecas da Universidade Federal do Amazonas</span></h2>
-			 	</div>									<div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
+	<nav class="central-conteudos span9 closed">
+</nav>
+	<span class="hide">Fim do menu principal</span>
+</section>
+</div>
+<!-- fim #navigation.span3 -->
+			<div id="content" class="span9">
+<section id="content-section">
+<span class="hide">Início do conteúdo da página</span>
+
+			<div class="row-fluid module ">
+<div class="outstanding-header">
+	<h2 class="outstanding-title"><span>Sistema Biblioteca</span></h2>
+</div>									<div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
 <div class="carousel-inner">
 	<div class="banneritem item active">
-																																																																		<a href="/component/banners/click/42.html" title="TREINAMENTO: REPOSITÓRIO UFAM - RIU">
 							<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER_TREINA-RIU.png" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
 						</a>
-															<div class="faixa"></div>
+			<div class="faixa"></div>
 			<h1>
 				<a href="/component/banners/click/42.html">
 					TREINAMENTO: REPOSITÓRIO UFAM - RIU				</a>

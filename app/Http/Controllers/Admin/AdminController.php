@@ -15,12 +15,10 @@ use Image;
 
 class AdminController extends Controller
 {
-    
     public function dashboard() {
         Session::put('page', 'dashboard');
         return view ('admin.admin_dashboard');
     }
-
     //Config do admin...
     public function settings() {
         Session::put('page', 'settings');
@@ -59,7 +57,6 @@ class AdminController extends Controller
         return redirect('/admin');
     }
 
-    
     //CHECANDO AS SENHAS...
     public function chkCurrentPassword(Request $request) {
         $data = $request->all();
@@ -73,7 +70,6 @@ class AdminController extends Controller
         }
     }
 
-
     public function updateCurrentPassword(Request $request) {
         if($request->isMethod('post')) {
             $data = $request->all();
@@ -85,7 +81,6 @@ class AdminController extends Controller
                         Session::flash('success_message', 'Senha Atualizada com sycesso');
                     }else {
                         Session::flash('error_message', 'A nova senha nao e igual a confirmação');
-
                     }
             }else {
                 Session::flash('error_message', 'Sua senha estar incorreta');
@@ -94,8 +89,6 @@ class AdminController extends Controller
             redirect()->back();
         }
     }
-
-
     public function updateAdminDetails(Request $request) {
         Session::put('page', 'update-admin-details');
         if($request->isMethod('post')) {
@@ -106,7 +99,6 @@ class AdminController extends Controller
                 'admin_mobile' => 'required|numeric',
                 'admin_image' => 'image',
             ];
-            
             $customMessages = [
                 'admin_name_required' => 'Tem que colocar o nome',
                 'admin_name_alpha' => 'Nome Valido tem que colocar',
@@ -114,7 +106,6 @@ class AdminController extends Controller
                 'admin_mobile.numeric' => 'Valido mobile e important',
                 'admin_image.image' => 'Imagem e importante',
             ];
-
             $this->validate($request, $rules, $customMessages);
             //Upload de imagem
             if($request->hasFile('admin_image')) {
@@ -133,7 +124,6 @@ class AdminController extends Controller
                     $imageName = "";
                 }
             }
-
             //atualizacao de admin detalhes
             Admin::where('email',Auth::guard('admin')->user()->email)
             ->update(['name'=>$data['admin_name'],'mobile'=>$data['admin_mobile'],'image'=>$imageName]);
@@ -141,4 +131,5 @@ class AdminController extends Controller
         }
         return view('admin.update_admin_details');
     }
+
 }

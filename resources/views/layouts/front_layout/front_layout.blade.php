@@ -63,7 +63,6 @@
 		</div>
 	</div>	 --}}
 	@endif
-
 <div id="mainBody">
 	<div class="container">
 		<div class="row">

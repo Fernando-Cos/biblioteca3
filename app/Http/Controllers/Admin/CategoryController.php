@@ -9,7 +9,6 @@ use App\Category;
 use App\Section;
 // use function GuzzleHttp\json_encode;
 
-
 class CategoryController extends Controller
 {
     public function categories() {
@@ -45,7 +44,6 @@ class CategoryController extends Controller
         } else {
             $title= "Edit Categoria";
         }
-
         if($request->isMethod('post')){
             $data = $request->all();
             // echo "<pre>"; print_r($data); die;
@@ -61,8 +59,6 @@ class CategoryController extends Controller
             $category->status = 1;
             $category->save();
         }
-
-
         // Pegando todas as sessoes...
         $getSections = Section::get();
         return view('admin.categories.add_edit_category')->with(compact('title','getSections'));

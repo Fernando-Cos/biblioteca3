@@ -3,14 +3,10 @@
         <a id="myCart" href="product_summary.html">
     <img src="{{ asset('images/front_images/ico-cart.png') }}" alt="cart">Opções de Serviços</a>
 </div>
-
-
 <div class="small1" style="max-width:140%;position: absolute; left: 1092px;top: 250px;">
     <a id="myCart" href="product_summary.html">
 <img src="{{ asset('images/front_images/bannerleft.png') }}" alt="cart"></a>
 </div>
-
-
 
     <ul id="sideManu" class="nav nav-tabs nav-stacked">
         {{-- <li class="subMenu"><a>MEN</a> --}}
@@ -42,9 +38,9 @@
                 <li><a href="products.html"><i class="icon-chevron-right"></i>Formal Tops</a></li>
             </ul> --}}
             <ul>
-                <li><a href="products.html"><i class="icon-chevron-right"></i><strong>Treinametos</strong></a></li>
-                <li><a href="products.html"><i class="icon-chevron-right"></i>Resumo de atos normatimos</a></li>
-                <li><a href="products.html"><i class="icon-chevron-right"></i>Botetim Informativo</a></li>
+                <li><a href="products.html"><i class="icon-chevron-right"></i><strong>❖ Treinametos</strong></a></li>
+                <li><a href="products.html"><i class="icon-chevron-right"></i>❖ Resumo de atos normatimos</a></li>
+                <li><a href="products.html"><i class="icon-chevron-right"></i>❖ Botetim Informativo</a></li>
             </ul>
             {{-- <ul>
                 <li><a href="products.html"><i class="icon-chevron-right"></i><strong>Dresses</strong></a></li>
@@ -60,9 +56,9 @@
                 <li><a href="products.html"><i class="icon-chevron-right"></i>Formal T-Shirts</a></li>
             </ul> --}}
             <ul>
-                <li><a href="products.html"><i class="icon-chevron-right"></i><strong>Opcional</strong></a></li>
-                <li><a href="products.html"><i class="icon-chevron-right"></i>Opcional</a></li>
-                <li><a href="products.html"><i class="icon-chevron-right"></i>Opcional</a></li>
+                <li><a href="products.html"><i class="icon-chevron-right"></i><strong>❖ Opcional</strong></a></li>
+                <li><a href="products.html"><i class="icon-chevron-right"></i>❖ Opcional</a></li>
+                <li><a href="products.html"><i class="icon-chevron-right"></i>❖ Opcional</a></li>
             </ul>
             {{-- <ul>
                 <li><a href="products.html"><i class="icon-chevron-right"></i><strong>Shirts</strong></a></li>

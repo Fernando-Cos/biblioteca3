@@ -21,8 +21,7 @@
     </section>
     <section class="content">
       <div class="container-fluid">
-        <form name="categoryForm" id="CategoryForm" action="{{ url('admin/add-edit-category') }}"
-        method="POST" enctype="multipart/form-data">@csrf
+        <form name="categoryForm" id="CategoryForm" action="{{ url('admin/add-edit-category') }}" method="POST" enctype="multipart/form-data">@csrf
           <div class="card card-default">
             <div class="card-header">
               <h3 class="card-title">Adicionar Categoria</h3>
@@ -36,29 +35,29 @@
               </div>
             </div>
             <!-- /.card-header -->
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="category_name">Nome Da Categoria</label>
-                      <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria">
-                    </div>
-                    <div class="form-group">
-                      <label>Nivel Categoria</label>
-                      <select name="parent_id" id="parent_id" class="form-control select2" style="width: 100%;">
-                        <option value="0">Categoria Principal</option>
-                      </select>
-                    </div>
-                    {{-- <label for="category_name">Disconto da Categoria</label>
-                    <input type="text" class="form-control" id="category_discount" name="category_discount" placeholder="Nome da Categoria"> --}}
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+                <label for="category_name">Nome Da Categoria</label>
+                <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria">
+              </div>
+              <div class="form-group">
+                <label>Nivel Categoria</label>
+                <select name="parent_id" id="parent_id" class="form-control select2" style="width: 100%;">
+                  <option value="0">Categoria Principal</option>
+                </select>
+              </div>
+              <label for="category_name">Disconto da Categoria</label>
+              <input type="text" class="form-control" id="category_discount" name="category_discount" placeholder="Nome da Categoria">
 
-                    <label for="category_name">Descrição Categoria</label>
-                    <textarea name="description" id="description" class="form-control" rows="6"></textarea>
+              <label for="category_name">Descrição Categoria</label>
+              <textarea name="description" id="description" class="form-control" rows="6"></textarea>
 
-                    {{-- <label for="category_name">Meta Descrição</label>
-                      <textarea id="meta_description" name="meta_description" class="form-control" rows="6" placeholder="defg"></textarea>
-                 --}}
-                </div>
+              <label for="category_name">Meta Descrição</label>
+                <textarea id="meta_description" name="meta_description" class="form-control" rows="6" placeholder="defg"></textarea>
+           
+          </div>
                 <div class="col-md-6">
                   <div class="form-group">
                       <label>Selecione Seções </label>
@@ -69,7 +68,7 @@
                         @endforeach
                       </select>
                     </div>
-                    {{-- <div class="form-group">
+                    <div class="form-group">
                       <label for="exempleInputFile">Imagem Categoria</label>
                       <div class="input-group">
                           <div class="custom-file">
@@ -79,16 +78,16 @@
                           <div class="input-group-append">
                               <span class="input-group-text" id="">Upload</span>
                           </div>
-                      </div> --}}
+                      </div>
                       <label for="category_name">URL da Categoria</label>
                       <input type="text" class="form-control" id="url" name="url" placeholder="Nome da Categoria">
                       <div class="form-group">
-                          {{-- <label for="category_name">Meta Title</label>
+                          <label for="category_name">Meta Title</label>
                           <textarea id="meta_title" name="meta_title" class="form-control" rows="6"></textarea>
 
                           <label for="category_name">Meta Keyousd</label>
                           <textarea id="meta_keywords" name="meta_keywords" class="form-control" rows="6" placeholder="defg"></textarea>
-                   --}}
+                  
                    </div> 
                 </div>
                 </div>

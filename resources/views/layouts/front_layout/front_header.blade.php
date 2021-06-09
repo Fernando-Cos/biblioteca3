@@ -1,3 +1,9 @@
+{{-- <?php
+use App\Section;
+$sections = Section::sections();
+echo "<pre>"; print_r($sections); die;
+?> --}}
+
 <div id="header">
 	<div class="container">
 		<div id="welcomeLine" class="row">

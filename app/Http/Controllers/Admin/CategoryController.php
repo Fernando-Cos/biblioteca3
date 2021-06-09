@@ -47,6 +47,26 @@ class CategoryController extends Controller
         if($request->isMethod('post')){
             $data = $request->all();
             // echo "<pre>"; print_r($data); die;
+
+
+             //Upload cateory imagem
+             if($request->hasFile('category_image')) {
+                $image_tmp = $request->file('category_image');
+                if($image_tmp->isValid()){
+                    // get image
+                    $extension = $image_tmp->getClientOriginalExtension();
+                    // gerando novas images name
+                    $imageName = rand(111,999999).'.'.$extension;
+                    $imagePath = 'images/category_images/'.$imageName;
+                    // Upload da image
+                    Image::make($image_tmp)->resize(300,400)->save($imagePath);
+                    // salvando a img...
+                    $category->category_image = $imageName;
+                }
+            }
+
+
+
             $category->parent_id = $data['parent_id'];
             $category->section_id = $data['section_id'];
             $category->category_name = $data['category_name'];

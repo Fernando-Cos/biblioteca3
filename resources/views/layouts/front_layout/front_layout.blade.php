@@ -50,7 +50,6 @@
 </body>
 </html> --}}
 
-
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" class="no-js" lang="pt-br" dir="ltr">
 <head>
@@ -74,9 +73,8 @@
 	<script src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/" type="text/javascript"></script>
 	<script src="https://biblioteca.ufam.edu.br/templates/padraogoverno01/html/mod_banners/js/banner-rotativo-home.js" type="text/javascript"></script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        		<link href='https://biblioteca.ufam.edu.br/templates/padraogoverno01/css/fontes.css' rel='stylesheet' type='text/css'>
-			<script language="javascript">function sizeFont(elem,acao){var tamInic=12;var tamMin=4;var tamMax=40;if(document.getElementById(elem).style.fontSize==""){var tamFonte=tamInic;}else{var tamFonte=parseInt(document.getElementById(elem).style.fontSize);}switch(acao){case'+':if(tamFonte<tamMax)document.getElementById(elem).style.fontSize=(tamFonte+2)+"px";break;case'-':if(tamFonte>tamMin)document.getElementById(elem).style.fontSize=(tamFonte-2)+"px";break;case'default':document.getElementById(elem).style.fontSize=(tamFonte=16)+"px";break;}}</script>
-	<h2 class="hide">Seletor idioma</h2>		
+	<link href='https://biblioteca.ufam.edu.br/templates/padraogoverno01/css/fontes.css' rel='stylesheet' type='text/css'>
+	<script language="javascript">function sizeFont(elem,acao){var tamInic=12;var tamMin=4;var tamMax=40;if(document.getElementById(elem).style.fontSize==""){var tamFonte=tamInic;}else{var tamFonte=parseInt(document.getElementById(elem).style.fontSize);}switch(acao){case'+':if(tamFonte<tamMax)document.getElementById(elem).style.fontSize=(tamFonte+2)+"px";break;case'-':if(tamFonte>tamMin)document.getElementById(elem).style.fontSize=(tamFonte-2)+"px";break;case'default':document.getElementById(elem).style.fontSize=(tamFonte=16)+"px";break;}}</script>
 	
     	<div id="google_translate_element2"></div>
     	<script type="text/javascript">function googleTranslateElementInit2(){new google.translate.TranslateElement({pageLanguage:'pt',autoDisplay:false},'google_translate_element2');}</script>
@@ -85,45 +83,27 @@
 </head>
 <div id="conteudo">
 <body>
-    <a class="hide" id="topo" href="#accessibility">Ir direto para menu de acessibilidade.</a>
-    <noscript>
-      <div class="error minor-font">
-        Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site podem não estar acessíveis.
-      </div>
-    </noscript>
     <!-- barra do governo -->
-{{-- <div id="barra-brasil">
+<div id="barra-brasil">
 	<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
 	<ul id="menu-barra-temp" style="list-style:none;">
 		<li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
 		<li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
 	</ul>
 	</div>
-</div> --}}
+</div>
 <!-- fim barra do governo -->
 <div class="layout">
 	<header>
 		<div class="container">
 			<div class="row-fluid accessibility-language-actions-container">
 				<!-- fim div.span6 -->
-				<div class="span6 language-and-actions-container">
-		<h2 class="hide">Opções de acessibilidade</h2>
-<ul class="pull-right" id="portal-siteactions">
-<li class="item-140">
-<a href="/acessibilidade.html" accesskey="5">Acessibilidade</a></li><li class="item-141 toggle-contraste">
-	<a class="toggle-contraste" href="#" accesskey="6">Alto contraste</a></li><li class="item-142">
-		<a href="/mapa-do-site.html" accesskey="7">Mapa do site</a></li></ul>
-			<div style="text-align:right;">
-		<ul id="accessibility">
-		</ul>
-	</div>
-	</div>
 	<!-- fim div.span6 -->
 </div>
 <!-- fim .row-fluid -->
 <div class="row-fluid">
 	<div id="logo" class="span8">
-		<a href="https://biblioteca.ufam.edu.br/" title="">
+		<a href="#" title="">
 			<img style="max-height: 134px;" src="{{ asset('images/front_images/saude.png')}}" alt=""/>
 			<span class="portal-title-1">Sistema de Biblioteca</span>
 			<h1 class="portal-title corto">BIBLIOTECA</h1>
@@ -132,10 +112,11 @@
 	</div>
 	<!-- fim .span8 -->
 	<div class="span4">
-			<div id="social-icons" class="row">
+	<div id="social-icons" class="row">
 <h2 class="hidden">Redes Sociais</h2>
 <ul class="pull-right">
-<li class="portalredes-item item-136"><a href="https://twitter.com/twiiter"><i class="icon-twitter-sign">
+<li class="portalredes-item item-136">
+	<a href="https://twitter.com/twiiter"><i class="icon-twitter-sign">
 	<span>Twitter</span></i></a></li><li class="portalredes-item item-138">
 		<a href="http://facebook.com/facebook"><i class="icon-facebook-sign">
 			<span>Facebook</span></i></a></li><li class="portalredes-item item-225">
@@ -170,7 +151,6 @@
 <!-- fim div.container -->
 <div class="sobre">
 	<div class="container">
-		
 	</div>
 	<!-- .container -->
 </div>
@@ -178,23 +158,23 @@
 </header>
 <main>
 <div class="container">
-		<div class="row-fluid">
+<div class="row-fluid">
 <section>
 <div class="custom">
 	<center>
-		<a href="" target="_blank" rel="noopener noreferrer">
-			<img src="/images/imagens_menu/link_superior/pergamumcat.png" width="155"/></a>
-			<a href="/deposito-de-teses-e-dissertacoes.html">
-				<img src="/images/imagens_menu/link_superior/depteses.png" width="155"/></a>
-				<a href="/deposito-de-trabalho-de-conclusao-de-curso.html">
-					<img src="/images/imagens_menu/link_superior/deptcc.png" width="155"/>
-				</a><a href="/elaboracao-de-ficha-catalografica.html">
-					<img src="/images/imagens_menu/link_superior/fichacat.png" width="155"/></a>
-					<a href="/nada-consta.html">
-						<img src="/images/imagens_menu/link_superior/nadaconsta2.png" width="155"/></a>
-						<a href="/contatos.html">
-						<img src="/images/imagens_menu/link_superior/contatos.png" width="155"/></a>
-					</center></div>
+<a href="" target="_blank" rel="noopener noreferrer">
+	<img src="/images/imagens_menu/link_superior/pergamumcat.png" width="155"/></a>
+	<a href="/deposito-de-teses-e-dissertacoes.html">
+		<img src="/images/imagens_menu/link_superior/depteses.png" width="155"/></a>
+		<a href="/deposito-de-trabalho-de-conclusao-de-curso.html">
+			<img src="/images/imagens_menu/link_superior/deptcc.png" width="155"/>
+		</a><a href="/elaboracao-de-ficha-catalografica.html">
+			<img src="/images/imagens_menu/link_superior/fichacat.png" width="155"/></a>
+			<a href="/nada-consta.html">
+				<img src="/images/imagens_menu/link_superior/nadaconsta2.png" width="155"/></a>
+				<a href="/contatos.html">
+				<img src="/images/imagens_menu/link_superior/contatos.png" width="155"/></a>
+			</center></div>
 		</section>
 	</div>
 		<div class="row-fluid">
@@ -212,12 +192,7 @@
 				<span class="hide">Início do menu principal</span>
 					<nav class="menu-de-apoio span9">
 		<h2 class="hide">Menu de Relevância </h2>
-
 	</nav>
-
-
-
-	
 <nav class="principal span9 closed">
 	<h2>Serviços<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 <ul>
@@ -256,22 +231,21 @@
 			<div id="content" class="span9">
 <section id="content-section">
 <span class="hide">Início do conteúdo da página</span>
-
 			<div class="row-fluid module ">
 <div class="outstanding-header">
 	<h2 class="outstanding-title"><span>Sistema Biblioteca</span></h2>
 </div>									<div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
 <div class="carousel-inner">
 	<div class="banneritem item active">
-							<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER_TREINA-RIU.png" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
-						</a>
-			<div class="faixa"></div>
-			<h1>
-				<a href="/component/banners/click/42.html">
-					TREINAMENTO: REPOSITÓRIO UFAM - RIU				</a>
-			</h1>
-							<div class="clr"></div>
-	</div>
+				<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER_TREINA-RIU.png" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
+			</a>
+<div class="faixa"></div>
+<h1>
+<a href="/component/banners/click/42.html">
+	TREINAMENTO: REPOSITÓRIO UFAM - RIU	</a>
+</h1>
+			<div class="clr"></div>
+</div>
 	<div class="banneritem item ">
 																																																																		<a href="/component/banners/click/41.html" title="Treinamentos Online de Junho de 2021">
 							<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER--TREINA-JUN--002.png" alt="Treinamentos Online de Junho de 2021"/>
@@ -372,7 +346,6 @@
 							<div class="clr"></div>
 	</div>
 	<div class="banneritem item ">
-																																																																		<a href="/component/banners/click/24.html" title="LIVE ACOLHIDA SISTEBIB 2021">
 							<img src="https://biblioteca.ufam.edu.br/images/banners/ACOLHIDA--SISTEBIB_CONFERE-JA_SITE.png" alt="LIVE ACOLHIDA SISTEBIB 2021"/>
 						</a>
 															<div class="faixa"></div>
@@ -482,71 +455,57 @@
 			<li data-slide-to="17" data-target="#banner-carousel-202" class="last"><a href="#" title="Bases de dados gratuitas sobre coronavírus">17</a></li>
 </ol>
 </div>
-	
-					</div>
-				<div class="row-fluid module ">
-							<div class="outstanding-header">			 	<h2 class="outstanding-title"><span>Bases de Dados</span></h2>
-			 	</div>									
+</div>
+<div class="row-fluid module ">
+<div class="outstanding-header">			 	
+	<h2 class="outstanding-title"><span>Bases de Dados</span></h2>
+</div>
 
-<div class="custom">
-	<p style="text-align: center;"> <a href="/images/doc/Tutorial-bases-de-dados-de-acesso-restrito.jpg"><img src="/images/gedweb-bases.jpg" alt=""/></a>   <a href="http://www-periodicos-capes-gov-br.ez2.periodicos.capes.gov.br/"><img src="/images/periodicos-base.jpg" alt=""/></a>   <a href="http://ufam.dotlib.com.br/springer/index.html"><img src="/images/springer-bases.jpg" alt=""/></a>   <a href="/images/doc/Tutorial-bases-de-dados-de-acesso-restrito.jpg"><img src="/images/lectio-bases.jpg" alt=""/></a>   <a href="https://pergamum.ufam.edu.br/"><img src="/images/pergamum-bases.jpg" alt=""/></a></p>
-<p style="text-align: center;">   <a href="http://riu.ufam.edu.br/"><img src="/images/riu-bases.jpg" alt=""/></a>   <a href="http://tede.ufam.edu.br/"><img src="/images/tede-bases.jpg" alt=""/></a>   <a href="http://www.periodicos.ufam.edu.br/"><img src="/images/peri-ufam-bases.jpg" alt=""/></a>   <a href="http://oasisbr.ibict.br/vufind/"><img src="/images/oasis-bases.jpg" alt=""/></a>   <a href="https://catalogodeteses.capes.gov.br/"><img src="/images/catalogo-bases.jpg" alt=""/></a></p>
-<p style="text-align: center;">   <a href="http://www.cnen.gov.br/centro-de-informacoes-nucleares/livre"><img src="/images/livre-bases.jpg" alt=""/></a>   <a href="https://www.rcaap.pt/"><img src="/images/rcaap-bases.jpg" alt=""/></a>   <a href="http://redenorte.ufam.edu.br/"><img src="/images/riaa-bases.jpg" alt=""/></a>   <a href="http://www.lareferencia.info/pt/"><img src="/images/la-referencia-bases.jpg" alt=""/></a> </p></div>
-	
+
+<div class="row-fluid module module-box-00">
+			<div class="outstanding-header">			 	
+				<h2 class="outstanding-title">
+					<span>Últimos notícias</span></h2>
+						</div>			
+						<div class="tile-collection">
+						<div class="tileItem">
+						<h3>
+					<a href=""></a></h3>			
+					<p></p>
 					</div>
-				<div class="row-fluid module module-box-00">
-							<div class="outstanding-header">			 	<h2 class="outstanding-title"><span>Últimos notícias</span></h2>
-			 	</div>									<div class="tile-collection">
-					<div class="tileItem">
-			<h3>
-				<a href="/ultimas-noticias/163-pesquisa-em-bases-de-dados-academicas-e-cientificas-via-plataformas-ebscohost.html">
-					PESQUISA EM BASES DE DADOS ACADÊMICAS E CIENTÍFICAS VIA PLATAFORMAS EBSCOHOST 				</a>
+					<div class="tileItem"><h3>
+<a href=""></a>
+	</h3>			
+	<p>10/05/2021 11h40</p>
+		</div>
+		<div class="tileItem">
+<h3>
+				<a href=""></a>
 			</h3>			
-						
-				<p>10/05/2021 13h33</p>
+				<p></p>
 					</div>
-					<div class="tileItem">
+		<div class="tileItem">
 			<h3>
-				<a href="/ultimas-noticias/162-acesso-gratuito-aos-journals-da-bioscientifica-por-90-dias.html">
-					ACESSO GRATUITO AOS JOURNALS DA BIOSCIENTIFICA POR 90 DIAS				</a>
+				<a href="">
+					</a>
 			</h3>			
-						
-				<p>10/05/2021 11h40</p>
-					</div>
-					<div class="tileItem">
-			<h3>
-				<a href="/ultimas-noticias/161-treinamento-base-de-dados-web-of-science-endnot-online.html">
-					TREINAMENTO BASE DE DADOS WEB OF SCIENCE + ENDNOT ONLINE 				</a>
-			</h3>			
-						
-				<p>30/04/2021 14h36</p>
+				<p></p>
 					</div>
 					<div class="tileItem">
-			<h3>
-				<a href="/ultimas-noticias/160-treinamentos-sistebib-para-o-mes-de-maio.html">
-					Treinamentos SISTEBIB para o mês de Maio				</a>
-			</h3>			
-						
-				<p>30/04/2021 14h35</p>
-					</div>
-					<div class="tileItem">
-			<h3>
-				<a href="/ultimas-noticias/159-inauguracao-biblioteca-setorial-sul.html">
-					INAUGURAÇÃO BIBLIOTECA SETORIAL SUL				</a>
-			</h3>			
-						
-				<p>29/04/2021 19h37</p>
-					</div>
+	<h3>
+		<a href="/ultimas-noticias/159-inauguracao-biblioteca-setorial-sul.html"></a>
+	</h3>			
+		<p></p>
+			</div>
 	</div>
 	<div class="outstanding-footer">
-		<a href="/ultimas-noticias.html" class="outstanding-link">
+		<a href="" class="outstanding-link">
 							<span class="text">Acesse a lista completa</span>
 						<span class="icon-box">                                          
 		      <i class="icon-angle-right icon-light"><span class="hide">&nbsp;</span></i>
 		    </span>
 		</a>	
 	</div>
-	
 					</div>
 		
 
@@ -561,21 +520,17 @@
             <!-- fim .container -->
         </main>
         <footer>
-            <div class="footer-atalhos">
-                <div class="container">
-                    <div class="pull-right voltar-ao-topo"><a href="#portal-siteactions"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
-                </div>
-            </div>
-            <div class="container container-menus">
-                <div id="footer" class="row footer-menus">
-                    <span class="hide">Início da navegação de rodapé</span>
-                    	
-		<div class="">		
+<div class="footer-atalhos">
+	<div class="container">
+		<div class="pull-right voltar-ao-topo"><a href="#portal-siteactions"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
+	</div>
+</div>
+<div class="container container-menus">
+	<div id="footer" class="row footer-menus">
+		<span class="hide">Início da navegação de rodapé</span>
+<div class="">		
 			<nav class="row  nav">
-								<script type="text/javascript">var Tawk_API=Tawk_API||{},Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/58a35f5fbd8b9009f77fc86b/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>			</nav>					
 		</div>
-	
-		
 		<div class="span3">		
 			<nav class="row principal nav">
 				 			
@@ -585,54 +540,53 @@
 <li class="item-281"><a href="/deposito-de-teses-e-dissertacoes.html">Depósito de Teses e Dissertações</a></li><li class="item-282"><a href="/deposito-de-trabalho-de-conclusao-de-curso.html">Depósito de Trabalho de Conclusão de Curso</a></li><li class="item-280"><a href="/elaboracao-de-ficha-catalografica.html">Elaboração de ficha catalográfica</a></li><li class="item-277"><a href="/politicas-de-emprestimo.html">Políticas de empréstimo</a></li><li class="item-279"><a href="/nada-consta.html">Nada consta</a></li><li class="item-312"><a href="/por-doacao.html">Doação</a></li><li class="item-360"><a href="/formularios.html">Formulários</a></li><li class="item-283"><a href="/salas-de-estudo.html">Salas de estudo</a></li><li class="item-307"><a href="/comutacao-bibliografica.html">Comutação Bibliográfica</a></li><li class="item-284"><a href="/aquisicao-de-acervos.html">Aquisição de acervos</a></li></ul>
 			</nav>					
 		</div>
-	
-		
 		<div class="span3">		
 			<nav class="row redes-sociais nav">
-				 			
 				<h2>Redes Sociais</h2>
-								
-<ul>
-<li class="item-136"><a href="https://twitter.com/twiiter">Twitter</a></li><li class="item-138"><a href="http://facebook.com/facebook">Facebook</a></li><li class="item-225"><a href="http://plus.google.com/google+">Google Plus</a></li><li class="item-257"><a href="http://instagram.com/instagram">Instagram</a></li></ul>
-			</nav>					
-		</div>
-	
-		
-		<div class="span3">		
-			<nav class="row sobre nav">
-				 			
-				<h2>Sobre o site</h2>
-								
-<ul>
-<li class="item-172"><a href="/acessibilidade.html">Acessibilidade</a></li><li class="item-173"><a href="/mapa-do-site.html">Mapa do site</a></li></ul>
-			</nav>					
-		</div>
-	
-	
-                    <span class="hide">Fim da navegação de rodapé</span>
-                </div>
-                <!-- fim .row -->
-            </div>
-            <!-- fim .container -->
-            <div class="footer-logos">
-                <div class="container">
-                                            <a href="http://www.acessoainformacao.gov.br/" class="logo-acesso pull-left"><img src="/templates/padraogoverno01/images/acesso-a-informacao.png" alt="Acesso a Informação"></a>
-                                                                <!-- separador para fins de acessibilidade --><span class="hide">&nbsp;</span><!-- fim separador para fins de acessibilidade -->
-                        <a href="http://www.brasil.gov.br/" class="brasil pull-right"><img src="/templates/padraogoverno01/images/brasil.png" alt="Brasil - Governo Federal"></a>
-                                    </div>
-            </div>
-            <div class="footer-ferramenta">
-                <div class="container">
-                    Centro de Tecnologia da Informação e Comunicação - <a href="https://ctic.ufam.edu.br/">CTIC</a> / <a href="https://ufam.edu.br/">UFAM</a>                </div>
-            </div>
-            <div class="footer-atalhos visible-phone">
-                <div class="container">
-                    <span class="hide">Fim do conteúdo da página</span>
-                    <div class="pull-right voltar-ao-topo"><a href="#portal-siteactions"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
-                </div>
-            </div>
-        </footer>
-    </div>
+			<ul>
+<li class="item-136">
+	<a href="https://twitter.com/twiiter">Twitter</a></li>
+	<li class="item-138"><a href="http://facebook.com/facebook">Facebook</a></li>
+	<li class="item-225"><a href="http://plus.google.com/google+">Google Plus</a></li>
+	<li class="item-257"><a href="http://instagram.com/instagram">Instagram</a></li></ul>
+</nav>					
+</div>
+<div class="span3">		
+<nav class="row sobre nav">
+	<h2>Sobre o site</h2>
+	<ul>
+<li class="item-172">
+	<a href="/acessibilidade.html">Acessibilidade</a></li>
+	<li class="item-173"><a href="/mapa-do-site.html">Mapa do site</a></li></ul>
+</nav>					
+</div>
+<span class="hide">Fim da navegação de rodapé</span>
+	</div>
+	<!-- fim .row -->
+</div>
+<!-- fim .container -->
+<div class="footer-logos">
+	<div class="container">
+<a href="" class="logo-acesso pull-left"><img src="/templates/padraogoverno01/images/acesso-a-informacao.png" alt="Acesso a Informação"></a>
+<!-- separador para fins de acessibilidade -->
+<span class="hide">&nbsp;</span>
+<!-- fim separador para fins de acessibilidade -->
+<a href="" class="brasil pull-right">
+	<img src="/templates/padraogoverno01/images/brasil.png" alt=""></a>
+</div>
+</div>
+<div class="footer-ferramenta">
+	<div class="container">
+		Biblioteca SEAS-AM  -<a href="">SUSAM</a> / <a href="">SES</a></div>
+</div>
+<div class="footer-atalhos visible-phone">
+	<div class="container">
+		<span class="hide">Fim do conteúdo da página</span>
+		<div class="pull-right voltar-ao-topo"><a href="#portal-siteactions"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
+	</div>
+</div>
+</footer>
+</div>
     <!-- fim div#wrapper -->
     <!-- scripts principais do template -->
     	<script src="/templates/padraogoverno01/bootstrap/js/bootstrap.min.js" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>

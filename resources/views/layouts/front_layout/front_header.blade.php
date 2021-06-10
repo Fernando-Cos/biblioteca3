@@ -23,7 +23,7 @@ echo "<pre>"; print_r($sections); die;
 	<!-- fim .row-fluid -->
 	<div class="row-fluid">
 		<div id="logo" class="span8">
-			<a href="#" title="">
+			<a href="" title="">
 				<img style="max-height: 134px;" src="{{ asset('images/front_images/saude.png')}}" alt=""/>
 				<span class="portal-title-1">Sistema de Biblioteca</span>
 				<h1 class="portal-title corto">BIBLIOTECA</h1>
@@ -38,7 +38,7 @@ echo "<pre>"; print_r($sections); die;
 	<li class="portalredes-item item-136">
 		<a href=""><i class="icon-twitter-sign">
 		<span>Twitter</span></i></a></li><li class="portalredes-item item-138">
-			<a href="http://facebook.com/facebook"><i class="icon-facebook-sign">
+			<a href=""><i class="icon-facebook-sign">
 				<span>Facebook</span></i></a></li><li class="portalredes-item item-225">
 			<a href="http://plus.google.com/google+">
 				<i class="icon-google-plus-sign"><span>Google Plus</span></i></a></li>

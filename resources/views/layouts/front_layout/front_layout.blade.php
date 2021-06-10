@@ -50,28 +50,40 @@
 </body>
 </html> --}}
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" class="no-js" lang="pt-br" dir="ltr">
+<html class="no-js" lang="pt-br" dir="ltr">
 <head>
 	<!-- Front style -->
 	<link id="callCss" rel="stylesheet" href="{{ url('css/front_css/front.min.css') }}" media="screen"/>
 	<link href="{{ url('css/front_css/base.css') }}" rel="stylesheet" media="screen"/>
-	<link rel="stylesheet" href="/templates/padraogoverno01/css/icones-bmp-verde.css" type='text/css'/>
-	<link rel="stylesheet" href="/templates/padraogoverno01/font-awesome/css/font-awesome.min.css" type='text/css'/>
-	<base href="https://biblioteca.ufam.edu.br/"/>
+	<link rel="stylesheet" href="{{ url('css/front_css/icones-bmp-verde.css') }}" type='text/css'/>
+	<link rel="stylesheet" href="{{ url('css/front_css/font-awesome/css/font-awesome.min.css') }}" type='text/css'/>
+
+	{{-- <base href="https://biblioteca.ufam.edu.br/"/> --}}
+	<base href=""/>
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title>Página inicial</title>
+	<title>Pagina inicial</title>
 	<link href="/templates/padraogoverno01/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
 	<link href="https://biblioteca.ufam.edu.br/component/search/?Itemid=101&amp;format=opensearch" rel="search" title="Buscar biblioteca" type="application/opensearchdescription+xml"/>
 	<link href="/components/com_k2/css/k2.css" rel="stylesheet" type="text/css"/>
-	<link href="https://biblioteca.ufam.edu.br/templates/padraogoverno01/html/mod_banners/css/banner-rotativo-home.css" rel="stylesheet" type="text/css"/>
+
+
+	<link href="{{ url('css/front_css/mod_banners/css/banner-rotativo-home.css') }}" rel="stylesheet" type="text/css"/>
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"c50ee43b98f577753931d0543aec93ea","system.paths":{"root":"","base":""}}</script>
+	
+	
+	
 	<script src="/media/jui/js/jquery.min.js?42c3e03fc397565a413664a287fa9ba8" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-noconflict.js?42c3e03fc397565a413664a287fa9ba8" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-migrate.min.js?42c3e03fc397565a413664a287fa9ba8" type="text/javascript"></script>
 	<script src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/" type="text/javascript"></script>
 	<script src="https://biblioteca.ufam.edu.br/templates/padraogoverno01/html/mod_banners/js/banner-rotativo-home.js" type="text/javascript"></script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<link href='https://biblioteca.ufam.edu.br/templates/padraogoverno01/css/fontes.css' rel='stylesheet' type='text/css'>
+
+
+	<link href="{{ url('css/front_css/fontes.css') }}" rel='stylesheet' type='text/css'>
+	
+	
 	{{-- <script language="javascript">function sizeFont(elem,acao){var tamInic=12;var tamMin=4;var tamMax=40;if(document.getElementById(elem).style.fontSize==""){var tamFonte=tamInic;}else{var tamFonte=parseInt(document.getElementById(elem).style.fontSize);}switch(acao){case'+':if(tamFonte<tamMax)document.getElementById(elem).style.fontSize=(tamFonte+2)+"px";break;case'-':if(tamFonte>tamMin)document.getElementById(elem).style.fontSize=(tamFonte-2)+"px";break;case'default':document.getElementById(elem).style.fontSize=(tamFonte=16)+"px";break;}}</script> --}}
     	<div id="google_translate_element2"></div>
     	<script type="text/javascript">function googleTranslateElementInit2(){new google.translate.TranslateElement({pageLanguage:'pt',autoDisplay:false},'google_translate_element2');}</script>
@@ -101,6 +113,8 @@
 <!-- main ================================================== -->
 
 
+@yield('content')
+
 <div class="row-fluid module ">
 <div class="outstanding-header">
 	
@@ -115,11 +129,11 @@
 <!-- Footer ================================================================== -->
 
     <!-- scripts principais do template -->
-    	<script src="/templates/padraogoverno01/bootstrap/js/bootstrap.min.js" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
-	    <script src="/templates/padraogoverno01/js/jquery.cookie.js" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
-	    <script src="/templates/padraogoverno01/js/template.js" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
-		<script src="https://barra.brasil.gov.br/barra.js?cor=verde" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
-		        <!-- debug -->
+<script src="{{ url('js/front_js/bootstrap.min.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
+<script src="{{ url('js/front_js/jquery.cookie.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
+<script src="{{ url('js/front_js/template.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
+<script src="{{ url('js/front_js/verde.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
+{{-- <script src="{{ url('js/front_js/jquery.lightbox-0.5.js') }}"></script> --}}
     </body>
 </div>
 </html>

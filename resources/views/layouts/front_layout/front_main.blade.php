@@ -8,8 +8,8 @@
 <div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
 <div class="carousel-inner">
 	<div class="banneritem item active">
-				<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER_TREINA-RIU.png" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
-			</a>
+	<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER_TREINA-RIU.png" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
+</a>
 <div class="faixa"></div>
 <h1>
 <a href="/component/banners/click/42.html">

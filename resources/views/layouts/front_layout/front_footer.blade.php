@@ -16,13 +16,13 @@
 		<h2>Serviços</h2>
 <ul>
 <li class="item-281">
-	<a href="/deposito-de-teses-e-dissertacoes.html">❖ Quem Somos</a></li>
+	<a href="">❖ Quem Somos</a></li>
 	<li class="item-282"><a href="">❖ ISBN</a></li>
 	<li class="item-280"><a href="">❖ Ficha Catallografica</a></li>
 	<li class="item-277"><a href="">❖ Apoio a <b>Pesquisa</b></a></li>
 	<li class="item-279"><a href="">❖ Emprestimo de Obras</a></li>
 	<li class="item-312"><a href="">❖ Agendamento</a></li><li class="item-360">
-	<a href="/formularios.html">❖ Sala de Pesquisa</a></li><li class="item-283">
+	<a href="">❖ Sala de Pesquisa</a></li><li class="item-283">
 	<a href="">❖ Fonte de Informação</a></li><li class="item-307">
 	<a href="">❖ Usúarios</a></li>
 	</nav>					
@@ -58,12 +58,12 @@
 <!-- fim .container -->
 <div class="footer-logos">
 	<div class="container">
-<a href="" class="logo-acesso pull-left"><img src="/templates/padraogoverno01/images/acesso-a-informacao.png" alt="Acesso a Informação"></a>
+<a href="" class="logo-acesso pull-left"><img src="{{ asset('images/front_images/amazonas.svg') }}" alt="Acesso a Informação"></a>
 <!-- separador para fins de acessibilidade -->
 <span class="hide">&nbsp;</span>
 <!-- fim separador para fins de acessibilidade -->
 <a href="" class="brasil pull-right">
-	<img src="/templates/padraogoverno01/images/brasil.png" alt=""></a>
+	<img src="{{ asset('/images/front_images/amazonas.png') }}" alt=""></a>
 </div>
 </div>
 <div class="footer-ferramenta">

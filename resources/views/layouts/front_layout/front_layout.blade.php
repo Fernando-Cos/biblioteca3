@@ -63,28 +63,24 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<title>Pagina inicial</title>
-	<link href="/templates/padraogoverno01/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
-	<link href="https://biblioteca.ufam.edu.br/component/search/?Itemid=101&amp;format=opensearch" rel="search" title="Buscar biblioteca" type="application/opensearchdescription+xml"/>
-	<link href="/components/com_k2/css/k2.css" rel="stylesheet" type="text/css"/>
-
-
+	<link href="{{ asset('images/front_images/ico/favicon1.ico') }}" rel='shortcut icon'/>
+	{{-- <script type="application/json" class="joomla-script-options new">{"csrf.token":"c50ee43b98f577753931d0543aec93ea","system.paths":{"root":"","base":""}}</script> --}}
+	{{-- <link href="https://biblioteca.ufam.edu.br/component/search/?Itemid=101&amp;format=opensearch" rel="search" title="Buscar biblioteca" type="application/opensearchdescription+xml"/> --}}
+	{{-- <script src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/" type="text/javascript"></script> --}}
+	{{-- <script language="javascript">function sizeFont(elem,acao){var tamInic=12;var tamMin=4;var tamMax=40;if(document.getElementById(elem).style.fontSize==""){var tamFonte=tamInic;}else{var tamFonte=parseInt(document.getElementById(elem).style.fontSize);}switch(acao){case'+':if(tamFonte<tamMax)document.getElementById(elem).style.fontSize=(tamFonte+2)+"px";break;case'-':if(tamFonte>tamMin)document.getElementById(elem).style.fontSize=(tamFonte-2)+"px";break;case'default':document.getElementById(elem).style.fontSize=(tamFonte=16)+"px";break;}}</script> --}}
+	{{-- <link href="/components/com_k2/css/k2.css" rel="stylesheet" type="text/css"/> --}}
+	
 	<link href="{{ url('css/front_css/mod_banners/css/banner-rotativo-home.css') }}" rel="stylesheet" type="text/css"/>
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"c50ee43b98f577753931d0543aec93ea","system.paths":{"root":"","base":""}}</script>
-	
-	
-	
-	<script src="/media/jui/js/jquery.min.js?42c3e03fc397565a413664a287fa9ba8" type="text/javascript"></script>
-	<script src="/media/jui/js/jquery-noconflict.js?42c3e03fc397565a413664a287fa9ba8" type="text/javascript"></script>
-	<script src="/media/jui/js/jquery-migrate.min.js?42c3e03fc397565a413664a287fa9ba8" type="text/javascript"></script>
-	<script src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/" type="text/javascript"></script>
-	<script src="https://biblioteca.ufam.edu.br/templates/padraogoverno01/html/mod_banners/js/banner-rotativo-home.js" type="text/javascript"></script>
+	<script src="{{ url('js/front_js/jquery.min.js') }}" type="text/javascript"></script>
+	<script src="{{ url('js/front_js/jquery-noconflict.js') }}" type="text/javascript"></script>
+	<script src="{{ url('js/front_js/jquery-migrate.min.js') }}" type="text/javascript"></script>
+	<script src="{{ url('js/front_js/mod_banners/banner-rotativo-home.js') }}" type="text/javascript"></script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 
 	<link href="{{ url('css/front_css/fontes.css') }}" rel='stylesheet' type='text/css'>
 	
 	
-	{{-- <script language="javascript">function sizeFont(elem,acao){var tamInic=12;var tamMin=4;var tamMax=40;if(document.getElementById(elem).style.fontSize==""){var tamFonte=tamInic;}else{var tamFonte=parseInt(document.getElementById(elem).style.fontSize);}switch(acao){case'+':if(tamFonte<tamMax)document.getElementById(elem).style.fontSize=(tamFonte+2)+"px";break;case'-':if(tamFonte>tamMin)document.getElementById(elem).style.fontSize=(tamFonte-2)+"px";break;case'default':document.getElementById(elem).style.fontSize=(tamFonte=16)+"px";break;}}</script> --}}
     	<div id="google_translate_element2"></div>
     	<script type="text/javascript">function googleTranslateElementInit2(){new google.translate.TranslateElement({pageLanguage:'pt',autoDisplay:false},'google_translate_element2');}</script>
     	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>

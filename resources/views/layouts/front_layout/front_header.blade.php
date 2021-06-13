@@ -1,8 +1,4 @@
-{{-- <?php
-use App\Section;
-$sections = Section::sections();
-echo "<pre>"; print_r($sections); die;
-?> --}}
+
     <!-- barra do governo -->
 	<div id="barra-brasil">
 		<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
@@ -40,9 +36,9 @@ echo "<pre>"; print_r($sections); die;
 		<span>Twitter</span></i></a></li><li class="portalredes-item item-138">
 			<a href=""><i class="icon-facebook-sign">
 				<span>Facebook</span></i></a></li><li class="portalredes-item item-225">
-			<a href="http://plus.google.com/google+">
+			<a href="">
 				<i class="icon-google-plus-sign"><span>Google Plus</span></i></a></li>
-				<li class="portalredes-item item-257"><a href="http://instagram.com/instagram">
+				<li class="portalredes-item item-257"><a href="">
 			<i class="icon-instagram"><span>Instagram</span></i></a></li></ul>
 		</div>
 			<div id="portal-searchbox" class="row">
@@ -81,27 +77,33 @@ echo "<pre>"; print_r($sections); die;
 	<div class="row-fluid">
 	<section>
 	<div class="custom">
-		<center>
-	<a href="" target="_blank" rel="noopener noreferrer">
-	<img src="{{ asset('images/front_images/header.png') }}" width="155"/></a>
-		<a href="">
-			<img src="{{ asset('images/front_images/header1.png') }}" width="155"/></a>
-			<a href="">
-				<img src="{{ asset('images/front_images/header2.png') }}" width="155"/>
-			</a><a href="">
-				<img src="{{ asset('images/front_images/header3.png') }}" width="155"/></a>
-				<a href="">
-					<img src="{{ asset('images/front_images/header4.png') }}" width="155"/></a>
-					<a href="">
-					<img src="{{ asset('images/front_images/header5.png') }}" width="155"/></a>
-				</center></div>
-			</section>
-		</div>
-			<div class="row-fluid">
-			<section>
-			<p>
-		<br>
-		<br>
-	</p>
-	</section>
+<center>
+<a href="{{ url('login') }}" target="" rel="noopener noreferrer">
+<img src="{{ asset('images/front_images/header.png') }}" width="140"/></a>
+<a href="biblivre" target="_black">
+<img src="{{ asset('images/front_images/header6.png') }}" width="140"/></a>
+<a href="memorialvirtual">
+<img src="{{ asset('images/front_images/header1.png') }}" width="140"/></a>
+<a href="">
+<img src="{{ asset('images/front_images/header2.png') }}" width="140"/>
+</a><a href="">
+<img src="{{ asset('images/front_images/header3.png') }}" width="140"/></a>
+<a href="">
+<img src="{{ asset('images/front_images/header4.png') }}" width="140"/></a>
+<a href="">
+<img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a>
+</center></div>
+</section>
 	</div>
+		<div class="row-fluid">
+		<section>
+		<p>
+	<br>
+	<br>
+</p>
+</section>
+</div>
+
+<div class="row-fluid">
+	<div id="navigation" class="span3">
+		<a href="#" class="visible-phone visible-tablet mainmenu-toggle btn">

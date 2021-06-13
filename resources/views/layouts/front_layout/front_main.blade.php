@@ -1,9 +1,8 @@
-
-		<span class="hide">Início do conteúdo da página</span>
-		<div class="row-fluid module ">
-		<div class="outstanding-header">
-	<h2 class="outstanding-title">
-		<span>Sistema Biblioteca</span></h2>
+<span class="hide">Início do conteúdo da página</span>
+<div class="row-fluid module ">
+<div class="outstanding-header">
+<h2 class="outstanding-title">
+<span>Sistema Biblioteca</span></h2>
 </div>
 <div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
 <div class="carousel-inner">

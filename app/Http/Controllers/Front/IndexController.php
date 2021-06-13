@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers\Front;
-
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -11,4 +10,9 @@ class IndexController extends Controller
         $page_name = 'index';
         return view('front.index')->with(compact('page_name'));
     }
+
+    public function historie() {
+    }
+
+    
 }

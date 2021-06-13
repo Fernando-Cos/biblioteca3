@@ -7,12 +7,31 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function index() {
-        $page_name = 'index';
-        return view('front.index')->with(compact('page_name'));
+        // echo"teste"; die; 
+        // $page_name = 'index';
+        // return view('front.index')->with(compact('page_name'));
+        return view('front.index');
     }
 
-    public function historie() {
+
+    public function memorial() {
+        return view('front.memorial');
     }
 
+    public function publicacao() {
+        return view('front.publications');
+    }
+
+    public function ebooks() {
+        return view('front.ebooks');
+    }
+
+    public function repositorioInstitucional() {
+        return view('front.repositorio');
+    }
+
+    public function contatos() {
+        return view('front.contatos');
+    }
     
 }

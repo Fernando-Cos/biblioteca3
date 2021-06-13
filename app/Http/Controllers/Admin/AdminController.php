@@ -15,6 +15,8 @@ use Image;
 
 class AdminController extends Controller
 {
+
+
     public function dashboard() {
         Session::put('page', 'dashboard');
         return view ('admin.admin_dashboard');
@@ -131,5 +133,6 @@ class AdminController extends Controller
         }
         return view('admin.update_admin_details');
     }
+
 
 }

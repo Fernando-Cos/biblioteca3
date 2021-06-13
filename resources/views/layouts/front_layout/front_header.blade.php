@@ -19,7 +19,7 @@
 	<!-- fim .row-fluid -->
 	<div class="row-fluid">
 		<div id="logo" class="span8">
-			<a href="" title="">
+			<a href="/" title="">
 				<img style="max-height: 134px;" src="{{ asset('images/front_images/saude.png')}}" alt=""/>
 				<span class="portal-title-1">Sistema de Biblioteca</span>
 				<h1 class="portal-title corto">BIBLIOTECA</h1>
@@ -82,15 +82,15 @@
 <img src="{{ asset('images/front_images/header.png') }}" width="140"/></a>
 <a href="biblivre" target="_black">
 <img src="{{ asset('images/front_images/header6.png') }}" width="140"/></a>
-<a href="memorialvirtual">
+<a href="memorial">
 <img src="{{ asset('images/front_images/header1.png') }}" width="140"/></a>
-<a href="">
+<a href="publicacao">
 <img src="{{ asset('images/front_images/header2.png') }}" width="140"/>
-</a><a href="">
+</a><a href="ebooks">
 <img src="{{ asset('images/front_images/header3.png') }}" width="140"/></a>
-<a href="">
+<a href="repositorio">
 <img src="{{ asset('images/front_images/header4.png') }}" width="140"/></a>
-<a href="">
+<a href="contatos">
 <img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a>
 </center></div>
 </section>

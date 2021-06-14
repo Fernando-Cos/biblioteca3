@@ -78,7 +78,7 @@
 	<section>
 	<div class="custom">
 <center>
-<a href="{{ url('login') }}" target="" rel="noopener noreferrer">
+<a href="historia" target="" rel="noopener noreferrer">
 <img src="{{ asset('images/front_images/header.png') }}" width="140"/></a>
 <a href="biblivre" target="_black">
 <img src="{{ asset('images/front_images/header6.png') }}" width="140"/></a>

@@ -13,7 +13,6 @@ class IndexController extends Controller
         return view('front.index');
     }
 
-
     public function memorial() {
         return view('front.memorial');
     }
@@ -32,6 +31,18 @@ class IndexController extends Controller
 
     public function contatos() {
         return view('front.contatos');
+    }
+
+    public function historia() {
+        return view('front.historia');
+    }
+
+    public function fichaCatalogacao() {
+        return view('front.ficha');
+    }
+
+    public function isbn() {
+        return view('front.isbn');
     }
     
 }

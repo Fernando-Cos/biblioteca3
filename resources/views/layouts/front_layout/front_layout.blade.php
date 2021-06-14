@@ -44,7 +44,7 @@
 <div id="content" class="span9">
 	<section id="content-section">
 
-{{-- @include('layouts.front_layout.front_main') --}}
+@include('layouts.front_layout.front_main')
 
 
 {{-- <div class="row-fluid module ">

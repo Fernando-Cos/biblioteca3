@@ -1,1 +1,10 @@
-@extends('layouts.front_layout.front_layout')
+@extends('layouts.app')
+
+
+@section('content')
+
+@endsection 
+
+
+    
+

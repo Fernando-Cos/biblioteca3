@@ -50,5 +50,10 @@ Route::namespace('Front')->group(function () {
     Route::get('ebooks', 'IndexController@ebooks');
     Route::get('repositorio', 'IndexController@repositorioInstitucional');
     Route::get('contatos', 'IndexController@contatos');
+    Route::get('historia', 'IndexController@historia');
+    Route::get('ficha', 'IndexController@fichaCatalogacao');
+    Route::get('isbn', 'IndexController@isbn');
+
+
 });
 

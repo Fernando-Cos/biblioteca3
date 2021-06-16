@@ -16,6 +16,8 @@ services:
 
   db:
     image: mysql:5.7
+    secrets:
+    - db_password
     container_name: biblioteca-db
     restart: unless-stopped
     environment:
@@ -34,8 +36,6 @@ services:
       - biblioteca_volumes:/var/lib/mysql
     networks:
       - biblioteca
-    secrets:
-    - db_password
 
   nginx:
     image: nginx:1.17-alpine

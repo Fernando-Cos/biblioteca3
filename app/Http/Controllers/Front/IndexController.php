@@ -65,5 +65,9 @@ class IndexController extends Controller
     public function salaEstudo() {
         return view('front.sala-estudo');
     }
+
+    public function saudeLiteraria() {
+        return view('front.saude-literaria.saude-literaria');
+    }
     
 }

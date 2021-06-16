@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -57,7 +58,7 @@ Route::namespace('Front')->group(function () {
     Route::get('fonte-informacao', 'IndexController@fonteInformacao');
     Route::get('apoio-pesquisa', 'IndexController@apoioPesquisa');
     Route::get('sala-estudo','IndexController@salaEstudo');
-
+    Route::get('saude-literaria', 'IndexController@saudeLiteraria');
 });
 
 Route::namespace('Front')->group(function () {
@@ -65,3 +66,4 @@ Route::namespace('Front')->group(function () {
     Route::get('product/boletim', 'ProductController@boletimInformativo');
 
 });
+

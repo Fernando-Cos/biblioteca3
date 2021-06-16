@@ -42,8 +42,8 @@
 	<li class="item-284"><a href="">Aquisição de acervos</a></li></ul>
 	</nav>
 <nav class="principal span9 closed">
-	<h2>Saúde literaria <i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
-	<nav class="central-conteudos span9 closed">
+	<h2><a href="saude-literaria"> Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
+	</a>
 </nav>
 	<span class="hide">Fim do menu principal</span>
 </section>

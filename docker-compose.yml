@@ -59,7 +59,7 @@ networks:
 
 secrets:
   db_password:
-    file: db_password.txt
+    external: true
 
 volumes:
   biblioteca_volumes: {}

@@ -57,5 +57,9 @@ networks:
     external:
       name: proxy_ses_fixed_network
 
+secrets:
+  db_password:
+    file: db_password.txt
+
 volumes:
   biblioteca_volumes: {}

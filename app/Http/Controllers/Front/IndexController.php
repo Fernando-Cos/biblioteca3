@@ -44,5 +44,26 @@ class IndexController extends Controller
     public function isbn() {
         return view('front.isbn');
     }
+
+    public function emprestimoObras() {
+        return view('front.emprestimo');
+    }
+
+    public function agendamentoSala() {
+        return view('front.agendamento');
+    }
+
+
+    public function fonteInformacao() {
+        return view('front.fonte-informacao');
+    }
+
+    public function apoioPesquisa() {
+        return view('front.apoio-pesquisa');
+    }
+
+    public function salaEstudo() {
+        return view('front.sala-estudo');
+    }
     
 }

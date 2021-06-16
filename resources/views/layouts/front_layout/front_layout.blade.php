@@ -44,21 +44,17 @@
 <div id="content" class="span9">
 	<section id="content-section">
 
-@include('layouts.front_layout.front_main')
+{{-- @include('layouts.front_layout.front_main') --}}
 
 
-{{-- <div class="row-fluid module ">
+
+ {{-- <div class="row-fluid module ">
 <div class="outstanding-header"> --}}
+{{--	@include('layouts.front_layout.front_section') --}}
 
-	
-{{-- @include('layouts.front_layout.front_section') --}}
 
 </main>
-{{-- @include('layouts.front_layout.front_footer') --}}
-
-
-
-
+@include('layouts.front_layout.front_footer')
 
 
 <!-- scripts principais do template -->

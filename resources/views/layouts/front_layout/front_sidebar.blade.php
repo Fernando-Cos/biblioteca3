@@ -9,10 +9,12 @@
 <ul>
 <li class="item-336"><a href="ficha">Ficha Catalografica</a></li>
 <li class="item-343"><a href="isbn">ISBN</a></li>
-<li class="item-338"><a href="/organograma.html">Apoio a Pesquisa</a></li>
-<li class="item-340"><a href="">Emprestimo de Obras</a></li><li class="item-348"
-><a href="">agendamento</a></li><li class="item-350"><a href="/relatorios.html">sala de estudos</a></li>
-<li class="item-361"><a href="/contatos.html">fonte de Informação</a></li><li class="item-296">
+<li class="item-338"><a href="apoio-pesquisa">Apoio a Pesquisa</a></li>
+<li class="item-340"><a href="emprestimo">Emprestimo de Obras</a></li>
+<li class="item-348"><a href="agendamento">agendamento</a></li>
+<li class="item-350"><a href="sala-estudo">sala de estudos</a></li>
+<li class="item-361"><a href="fonte-informacao">fonte de Informação</a></li>
+<li class="item-296">
 </nav>
 <nav class="principal span9 closed">
 	<h2>Produtos<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>

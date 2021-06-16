@@ -94,7 +94,7 @@
 <img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a>
 </center></div>
 </section>
-	</div>
+	{{-- </div>
 		<div class="row-fluid">
 		<section>
 		<p>
@@ -103,7 +103,6 @@
 </p>
 </section>
 </div>
-
 <div class="row-fluid">
 	<div id="navigation" class="span3">
-		<a href="#" class="visible-phone visible-tablet mainmenu-toggle btn">
+		<a href="#" class="visible-phone visible-tablet mainmenu-toggle btn"> --}}

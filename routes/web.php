@@ -53,7 +53,11 @@ Route::namespace('Front')->group(function () {
     Route::get('historia', 'IndexController@historia');
     Route::get('ficha', 'IndexController@fichaCatalogacao');
     Route::get('isbn', 'IndexController@isbn');
-
+    Route::get('emprestimo', 'IndexController@emprestimoObras');
+    Route::get('agendamento', 'IndexController@agendamentoSala');
+    Route::get('fonte-informacao', 'IndexController@fonteInformacao');
+    Route::get('apoio-pesquisa', 'IndexController@apoioPesquisa');
+    Route::get('sala-estudo','IndexController@salaEstudo');
 
 });
 

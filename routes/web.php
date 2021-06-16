@@ -43,7 +43,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 // });
 
 Route::namespace('Front')->group(function () {
-   
     Route::get('/', 'IndexController@index');
     Route::get('memorial', 'IndexController@memorial');
     Route::get('publicacao', 'IndexController@publicacao');
@@ -61,3 +60,8 @@ Route::namespace('Front')->group(function () {
 
 });
 
+Route::namespace('Front')->group(function () {
+    Route::get('product/treinamento', 'ProductController@treinamento');
+    Route::get('product/boletim', 'ProductController@boletimInformativo');
+
+});

@@ -16,17 +16,12 @@ services:
 
   db:
     image: mysql:5.7
-    secrets:
-    - db_password
     container_name: biblioteca-db
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
-    #   MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-    #   MYSQL_PASSWORD: ${DB_PASSWORD}
-    #  TESTANDO USO DE SECRETS
-      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_password
-      MYSQL_PASSWORD_FILE: /run/secrets/db_password
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
       MYSQL_USER: ${DB_USERNAME}
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
@@ -56,10 +51,6 @@ networks:
   ses_am:
     external:
       name: proxy_ses_fixed_network
-
-secrets:
-  db_password:
-    external: true
 
 volumes:
   biblioteca_volumes: {}

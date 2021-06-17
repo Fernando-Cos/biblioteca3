@@ -22,7 +22,7 @@
 
 <li class="item-291">
 <a href="{{ url('product/treinamento')}}" target="_blank">Treinamentos</a></li>
-<li class="item-362"><a href="/bases-de-dados.html">Resumo de Atos</a></li><li class="item-323">
+<li class="item-362"><a href="">Resumo de Atos</a></li><li class="item-323">
 <a href="">Normatização</a></li><li class="item-324">
 <a href="{{ url('product/boletim')}}">Boletim Informativo</a></li><li class="item-325">				
 </nav>

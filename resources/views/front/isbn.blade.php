@@ -1,7 +1,6 @@
 @extends('layouts.app')
 {{-- @include('front.includes.ficha1') --}}
 
-
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -59,14 +58,11 @@
                     <tr>
                         <th>	álbum de figurinha (direcionados a conteúdos educativos e com textos significativos e explicativos).</th>
                         </tr>
-                </table>       
-    </div>
-</div>
-</div>
-</div>
-</div>
+                </table> <br>      
+                <p>Para solicitar click na imagem abaixo.</p>
+                <a href="https://forms.gle/4sADQZ6C69FEmMweA" target="_blank"><img src="{{ asset('images/front_images/ficha1.png')}}" style="max-width: 60%; border-radius: 10px;box-shadow: 5px 0px 7px 2px #888888;" alt="solicitar ficha"></a>
+        </div>
         
 </div>
-
 @endsection
 

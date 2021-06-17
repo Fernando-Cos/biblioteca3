@@ -11,13 +11,12 @@
             <div class="form-group row" style="font-size: 12pt;">
                 <p>O empréstimo de obras físicas da biblioteca é um serviço disponibilizado aos servidores, 
                 colaboradores e estagiários da SES-AM. Antes, porém, é necessário fazer o cadastro no Biblivre.</p>
-                <h1>Cadastro de usuários</h1>
+                <h4>Cadastro de usuários</h4>
                 <p>Para efetuar cadastro o usuário deverá apresentar na Biblioteca os seguintes documentos: </p><br>
-                <h2>Servidor:</h2>
-                <p>Crachá ou contracheque + um documento com foto</p>
-                <h2>Colaborador:</h2>
+                <h4>Servidor:</h4><p>Crachá ou contracheque + um documento com foto</p>
+                <h4>Colaborador:</h4>
                 <p>Contrato ou contracheque + um documento com foto </p>
-                <h2>Estagiário:</h2>
+                <h4>Estagiário:</h4>
                 <p>Cópia do contrato + um documento com foto</p><br>
                 <p><b>Empréstimo Domiciliar:</b> é aquele que faz a retirada de material para consulta fora da biblioteca.
                 (Serviço para usuários com vínculo com a SES/AM, que estejam cadastrados na biblioteca) </p><br>

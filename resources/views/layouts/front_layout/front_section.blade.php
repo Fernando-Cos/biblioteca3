@@ -1,19 +1,17 @@
-
-	<h2 class="outstanding-title"><span>Bases de Dados</span></h2>
+	{{-- <h2 class="outstanding-title"><span>Bases de Dados</span></h2>
 </div>
-
 <div class="row-fluid module module-box-00">
-			<div class="outstanding-header">			 	
-				<h2 class="outstanding-title">
-					<span>Últimos notícias</span></h2>
-						</div>			
-						<div class="tile-collection">
-						<div class="tileItem">
-						<h3>
-					<a href=""></a></h3>			
-					<p></p>
-					</div>
-					<div class="tileItem"><h3>
+	<div class="outstanding-header">			 	
+		<h2 class="outstanding-title">
+			<span>Últimos notícias</span></h2>
+				</div>			
+				<div class="tile-collection">
+				<div class="tileItem">
+				<h3>
+			<a href=""></a></h3>			
+			<p></p>
+			</div>
+			<div class="tileItem"><h3>
 <a href=""></a>
 	</h3>			
 	<p>10/05/2021 11h40</p>
@@ -53,4 +51,4 @@
 <!-- fim #content.span9 -->
 </div>
 <!-- fim .row-fluid -->
-</div>
+</div> --}}

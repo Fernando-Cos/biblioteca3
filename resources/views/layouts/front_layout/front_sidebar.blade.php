@@ -1,9 +1,9 @@
 <i class="icon-list"></i>&nbsp;Menu</a>
-			<section id="navigation-section">
-				<span class="hide">Início do menu principal</span>
-					<nav class="menu-de-apoio span9">
-		<h2 class="hide">Menu de Relevância </h2>
-	</nav>
+	<section id="navigation-section">
+		<span class="hide">Início do menu principal</span>
+			<nav class="menu-de-apoio span9">
+	<h2 class="hide">Menu de Relevância </h2>
+</nav>
 <nav class="principal span9 closed">
 	<h2>Serviços<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 <ul>
@@ -19,7 +19,6 @@
 	<nav class="principal span9 closed">
 		<h2>Produtos<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 <ul>
-
 <li class="item-291">
 <a href="{{ url('product/treinamento')}}" target="_blank">Treinamentos</a></li>
 <li class="item-362"><a href="">Resumo de Atos</a></li><li class="item-323">
@@ -45,7 +44,7 @@
 	<h2><a href="saude-literaria"> Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2><!-- visible-phone visible-tablet -->
 	</a>
 </nav>
-	<span class="hide">Fim do menu principal</span>
+	{{-- <span class="hide">Fim do menu principal</span> --}}
 </section>
 </div>
 <!-- fim #navigation.span3 -->

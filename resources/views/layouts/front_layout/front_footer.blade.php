@@ -1,5 +1,3 @@
-
-
 <footer>
 <div class="footer-atalhos">
 	<div class="container">
@@ -53,7 +51,7 @@
 	<a href="">Mapa do site</a></li></ul>
 </nav>	
 </div>
-<span class="hide">Fim da navegação de rodapé</span>
+{{-- <span class="hide">Fim da navegação de rodapé</span> --}}
 	</div>
 	<!-- fim .row -->
 </div>

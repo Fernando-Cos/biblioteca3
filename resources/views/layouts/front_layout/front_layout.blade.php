@@ -9,7 +9,7 @@
 	{{-- <base href="https://biblioteca.ufam.edu.br/"/> --}}
 	<base href=""/>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title>Pagina inicial</title>
+	<title>@yield('title', 'Página inicial')</title>
 	<link href="{{ asset('images/front_images/ico/favicon1.ico') }}" rel='shortcut icon'/>
 	{{-- <script type="application/json" class="joomla-script-options new">{"csrf.token":"c50ee43b98f577753931d0543aec93ea","system.paths":{"root":"","base":""}}</script> --}}
 	{{-- <link href="https://biblioteca.ufam.edu.br/component/search/?Itemid=101&amp;format=opensearch" rel="search" title="Buscar biblioteca" type="application/opensearchdescription+xml"/> --}}

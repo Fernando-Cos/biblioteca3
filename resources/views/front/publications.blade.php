@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Publicações')
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -15,15 +16,12 @@
     <span class="separator">|</span><span class="documentModified">Última atualização em Sexta, 08 de Janeiro de 2021, 09h35</span>
     <span class="separator">|</span>			
     <span class="documentHits">Acessos: 568</span>
-                    
             <p>Publicações</p>
             <p><a href=""><img src="{{ asset('images/front_images/amazonas.png') }}" alt=""/></a></p>
             <p><a href=""><img src="{{ asset('images/front_images/amazonas.png') }}" alt=""/></a></p>
             <p><a href=""><img src="{{ asset('images/front_images/amazonas.png') }}" alt=""/></a></p>
             </div>
         </div>
-
-
 <div class="form-group row">
 </div>
 </div>             

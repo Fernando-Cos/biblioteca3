@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Contatos')
 
 @section('content')
 <div class="container">
@@ -20,8 +21,6 @@
 <p style="text-align: justify;">Bibliotecária: Maria do Carmo Lima de Oliveira - </p>
 <p style="text-align: justify;">Telefone: (92) 3643-6341 Ramal - 6341</p>
 <p style="text-align: justify;">E-mail:<a href="#">bibliotecases.am@gmail.com </a></p><br>
-
-
 
 <p style="text-align: justify;"><strong>Estagiárias</strong></p>
 <p style="text-align: justify;">Estagiário: Ícaro Machado - </p>

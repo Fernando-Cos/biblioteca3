@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Ficha Catalografica')
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -13,8 +13,6 @@
             Além de padronizar a catalogação da obra, a ficha catalográfica facilita a busca de informações sobre o material.</p><br>
             <p>Para solicitar click na imagem abaixo.</p>
    
-
-
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
                     <a href="https://forms.gle/zNMFznNKx6A1RDig6" target="_blanck">

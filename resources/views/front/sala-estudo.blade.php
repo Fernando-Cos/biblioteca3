@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Sala de estudos')
 
 @section('content')
 <div class="container">
@@ -10,7 +11,6 @@
         <h1>SALA DE ESTUDOS</h1><BR>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
-                    
             </div>
         </div>
     </div>

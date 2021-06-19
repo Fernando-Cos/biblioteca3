@@ -1,6 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Isbn Solicitações')
 {{-- @include('front.includes.ficha1') --}}
-
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -9,22 +9,17 @@
     <div class="card-header"></div>
     <div class="card-body">
         <h1 style="text-align: center">❖ | ISBN</h1>
-        
             <button class="btn btn-primary">
                 <a href="https://forms.gle/zNMFznNKx6A1RDig6" target="_blanck" style="color: rgb(255, 255, 255);">Solicitar</a>
             </button>
-            
-
             <h1>O que é ISBN?</h1>
                 <div class="form-group row">
                 <p style="text-align: justify;">O International Standard Book Number/ Padrão Internacional de Numeração de Livro - 
                 ISBN é um padrão numérico criado com o objetivo de fornecer uma espécie de "RG" para as publicações, funciona como identificador. Esse número é muito difuso por possibilitar que o material seja lido por redes de varejo,
                 bibliotecas e sistemas gerais de catalogação.</p>
             <h1>Quais publicações podem receber ISBN?</h1>
-
             <p>O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público,
             quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
-
             <table border="1">
                 <tr>
                     <th> anais, seminários e encontros</th>

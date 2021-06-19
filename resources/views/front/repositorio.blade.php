@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Repositorio Institucional')
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -10,7 +10,6 @@
         <h1>REPOSITORIO INSTITUCIONAL</h1><BR>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
-                    
             </div>
         </div>
     </div>

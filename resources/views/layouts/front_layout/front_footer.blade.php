@@ -58,12 +58,15 @@
 <!-- fim .container -->
 <div class="footer-logos">
 	<div class="container">
-<a href="" class="logo-acesso pull-left"><img src="{{ asset('images/front_images/amazonas.svg') }}" alt="Acesso a Informação"></a>
+<a href="/" class="logo-acesso pull-left">
+	<img src="{{ asset('images/front_images/amazonas.svg') }}" style="width: 16.2em" alt="Acesso a Informação"></a>
 <!-- separador para fins de acessibilidade -->
 <span class="hide">&nbsp;</span>
 <!-- fim separador para fins de acessibilidade -->
 <a href="" class="brasil pull-right">
-	<img src="{{ asset('/images/front_images/amazonas.png') }}" alt=""></a>
+	<img src="{{ asset('/images/front_images/acesso-a-informacao.png') }}" style="
+    padding-block: 16px;
+" alt=""></a>
 </div>
 </div>
 <div class="footer-ferramenta">
@@ -73,7 +76,8 @@
 <div class="footer-atalhos visible-phone">
 	<div class="container">
 		<span class="hide">Fim do conteúdo da página</span>
-		<div class="pull-right voltar-ao-topo"><a href="#portal-siteactions"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
+		<div class="pull-right voltar-ao-topo">
+			<a href="#portal-siteactions"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
 	</div>
 </div>
 </footer>

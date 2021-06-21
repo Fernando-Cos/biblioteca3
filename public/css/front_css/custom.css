@@ -1,0 +1,485 @@
+
+
+
+/* ======================================================= */
+
+/* =================== Tabela =========================== */
+
+
+.maisColunas {
+    position: absolute;
+    right: -31px;
+    top: 84px;
+    margin-right: 4%;
+    width: 32px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    cursor: pointer !important;
+    text-align: center;
+    border-color: #dedede !important;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 0px;
+}
+
+    .maisColunas:hover {
+        background-color: #C3C3C3;
+        background: linear-gradient(to top, #C3C3C3 0%,#E1E1E1 100%);
+    }
+
+.maisColunas_selected {
+    font-size: 16px !important;
+    color: #43B0D5 !important;
+    font-weight: 600;
+}
+
+    .maisColunas_selected:hover {
+        background-color: #EAEAEA;
+        background: linear-gradient(to top, #DEDEDE 0%,#EEEEEE 100%);
+    }
+
+.dropDownItemAddColunas {
+    display: none;
+    padding: 20px;
+    border-collapse: separate;
+    box-shadow: 2px 4px 4px 1px #ccc;
+    -moz-box-shadow: 2px 4px 4px 1px #ccc;
+    -webkit-box-shadow: 2px 4px 4px 1px #ccc;
+    min-width: 185px;
+    max-width: 185px;
+    width: 185px;
+    height: 400px;
+    overflow: auto !important;
+    /*height: 300px;*/
+    background: #FFFFFF;
+    position: absolute;
+    right: 0;
+    margin-right: 4%;
+    top: 88px;
+}
+
+    .dropDownItemAddColunas label {
+        max-width: 125px;
+    }
+
+    .dropDownItemAddColunas label {
+        font-size: 11px;
+        color: #7a7a7a;
+        width: auto;
+        height: 11px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+        float: left;
+    }
+
+        .dropDownItemAddColunas label.exibirmais {
+            font-size: 12px;
+            clear: both;
+            float: none;
+            display: block;
+            color: #666666;
+            width: auto;
+            font-weight: bold;
+            margin-bottom: 5px;
+            padding-top: 0px;
+        }
+
+.fecharDropDownItemAddColunas {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #888;
+    cursor: pointer;
+}
+
+    .fecharDropDownItemAddColunas:hover {
+        color: #099ACC;
+    }
+
+.tabelaPrincipal, .tabelaConsultas, .stdTable {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 3px 5px RGBA(0,0,0,0.05),0 1px 0px RGBA(0,0,0,0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.stdTable.tableMatriz {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.tabelaConsultas {
+    position: relative;
+    border-top: none;
+    margin-top: 37px;
+}
+
+    .tabelaConsultas.noFooter {
+        border-bottom: none;
+    }
+
+    .tabelaConsultas thead tr {
+        border: 1px solid #DDDDDD;
+    }
+
+    .tabelaPrincipal .cabecalho th, .stdTable th, .stdTable thead tr,
+    .tabelaPrincipal thead tr, .tabelaConsultas th, .tabelaConsultas thead tr, .maisColunas,
+    .bloco-box .bloco-box-titulo {
+        background-color: #EAEAEA;
+        background: linear-gradient(to top, #DEDEDE 0%,#EEEEEE 100%);
+        color: #888;
+        border-color: #cccccc;
+        cursor: default;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+.bloco-box {
+    border: 1px solid #cccccc;
+    margin: 10px 0px;
+    display: inline-block;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+    .bloco-box .bloco-box-titulo {
+        font-size: 16px;
+        display: inline-block;
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 8px;
+        color: #666;
+        cursor: pointer;
+    }
+
+        .bloco-box .bloco-box-titulo span {
+            line-height: 20px;
+        }
+
+    .bloco-box .bloco-box-body {
+        display: inline-block;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .bloco-box .bloco-box-footer {
+        display: inline-block;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #EEEEEE;
+    }
+
+
+.tabelaPrincipal .td_centralizada, .stdTable .td_centralizada, .tabelaConsultas .td_centralizada {
+    text-indent: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.tabelaPrincipal .td-alinhada-a-direita, .stdTable .td-alinhada-a-direita, .tabelaConsultas .td-alinhada-a-direita {
+    text-align: right;
+}
+
+
+
+.tabelaConsultas thead .itemSelecionado {
+    background-color: #DEDEDE;
+    background: linear-gradient(to top, #EEEEEE 0%,#DEDEDE 100%);
+    color: #888;
+    cursor: default;
+}
+
+.tabelaConsultas thead tr, .stdTable thead tr {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.stdTable thead th {
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.tabelaConsultas .colunaID {
+    font-weight: bold;
+}
+
+.tabelaPrincipal TD, .tabelaConsultas TD, .stdTable TD,
+.tabelaPrincipal TH, .tabelaConsultas TH, .stdTable TH {
+    color: #666666;
+    font-size: 12px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 0;
+    line-height: 16px;
+}
+
+.semPaddingTabela td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.tabelaPrincipal.breakWord TD, .tabelaConsultas.breakWord TD, .stdTable.breakWord TD {
+    word-break: break-all;
+}
+
+.tabelaPrincipal.text-top TD, .tabelaConsultas.text-top TD, .stdTable.text-top TD,
+.tabelaPrincipal .text-top TD, .tabelaConsultas .text-top TD, .stdTable .text-top TD,
+.tabelaPrincipal TD.text-top, .tabelaConsultas TD.text-top, .stdTable TD.text-top {
+    vertical-align: top;
+}
+
+td.NobreakWord {
+    word-break: normal;
+}
+
+.tabelaPrincipal TD, .tabelaPrincipal TH {
+    padding-left: 10px;
+}
+
+.stdTable tbody tr TD {
+    color: #555;
+}
+
+.stdTable tbody tr.font-cinza TD {
+    color: #888;
+}
+
+.stdTable tbody tr:hover {
+    cursor: pointer;
+}
+
+.stdTable.nohover tbody tr:hover {
+    cursor: default;
+}
+
+.tabelaConsultas TH, .stdTable TH {
+    padding-left: 10px;
+    min-width: 106px;
+    padding-right: 10px;
+}
+
+.tabelaConsultas tbody tr:hover {
+    background-color: #EDF7FA;
+    background: linear-gradient(to top, rgba(210,226,239,1) 0%,#F1F7FA 100%);
+    color: #212121;
+    cursor: pointer;
+    border-top: 1px solid #CBE7EF;
+    border-bottom: 1px solid #CBE7EF;
+}
+
+.tabelaConsultas tbody tr.nohover:hover {
+    border: inherit;
+    background: #fff;
+    background: linear-gradient(to top, #F3f3f3 0%,#FFF 100%);
+    color: inherit;
+    cursor: default;
+    border-top: inherit;
+    border-bottom: inherit;
+}
+
+.tabelaConsultas tbody td, .stdTable tbody td {
+    color: #202020;
+}
+
+.tabelaPrincipal TD SPAN, .tabelaConsultas TD SPAN {
+    vertical-align: top;
+}
+
+.tabelaPrincipal TR, .tabelaConsultas TR, .stdTable TR {
+    height: 40px;
+    background: #fff;
+    background: linear-gradient(to top, #F3f3f3 0%,#FFF 100%);
+}
+
+    .tabelaPrincipal .tabela-background-solid TR, .tabelaConsultas .tabela-background-solid TR, .stdTable .tabela-background-solid TR,
+    .tabelaPrincipal TR.tabela-background-solid, .tabelaConsultas TR.tabela-background-solid, .stdTable TR.tabela-background-solid,
+    .tabelaPrincipal .tabela-background-solid TR:hover, .tabelaConsultas .tabela-background-solid TR:hover, .stdTable .tabela-background-solid TR:hover,
+    .tabelaPrincipal TR.tabela-background-solid:hover, .tabelaConsultas TR.tabela-background-solid:hover, .stdTable TR.tabela-background-solid:hover {
+        background: #F3f3f3;
+    }
+
+.tabelaPrincipal .nenhumRegistro, .tabelaConsultas .nenhumRegistro {
+    cursor: default !important;
+}
+
+.ajuste-linha {
+    width: 300px;
+    display: inline-block;
+}
+
+
+.tabelaPrincipal .hover:hover, .tabelaPrincipal .hover:focus {
+    cursor: pointer;
+    border: 1px solid #CBE7EF;
+    border-left: 0;
+    border-right: 0px;
+    background-color: #EDF7FA;
+    background: linear-gradient(to top, rgba(210,226,239,1) 0%,#F1F7FA 100%);
+    color: #212121;
+}
+
+    .tabelaPrincipal .hover:hover TD, .tabelaPrincipal .hover:focus TD {
+        border-top: 1px solid #CBE7EF;
+        border-bottom: 1px solid #CBE7EF;
+    }
+
+tbody tr.tr_cancelado, tbody tr.desabilitaApenasConsulta.disabled {
+    background: #F1F1F1;
+    border: none;
+}
+
+    tbody tr.tr_cancelado:hover, tbody tr.desabilitaApenasConsulta.disabled:hover {
+        border: 1px solid #CBE7EF;
+        border-left: 0px;
+        border-right: 0px;
+        background-color: #EDF7FA;
+        background: linear-gradient(to top, rgba(210,226,239,1) 0%,#F1F7FA 100%);
+        cursor: pointer;
+        border-top: 1px solid #CBE7EF;
+        border-bottom: 1px solid #CBE7EF;
+    }
+
+        tbody tr.tr_cancelado:hover td {
+            color: #333;
+            background-color: #ddd;
+            background: linear-gradient(to top, rgba(230,230,230,1) 0%,#EAEAEA 100%);
+        }
+        tbody tr.desabilitaApenasConsulta.disabled:hover td {
+            color: #333;
+            background-color: #ededed;
+            cursor: default;
+        }
+
+    tbody tr.tr_cancelado td, tbody tr.desabilitaApenasConsulta.disabled td {
+        color: #BEBEBE;
+    }
+
+.tabelaPrincipal .histSuporteBlack TD {
+    color: black;
+}
+
+.tabelaPrincipal .histSuporteCinza TD {
+    color: gray;
+    /*#AAAAAA*/
+}
+
+.tabelaPrincipal .histSuporteCinza .positivo {
+    background-image: url(/raiz/_src/img/sprite.png);
+    background-position: -193px -153px;
+    width: 15px;
+    height: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.tabelaPrincipal .histSuporteCinza .negativo {
+    background-image: url(/raiz/_src/img/sprite.png);
+    background-position: -209px -153px;
+    width: 15px;
+    height: 15px;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.tabelaPrincipal .histSuporteCinza .positivo:hover {
+    background-image: url(/raiz/_src/img/sprite.png);
+    background-position: -209px -121px;
+    width: 15px;
+    height: 15px;
+}
+
+.tabelaPrincipal .histSuporteCinza .negativo:hover {
+    background-image: url(/raiz/_src/img/sprite.png);
+    background-position: -209px -137px;
+    width: 15px;
+    height: 15px;
+}
+
+.classificaSuporte {
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    border: 1px solid #DDDDDD;
+    height: 165px;
+    width: 375px;
+    left: 570px;
+    margin-top: -11px;
+    margin-bottom: 0px;
+    background: #ECECEC;
+    display: none;
+}
+
+.classificaSuporteObrigado {
+    position: absolute;
+    border: 1px solid #DDDDDD;
+    width: 375px;
+    left: 570px;
+    margin-top: -11px;
+    background: #ECECEC;
+    display: none;
+}
+
+    .classificaSuporteObrigado .lblHistorico {
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+        padding: 0px 0 13px 0px;
+        min-width: 70px !important;
+        display: none;
+    }
+
+.classificaSuporte .lblHistorico {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+    padding: 0px 0 4px 15px;
+    text-align: left;
+}
+
+.btnDiscreto.btnHistorico {
+    background: #ECECEC;
+    margin-right: 7px;
+    float: right;
+}
+
+.tboxHistorico {
+    border: 1px solid #CCC;
+    max-height: 70px;
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border-radius: 0px;
+}
+
+.classificaSuporte .link.historico, .classificaSuporte .link.historico:hover {
+    top: 13px;
+    right: 5px;
+    padding: 0px;
+    font-size: 12px;
+    position: relative;
+}
+
+    .classificaSuporte .link.historico:hover {
+        background: none;
+    }
+/* ======================================================= */
+

@@ -6,8 +6,11 @@
 	<link href="{{ url('css/front_css/base.css') }}" rel="stylesheet" media="screen"/>
 	<link rel="stylesheet" href="{{ url('css/front_css/icones-bmp-verde.css') }}" type='text/css'/>
 	<link rel="stylesheet" href="{{ url('css/front_css/font-awesome/css/font-awesome.min.css') }}" type='text/css'/>
-	{{-- <base href="https://biblioteca.ufam.edu.br/"/> --}}
 	<base href=""/>
+	<link rel="stylesheet" href="{{ url('css/front_css/custom.css') }}" type='text/css'/>
+
+
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<title>@yield('title', 'Página inicial')</title>
 	<link href="{{ asset('images/front_images/ico/favicon1.ico') }}" rel='shortcut icon'/>
@@ -28,7 +31,7 @@
 	<div id="google_translate_element2"></div>
 	<script type="text/javascript"></script>
 	{{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script> --}}
-{{-- <style type="text/css">#goog-gt-tt{display:none!important}.goog-te-banner-frame{display:none!important}.goog-te-menu-value:hover{text-decoration:none!important}body{top:0!important}#google_translate_element2{display:none!important}</style> --}}
+	{{-- <style type="text/css">#goog-gt-tt{display:none!important}.goog-te-banner-frame{display:none!important}.goog-te-menu-value:hover{text-decoration:none!important}body{top:0!important}#google_translate_element2{display:none!important}</style> --}}
 </head>
 <div id="conteudo">
 <body>

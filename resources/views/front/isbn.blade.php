@@ -18,46 +18,148 @@
                 ISBN é um padrão numérico criado com o objetivo de fornecer uma espécie de "RG" para as publicações, funciona como identificador. Esse número é muito difuso por possibilitar que o material seja lido por redes de varejo,
                 bibliotecas e sistemas gerais de catalogação.</p>
             <h1>Quais publicações podem receber ISBN?</h1>
-            <p>O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público,
-            quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
-            <table border="1">
-                <tr>
-                    <th> anais, seminários e encontros</th>
-                <tr>
-                    <th> 	apostilas de concursos</th>
+        <p>O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público,
+           quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
+    <table class="tabelaConsultas">
+        <thead>
+            <tr>
+                <th style="width: 20px; min-width: 20px;">
+                </th>
+                <th id="thCabecalho1" style="" class="ordenacao1" onclick="javascript:carregarBoxCarregando();$('.tabelaConsultas').width($('.tabelaConsultas').width());__doPostBack('ctl00$ctl00$conteudo$conteudo$lnkOrdenar','CodigoExibicao')">
+                    Exemplo de publicações ISBN
+                    <div class="setasOrdenacao"></div>
+                </th>
+                <th id="thCabecalho2" style="" class="" onclick="javascript:carregarBoxCarregando();$('.tabelaConsultas').width($('.tabelaConsultas').width());__doPostBack('ctl00$ctl00$conteudo$conteudo$lnkOrdenar','doc.nome')">
+                    Documentos
+                    <div class="setasOrdenacao"></div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr onclick="">
+                    <td>
+                        <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                            <span class="icon novaAbaEscuro"></span>
+                        </a>
+                    </td>
+            <td style="" class="colunaID coluna0">FLIEEN 02-04 :01</td>
+            <td style="" class="coluna1">CANAIS, SEMÍNARIOS E ENCONTROS</td>
+        </tr>
+    <tr onclick="">
+        <td>
+            <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                <span class="icon novaAbaEscuro"></span>
+            </a>
+        </td>
+        <td style="" class="colunaID coluna0">IEVD 01-01 :01</td>
+        <td style="" class="coluna1">APOSTILAS DE CONCURSOS</td>
+    </tr>
+    <tr>
+        <td>
+            <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                    <span class="icon novaAbaEscuro"></span>
+                </a>
+            </td>
+            <td style="" class="colunaID coluna0">IPQC001-PA-1650-03B4:02</td>
+            <td style="" class="coluna1">APLICATIVOS PARA E-BOOKS(LIVROS ELETRÔNICOS), DESDE QUE POSSUAM CONTEÚDO TEXTUAL SIGNIFICATIVO E
+                POSSAM SER CONSIDERADOS UMA PUBLICAÇÃO MONOGRÁFICA E DISPONÍNEL PARA O PÚBLICO. 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                    <span class="icon novaAbaEscuro"></span>
+                </a>
+            </td>
+            <td style="" class="colunaID coluna0">M SGI 00:08
+            </td>
+            <td style="" class="coluna1">AUDIOLIVROS, SEJA FÍSICO OU ACESSÍVEL NA INTERNET</td>
+        </tr>
+    <tr onclick="">
+        <td>
+            <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                <span class="icon novaAbaEscuro"></span>
+            </a>
+        </td>
+            <td style="" class="colunaID coluna0">MA0001:02</td>
+            <td style="" class="coluna1">AULAS E CURSOS EM VÍDEO(SOMENTE SE FOREM EDUCACIONAIS E COMERCIALIZADOS).</td>
+        </tr>
+    <tr>
+        <td>
+            <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                <span class="icon novaAbaEscuro"></span>
+            </a>
+        </td>
+        <td style="" class="colunaID coluna0">13.0-PA-1450-26BA/B3:00</td>
+        <td style="" class="coluna1">CATÁLOGOS DE EXPOSIÇÃO COM TEXTO EXPLICATIVO.</td>
+            </tr>
+            <tr onclick="">
+                <td onclick="event.stopPropagation();">
+                    <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="">
+                        <span class="icon novaAbaEscuro"></span>
+                    </a>
+                </td>
+            <td style="" class="colunaID coluna0">MPE 01:01</td>
+            <td style="" class="coluna1">DÍARIO DE BORDO VINCULADO ESTRITAMENTE A PROJETOS EDUCACIONAIS – ENSINO FUNDAMENTAL.</td>
                 </tr>
-                <tr>
-                    <th> 	audiolivros, seja físico ou acessível na internet</th>
-                    </tr>
                     <tr>
-                    <th> 	aplicativos para e-book (livros eletrônicos), desde que possuam conteúdo textual significativo e possam ser considerados uma publicação monográfica e disponível para o público</th>
-                    </tr>
-                    <tr>
-                    <th>	aulas e cursos em vídeo (somente se forem educacionais e comercializados);</th>
-                    </tr>
-                    <tr>
-                    <th>	catálogos de exposição com texto explicativo</th>
-                    </tr>
-                    <tr>
-                    <th>	diário de bordo vinculado estritamente a projetos educacionais – ensino fundamental</th>
-                    </tr>
-                    <tr>
-                    <th>	livros de arte e livros ilustrados com uma página de título e/ou texto ou legendas</th>
-                    </tr>
-                    <tr>
-                    <th>	publicações em braile</th>
-                    </tr>
-                    <tr>
-                    <th>	publicação infanto-juvenil (jogos e passatempos que contenham atividades educacionais)</th>
-                    </tr>
-                    <tr>
-                        <th>	álbum de figurinha (direcionados a conteúdos educativos e com textos significativos e explicativos).</th>
-                        </tr>
-                </table> <br>      
-                <p>Para solicitar click na imagem abaixo.</p>
-                <a href="https://forms.gle/4sADQZ6C69FEmMweA" target="_blank"><img src="{{ asset('images/front_images/ficha1.png')}}" style="max-width: 60%; border-radius: 10px;box-shadow: 5px 0px 7px 2px #888888;" alt="solicitar ficha"></a>
-        </div>
-        
+                <td>
+                    <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="">
+                        <span class="icon novaAbaEscuro"></span>
+                    </a>
+                </td>
+                <td style="" class="colunaID coluna0">PCMSO:06</td>
+                <td style="" class="coluna1">PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL</td>
+            </tr>
+        <tr onclick="">
+            <td>
+                <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                    <span class="icon novaAbaEscuro"></span>
+                </a>
+            </td>
+            <td style="" class="colunaID coluna0">POSGI 01:04</td>
+            <td style="" class="coluna1">LIVROS DE ARTES E LIVROS ILUSTRADOS COM UMA PAGÍNA DE TÍTULO E/OU TEXTO OU LEGENDAS, GUIAS.</td>
+        </tr>
+            <tr onclick="">
+                <td>
+                    <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                        <span class="icon novaAbaEscuro"></span>
+                    </a>
+                </td>
+                <td style="" class="colunaID coluna0">POSGI 01:04</td>
+                <td style="" class="coluna1">LIVROS IMPRESSOS, PUBLICAÇÕES EM BRAILE</td>
+            </tr>
+        <tr onclick="">
+            <td>
+                <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                    <span class="icon novaAbaEscuro"></span>
+                </a>
+            </td>
+            <td style="" class="colunaID coluna0">POSGI 01:04</td>
+            <td style="" class="coluna1">PUBLICAÇÃO INFANTO-JUVENIL(JOGOS E PASSATEMPO QUE CONTENHAM ATIVIDADES EDUCACIONAIS).</td>
+        </tr>
+            <tr onclick="">
+                <td>
+                    <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                        <span class="icon novaAbaEscuro"></span>
+                    </a>
+                </td>
+                <td style="" class="colunaID coluna0">POSGI 01:04</td>
+                <td style="" class="coluna1">SOFTWARE EDUCACIONAL OU INSTRUTIVO</td>
+            </tr>
+                <tr onclick="">
+                    <td>
+                        <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="" target="_blank">
+                            <span class="icon novaAbaEscuro"></span>
+                        </a>
+                    </td>
+                    <td style="" class="colunaID coluna0">POSGI 01:04</td>
+                    <td style="" class="coluna1">ÁLBUM DE FIGURINHAS (DIRECIONADOS A CONTEÚDOS EDUCATIVOS E COM TEXTOS SIGNIFICATIVOS E EXPLICATIVOS).</td>
+                </tr>
+        </tbody>
+    </table><br>      
+        <p>Para solicitar click na imagem abaixo.</p>
+        <a href="https://forms.gle/4sADQZ6C69FEmMweA" target="_blank"><img src="{{ asset('images/front_images/ficha1.png')}}" style="max-width: 60%; border-radius: 10px;box-shadow: 5px 0px 7px 2px #888888;" alt="solicitar ficha"></a>
+    </div>
 </div>
 @endsection
-

@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="{{ url('css/front_css/font-awesome/css/font-awesome.min.css') }}" type='text/css'/>
 	<base href=""/>
 	<link rel="stylesheet" href="{{ url('css/front_css/custom.css') }}" type='text/css'/>
+	{{-- <link rel="stylesheet" href="{{ url('css/front_css/bootstrap.min.css') }}" type='text/css'/> --}}
+	<link rel="stylesheet" href="{{ url('css/front_css/style.css') }}" type='text/css'/>
 
 
 

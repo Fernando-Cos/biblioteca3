@@ -1,0 +1,664 @@
+/*! 
+ * 2016 v1.0.0 
+ * Copyright 2016.
+ */
+
+ body            			{font-family: 'Open Sans', sans-serif; font-size: 14px; background: #fff; overflow-y: scroll; overflow-x: hidden;}
+ .main_container 			{clear: both;}
+ .main_container h2			{text-transform: uppercase; font-size: 30px; font-weight: normal; text-align: center; padding-top: 130px}					
+             
+ 
+ 
+ /* EFEITOS */
+ .efeito 					{ transition: all 0.2s ease;}
+ .efeito:hover     			{ -webkit-transform: scale(0.9); -ms-transform: scale(0.9)); transform: scale(0.9));}
+ 
+ /* BARRA GOV */
+ #barra-brasil .brasil-flag  { height: 32px !important}
+ #barra-brasil               {position: relative; width: 100%; display: block; z-index: 15}
+ .interna #barra-brasil		{position: fixed !important; width: 100%;top: 0px} 	
+ #barra-brasil #brasil-vlibras ul { padding-top: 1px !important; }
+ 
+ /* ACESSIBILIDADE */
+ .acessibilidade 			{background: #221e1d; width: 100%; height: 22px; float: right; position: relative; z-index: 10}
+ .acessibilidade ul 			{padding: 0px !important; margin: 0px;}
+ .acessibilidade .atalhos 	{float: right; }
+ .acessibilidade .atalhos ul li {display: inline; margin-right: 25px; position: relative; top: -1px;}
+ .acessibilidade .atalhos ul li:last-child {margin-right: 0px}
+ .acessibilidade .atalhos a  {color: #fff; text-decoration: none; position: relative; font-size: 11px; }
+ .acessibilidade .atalhos a:hover {color:#ff0}
+ 
+ 
+ /* RDES SOCIAIS */
+ .redesSociais	 			{width: 100%; display: block; position: relative; z-index: 10; top: -2px}
+ .redesSociais ul 			{float: right;}
+ .redesSociais ul li 		{list-style: none; display: inline;}
+ .redesSociais ul li  		{text-indent: -5000px}
+ .redesSociais ul li:last-child {margin-right: 0px}
+ .portalredes-item a 		{display: block; transition: all 0.2s ease; width: 31px; height: 30px; float: left; margin: 9px 0px 6px 6px; text-indent: -2000px !important}
+ .portalredes-item a:hover    {-webkit-transform: scale(0.9); -ms-transform: scale(0.9)); transform: scale(0.9));}
+ .facebook  					{ background: url(../img/redesSociais/facebook.png) no-repeat center; width: 42px; height: 30px; } 
+ .youtube  					{ background: url(../img/redesSociais/youtube.png) no-repeat center; width: 42px; height: 30px; } 
+ .instagram  				{ background: url(../img/redesSociais/instagram.png) no-repeat center; width: 42px; height: 30px; } 
+ .twitter  					{ background: url(../img/redesSociais/twitter.png) no-repeat center; width: 42px; height: 30px; } 
+ 
+ .redes-sociais-rodape .portalredes-item a 		{display: block; transition: all 0.2s ease; width:80px; height: 80px; margin: 9px 0px 6px 6px; text-indent: -5000px !important}
+ .redes-sociais-rodape .portalredes-item a:hover {-webkit-transform: scale(0.9); -ms-transform: scale(0.9)); transform: scale(0.9));}
+ .redes-sociais-rodape .facebook  				{ background: url(../img/redesSociais/facebookM.png) no-repeat center; width: 42px; height: 30px; } 
+ .redes-sociais-rodape .youtube  				{ background: url(../img/redesSociais/youtubeM.png) no-repeat center; width: 42px; height: 30px; } 
+ .redes-sociais-rodape .instagram  				{ background: url(../img/redesSociais/instagramM.png) no-repeat center; width: 42px; height: 30px; } 
+ .redes-sociais-rodape .twitter  				{ background: url(../img/redesSociais/twitterM.png) no-repeat center; width: 42px; height: 30px; } 
+ 
+ 
+ 
+ /* TOPO */
+ .navbar-fixed-top           {position: relative; z-index: 80;}
+ 
+ .nav li 					{padding: 0px !important}
+ .navbar 					{min-height: 0px !important; margin-bottom: 0px}
+ 
+ /* MENU 2 */
+ .teste 						{position: relative; top: -100px}
+ .menuScroll 				{position: relative;top: -63px; display: none !important;}
+ .menuScroll2 				{position: fixed; width:100%; top: 0px; display: block !important; z-index: 500; }
+ .menuScroll3 				{position: fixed; width:100%; top: 55px; display: block !important; z-index: 500; }
+ .menu2	 					{margin-bottom: 0px; background: #221e1d; height: 42px; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19); }
+ .menu2 ul 					{padding: 0px; text-align: center;}
+ .menu2 ul li 				{display: inline-block; list-style: none; padding: 0px 17.4px}
+ .menu2 ul li:first-child  	{padding-left: 0px}
+ .menu2 ul li:last-child   	{padding-right: 0px}
+ .menu2 	a 		 			{ font-family: "Open sans", sans-serif; font-weight: 500; font-size: 16px; color: #fff; text-transform:  uppercase; position: relative;top: 10px}
+ .menu2  a:hover			  	{color: #fab814 !important;-webkit-transition:0.7s ease-out;-moz-transition:0.7s ease-out;-o-transition:0.7s ease-out;transition:0.7s ease-out; padding-bottom: 10px;  text-decoration: none}
+ .menu2  a:focus 				{color: #fab814 !important; padding-bottom: 10px;  text-decoration: none}
+ 
+ .headMenu 					{height: 92px; background: #323232; width: 100%; display: block;}
+ .headMenu .logo 			{width: 420px; margin:0 auto; color: #fff; font-weight: 600; text-align: right; font-size: 20px }
+ .headMenu .logo 			{ position: relative; left: -52px;  }
+ .headMenu .logo a:hover		{color: #fff !important}
+ .headMenu .logo h1 		   	{margin-top: 0px}
+ 
+ 
+ 
+ /* MENU */
+ .menuLateral 					{background: #333;width: 290px;margin-right: -30px; z-index: 150;padding: 30px 39px 11px 35px;position: absolute;top: 109px;display: block;height: auto;right: 186px !important;}
+ .menuLateral ul 				{padding: 0px; margin-left: 0px;}
+ .menuLateral ul li 				{display: block; list-style: none; padding: 0px 17.4px; height: 60px}
+ .menuLateral a 		 			{ font-family: "Open sans", sans-serif; font-weight: normal; font-size: 16.5px; color: #fff; text-transform:  uppercase; position: relative;top: 10px}
+ .menuLateral  a:hover		  	{color: #fab814 !important;-webkit-transition:0.7s ease-out;-moz-transition:0.7s ease-out;-o-transition:0.7s ease-out;transition:0.7s ease-out; padding-bottom: 10px;  text-decoration: none}
+ .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse { max-height: 100%; }
+ 
+  /* FUNCIONALIDADES */
+ .bgFixo             {height: 1000px; width: 100%; background: url(../img/bgMachado.jpg) 0px 0px fixed; position: fixed; top: -160px;z-index: -20}   
+ .separador          {height: 500px; display: block;}
+ 
+ 
+ .livro             {height: 1000px; width: 100%; background: url(../img/livro.png) 258px 0px fixed no-repeat; position: fixed; top:20px; left:0px;z-index: -22}  
+ .livros 			{height: 129px; width: 100%; display: block; background: url(../img/livros.png) no-repeat; position: relative; top: -162px; }
+ 
+ /* COMUNS */ 
+ .button-ver-mais button	{width: 377px; height:56px; margin:0 auto; display: block; margin-bottom: 150px; }
+ .alignCenter 		{text-align: center;}
+ .floatLeft 			{float: left;}
+ .hidden				{visibility: hidden;} 
+ .descricaoCat 		{position: relative;top: 35px}	
+ .imgCat 			{position: relative; left: -25px}
+  
+ /* CONTEUDO */
+ .machado 			{position: absolute; display: block; z-index: 1; top: -6px; left: 0px; height: 100%; width: 200px; float: left;}
+ .tituloPrincipal 	{width: 439px;height: 90px;margin: 0 auto;background: url(../img/titulo.png) no-repeat;background-size:contain;position: relative;top: 368px;/* left: 109px; */z-index: 50;}
+ .busca 				{display: block;   position: relative;   z-index: 100;   width: 60%;   top: 547px !important;   margin: 0 auto !important;  }
+ .busca input 		{width: 100%;border: none;height: 51px;padding-left: 50px;outline: none;}
+ .busca input[type="search"]::-webkit-input-placeholder {text-align: center; font-size: 20px; color: #848484; font-weight: normal; } 
+ .busca button 		{float: right; position: relative; top:-45px; border: none; background: none; outline: none;}
+ .busca .glyphicon 	{color: #c1ab94; font-size: 30px; position: relative; top: 2px}
+ .busca .glyphicon:hover {color: #7c6044}
+ 
+ 
+ .search                 					{position: relative;top: -32px;height: 0px !important;}
+ .search input::-webkit-input-placeholder  	{color:#323232; }
+ .search input:-moz-placeholder 				{color:#323232; }
+ .search input           					{position: absolute; width: 0px; float: Left; margin-left: 210px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; height: 30px; line-height: 18px; padding: 0 2px 0 2px; border-radius:1px; }
+ .search:hover input, .search input:focus 	{width: 500px; margin-left: 0px; border:none; border: 1px solid red;}
+ .search .btn            					{height: 40px; position: absolute; right: 11px; top: 0px;  border-radius:1px; background: #323232}
+ .search input[type=search]      			{border: none;  background: #f5f5f5; color: #000 !important; padding: 20px; height: 30px !important; position: relative; left: -20px; outline: none }
+ .shrink .search     						{position: relative;top: -40px;}
+ .shrink .search input[type=search]      	{padding: 15px; height: 36px !important; position: relative; left: -20px; outline: none }
+ 
+ .search form.form-inline input#mod-search-searchword:focus {height:36px !important; padding: 2px 0 2px 20px !important; z-index:9999999 !important; color: #000 !important; line-height:20px; font-size:16px !important;}
+ .search .glyphicon 							{color: #fff !important; font-size: 25px}
+ 
+ 
+ 
+ .conteudo section   {min-height:550px;height:100%;text-align: left;display: block;line-height: 25px;font-size: 16px;}
+ .conteudo p 		{margin-bottom: 25px; color:#000;}
+ .conteudo .underlineTitulo 	{width: 150px; height: 3px; margin: 0 auto; margin-bottom: 60px}
+ .ribbon 			{height: 50px; width: 25px; float: left; position: relative; top: -5px; left: 10px;}
+ .ribbon:before 		{width: 0;height: 0;border-style: solid;border-width: 15px 15px 0 0;position: absolute; top: 50px; content: ""}
+ .ribbon:after 		{width: 0;height: 0;border-style: solid;border-width: 0 15px 15px 0;position: absolute; top: 50px;left: 10px; content: ""}
+ 
+ section.home 		{height: auto !important; min-height: 854px;position: relative; top: -55px; width: 100% }
+ .home 				{background: url(../img/bgMachado.jpg) 0px 0px fixed no-repeat #f0d2b8;   perspective: 1px; overflow: hidden; display: block; height: 820px; position: relative;top: -55px; }
+ .home h1 			{visibility: hidden;}
+ 
+ section.apresentacao			{background: url(../img/bgRenda.jpg) repeat #fff;  position: relative; top: -55px; color: #000; height: 1053px; padding-bottom: 95px;}
+ .apresentacao h2 				{color:#4b443d; }
+ .apresentacao .underlineTitulo 	{background: #d6b79e}
+ 
+ 
+ section.obraCompleta {
+     background: #ffd0a1;
+     height: auto;
+     margin-bottom: 51px;
+     /* margin-top: -180px; */
+}
+
+ .obraCompleta h2 		{color: #4b443d; position: relative; top: -150px}
+ .obraCompleta .underlineTitulo 	{background: #fff;position: relative;top: -150px}
+ .obraCompleta .categoria {margin:0 auto; width: 100%; margin-top: 100px }
+ .obraCompleta .obra 	{background: #f8bc8d; height: 154px;  margin-right: 0px; margin-bottom: 35px}	
+ .obraCompleta .obra a 	{width: 100%;  color:#000; font-weight: 600;  font-size: 20px; display: block; height: 100%; text-transform: uppercase; padding-top: 63px; text-align: center;}
+ .obraCompleta .obra a:hover {text-decoration: none; font-size: 23px; color: #fff; background: #323232;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;}
+ .obraCompleta .obras 	{
+    position: relative;
+    /* top: -140px; */
+}
+
+ .obraCompleta p  		{position: relative; top: -160px}
+ 
+ .obraCompleta .romance .ribbon   		{background: #c91c20;}
+ .obraCompleta .romance .ribbon:before 	{border-color: #c91c20 transparent transparent transparent}
+ .obraCompleta .romance .ribbon:after 	{border-color: transparent #c91c20 transparent transparent}
+ .obraCompleta .conto .ribbon   			{background: #d27518;}
+ .obraCompleta .conto .ribbon:before 	{border-color: #d27518 transparent transparent transparent}
+ .obraCompleta .conto .ribbon:after 		{border-color: transparent #d27518 transparent transparent}
+ .obraCompleta .poesia .ribbon   		{background: #fab814;}
+ .obraCompleta .poesia .ribbon:before 	{border-color: #fab814 transparent transparent transparent}
+ .obraCompleta .poesia .ribbon:after 	{border-color: transparent #fab814 transparent transparent}
+ .obraCompleta .cronica .ribbon   		{background: #76b83d;}
+ .obraCompleta .cronica .ribbon:before 	{border-color: #76b83d transparent transparent transparent}
+ .obraCompleta .cronica .ribbon:after 	{border-color: transparent #76b83d transparent transparent}
+ .obraCompleta .teatro .ribbon   		{background: #0098d0;}
+ .obraCompleta .teatro .ribbon:before 	{border-color: #0098d0 transparent transparent transparent}
+ .obraCompleta .teatro .ribbon:after 	{border-color: transparent #0098d0 transparent transparent}
+ .obraCompleta .critica .ribbon   		{background: #004da9;}
+ .obraCompleta .critica .ribbon:before 	{border-color: #004da9 transparent transparent transparent}
+ .obraCompleta .critica .ribbon:after 	{border-color: transparent #004da9 transparent transparent}
+ .obraCompleta .traducao .ribbon   		{background: #843f89;}
+ .obraCompleta .traducao .ribbon:before 	{border-color: #843f89 transparent transparent transparent}
+ .obraCompleta .traducao .ribbon:after 	{border-color: transparent #843f89 transparent transparent}
+ .obraCompleta .miscelanea .ribbon  		{background: #474747;}
+ .obraCompleta .miscelanea .ribbon:before {border-color: #474747 transparent transparent transparent}
+ .obraCompleta .miscelanea .ribbon:after {border-color: transparent #474747 transparent transparent}
+ .obraCompleta .button-ver-mais 				{text-align: center; padding-bottom: 120px; padding-top: 20px}
+ .obraCompleta .button-ver-mais a 		{border: 2px solid #c1986e; background: none; color:#88694a;outline: none; padding: 15px 90px 15px 90px; position: relative;top: 50px}
+ .obraCompleta .button-ver-mais a:hover  {background: #c1986e; color: #fff;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;} 
+ .imgObraCompleta 						{ position: relative; top: -6px;}
+ .containerObra 							{position: relative;top: -50px}
+ .containerObra .ano 					{ color: #b9b9b9; font-weight: bold}
+ .containerObra .categoria 				{color: #fab814; position: relative;top: -2px;}
+ .downloadObra 							{ width: 300px; position:relative; top: 25px; text-align: center;  margin: 0 auto }
+ .downloadObra a 						{background: #fab814; border-radius: 5px;display: block; padding: 10px; text-decoration: none !important; color: #000 !important}  
+ .downloadObra a:hover 					{background: #b5850d; color: #fff !important} 
+ .anoObra 								{color: #b5850d}
+ 
+ 
+ 
+ 
+ section.cronologia 	    {background: #fff; height: auto }
+ .cronologia h2 			{color: #4b443d; padding-top: 160px}
+ .cronologia .underlineTitulo 	{background: #d6b79e}
+ .cronologia .imagem 	{ position: relative; left: -55px;}
+ .cronologia .texto 		{position: relative; left: -41px;}
+ .cronologiaItem 		{background: #fff; min-height: 500px; padding-top: 50px}
+ .cronologiaItem h2 		{padding-top: 20px}
+ .cronologiaItem .ano 	{font-size: 35px; color: #f44336}
+ .cronologiaItem .texto 	{font-size: 25px}
+ .cronologiaItem .underlineTitulo {background: #e5c1a7; position: relative; top: -30px}
+ .tituloCronologia 		{text-align: center; width: 100%; font-size: 30px; position: relative;top: -40px;text-transform: uppercase;}
+ .cronologiaLista .item 	{padding:0px !important; overflow: hidden; }
+ .cronologiaLista .item:hover 	{opacity: 0.6 }	
+ .cronologiaLista .item img {opacity: 0.1; position: relative;top: -300px}
+ .cronologiaLista .item .link {position: relative; display: block; z-index: 1; text-align: center;}
+ .cronologiaLista .item a 	 {font-size: 30px; text-decoration: none; color: #000; font-weight:bold; width: 100%; display: block; height: 300px; padding-top: 75px  }
+ 
+ section.bibliografia    					{background: #d3b49d; height: auto; margin-top: 200px }
+ .bibliografia h2 							{color: #000; }
+ .bibliografia .underlineTitulo 				{background: #fff}
+ .bibliografia li 							{background:#ccad96; padding: 15px; color: #000; height: 106px; float:left; width: 46%; overflow: hidden; margin-bottom: 40px;margin-right: 30px;}
+ .bibliografia li:last-child					{ margin-right: 0px;}
+ .bibliografia .button-ver-mais button 		{border: 2px solid #b79b85; background: none; color:#88694a; outline: none }
+ .bibliografia .button-ver-mais button:hover {background: #b99d88; color: #fff;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;} 
+ .biblioteca-ver-mais p						{ background: #ffe5d1; padding:10px; height: 80px; }
+ 
+ 
+ section.videos							{background: url(../img/bgRenda.jpg) repeat #fff;  position: relative; top: -50px; color: #000}
+ .videos h2 								{color:#4b443d; }
+ .videos .underlineTitulo 				{background: #d6b79e; width: 100px}
+ .videos .descricao  					{ background: #e5e5e5; color: #000; font-weight: 600; font-size: 15px;   height: 88px; overflow: hidden; line-height: 18px; padding: 10px; text-align: left;}
+ .videos .descricao a					{color: #000; font-weight: 600}
+ .videos .titulo 						{height: 54px; overflow: hidden;}
+ .videos .duracao 						{color:#a09e9d; font-size: 15px;}  
+ .videos .duracao span					{font-weight: bold}
+ .videos .duracao .tempo 				{font-weight: 600 !important}
+ .videosItem 							{height: 160px; background: #cecece; margin-top: 40px; overflow: hidden; display: block; z-index: 1; position: relative;}
+ .videosItem  a    						{height: 150px; width: 100%; display: block; position: relative; z-index: 200} 
+ .videosItem img 						{position: relative; z-index: 5; display: block;}
+ .videosItem img:hover					{ filter: sepia(77%);}
+ .videos .button-ver-mais 				{text-align: center; padding-bottom: 120px; position: relative;top: 100px; margin-bottom: 100px}
+ .videos .button-ver-mais a 				{border: 2px solid #949290; background: none; color:#949290;outline: none; padding: 15px 90px 15px 90px;  }
+ .videos .button-ver-mais a:hover 		{background: #949290; color: #fff;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;} 
+ 
+ .videoItem 								{ text-align: left; margin-bottom: 10px; height: 300px; overflow: hidden; line-height: 20px}
+ 
+ .videoItem img 							{height: 174px }
+ .videoItem .detalhes 					{position: relative;top: 20px}
+ .videoItem .detalhes span 				{font-size: 15px; color: #cecece; font-weight: bold;}
+ .videoItem .detalhes .duracao 			{font-size: 15px; color: #cecece; font-weight: normal}
+ .videos-galeria .underlineTitulo 		{margin-bottom: 20px !important}
+ .videos-galeria  .formularioPesquisa  {clear: both; display: block; padding-top: 28px; font-size: 14px}
+ .videos-galeria  select     {padding: 5px 25px 5px 5px; margin-right: 40px; border: 1px solid #d4c1a0; cursor: pointer; width: 315px;outline: none;}
+ .videos-galeria  input      {height: 36px; padding-left: 20px;  border: 1px solid #d4c1a0;outline: none;}
+ .videos-galeria  button     {background:#d5b69d; border: 1px solid #d4c1a0; height: 36px; position: relative; top: 0px; left: -1px; padding:0px 15px 0px 15px;outline: none; }
+ .videos-galeria  button i   {color: #fff; font-size: 18px; position: relative; top:5px; outline: none;} 
+ .videos-galeria  .underlineTitulo 		{margin-bottom: 20px !important}
+ .videotecaInterna 						{background: #fff}
+ .videotecaInterna h2 					{padding-top: 20px; text-align: left;}
+ .detalheVideo 							{padding-bottom: 150px}
+ .detalheVideo .underlineTitulo  		{background: #d6b79e; margin-left: 0px}
+ .detalheVideo .duracao 					{color: #666}
+ .detalheVideo .containerVideo 			{text-align: center;}
+ 
+ 
+ section.autor-obra 							{background: #ffd0a1; height: 850px }
+ .autor-obra h2 								{color: #4b443d}
+ .autor-obra .underlineTitulo 				{background: #fff}
+ .autor-obra .banners						{width: 88%; margin: 0 auto}
+ .autor-obra .item 							{ margin-right: 0px; margin-left: 3px; margin-bottom: 70px}	
+ .autor-obra .button-ver-mais button 		{border: 2px solid #d0996d; background: none; color:#86664b; outline: none}
+ .autor-obra .button-ver-mais button:hover 	{background: #d0996d; color: #fff;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;} 
+ .autor-obra .ribbon 						{ display: none;}
+ .autor-obra .obra 							{background: #dcb186; width: 78%; height: 260px; text-indent: -5000px; transition: all 0.2s ease-out; margin-bottom: 50px}
+ .autor-obra .obra:hover    					{ filter: saturate(125%); -webkit-transform: scale(0.98); -ms-transform: scale(0.98)); transform: scale(0.98));}
+ .autor-obra .obra a  						{height: 260px; width: 100%; display: block;} 
+ .autor-obra .teses-e-dissertacoes 			{ background: url(../img/teses-dissertacoes.png)  center no-repeat; position: relative; left: 120px}
+ .autor-obra .machado-por-seus-contemporaneos	{ background: url(../img/machado-conteporaneos.png)  center no-repeat; position: relative; right: -10px }
+ .autor-obra .button-ver-mais 				{text-align: center; }
+ .autor-obra .button-ver-mais a 		{border: 2px solid #c1986e; background: none; color:#88694a;outline: none; padding: 15px 90px 15px 90px; position: relative;top: 50px}
+ .autor-obra .button-ver-mais a:hover  {background: #c1986e; color: #fff;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;} 
+ 
+ .autor-obra-galeria  .formularioPesquisa  {clear: both; display: block; padding-top: 28px; font-size: 14px}
+ .autor-obra-galeria  select     {padding: 5px 25px 5px 5px; margin-right: 40px; border: 1px solid #d4c1a0; cursor: pointer; width: 315px;outline: none;}
+ .autor-obra-galeria  input      {height: 36px; padding-left: 20px;  border: 1px solid #d4c1a0;outline: none;}
+ .autor-obra-galeria  button     {background:#d5b69d; border: 1px solid #d4c1a0; height: 36px; position: relative; top: 0px; left: -1px; padding:0px 15px 0px 15px;outline: none; }
+ .autor-obra-galeria  button i   {color: #fff; font-size: 18px; position: relative; top:5px; outline: none;} 
+ .autor-obra-galeria .item a 	{color: #594b33 !important; font-size: 24px;  font-weight: 600;text-decoration: none; line-height: 20px}
+ .autor-obra-galeria .item a:hover {color: #000 !important} 
+ .autor-obra-galeria .item .titulo 	{color: #594b33 !important; font-size: 24px;  font-weight: 600;text-decoration: none; height: 95px}
+ .autor-obra-galeria .item 		{text-align: center !important; padding-top: 30px !important}
+ .autor-obra-galeria .descricao  {line-height: 18px; font-size: 15px; color: #948876; position: relative;top: 6px }
+ .autor-obra-galeria  .underlineTitulo 		{margin-bottom: 20px !important}
+ .autorObraListagem 	.underlineTitulo 		{margin-bottom: 5px !important}
+ .autorObraListagem .categoria 				{color: #fab814; position: relative;top: -2px;}
+ 
+ section.na-rede 							{background: #fff; height: auto; line-height: 21px } 
+ .na-rede h2 								{color: #000}
+ .na-rede .underlineTitulo 					{background: #d6b79e;}
+ .na-rede ul li 								{display: block; list-style: none; height: 60px; padding: 10px 0 0 70px; margin-bottom:30px; background: url(../img/bgLinks.png) 0px 0px no-repeat}
+ .na-rede a 									{font-weight:bold; color: #000; text-decoration: underline; }
+ .na-rede a:hover 							{color: #4a78fe; text-decoration: none;} 
+ .na-rede .redes-sociais-rodape				{text-align: center; margin: 30px 0 70px 0}
+ .na-rede .redes-sociais-rodape ul li 		{display: inline-block; list-style: none; background: none; width: 90px; padding: 0px}
+ 
+ 
+ 
+ 
+ 
+ /* PÃGINA INTERNA */
+ .breadcrumbs 						{background: #FFF}
+ .breadcrumbs ul  					{padding-left: 0px; margin: 0px;}
+ 
+ 
+ 
+ .interna-content 					{background: #fff; padding-bottom: 100px;}
+ .interna-content .acessibilidade 	{background: #221e1d; height: 38px;}
+ 
+     .separador-interno 				{background: url(../img/marcador.jpg); height: 78px; width: 100%; position: relative; top: 120px;}
+ 
+     .breadcrumbs 					{padding-top: 170px; font-size: 14px}
+     .breadcrumbs ul  				{padding: 0px !important; }
+     .breadcrumbs ul li 				{padding-right: 20px !important; color: #aaa !important; list-style: none !important; display: inline}
+     .breadcrumbs ul li:before		{content: "" !important}
+     .breadcrumbs a					{color:#986500 !important;font-size: 14px !important; text-decoration: none !important}
+     .breadcrumbs a:hover 			{color: #000; text-decoration: underline !important;}
+     .breadcrumbs .glyphicon 		{color: #e4ccb5; position: relative; left: 12px; top: 2px}
+ 
+ 
+     .interna 						{ min-height: 650px; font-size: 16px; line-height: 28px ; padding-bottom: 50px; color: #000; background: #fff}
+     .interna .navbar-default    	{margin-bottom: 0px; background: #fff; height: 42px; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);}
+     .interna p 						{margin-bottom: 30px}
+     .interna ul 					{ margin-left: 0px}
+     .interna ul li 					{list-style: none}
+     .interna ul li:before			{ content: "\e080"; margin-right:10px; font-family: 'Glyphicons Halflings'; display: block; float: left; width: 1.2em; font-size:12px; color: #d4bead;}
+     .interna ul li:first-child  	{padding-left: 0px}
+     .interna ul li:last-child   	{padding-right: 0px}
+     .interna 	a 		 			{ font-family: "Open sans", sans-serif; text-decoration: underline; font-weight: normal; font-size: 16px; color: #986500; position: relative;}
+     .interna 	a:hover 			{text-decoration: underline; border: none;}
+     .interna h1 					{color: #00919e; padding-top: 150px; padding-bottom: 50px}
+     .interna h2				        {text-transform: uppercase; font-size: 30px; font-weight: normal; text-align: left; padding-top: 30px;}		
+     .interna .underlineTitulo 		{ background: #d6b79e; width: 200px; margin-left: 1px; height: 3px;  margin-bottom: 60px}
+     .interna iframe 				{float: left; margin-right:10px }
+     .interna table 					{border:1px solid #cecece; border-collapse: collapse;  font-size: 14px; margin-top: 20px }
+     .interna th						{border:1px solid #cecece; font border-collapse: collapse; color: #000; background:#efd1b9;font-weight: 600; padding: 5px;text-align: center;}
+     .interna tr td					{border:1px solid #cecece; border-collapse: collapse; padding: 5px }
+ 
+ 
+ /* PEsquisas */
+ 
+ .biblioteca-obras  .formularioPesquisa  {clear: both; display: block; padding-top: 28px; font-size: 14px}
+ .biblioteca-obras  select     {padding: 5px 25px 5px 5px; margin-right: 40px; border: 1px solid #d4c1a0; cursor: pointer; width: 315px;outline: none;}
+ .biblioteca-obras  input      {height: 36px; padding-left: 20px;  border: 1px solid #d4c1a0;outline: none;}
+ .biblioteca-obras  button     {background:#d5b69d; border: 1px solid #d4c1a0; height: 36px; position: relative; top: 0px; left: -1px; padding:0px 15px 0px 15px;outline: none; }
+ .biblioteca-obras  button i   {color: #fff; font-size: 18px; position: relative; top:5px; outline: none;} 	
+ .biblioteca-obras .underlineTitulo 		{margin-bottom: 20px !important}
+ 
+ 
+ .formularioResultadoPesquisa input[type=text] {padding: 5px 25px 5px 5px;  margin-right: 0px;  border: 1px solid #d4c1a0;  outline: none; }
+ .formularioResultadoPesquisa button {  background: #d5b69d; border: 1px solid #d4c1a0; height: 40px; position: relative; top: 0px; left: -5px; padding: 0px 15px 0px 15px; outline: none;}
+ .formularioResultadoPesquisa .glyphicon {color: #fff}
+ 
+ 
+ 
+ .resultadoBusca p 				{margin:0px !important; padding: 0px !important } 
+ .resultadoBusca ul li:before  { content: ""}
+ .resultadoBusca ul 			  { padding-left: 0px}
+ .resultadoBusca .searchintro  { padding-top: 40px; padding-bottom: 40px;}
+ .resultadoBusca .msg-erro 	  { margin-top: 25px; color:#8a3131 ;background: #efc1c1; border: 1px solid #e2b0b0; border-radius: 5px; padding: 10px; margin-bottom: 25px}
+ .resultadoBusca 			  { padding-top:0px; padding-top: 20px }
+ .resultadoBusca .row 		  { margin-top: 20px}	
+ .resultadoBusca .item 		  {background: url(../img/bgObras.png) no-repeat #eddabc; padding: 15px 15px 15px 15px; text-align: left; margin-bottom: 30px; height: 200px }
+ .resultadoBusca .item .detalhes {color: #594b33; font-size: 24px; font-weight: 600;overflow: hidden; text-align: center !important; height: 118px;}	
+ .resultadoBusca .download 	  {position: relative;text-align: center;}
+ .resultadoBusca h2 			  {text-transform: uppercase; font-size: 30px !important; font-weight: normal !important; text-align: left !important; padding-top: 30px !important;}
+ .resultadoBusca .itemBusca 	  {background: #eddabc; padding: 15px 15px 15px 15px; text-align: left; margin-bottom: 30px; height: 100px }		
+ .alertaBusca 				  { color:#fff; background: #323232; width: 80% !important; padding: 10px; text-align: center; position: relative; top: 50px }	
+ 
+ .icones 					  { margin-top: 20px}	
+ .icones ul 					  {padding: 0px; margin-left: 0px}
+ .icones ul li 				  { list-style: none; display: inline-block; width: 90px}
+ .icones ul li:before		  {content: "" !important}
+ .pagination 				  {width: 100%; text-align: center; margin-bottom: 50px}
+ .pagination ul li             {list-style: none; display: inline-block; text-align: center; margin-right: -20px } 
+ .pagination ul li:before		{content: "" !important}
+ .pagination>li>a, .pagination>li>span {border: 1px solid #c5ae82 !important; color: #fff; font-size: 17px; background: #c5ae82 !important; cursor: pointer !important;}
+ .pagination>li:first-child>a, .pagination>li:first-child>span {  margin-left: 0; border-top-left-radius: 0px; border-bottom-left-radius: 0px; border: 1px solid #c5ae82}
+ .pagination>li:last-child>a, .pagination>li:last-child>span { border-top-right-radius: 0px;  border-bottom-right-radius: 0px; border: 1px solid #fff }
+ .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {  z-index: 2;  color: #fff; text-decoration: none;  background-color: #a99165 !important; border-color: #c5ae82;}
+ .pagination>.disabled>a 	  { color: #b19d76}
+  .pagination .active a			{background: #9a8968 !important; border: 1px solid #9a8968; cursor: pointer}
+ 
+ 
+ .rodape 									{background: #262324; height: 150px; color: #fff; text-align: center; padding-top: 50px; margin-top: -10px;}
+ .rodape .banners-rodape 					{ text-align: center; }
+ .rodape ul 									{text-align: center;}
+ .rodape ul li 								{list-style: none; display: inline-block; width: 188px;}
+ 
+ 
+ /*ALTO CONTRASTE */
+ .contraste body 			{background:#000 !important; } 
+ .contraste .underlineTitulo {background:#fff }
+ .contraste h2			{color: #fff}
+ .contraste .navbar-default .menuTop .navbar-nav a {color: #000 !important}
+ .contraste a:hover      {color: #ff0 !important; text-decoration: underline;}
+ .contraste .data      {color: #fff !important}
+ .contraste .navbar-default  {background: #000; border: none;}
+ .contraste .menuLateral       {background: #000; border:1px solid #fff; }
+ .contraste .menuLateral a 	  {color: #ff0}
+ .contraste .livro 			  { display: none;}
+ .contraste .navbar-default .menuTop .navbar-nav>.active>a, .navbar-default .navbar-nav> .navbar-default .navbar-nav>.active>a:hover {color: #ff0 ;  background: #666 !important;}
+ 
+ .contraste .obraCompleta .item 	{background:none; border: 1px solid #fff; color: #ff0 }
+ .contraste .obraCompleta .item a {color: #ff0 }
+ .contraste .obraCompleta .obra 		{background: #333}
+ .contraste .obraCompleta .obra a {color: #ff0 !important}
+ .contraste .obraCompleta .button-ver-mais a {border: 2px solid #fff; color: #ff0}
+ .contraste .obraCompleta .button-ver-mais a:hover {background: #333}
+ .contraste .imgObraCompleta { display: none }
+ 
+ .contraste .autor-obra .button-ver-mais a {border: 2px solid #fff; color: #ff0}
+ .contraste .autor-obra .button-ver-mais a:hover {background: #333}
+ 
+ .contraste .button-ver-mais button {  border: 2px solid #fff;  background: none;  color: #ff0;   outline: none;}
+ .contraste .button-ver-mais button:hover {background:none }
+ 
+ 
+ .contraste .bibliografia .item 		{border: 1px solid #fff; background:none;}
+ 
+ .contraste .breadcrumbs 			{color: #fff !important; background: #000}
+ .contraste span 					{ color: #fff}
+ .contraste .breadcrumbs a 			{color: #ff0 !important}
+ .contraste .separador-interno 		{background: #000}
+ .contraste .biblioteca-ver-mais p 	{background: #000; border: 1px solid #fff }
+ 
+ .contraste #dates a 				{color: #ff0}
+ 
+ .contraste .biblioteca-obras  select {color: #000}
+ .contraste .resultadoBusca .item 	 { background: none !important;border: 1px solid #fff;color: #ff0}
+ .contraste .resultadoBusca .item .titulo	 {color: #ff0}
+ .contraste .resultadoBusca .item .ano 		 {color: #ff0}
+ .contraste .pagination 				{background:#000 }
+ .contraste .pagination>li>a, .pagination>li>span {  border: 1px solid #fdfdfd !important;  color: #fff;  font-size: 17px;  background: none !important}
+ 
+ .contraste .bibliografia li {background: #000; border: 1px solid #fff; color: #fff}
+ .contraste .bgFixo 		{background: #000} 
+ .contraste .home 		{background: #000} 
+ .contraste .container     {/*background: #000*/}
+ .contraste section      {background: #000; color: #fff}
+ .contraste section p 	{color: #fff !important}
+ .contraste section h1   {color: #fff}	
+ .contraste section a 	{color: #ff0}
+ .contraste .acessibilidade {background: #000} 
+ .contraste .menu2  		{background: #000; border-bottom: 1px solid #fff}
+ .contraste .menu2 a 	{color: #ff0}	
+ .contraste .historico a 			{color: #ff0; border:1px solid #fff; background: #000 }
+ .contraste .historico .decimaEdicao a {color: #ff0; border:1px solid #fff; background: #000 !important }
+ .contraste .interna 	{background: #000; color: #fff}
+ .contraste .interna a 	{color: #ff0}
+ .contraste .interna p 	{color: #fff}		
+ .contraste .interna h1 	{color: #fff}	
+ .contraste .interna h2 	{color: #fff}	
+ .contraste .btn-primary {background: #000; border: 1px solid #fff}
+ 
+ .none {display: none;}
+ 
+ 
+ /* Resposividade Timeline */
+ @media (max-width: 1600px){
+ #issues 				{width: 1600px}
+ #issues li 				{ width: 1600px }	
+ }
+ 
+ @media (max-width: 1400px){
+ #issues 				{width: 1400px}
+ #issues li 				{ width: 1400px }	
+ }
+ 
+ @media (max-width: 1250px){
+ #issues 				{width: 1200px}
+ #issues li 				{ width: 1200px }	
+ }
+ 
+ @media (max-width: 1100px){
+ #issues 				{width: 1024px}
+ #issues li 				{ width: 1024px }	
+ }
+ 
+ @media (max-width: 767px){
+ #issues 				{width: 350px; height: 600px}
+ #issues ul 				{height: 600px}	
+ #issues li 				{ width: 350px ; height: 600px}	
+ }
+ 
+ /* Fim Responsividade Timeline */
+ 
+ 
+ 
+ @media (min-width: 1256px){
+     .container {  width: 1200px;}
+ }
+ 
+ @media (min-width: 1272px){
+     .container {  width: 1256px;}
+ }
+ 
+ 
+ 
+ /* Large desktops and laptops */
+ @media (min-width: 1400px) {
+  /*.navbar-nav{float: left;} */
+ }
+ 
+ @media (max-width: 1200px) {
+ .cronologia img 			{width:250px; position: relative; left: 80px }
+ .cronologia .texto 			{position: relative;   left: 25px; }
+ #issues li p				{font-size: 20px !important; line-height: 30px !important}
+ #dates 						{left: -350px !important}
+ .menuLateral 				{margin-right: -179px !important}
+ .tituloPrincipal 			{ left: -50px}
+ }
+ 
+ 
+ @media (min-width: 1200px) {
+ .container { }
+ }
+ 
+ 
+ @media (max-width: 1500px) {
+ .menuLateral 				{margin-right: -179px !important}
+ }
+ 
+ 
+ @media (max-width: 992px) {
+ .container 					{ width: 100%;}
+ .tituloPrincipal 			{left: -81px;}
+ .menuLateral 				{right: 100px; width: 260px}
+ 
+ }	
+ 
+ @media (min-width: 767px){
+ 
+     .tituloResponsive {left: -482px;  top: 250px;  position: absolute;}
+     .busca 			  { top:632px;}
+     .menuLateral 	  { width: 298px}
+ }
+ 
+ /* Landscape phones and portrait tablets */
+ @media (max-width: 767px){
+ 
+ /* HEAD */
+ .header           			{height: 120px; display: block;  position: relative;}
+ .header h2          		{height: 120px; display: block;  position: relative;}
+ .search input 				{width: 90px !important}
+ .nav i            			{display: none;}
+ section           			{padding-top: 0px !important;padding-bottom: 27px;}
+ .search           			{position: absolute; top: 8px; left: 110px;  margin-right: 0px !important; width: 90px !important; min-width: 200px;}
+ .tituloResponsive 			{position: relative; top: -40px;z-index: 10}
+ .tituloResponsive img		{width: 93%}
+ 
+ /* MENUS */
+ .menuScroll 				{display: none !important;}
+ .menuScroll2 				{display: none !important;}	
+ .onpage .navbar-default     {border: none; position: fixed; background: url(../img/bgRenda2.jpg) repeat; height: 101px; }
+ .wrap-interna .navbar-default    {border: none; position: fixed; background: url(../img/bgRenda2.jpg) repeat; height: 101px; }				
+ .wrap-interna .navbar-default .navbar-toggle { position: fixed;   top: 5px; right: 0px;}
+ .wrap-interna 					{width: 100% !important}
+ .navbar-header        		{padding-top:80px; border-bottom: 0px solid #000; }
+ .navbar a 					{ font-weight: normal; position: relative; top: 9px;} 
+ .navbar a:focus,a:hover 	{border: none !important}
+ .nav            			{background: #fff; margin-top: -1px; padding-left: 20px !important}
+ .na>li>a          			{padding-left: 40px}
+ .navbar-toggle 				{margin-top: 4px;}
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {background: rgba(52, 57, 58, 0.9) !important; position:relative; top: -34px;}
+ .navbar-default .navbar-toggle { border-color: #fff; position: relative; background: #fff;  position: relative; top: -149px; left: -11px; border-radius: 50px;    height: 41px;}
+ .interna-content .navbar-default .navbar-toggle { top: -169px;}
+ .interna-content .navbar-default .navbar-collapse, .navbar-default .navbar-form {top: -136px}
+ .interna-content .navbar-collapse ul li 		{padding: 33px 0px 8px 0px;  height: 60px;}
+ .headResponsive img 		{ width: 100%;   position: relative;  top: -31px;   left: 0px; z-index: 20 }
+ .headResponsive a 			{color: #fff; font-size: 12px !important; line-height: 10px !important;}
+ .headResponsive .titulo 	{position: relative;top: 4px;font-size: 13px; color: #fad300}
+ .headResponsive .edicao 	{font-size: 16px; position: relative;top: 2px} 
+ .navbar-collapse ul 		{text-align: center !important; padding-left: 2%; padding-top: 41px; text-align: center;}
+ .navbar-collapse ul li 		{list-style: none; padding: 8px 0px 8px 0px }
+ .navbar-collapse ul li a 	{color: #fff; font-weight: normal; font-size: 16px;}
+ .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {max-height: none;top: -146px}
+ .head 						{margin-left: -15px; margin-right: -15px; position: relative; }
+ 
+ /* CONTEUDO */
+ 
+ .conteudo section 			{ position: relative;  }
+ .conteudo section p 		{font-size: 16px}
+ .conteudo section li 		{font-size: 16px; clear: none; float: left; width: 100%; display: block;     height: auto;}
+ 
+ .bgFixo             		{height: 100%; width: 100%; background: url(../img/fundo2.jpg) 0px 30px no-repeat; position: fixed; top: 0px;z-index: -20}   
+ .container          		{margin-left: 0px; margin-right: 0px;}
+ 
+ 
+ .autor-obra img 			{width: 100%}		
+ .button-ver-mais button 	{width: 95%}
+ .machado img 				{width: auto; position: relative;top: 122px}
+ .tituloPrincipal 			{width: 100%; position: fixed; left: 0px;top: 109px; display: block; z-index: 500}
+ .inicio 					{height: 397px; background-size:186% }
+ .atalhos ul 				{padding-left: 0px; margin-left: 0px}
+ 
+ .busca 						{width: 90%; top: 303px; display: block; z-index: 20;}
+ .busca input[type="text"]::-webkit-input-placeholder {text-align: center; font-size: 15px; color: #848484; font-weight: normal; } 
+ .busca input 				{padding-left: 0px}
+ 
+ .menuLateral 				{ background:none; }
+ 
+ .biblioteca-ver-mais p 		{height: auto;}
+ .obraCompleta  				{padding-top: 50px !important}
+ .obraCompleta .button-ver-mais a {padding: 15px 50px 15px 50px}
+ .imgObraCompleta 			{display: none;}
+ section.autor-obra 			{height: auto ;padding-bottom: 78px;}
+ .autor-obra .teses-e-dissertacoes {left: 0px}
+ .autor-obra .obra 			{width: 100%}
+ .autor-obra .teses-e-dissertacoes { background: url(../img/teses-dissertacoes.png) -149px 0px no-repeat;}
+ .autor-obra .machado-por-seus-contemporaneos { background: url(../img/machado-conteporaneos.png) -142px 0px no-repeat;  position: relative; right: 0px;}
+ .autor-obra .button-ver-mais a    {padding: 15px 58px 15px 58px;}
+ .videos .button-ver-mais a 		{padding: 15px 65px 15px 65px;}
+ 
+ .formularioPesquisa  select 	{width: 276px; margin-bottom: 10px}
+ .formularioPesquisa  input 	{width: 78%}
+ 
+ section.apresentacao 		{height: auto !important;}
+ .apresentacao p 			{clear: both;}
+ 
+ .interna img 				{width: auto !important}
+ .interna h2  				{padding-top: 75px}
+ 
+ .breadcrumbs 				{padding-top: 17px}
+ 
+ .menuScroll3 				{display: none !important;}
+ 
+ .breadcrumbs 				{top: 90px; left: 10px; position: relative;}
+ .separador-interno 			{display: none;}
+ 
+ 
+ 
+ /* TIMELINE */
+ #timeline 				{min-height: 800px !important}
+ #issues   				{ overflow: visible!important; height:350px !important}
+ .cronologia .imagem 	{left: -129px} 	
+ .cronologia .texto  	{left: 3px;}
+ 
+ 
+ /* RODAPE */
+ .rodape 			{height: auto}
+ .rodape-info  		{margin-left: 52% !important; width: 100% !important; left: -169.5px !important;top: 50px !important;}
+ #rodapePadrao 		{ background: #e8e8e8 !important; height: 100px !important; position: relative;}
+ .na-rede .redes-sociais-rodape ul li { display: inline-block;}
+ 
+ }
+ 
+ /* Portrait phones and smaller */
+ @media (max-width: 480px) {}

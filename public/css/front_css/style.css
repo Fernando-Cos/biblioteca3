@@ -1,24 +1,7 @@
-/*! 
- * 2016 v1.0.0 
- * Copyright 2016.
- */
-
- body            			{font-family: 'Open Sans', sans-serif; font-size: 14px; background: #fff; overflow-y: scroll; overflow-x: hidden;}
- .main_container 			{clear: both;}
- .main_container h2			{text-transform: uppercase; font-size: 30px; font-weight: normal; text-align: center; padding-top: 130px}					
-             
- 
- 
  /* EFEITOS */
  .efeito 					{ transition: all 0.2s ease;}
  .efeito:hover     			{ -webkit-transform: scale(0.9); -ms-transform: scale(0.9)); transform: scale(0.9));}
- 
- /* BARRA GOV */
- #barra-brasil .brasil-flag  { height: 32px !important}
- #barra-brasil               {position: relative; width: 100%; display: block; z-index: 15}
- .interna #barra-brasil		{position: fixed !important; width: 100%;top: 0px} 	
- #barra-brasil #brasil-vlibras ul { padding-top: 1px !important; }
- 
+
  /* ACESSIBILIDADE */
  .acessibilidade 			{background: #221e1d; width: 100%; height: 22px; float: right; position: relative; z-index: 10}
  .acessibilidade ul 			{padding: 0px !important; margin: 0px;}
@@ -146,7 +129,7 @@
  
  
  section.obraCompleta {
-     background: #ffd0a1;
+     background: #bec9cf;
      height: auto;
      margin-bottom: 51px;
      /* margin-top: -180px; */
@@ -155,9 +138,9 @@
  .obraCompleta h2 		{color: #4b443d; position: relative; top: -150px}
  .obraCompleta .underlineTitulo 	{background: #fff;position: relative;top: -150px}
  .obraCompleta .categoria {margin:0 auto; width: 100%; margin-top: 100px }
- .obraCompleta .obra 	{background: #f8bc8d; height: 154px;  margin-right: 0px; margin-bottom: 35px}	
- .obraCompleta .obra a 	{width: 100%;  color:#000; font-weight: 600;  font-size: 20px; display: block; height: 100%; text-transform: uppercase; padding-top: 63px; text-align: center;}
- .obraCompleta .obra a:hover {text-decoration: none; font-size: 23px; color: #fff; background: #323232;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;}
+ .obraCompleta .obra 	{background: #69788d;height: 154px;margin-right: 0px;margin-bottom: 35px;}	
+ .obraCompleta .obra a 	{width: 100%;  color:#08284a; font-weight: 600;  font-size: 20px; display: block; height: 100%; text-transform: uppercase; padding-top: 63px; text-align: center;}
+ .obraCompleta .obra a:hover {text-decoration: none; font-size: 23px; color: #fff; background: #18324e;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;}
  .obraCompleta .obras 	{
     position: relative;
     /* top: -140px; */
@@ -555,14 +538,14 @@
  @media (max-width: 767px){
  
  /* HEAD */
- .header           			{height: 120px; display: block;  position: relative;}
+ /* .header           			{height: 120px; display: block;  position: relative;}
  .header h2          		{height: 120px; display: block;  position: relative;}
  .search input 				{width: 90px !important}
  .nav i            			{display: none;}
  section           			{padding-top: 0px !important;padding-bottom: 27px;}
  .search           			{position: absolute; top: 8px; left: 110px;  margin-right: 0px !important; width: 90px !important; min-width: 200px;}
  .tituloResponsive 			{position: relative; top: -40px;z-index: 10}
- .tituloResponsive img		{width: 93%}
+ .tituloResponsive img		{width: 93%} */
  
  /* MENUS */
  .menuScroll 				{display: none !important;}
@@ -645,20 +628,7 @@
  
  
  
- /* TIMELINE */
- #timeline 				{min-height: 800px !important}
- #issues   				{ overflow: visible!important; height:350px !important}
- .cronologia .imagem 	{left: -129px} 	
- .cronologia .texto  	{left: 3px;}
- 
- 
- /* RODAPE */
- .rodape 			{height: auto}
- .rodape-info  		{margin-left: 52% !important; width: 100% !important; left: -169.5px !important;top: 50px !important;}
- #rodapePadrao 		{ background: #e8e8e8 !important; height: 100px !important; position: relative;}
- .na-rede .redes-sociais-rodape ul li { display: inline-block;}
- 
- }
+
  
  /* Portrait phones and smaller */
  @media (max-width: 480px) {}

@@ -138,9 +138,9 @@
  .obraCompleta h2 		{color: #4b443d; position: relative; top: -150px}
  .obraCompleta .underlineTitulo 	{background: #fff;position: relative;top: -150px}
  .obraCompleta .categoria {margin:0 auto; width: 100%; margin-top: 100px }
- .obraCompleta .obra 	{background: #69788d;height: 154px;margin-right: 30px;margin-bottom: 35px;float: left;width: 21%;box-shadow: 6px 8px 13px #667a98a6;border-radius: 5%;}	
- .obraCompleta .obra a 	{width: 100%;  color:#08284a; font-weight: 600;  font-size: 20px; display: block; height: 70%; text-transform: uppercase; padding-top: 63px; text-align: center;}
- .obraCompleta .obra a:hover {text-decoration: none; font-size: 23px; color: #fff; background: #18324e;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;}
+ .obraCompleta .obra 	{background: #69788d;height: 140px;margin-right: 2%;margin-bottom: 34px;float: left;width: 31%;box-shadow: 6px 8px 13px #667a98a6;border-radius: 5%;}	
+ .obraCompleta .obra a 	{border-radius: 4% ;color:#08284a;font-weight: 600;font-size: 15px;display: block;height: 63%;text-transform: uppercase;padding-top: 60px;text-align: center;}
+ .obraCompleta .obra a:hover {text-decoration: none;font-size: 19px;color: #fff;background: #18324e;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;}
  .obraCompleta .obras 	{
     position: relative;
     /* top: -140px; */

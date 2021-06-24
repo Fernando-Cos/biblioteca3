@@ -20,7 +20,7 @@
                 </thead>
         <tbody>
             <tr onclick="">
-                <td onclick="event.stopPropagation();">
+                <td>
                     <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="">
                         <span class="icon novaAbaEscuro"></span>
                     </a>

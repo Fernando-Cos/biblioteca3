@@ -8,20 +8,18 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-        <h1>E - BOOKS</h1><BR>
+        
             <div class="form-group row">
-                <div class="content-header-options-1 row-fluid">
-
-
-
+                <div class="content-header-options-1 row-fluid" style="padding: 15px;">
                     <section id="obraCompleta" class="obraCompleta"> 
-                        <div class="imgObraCompleta">
-                            <img id="imgobraCompleta" src="" alt=""> 
+                        <div class="imgObraCompleta" style="height: 255px;width: 889px;" id="f">
+                            <img id="imgobraCompleta" src="{{asset('images/front_images/ebooks.jpg')}}" alt=""> 
                         </div> 
                         <div class="container1" id="conteudo">	 
                       <div class="underlineTitulo"></div>
                 <div class="moduletableobras" style="box-shadow: 7px 5px 12px 1px #afb9cc;">
             <div class="row obras">	
+                {{-- <h1>E - BOOKS</h1> --}}
                         <div class="col-md-3">
                             <div class="obra romance">
                                 <div class="ribbon">

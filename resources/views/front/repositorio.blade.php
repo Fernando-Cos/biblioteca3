@@ -34,10 +34,10 @@
                     </tbody>
                 </table>
 
-                <div id="ctl00_ctl00_conteudo_conteudo_uPanelLimparFiltro">
-                    <input type="button" name="ctl00$ctl00$conteudo$conteudo$btnConsultaDocumentoInterno" value="Filtrar" onclick="carregarBoxCarregando();__doPostBack('ctl00$ctl00$conteudo$conteudo$btnConsultaDocumentoInterno','')" id="ctl00_ctl00_conteudo_conteudo_btnConsultaDocumentoInterno" class="btn ToRight">
+
+        <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;">
                 
-</div>
+
 
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">

@@ -559,7 +559,7 @@
  .navbar-header        		{padding-top:80px; border-bottom: 0px solid #000; }
  .navbar a 					{ font-weight: normal; position: relative; top: 9px;} 
  .navbar a:focus,a:hover 	{border: none !important}
- .nav            			{background: #fff; margin-top: -1px; padding-left: 20px !important}
+ .nav            			{background: #69788d; margin-top: -1px; padding-left: 20px !important}
  .na>li>a          			{padding-left: 40px}
  .navbar-toggle 				{margin-top: 4px;}
  .navbar-default .navbar-collapse, .navbar-default .navbar-form {background: rgba(52, 57, 58, 0.9) !important; position:relative; top: -34px;}

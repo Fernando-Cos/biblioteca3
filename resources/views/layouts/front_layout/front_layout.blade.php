@@ -48,6 +48,26 @@
 <div id="content" class="span9">
 	<section id="content-section">
 
+
+
+<h1>(pergunte a bibliotecaria) quando clicar ele vai para perguntas ja com respostas sobre a biblioteca em si buscar referencia em biblioteca nascional</h1>
+<br>
+
+<br>
+<h1>(bvs) quando clicar vai ter as descrição e logo abaixo vai ter os links. os links vao para cada site.</h1>
+<br>
+<h1>pergunte a bibliotecaria quando clicar ele vai para perguntas ja com respostas sobre a biblioteca em si</h1>
+<br>
+<h1>clicar na imagem quando clicar em (dominio publico ele vai direto pro site.) dominiopublico.gov.br <a href=""></a></h1>
+<br>
+
+<h1>(clicar na imagem links uteis)clicar na imagem ele vai abrir uma lista de links para (img links uteis), bibliotecaria ainda vai liberar os links <a href=""></a></h1>
+<br>
+
+<h1>(ministerio da saude )clicar na imagem ele vai abrir um link direto para o site do ministerio da saude <a href=""></a></h1>
+<br>
+
+
 {{-- @include('layouts.front_layout.front_main') --}}
 
 

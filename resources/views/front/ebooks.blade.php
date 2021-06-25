@@ -12,7 +12,7 @@
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid" style="padding: 15px;">
                     <section id="obraCompleta" class="obraCompleta"> 
-                        <div class="imgObraCompleta" style="height: 255px;width: 889px;" id="f">
+                        <div class="imgObraCompleta" style="height: 255px;width: 828px;" id="f">
                             <img id="imgobraCompleta" src="{{asset('images/front_images/ebooks.jpg')}}" alt=""> 
                         </div> 
                         <div class="container1" id="conteudo">	 

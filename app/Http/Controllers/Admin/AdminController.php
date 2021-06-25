@@ -11,12 +11,8 @@ use Image;
 // use Illuminate\Contracts\Session\Session;
 // use Illuminate\Contracts\Session\Session as SessionSession;
 
-
-
 class AdminController extends Controller
 {
-
-
     public function dashboard() {
         Session::put('page', 'dashboard');
         return view ('admin.admin_dashboard');

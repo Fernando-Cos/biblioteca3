@@ -34,8 +34,8 @@
                     </tbody>
                 </table>
 
-
-        <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;">
+<a href="sa" target="_blank">
+        <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;"></a>
                 
 
 

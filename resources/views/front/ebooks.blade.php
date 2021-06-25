@@ -24,7 +24,7 @@
                             <div class="obra romance">
                                 <div class="ribbon">
                                 </div>
-                        <a href=""><span class="catTitle">Romance</span>
+                        <a href=""><span class="catTitle">Opcional</span>
                         </a>
                         <div class="fundo-livro">
                             </div>
@@ -35,7 +35,7 @@
                         <div class="ribbon">
                             </div>
                             <a href="">
-                                <span class="catTitle">Conto</span>
+                                <span class="catTitle">Opcional</span>
                             </a>
                         <div class="fundo-livro">
                     </div>
@@ -46,7 +46,7 @@
         <div class="ribbon">
             </div>
             <a href="">
-                <span class="catTitle">Poesia</span>
+                <span class="catTitle">Opcional</span>
             </a>
             <div class="fundo-livro">
                 </div>
@@ -57,7 +57,7 @@
             <div class="ribbon">
                 </div>
                 <a href="">
-                     <span class="catTitle">Crônica</span>
+                     <span class="catTitle">Opcional</span>
                     </a>
                     <div class="fundo-livro">
                         </div>
@@ -68,7 +68,7 @@
     <div class="ribbon">
         </div>
         <a href="">
-            <span class="catTitle">Teatro</span>
+            <span class="catTitle">Opcional</span>
         </a>
     <div class="fundo-livro">
         </div>
@@ -79,7 +79,7 @@
         <div class="ribbon">
             </div>
             <a href="">
-                <span class="catTitle">Crítica</span>
+                <span class="catTitle">Opcional</span>
             </a>
             <div class="fundo-livro">
                 </div>
@@ -89,7 +89,7 @@
 <div class="obra traducao">
     <div class="ribbon">
         </div>
-        <a href=""><span class="catTitle">Tradução</span>
+        <a href=""><span class="catTitle">Opcional</span>
         </a>
         <div class="fundo-livro">
             </div></div></div><div class="col-md-3"><div class="obra miscelanea"><div class="ribbon"></div><a href="/obra-completa-lista/itemlist/category/30-miscelanea"><span class="catTitle">Miscelânea</span></a><div class="fundo-livro"></div></div></div>		

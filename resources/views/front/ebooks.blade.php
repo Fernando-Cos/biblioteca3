@@ -8,6 +8,7 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
+<<<<<<< HEAD
             <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -31,19 +32,25 @@
     </table><br>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
+=======
+        
+            <div class="form-group row">
+                <div class="content-header-options-1 row-fluid" style="padding: 15px;">
+>>>>>>> d28c1df91a851efcda10e14823f38b0ecfe565fc
                     <section id="obraCompleta" class="obraCompleta"> 
-                        <div class="imgObraCompleta">
-                            <img id="imgobraCompleta" src="" alt=""> 
+                        <div class="imgObraCompleta" style="height: 255px;width: 828px;" id="f">
+                            <img id="imgobraCompleta" src="{{asset('images/front_images/ebooks.jpg')}}" alt=""> 
                         </div> 
                         <div class="container1" id="conteudo">	 
                       <div class="underlineTitulo"></div>
                 <div class="moduletableobras" style="box-shadow: 7px 5px 12px 1px #afb9cc;">
             <div class="row obras">	
+                {{-- <h1>E - BOOKS</h1> --}}
                         <div class="col-md-3">
                             <div class="obra romance">
                                 <div class="ribbon">
                                 </div>
-                        <a href=""><span class="catTitle">Romance</span>
+                        <a href=""><span class="catTitle">Opcional</span>
                         </a>
                         <div class="fundo-livro">
                             </div>
@@ -54,7 +61,7 @@
                         <div class="ribbon">
                             </div>
                             <a href="">
-                                <span class="catTitle">Conto</span>
+                                <span class="catTitle">Opcional</span>
                             </a>
                         <div class="fundo-livro">
                     </div>
@@ -65,7 +72,7 @@
         <div class="ribbon">
             </div>
             <a href="">
-                <span class="catTitle">Poesia</span>
+                <span class="catTitle">Opcional</span>
             </a>
             <div class="fundo-livro">
                 </div>
@@ -76,7 +83,7 @@
             <div class="ribbon">
                 </div>
                 <a href="">
-                     <span class="catTitle">Crônica</span>
+                     <span class="catTitle">Opcional</span>
                     </a>
                     <div class="fundo-livro">
                         </div>
@@ -87,7 +94,7 @@
     <div class="ribbon">
         </div>
         <a href="">
-            <span class="catTitle">Teatro</span>
+            <span class="catTitle">Opcional</span>
         </a>
     <div class="fundo-livro">
         </div>
@@ -98,7 +105,7 @@
         <div class="ribbon">
             </div>
             <a href="">
-                <span class="catTitle">Crítica</span>
+                <span class="catTitle">Opcional</span>
             </a>
             <div class="fundo-livro">
                 </div>
@@ -108,7 +115,7 @@
 <div class="obra traducao">
     <div class="ribbon">
         </div>
-        <a href=""><span class="catTitle">Tradução</span>
+        <a href=""><span class="catTitle">Opcional</span>
         </a>
         <div class="fundo-livro">
             </div></div></div><div class="col-md-3"><div class="obra miscelanea"><div class="ribbon"></div><a href="/obra-completa-lista/itemlist/category/30-miscelanea"><span class="catTitle">Miscelânea</span></a><div class="fundo-livro"></div></div></div>		

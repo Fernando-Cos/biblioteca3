@@ -132,7 +132,11 @@
      background: #bec9cf;
      height: auto;
      margin-bottom: 51px;
+<<<<<<< HEAD
      margin-right: 5%;
+=======
+     margin-right: 7%;
+>>>>>>> d28c1df91a851efcda10e14823f38b0ecfe565fc
 }
 
  .obraCompleta h2 		{color: #4b443d; position: relative; top: -150px}
@@ -184,9 +188,11 @@
  .downloadObra a:hover 					{background: #b5850d; color: #fff !important} 
  .anoObra 								{color: #b5850d}
  
+ #f {
+	-webkit-mask-image: linear-gradient(to top, #a5353500, #b51414 100%);
+}
  
- 
- 
+/*  
  section.cronologia 	    {background: #fff; height: auto }
  .cronologia h2 			{color: #4b443d; padding-top: 160px}
  .cronologia .underlineTitulo 	{background: #d6b79e}
@@ -203,7 +209,7 @@
  .cronologiaLista .item img {opacity: 0.1; position: relative;top: -300px}
  .cronologiaLista .item .link {position: relative; display: block; z-index: 1; text-align: center;}
  .cronologiaLista .item a 	 {font-size: 30px; text-decoration: none; color: #000; font-weight:bold; width: 100%; display: block; height: 300px; padding-top: 75px  }
- 
+  */
  section.bibliografia    					{background: #d3b49d; height: auto; margin-top: 200px }
  .bibliografia h2 							{color: #000; }
  .bibliografia .underlineTitulo 				{background: #fff}
@@ -557,7 +563,11 @@
  .navbar-header        		{padding-top:80px; border-bottom: 0px solid #000; }
  .navbar a 					{ font-weight: normal; position: relative; top: 9px;} 
  .navbar a:focus,a:hover 	{border: none !important}
+<<<<<<< HEAD
  .nav            			{background: #425363; margin-top: -1px; padding-left: 20px !important}
+=======
+ .nav            			{background: #69788d; margin-top: -1px; padding-left: 20px !important}
+>>>>>>> d28c1df91a851efcda10e14823f38b0ecfe565fc
  .na>li>a          			{padding-left: 40px}
  .navbar-toggle 				{margin-top: 4px;}
  .navbar-default .navbar-collapse, .navbar-default .navbar-form {background: rgba(52, 57, 58, 0.9) !important; position:relative; top: -34px;}

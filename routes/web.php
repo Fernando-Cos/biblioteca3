@@ -12,8 +12,8 @@
 */
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
 
 Route::prefix('/admin')->namespace('Admin')->group(function() {
     //Todas as rotas admin do projeto..
@@ -65,5 +65,11 @@ Route::namespace('Front')->group(function () {
     Route::get('product/treinamento', 'ProductController@treinamento');
     Route::get('product/boletim', 'ProductController@boletimInformativo');
 
+});
+
+
+Route::namespace('Repositorio')->group(function () {
+    Route::get('sa', 'RepositorioController@indexRepositorio');
+    
 });
 

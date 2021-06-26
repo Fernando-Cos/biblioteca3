@@ -132,7 +132,7 @@
      background: #bec9cf;
      height: auto;
      margin-bottom: 51px;
-     /* margin-top: -180px; */
+     margin-right: 5%;
 }
 
  .obraCompleta h2 		{color: #4b443d; position: relative; top: -150px}
@@ -143,7 +143,7 @@
  .obraCompleta .obra a:hover {text-decoration: none;font-size: 19px;color: #fff;background: #18324e;-webkit-transition:0.2s ease-out;-moz-transition:0.2s ease-out;-o-transition:0.2s ease-out;transition:0.2s ease-out;}
  .obraCompleta .obras 	{
     position: relative;
-    /* top: -140px; */
+    /* top: -140px; */  
 }
 
  .obraCompleta p  		{position: relative; top: -160px}
@@ -557,7 +557,7 @@
  .navbar-header        		{padding-top:80px; border-bottom: 0px solid #000; }
  .navbar a 					{ font-weight: normal; position: relative; top: 9px;} 
  .navbar a:focus,a:hover 	{border: none !important}
- .nav            			{background: #fff; margin-top: -1px; padding-left: 20px !important}
+ .nav            			{background: #425363; margin-top: -1px; padding-left: 20px !important}
  .na>li>a          			{padding-left: 40px}
  .navbar-toggle 				{margin-top: 4px;}
  .navbar-default .navbar-collapse, .navbar-default .navbar-form {background: rgba(52, 57, 58, 0.9) !important; position:relative; top: -34px;}

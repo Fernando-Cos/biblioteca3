@@ -8,12 +8,29 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-        <h1>E - BOOKS</h1><BR>
+            <table class="tabelaConsultas">
+                <thead>
+                    <tr>
+                        <th style="width: 20px; min-width: 20px;">
+                        </th>
+                        <th id="thCabecalho1" style="" class="ordenacao1" onclick="">E - BOOKS
+                            <div class="setasOrdenacao"></div>
+                        </th>
+                    </tr>
+                </thead>
+        <tbody>
+            <tr onclick="">
+                <td>
+                    <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="">
+                        <span class="icon novaAbaEscuro"></span>
+                    </a>
+                </td>
+            <td style="" class="colunaID coluna0">
+            <p style="text-align: justify">FLIEEN 02-04: (DESCRIÇÃO ALTERNATIVA AQUI) com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
+        <br></tbody>
+    </table><br>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
-
-
-
                     <section id="obraCompleta" class="obraCompleta"> 
                         <div class="imgObraCompleta">
                             <img id="imgobraCompleta" src="" alt=""> 

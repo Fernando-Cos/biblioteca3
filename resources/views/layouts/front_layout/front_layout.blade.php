@@ -51,10 +51,11 @@
 {{-- @include('layouts.front_layout.front_main') --}}
 
 
+{{-- 
+ <div class="row-fluid module ">
+<div class="outstanding-header">  --}}
 
- {{-- <div class="row-fluid module ">
-<div class="outstanding-header"> --}}
-{{--	@include('layouts.front_layout.front_section') --}}
+{{-- @include('layouts.front_layout.front_section') --}}
 
 
 </main>

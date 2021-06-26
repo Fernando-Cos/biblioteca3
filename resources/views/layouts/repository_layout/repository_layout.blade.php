@@ -6,19 +6,20 @@
         <meta name="Generator" content="DSpace 5.2" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
-	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
-	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
-	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
 
-        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+	    <link rel="stylesheet" href="{{ url('css/repository_css/static/jquery-ui-1.10.3.custom.css')}}" type="text/css" />
+	    <link rel="stylesheet" href="{{ url('css/repository_css/static/bootstrap/bootstrap.min.css')}}" type="text/css" />
+	    <link rel="stylesheet" href="{{ url('css/repository_css/static/bootstrap/bootstrap-theme.min.css')}}" type="text/css" />
+	    <link rel="stylesheet" href="{{ url('css/repository_css/static/bootstrap/dspace-theme.css') }}" type="text/css" />
 
-        <script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
-        <script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
-        <script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
-        <script type='text/javascript' src='/static/js/holder.js'></script>
-        <script type="text/javascript" src="/utils.js"></script>
-        <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+        {{-- <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/> --}}
+
+        <script type='text/javascript' src="{{ url('js/repository_js/static/jquery-1.10.2.min.js') }}"></script>
+        <script type='text/javascript' src="{{ url('js/repository_js/static/jquery-ui-1.10.3.custom.min.js') }}"></script>
+        <script type='text/javascript' src="{{ url('js/repository_js/static/bootstrap/bootstrap.min.js') }}"></script>
+        <script type='text/javascript' src="{{ url('js/repository_js/static/holder.js')}}"></script>
+        <script type="text/javascript" src="{{ url('js/repository_js/utils.js') }}"></script>
+        <script type="text/javascript" src="{{ url('js/repository_js/static/choice-support.js') }}"> </script>
 
 
 
@@ -32,11 +33,6 @@
     
             <div class="container">
                 
-
-
-
-
-
 
        <div class="navbar-header">
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

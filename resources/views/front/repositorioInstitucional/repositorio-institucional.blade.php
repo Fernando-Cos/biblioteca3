@@ -1,5 +1,8 @@
+@extends('layouts.repository_layout.repository_layout')
 
-<h1>oi</h1>
+@section('content')
+<h1>test</h1>
+@endsection
 
     
 

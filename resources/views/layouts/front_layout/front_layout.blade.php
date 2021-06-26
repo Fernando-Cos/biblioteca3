@@ -60,10 +60,8 @@
 <br>
 <h1>clicar na imagem quando clicar em (dominio publico ele vai direto pro site.) dominiopublico.gov.br <a href=""></a></h1>
 <br>
-
 <h1>(clicar na imagem links uteis)clicar na imagem ele vai abrir uma lista de links para (img links uteis), bibliotecaria ainda vai liberar os links <a href=""></a></h1>
 <br>
-
 <h1>(ministerio da saude )clicar na imagem ele vai abrir um link direto para o site do ministerio da saude <a href=""></a></h1>
 <br> --}}
 

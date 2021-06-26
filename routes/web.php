@@ -19,7 +19,6 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
     //Todas as rotas admin do projeto..
 
     Route::match(['get','post'], '/' ,'AdminController@login');
-
     Route::group(['middleware'=>['admin']],function(){
 
         Route::get('dashboard', 'AdminController@dashboard');
@@ -69,7 +68,7 @@ Route::namespace('Front')->group(function () {
 
 
 Route::namespace('Repositorio')->group(function () {
-    Route::get('sa', 'RepositorioController@indexRepositorio');
+    Route::get('repositorio-institucional', 'RepositorioController@indexRepositorio');
     
 });
 

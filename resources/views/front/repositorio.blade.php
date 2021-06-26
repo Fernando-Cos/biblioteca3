@@ -7,8 +7,7 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-        <h1>REPOSITORIO INSTITUCIONAL</h1><BR>
-            <h3>Aqui ele vai pra outra aba com o target="_blank". Criar um layout parecido com <a href="https://riu.ufam.edu.br/">ufam</a></h3>
+        {{-- <h1>REPOSITORIO INSTITUCIONAL</h1><BR> --}}
             <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -34,11 +33,10 @@
                     </tbody>
                 </table>
 
-<a href="sa" target="_blank">
+        <a href="repositorio-institucional" target="_blank"> 
         <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;"></a>
                 
-
-
+        <a href="https://riu.ufam.edu.br/">ufam</a>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
             </div>

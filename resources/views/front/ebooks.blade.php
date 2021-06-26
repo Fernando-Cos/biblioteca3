@@ -8,7 +8,6 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-<<<<<<< HEAD
             <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -32,13 +31,11 @@
     </table><br>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
-=======
-        
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid" style="padding: 15px;">
->>>>>>> d28c1df91a851efcda10e14823f38b0ecfe565fc
+
                     <section id="obraCompleta" class="obraCompleta"> 
-                        <div class="imgObraCompleta" style="height: 255px;width: 828px;" id="f">
+                        <div class="imgObraCompleta" style="height: 255px;width: 784px;" id="f">
                             <img id="imgobraCompleta" src="{{asset('images/front_images/ebooks.jpg')}}" alt=""> 
                         </div> 
                         <div class="container1" id="conteudo">	 

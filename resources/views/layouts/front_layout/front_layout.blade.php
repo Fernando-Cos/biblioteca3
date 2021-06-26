@@ -49,7 +49,7 @@
 	<section id="content-section">
 
 
-
+{{-- 
 <h1>(pergunte a bibliotecaria) quando clicar ele vai para perguntas ja com respostas sobre a biblioteca em si buscar referencia em biblioteca nascional</h1>
 <br>
 
@@ -65,7 +65,7 @@
 <br>
 
 <h1>(ministerio da saude )clicar na imagem ele vai abrir um link direto para o site do ministerio da saude <a href=""></a></h1>
-<br>
+<br> --}}
 
 
 {{-- @include('layouts.front_layout.front_main') --}}

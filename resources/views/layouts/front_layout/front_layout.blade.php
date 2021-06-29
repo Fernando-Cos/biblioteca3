@@ -37,6 +37,7 @@
 </head>
 <div id="conteudo">
 <body>
+
 @include('layouts.front_layout.front_header')
 	<div class="row-fluid">
 		<div id="navigation" class="span3">

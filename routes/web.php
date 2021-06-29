@@ -11,6 +11,8 @@
 |
 */
 
+use App\Http\Controllers\Front\IndexController;
+
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -47,6 +49,7 @@ Route::namespace('Front')->group(function () {
     Route::get('memorial', 'IndexController@memorial');
     Route::get('publicacao', 'IndexController@publicacao');
     Route::get('ebooks', 'IndexController@ebooks');
+    // Route::get('descricao', 'IndexController@descricao');
     Route::get('repositorio', 'IndexController@repositorioInstitucional');
     Route::get('contatos', 'IndexController@contatos');
     Route::get('historia', 'IndexController@historia');
@@ -60,6 +63,8 @@ Route::namespace('Front')->group(function () {
     Route::get('saude-literaria', 'IndexController@saudeLiteraria');
 });
 
+
+
 Route::namespace('Front')->group(function () {
     Route::get('product/treinamento', 'ProductController@treinamento');
     Route::get('product/boletim', 'ProductController@boletimInformativo');
@@ -72,3 +77,8 @@ Route::namespace('Repositorio')->group(function () {
     
 });
 
+
+
+Route::namespace('Ebook')->group(function () {
+    Route::get('ebooks/descricao', 'EbookController@descricao');
+});

@@ -12,7 +12,6 @@
 	    <link rel="stylesheet" href="{{ url('css/repository_css/static/bootstrap/bootstrap-theme.min.css')}}" type="text/css" />
 	    <link rel="stylesheet" href="{{ url('css/repository_css/static/bootstrap/dspace-theme.css') }}" type="text/css" />
 
-        {{-- <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/> --}}
 
         <script type='text/javascript' src="{{ url('js/repository_js/static/jquery-1.10.2.min.js') }}"></script>
         <script type='text/javascript' src="{{ url('js/repository_js/static/jquery-ui-1.10.3.custom.min.js') }}"></script>
@@ -20,20 +19,12 @@
         <script type='text/javascript' src="{{ url('js/repository_js/static/holder.js')}}"></script>
         <script type="text/javascript" src="{{ url('js/repository_js/utils.js') }}"></script>
         <script type="text/javascript" src="{{ url('js/repository_js/static/choice-support.js') }}"> </script>
-
-
-
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-
+   
     </head>
-
-    <body class="undernavigation">
+<body class="undernavigation">
 <a class="sr-only" href="#content">Skip navigation</a>
 <header class="navbar navbar-inverse navbar-fixed-top">    
-    
             <div class="container">
-                
-
        <div class="navbar-header">
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
            <span class="icon-bar"></span>
@@ -41,48 +32,41 @@
            <span class="icon-bar"></span>
          </button>
  
-         <a class="navbar-brand" href="/">RIU</a>
+         <a class="navbar-brand" href="/">S E S - AM</a>
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
-           <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> Página inicial</a></li>
+           <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span>Inicial</a></li>
                 
            <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegar <b class="caret"></b></a>
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegação <b class="caret"></b></a>
              <ul class="dropdown-menu">
                <li><a href="/community-list">Comunidades e coleções</a></li>
 				<li class="divider"></li>
         <li class="dropdown-header">Navegar nos Itens por:</li>
-				
-				
-				
-				      			<li><a href="/browse?type=dateissued">Data do documento</a></li>
-					
-				      			<li><a href="/browse?type=author">Todos os autores</a></li>
-					
-				      			<li><a href="/browse?type=advisor">Todos os orientadores</a></li>
-					
-				      			<li><a href="/browse?type=title">Título</a></li>
-					
-				      			<li><a href="/browse?type=subject">Assunto</a></li>
-					
-				      			<li><a href="/browse?type=cnpq">CNPq</a></li>
-					
-				      			<li><a href="/browse?type=department">Departamento</a></li>
-					
-				      			<li><a href="/browse?type=program">Programa</a></li>
-					
-				      			<li><a href="/browse?type=type">Tipo de documento</a></li>
-					
-				      			<li><a href="/browse?type=access">Tipo de acesso</a></li>
-					
-				      			<li><a href="/browse?type=controlado">Vocabulário controlado</a></li>
-					
-				    
-				
-
-            </ul>
-          </li>
+                <li><a href="/browse?type=dateissued">Data do documento</a></li>
+      
+                <li><a href="/browse?type=author">Todos os autores</a></li>
+      
+                <li><a href="/browse?type=advisor">Todos os orientadores</a></li>
+      
+                <li><a href="/browse?type=title">Título</a></li>
+      
+                <li><a href="/browse?type=subject">Assunto</a></li>
+      
+                <li><a href="/browse?type=cnpq">CNPq</a></li>
+      
+                <li><a href="/browse?type=department">Departamento</a></li>
+      
+                <li><a href="/browse?type=program">Programa</a></li>
+      
+                <li><a href="/browse?type=type">Tipo de documento</a></li>
+      
+                <li><a href="/browse?type=access">Tipo de acesso</a></li>
+      
+                <li><a href="/browse?type=controlado">Vocabulário controlado</a></li>
+        </ul>
+      </li>
           <li class="dropdown">
              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
              <ul class="dropdown-menu">
@@ -99,12 +83,7 @@
 
 	  <li class=""><a href="/mydspace"><span class="glyphicon"></span><img src="/image/autodeposit.png"/>&nbsp;Autodepósito</a></li>
 	  <li class=""><a target="_blank" href="http://biblioteca.ufam.edu.br/contato">Contato</a></li>
-       
-
-
        </ul>
-
- 
     <div class="nav navbar-nav navbar-right">
 	 <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
@@ -136,8 +115,6 @@
     </li>
     </ul>
   </div>
- 
- 
        <div class="nav navbar-nav navbar-right">
 		<ul class="nav navbar-nav navbar-right">
          <li class="dropdown">
@@ -177,47 +154,11 @@
 <div class="container">
                 
 
-
-
-  
-
-
-
 </div>                
-
-
 
         
 <div class="container">
 		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <style>
 .fade_bs.in_bs {
@@ -259,9 +200,9 @@ a.aecampus {
 }
 </style>
 
-  <div class="alert_bs alert-success_bs fade_bs in_bs">
+  {{-- <div class="alert_bs alert-success_bs fade_bs in_bs">
     <strong>AVISO!</strong> Professor, <a class="aecampus" target="_blank" href="https://ecampus.ufam.edu.br/ecampus/projetosLira/index">autorize aqui</a> a publicação dos seus relatórios!
-  </div>
+  </div> --}}
 
 
 
@@ -272,7 +213,8 @@ a.aecampus {
 				<a  id="link-logo-deposita" href="/community-list">
 					<!-- <img src="/image/logo.gif" usemap="#mapa-brasil"> -->
 				
-				<img src="/image/Logo_RIU.png" height="auto" width="640" usemap="#mapa-brasil">
+				<img src="{{ asset('images/front_images/saude.png')}}" height="auto" width="240" usemap="#mapa-brasil">
+
 				</a>
 				<br/>
 				<span style="font-size:22px; font-weight:bold; margin-bottom:10px;">
@@ -297,21 +239,6 @@ a.aecampus {
 <div class="container row">
 
     
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="col-md-12">
 
 <!-- <h3 class="facets">Busca facetada</h3> -->

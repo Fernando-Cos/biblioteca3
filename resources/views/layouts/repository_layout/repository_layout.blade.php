@@ -109,11 +109,11 @@
         </div>
         <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
 
-	</form></div>
+	</form>
+  
+</div>
     </nav>
-
             </div>
-
 </header>
 
 <main id="content" role="main">
@@ -200,14 +200,47 @@ a.aecampus {
 			   <button type="submit" class="btn btn-primary pull-left search-button"><span class="glyphicon glyphicon-search"></span></button>
 			</div>
 		</div>
-		
-		
 		</form>
-	
-
 <div class="container row">
 
-    
+
+
+
+
+
+
+
+
+
+
+<div class="aside">
+  <div class="row">
+    <div class="col-md-4">
+           <h3>Comunidades do repositório</h3>
+            <p>Clique em uma comunidade para ver suas coleções</p>
+      <div class="list-group">
+  <div class="list-group-item row">
+  <div class="col-md-12">
+        <h4 class="list-group-item-heading"><a href="/handle/prefix/51">Ciências Agrárias</a>
+        <span class="badge pull-right">595</span>
+        </h4>
+  </div>
+  </div>
+  <div class="list-group-item row">
+  <div class="col-md-12">
+        <h4 class="list-group-item-heading"><a href="/handle/prefix/87">Ciências Biológicas</a>
+        <span class="badge pull-right">455</span>
+        </h4>
+  </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 <div class="col-md-12">
 
 <!-- <h3 class="facets">Busca facetada</h3> -->
@@ -389,36 +422,27 @@ a.aecampus {
    </div></div>
 
 <script type="text/javascript" src="/static/js/clickable-facet.js"></script>
-
 </div>
-
-
 <div class="row">
-
         <div class="col-md-4">
+
+
+
                <h3>Comunidades do repositório</h3>
                 <p>Clique em uma comunidade para ver suas coleções</p>
-                                <div class="list-group">
+          <div class="list-group">
 <div class="list-group-item row">
-
-        <div class="col-md-12">
-
-                <h4 class="list-group-item-heading"><a href="/handle/prefix/51">Ciências Agrárias</a>
-
-                <span class="badge pull-right">595</span>
-
-                </h4>
-    </div>
+    <div class="col-md-12">
+            <h4 class="list-group-item-heading"><a href="/handle/prefix/51">Ciências Agrárias</a>
+            <span class="badge pull-right">595</span>
+            </h4>
+      </div>
 </div>
 <div class="list-group-item row">
-
-        <div class="col-md-12">
-
-                <h4 class="list-group-item-heading"><a href="/handle/prefix/87">Ciências Biológicas</a>
-
-                <span class="badge pull-right">455</span>
-
-                </h4>
+    <div class="col-md-12">
+            <h4 class="list-group-item-heading"><a href="/handle/prefix/87">Ciências Biológicas</a>
+            <span class="badge pull-right">455</span>
+            </h4>
     </div>
 </div>
 <div class="list-group-item row">

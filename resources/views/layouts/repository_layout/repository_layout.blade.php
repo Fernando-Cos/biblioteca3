@@ -21,7 +21,7 @@
         <script type="text/javascript" src="{{ url('js/repository_js/static/choice-support.js') }}"> </script>
    
     </head>
-<body class="undernavigation">
+<body class="undernavigation" style="background-color: #d9dce4;">
 <a class="sr-only" href="#content">Skip navigation</a>
 <header class="navbar navbar-inverse navbar-fixed-top">    
             <div class="container">
@@ -84,37 +84,7 @@
 	  <li class=""><a href="/mydspace"><span class="glyphicon"></span><img src="/image/autodeposit.png"/>&nbsp;Autodepósito</a></li>
 	  <li class=""><a target="_blank" href="http://biblioteca.ufam.edu.br/contato">Contato</a></li>
        </ul>
-    <div class="nav navbar-nav navbar-right">
-	 <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Idioma<b class="caret"></b></a>
-        <ul class="dropdown-menu">
- 
-      <li>
-        <a onclick="javascript:document.repost.locale.value='es';
-                  document.repost.submit();" href="?locale=es">
-         español
-       </a>
-      </li>
- 
-      <li>
-        <a onclick="javascript:document.repost.locale.value='en';
-                  document.repost.submit();" href="?locale=en">
-         English
-       </a>
-      </li>
- 
-      <li>
-        <a onclick="javascript:document.repost.locale.value='pt_BR';
-                  document.repost.submit();" href="?locale=pt_BR">
-         português
-       </a>
-      </li>
- 
-     </ul>
-    </li>
-    </ul>
-  </div>
+
        <div class="nav navbar-nav navbar-right">
 		<ul class="nav navbar-nav navbar-right">
          <li class="dropdown">
@@ -204,8 +174,6 @@ a.aecampus {
     <strong>AVISO!</strong> Professor, <a class="aecampus" target="_blank" href="https://ecampus.ufam.edu.br/ecampus/projetosLira/index">autorize aqui</a> a publicação dos seus relatórios!
   </div> --}}
 
-
-
 	<div class="container">
 		<form method="get" action="/simple-search" class="form-horizontal col-md-12 form-group form-group-lg" scope="search" role="form">
 						
@@ -223,12 +191,13 @@ a.aecampus {
 			</div>
 			
 			
-		<div class="col-md-12 searchbox">
+		<div class="col-md-4 searchbox">
 			<div class="col-md-11">
-		   		<input type="text" class="form-control " placeholder="Buscar no repositório" name="query" id="tequery-main-page" size="25"/>
+		   		<input type="text" class="form-control " placeholder="Buscar no repositório" 
+           name="query" id="tequery-main-page" size="25" style="box-shadow: 4px 3px 5px rgb(101 108 144 / 45%);"/>
 			</div>				
 			<div class="col-md-1">
-			   <button type="submit" class="btn btn-primary pull-right search-button"><span class="glyphicon glyphicon-search"></span></button>
+			   <button type="submit" class="btn btn-primary pull-left search-button"><span class="glyphicon glyphicon-search"></span></button>
 			</div>
 		</div>
 		

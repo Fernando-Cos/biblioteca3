@@ -92,9 +92,9 @@
  
  /** Topo **/
  .navbar-fixed-top {
-     /*background-color: #01a84c; */
+     background-color: #3e5184;
      background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.3));
- 
+     box-shadow: 4px 3px 5px rgb(152 126 126 / 45%);
  }
  
  /** RodapÃ© **/
@@ -140,7 +140,7 @@
  .navbar-inverse .navbar-nav > .active > a {
      background-color: #01a84c;
      /*background-color: #7ca697 !important;*/
-     background-color: #01a84c !important;
+     background-color: #586990 !important;
  }
  
  .navbar-inverse .navbar-nav > li > a {
@@ -259,9 +259,8 @@
  .navbar-form  button, .search-button
  {
      background-image: none;
-     /* border: #7aa97a; */
-     background-color: #01a84c;
-     border-color: #01a84c;
+     border: #616675;
+     background-color: #616675;
  }
  
  .addongreen .form-control
@@ -514,8 +513,8 @@
  
  /** Tratamento do logo **/
  #logo-deposita {
-     margin-bottom: 30px;
- }
+    margin-right: 79%;
+}
  
  #link-logo-deposita {
      cursor: url(../../../image/lupa.png), default;
@@ -535,9 +534,9 @@
  
  /** Modifica fundo da caixa de busca da pÃ¡gina inicial **/
  .searchbox {
-     background-color: #01a84c;
-     background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.5));
-     padding: 15px;
+     /* background-color: #3e5184;
+     background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.5)); */
+     padding: 5px;
      -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
      border-radius: 15px;
@@ -551,12 +550,12 @@
  
  /** Termo de busca da pÃ¡gina inicial **/
  #tequery-main-page {
-     -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-     border-radius: 5px;
-     font-weight: bold;
-     font-size: 22px;
- }
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
  
  /**
   * Statistics customization
@@ -688,7 +687,7 @@
  }
  
  .pull-left {
-     padding: 2px !important;
+     padding: 10px !important;
  }
  
  .btn-info {
@@ -696,7 +695,7 @@
  }
  
  .panel-success > .panel-heading {
-     background-color: #01a84c !important;
+     background-color: #263150a6 !important;
  }
  
  .panel-info > .panel-heading {

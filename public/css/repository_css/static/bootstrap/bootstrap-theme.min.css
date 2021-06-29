@@ -5014,8 +5014,8 @@ a.list-group-item-danger.active:focus {
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 0;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  /* -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); */
+  box-shadow: 4px 3px 5px rgb(152 126 126 / 45%);
 }
 .panel-body {
   padding: 15px;
@@ -6215,6 +6215,7 @@ button.close {
   border: none;
   font-size: 13px;
   font-weight: 300;
+  padding-block: 20px;
 }
 .navbar .navbar-toggle:hover .icon-bar {
   background-color: #b3b3b3;
@@ -6261,7 +6262,7 @@ button.close {
   background-color: #272727;
 }
 .navbar-inverse .dropdown-menu {
-  background-color: #01a84c;
+  background-color: #566694;
 }
 .navbar-inverse .dropdown-menu > li > a,
 .navbar-inverse .dropdown-menu > li > a:focus {

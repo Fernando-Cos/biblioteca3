@@ -106,12 +106,12 @@
      border-right: none;
      border-bottom: none;
      padding-top: 0px;*/
-     background-color: #fff;
+     background-color: #263150a6 ;
      background-image: none;
      border-color: #006633 -moz-use-text-color -moz-use-text-color;
      border-radius: 0;
      border-style: solid none none;
-     border-width: 2px medium medium;
+     border-width: 0px medium medium;
      padding-top: 3px;
  }
  
@@ -676,15 +676,15 @@
  }
  
  .footer-CPD{
-         padding-right: 55px;
-         background: none repeat scroll 0% 0% green;
-         color: #FFF;
-         text-align: center;
-         font-size: 11px;
-         font-weight: bold;
-         height: 30px;
-         padding-top: 7px;
- }
+    padding-right: 55px;
+    background: none repeat scroll 0% 0%#b7b8bd7a;
+    color: #000000a8;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 7px;
+}
  
  .pull-left {
      padding: 10px !important;

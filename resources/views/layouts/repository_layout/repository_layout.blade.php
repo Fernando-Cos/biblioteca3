@@ -66,20 +66,20 @@
       
                 <li><a href="/browse?type=controlado">Vocabulário controlado</a></li>
         </ul>
-      </li>
-          <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
-             <ul class="dropdown-menu">
-             	<li><a target="_blank" href="http://biblioteca.ufam.edu.br/servicos/checklist-para-deposito-de-trabalho-de-conclusao-de-curso">Check-list para depósito de TCC</a></li>	
-             	<li><a target="_blank" href="/cartaencaminhamento.doc">Carta de encaminhamento</a></li>
-             	<li><a target="_blank" href="/Politica_RepositorioInstitucionalUFAM.pdf">Politica do Repositório</a></li>	
-             	<li><a target="_blank" href="/termo_autorizacao.docx">Termo de autorização - Autodepósito</a></li>
-             	<li><a target="_blank" href="/termodeembargo.docx">Termo de solicitação de embargo</a></li>
-             	<li><a target="_blank" href="/ajudariu.pdf">Tutorial de uso</a></li>
-             	<li><a target="_blank" href="/tutoliberacao.pdf">Tutorial para liberação de relatórios</a></li>
+</li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+        <li><a target="_blank" href="">Check-list para depósito de TCC</a></li>	
+        <li><a target="_blank" href="">Carta de encaminhamento</a></li>
+        <li><a target="_blank" href="/Politica_RepositorioInstitucionalUFAM.pdf">Politica do Repositório</a></li>	
+        <li><a target="_blank" href="/termo_autorizacao.docx">Termo de autorização - Autodepósito</a></li>
+        <li><a target="_blank" href="/termodeembargo.docx">Termo de solicitação de embargo</a></li>
+        <li><a target="_blank" href="/ajudariu.pdf">Tutorial de uso</a></li>
+        <li><a target="_blank" href="/tutoliberacao.pdf">Tutorial para liberação de relatórios</a></li>
 
-             </ul>
-          </li>
+        </ul>
+    </li>
 
 	  <li class=""><a href="/mydspace"><span class="glyphicon"></span><img src="/image/autodeposit.png"/>&nbsp;Autodepósito</a></li>
 	  <li class=""><a target="_blank" href="http://biblioteca.ufam.edu.br/contato">Contato</a></li>
@@ -108,28 +108,16 @@
           <input type="text" class="form-control" placeholder="Buscar no repositório" name="query" id="tequery" size="25"/>
         </div>
         <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
-
 	</form>
-  
 </div>
     </nav>
-            </div>
+         </div>
 </header>
-
 <main id="content" role="main">
-
 <br/>
-                
-
 <div class="container">
-                
-
 </div>                
-
-        
 <div class="container">
-		
-
 <style>
 .fade_bs.in_bs {
     opacity: 1;
@@ -197,7 +185,9 @@ a.aecampus {
            name="query" id="tequery-main-page" size="25" style="box-shadow: 4px 3px 5px rgb(101 108 144 / 45%);"/>
 			</div>				
 			<div class="col-md-1">
-			   <button type="submit" class="btn btn-primary pull-left search-button"><span class="glyphicon glyphicon-search"></span></button>
+			   {{-- <button type="submit" class="btn btn-primary pull-left search-button">
+           <span class="glyphicon glyphicon-search"></span>
+          </button> --}}
 			</div>
 		</div>
 		</form>
@@ -468,13 +458,9 @@ a.aecampus {
     </div>
 </div>
 <div class="list-group-item row">
-
         <div class="col-md-12">
-
                 <h4 class="list-group-item-heading"><a href="/handle/prefix/159">Ciências Humanas</a>
-
                 <span class="badge pull-right">722</span>
-
                 </h4>
     </div>
 </div>
@@ -492,33 +478,24 @@ a.aecampus {
 <div class="list-group-item row">
 
         <div class="col-md-12">
-
                 <h4 class="list-group-item-heading"><a href="/handle/prefix/123">Engenharias</a>
-
                 <span class="badge pull-right">147</span>
-
                 </h4>
     </div>
 </div>
 <div class="list-group-item row">
-
         <div class="col-md-12">
 
                 <h4 class="list-group-item-heading"><a href="/handle/prefix/177">Linguística, Letras e Artes</a>
 
                 <span class="badge pull-right">119</span>
-
                 </h4>
     </div>
 </div>
 <div class="list-group-item row">
-
         <div class="col-md-12">
-
                 <h4 class="list-group-item-heading"><a href="/handle/prefix/5489">Memorial UFAM</a>
-
                 <span class="badge pull-right">98</span>
-
                 </h4>
     </div>
 </div>
@@ -533,93 +510,37 @@ a.aecampus {
                 </h4>
     </div>
 </div>
-
         </div>
         </div>
 
         </div>
 	</div>
-	
-
-
 </div>
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
 
 </div>
 </main>
-            
-             <footer class="navbar navbar-inverse navbar-bottom" style="position:static !important;">
-          
-
-	     
-             
-
-
-	
-	<div class="container text-muted" style="padding-left: 0px;">
-
-                <div class="text-center col-md-12">
-                <div class="footer-logo pull-left">
-                                
-				<a href="http://ufam.edu.br/" target="_blank">
-                                <img class="pull-left" src="/image/logo-instituicao-rodape.jpg"></a>
-
-				<a href="http://protec.ufam.edu.br/" target="_blank">
-                                <img class="pull-left " style="padding-right:10px;" src="/image/protec.jpg"></a> 
-                                
-				<a href="http://biblioteca.ufam.edu.br/" target="_blank">
-                                <img class="pull-left" src="/image/logo-tede.resize.png"></a>
-
-				<a href="http://ctic.ufam.edu.br/" target="_blank">
-                                <img class="pull-left" src="/image/logo-ctic2.png"></a>
-                        
-
-                </div>
-
-                <div class="footer-logo pull-right">
-
-                        
-                                <a href="http://www.ibict.br/" class="default-padding-left" target="_blank">
-                                        <img class="footer-logo pull-left" src="/image/ibict-60.png"></a>
-
-                </div>
-
-                </div>
-
+    <footer class="navbar navbar-inverse navbar-bottom" style="position:static !important;">
+      <div class="container text-muted" style="padding-left: 0px;">
+        <div class="text-center col-md-12">
+          <div class="footer-logo pull-left">
+            <a href="http://ufam.edu.br/" target="_blank">
+              <img class="pull-left" src="/image/logo-instituicao-rodape.jpg"></a>
+              <a href="http://protec.ufam.edu.br/" target="_blank">
+                <img class="pull-left " style="padding-right:10px;" src="/image/protec.jpg"></a> 
+                <a href="http://biblioteca.ufam.edu.br/" target="_blank">
+                  <img class="pull-left" src="/image/logo-tede.resize.png"></a>
+                  <a href="http://ctic.ufam.edu.br/" target="_blank">
+                    <img class="pull-left" src="/image/logo-ctic2.png"></a>
+                  </div>
+                  <div class="footer-logo pull-right"><a href="" class="default-padding-left" target="_blank">
+                      <img class="footer-logo pull-left" src="{{ asset('images/front_images/acesso-a-informacao.png')}}"></a>
+                 </div>
+            </div>
         </div>
-        <div class="footer-CPD">
-                Sistema implantado pelo 
-			
-			Centro de Tecnologia da Informação e Comunicação - UFAM
+      <div class="footer-CPD">Sistema desenvolvido pelo departamento de gerencia de desenvolvimento - DETIN
         </div>
-
-
-
-
     </footer>
-	
-
-	
-
-
     </body>
 </html>
 

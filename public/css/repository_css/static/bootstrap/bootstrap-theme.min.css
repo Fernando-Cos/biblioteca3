@@ -2355,7 +2355,6 @@ output {
   font-size: 15px;
   line-height: 1.42857143;
   color: #6f6f6f;
-  background-color: #ffffff;
   background-image: none;
   border: 1px solid #cccccc;
   border-radius: 0;
@@ -2364,6 +2363,8 @@ output {
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  background: linear-gradient(0deg, rgb(185 183 183) 5%, rgb(255 255 255) 80%);
+
 }
 .form-control:focus {
   border-color: #66afe9;
@@ -4234,11 +4235,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
 }
+
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #01a84c;
+  background-color: #7e8ca7;
 }
+
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {

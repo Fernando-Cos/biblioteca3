@@ -524,22 +524,22 @@ a.aecampus {
       <div class="container text-muted" style="padding-left: 0px;">
         <div class="text-center col-md-12">
           <div class="footer-logo pull-left">
-            <a href="http://ufam.edu.br/" target="_blank">
-              <img class="pull-left" src="/image/logo-instituicao-rodape.jpg"></a>
-              <a href="http://protec.ufam.edu.br/" target="_blank">
-                <img class="pull-left " style="padding-right:10px;" src="/image/protec.jpg"></a> 
-                <a href="http://biblioteca.ufam.edu.br/" target="_blank">
-                  <img class="pull-left" src="/image/logo-tede.resize.png"></a>
-                  <a href="http://ctic.ufam.edu.br/" target="_blank">
-                    <img class="pull-left" src="/image/logo-ctic2.png"></a>
-                  </div>
-                  <div class="footer-logo pull-right"><a href="" class="default-padding-left" target="_blank">
-                      <img class="footer-logo pull-left" src="{{ asset('images/front_images/acesso-a-informacao.png')}}"></a>
-                 </div>
-            </div>
+              <a href="" target="_blank">
+                <img class="pull-left" src="{{ asset('images/front_images/odio.jpg')}}"style="max-width: 50%; height: 60px;"></a>
+              <a href="" target="_blank">
+                <img class="pull-left" src="{{ asset('images/front_images/pergunte.png')}}" style="height: 60px;"></a> 
+              <a href="" target="_blank">
+                <img class="pull-left" src="{{ asset('images/front_images/saude.png')}}" style="height: 57px;"></a>
+              <a href="" target="_blank">
+                <img class="pull-left" src="{{ asset('images/front_images/img-bvs.jpg')}}" style="height: 60px;"></a></div>
+                  <div class="footer-logo pull-right">
+              <a href="" class="default-padding-left" target="_blank">
+                <img class="footer-logo pull-left" src="{{ asset('images/front_images/acesso-a-informacao.png')}}"></a>
+           </div>
         </div>
-      <div class="footer-CPD">Sistema desenvolvido pelo departamento de gerencia de desenvolvimento - DETIN
-        </div>
+    </div>
+<div class="footer-CPD">Sistema desenvolvido pelo departamento de gerencia de desenvolvimento - DETIN
+  </div>
     </footer>
     </body>
 </html>

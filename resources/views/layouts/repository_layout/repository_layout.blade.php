@@ -36,36 +36,27 @@
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
-           <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span>Inicial</a></li>
-                
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegação <b class="caret"></b></a>
-             <ul class="dropdown-menu">
-               <li><a href="/community-list">Comunidades e coleções</a></li>
-				<li class="divider"></li>
-        <li class="dropdown-header">Navegar nos Itens por:</li>
-                <li><a href="/browse?type=dateissued">Data do documento</a></li>
-      
-                <li><a href="/browse?type=author">Todos os autores</a></li>
-      
-                <li><a href="/browse?type=advisor">Todos os orientadores</a></li>
-      
-                <li><a href="/browse?type=title">Título</a></li>
-      
-                <li><a href="/browse?type=subject">Assunto</a></li>
-      
-                <li><a href="/browse?type=cnpq">CNPq</a></li>
-      
-                <li><a href="/browse?type=department">Departamento</a></li>
-      
-                <li><a href="/browse?type=program">Programa</a></li>
-      
-                <li><a href="/browse?type=type">Tipo de documento</a></li>
-      
-                <li><a href="/browse?type=access">Tipo de acesso</a></li>
-      
-                <li><a href="/browse?type=controlado">Vocabulário controlado</a></li>
-        </ul>
+          <li class=""><a href="/"><span class="glyphicon"></span>
+            <img src="{{ asset('images/front_images/ico/b.png') }}" style="height: 20px;"/>&nbsp;Inicial</a></li>
+           {{-- <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span>Inicial</a></li> --}}
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegação <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/community-list">Comunidades e coleções</a></li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Navegar nos Itens por:</li>
+            <li><a href="/browse?type=dateissued">Data do documento</a></li>
+            <li><a href="/browse?type=author">Todos os autores</a></li>
+            <li><a href="/browse?type=advisor">Todos os orientadores</a></li>
+            <li><a href="/browse?type=title">Título</a></li>
+            <li><a href="/browse?type=subject">Assunto</a></li>
+            <li><a href="/browse?type=cnpq">CNPq</a></li>
+            <li><a href="/browse?type=department">Departamento</a></li>
+            <li><a href="/browse?type=program">Programa</a></li>
+            <li><a href="/browse?type=type">Tipo de documento</a></li>
+            <li><a href="/browse?type=access">Tipo de acesso</a></li>
+            <li><a href="/browse?type=controlado">Vocabulário controlado</a></li>
+    </ul>
 </li>
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
@@ -81,16 +72,15 @@
         </ul>
     </li>
 
-	  <li class=""><a href="/mydspace"><span class="glyphicon"></span><img src="/image/autodeposit.png"/>&nbsp;Autodepósito</a></li>
-	  <li class=""><a target="_blank" href="http://biblioteca.ufam.edu.br/contato">Contato</a></li>
+	  <li class=""><a href="/mydspace"><span class="glyphicon"></span>
+      <img src="{{ asset('images/front_images/ico/a.png') }}" style="height: 20px;"/>&nbsp;Autodepósito</a></li>
+      <li class=""><a href="/mydspace"><span class="glyphicon"></span>
+        <img src="{{ asset('images/front_images/ico/c.jpg') }}" style="height: 20px;"/>&nbsp;Contatos</a></li>
        </ul>
-
        <div class="nav navbar-nav navbar-right">
 		<ul class="nav navbar-nav navbar-right">
          <li class="dropdown">
-         
              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Entrar em: <b class="caret"></b></a>
-	             
              <ul class="dropdown-menu">
                <li><a href="/mydspace">Meu espaço</a></li>
                <li><a href="/subscribe">Receber atualizações<br/> por e-mail</a></li>

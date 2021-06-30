@@ -96,12 +96,9 @@
                <li><a href="/subscribe">Receber atualizações<br/> por e-mail</a></li>
                <li><a href="/profile">Editar perfil</a></li>
 	       <li><a target ="_blank" href="https://ecampus.ufam.edu.br/ecampus/projetosLira/index">Disponibilizar Relatórios</a></li>
-
-		
              </ul>
            </li>
-          </ul>
-          
+          </ul>  
 	
 	<form method="get" action="/simple-search" class="navbar-form navbar-right">
 	    <div class="form-group">
@@ -118,6 +115,7 @@
 <div class="container">
 </div>                
 <div class="container">
+
 <style>
 .fade_bs.in_bs {
     opacity: 1;
@@ -162,8 +160,12 @@ a.aecampus {
     <strong>AVISO!</strong> Professor, <a class="aecampus" target="_blank" href="https://ecampus.ufam.edu.br/ecampus/projetosLira/index">autorize aqui</a> a publicação dos seus relatórios!
   </div> --}}
 
+  
+
+
 	<div class="container">
-		<form method="get" action="/simple-search" class="form-horizontal col-md-12 form-group form-group-lg" scope="search" role="form">
+		<form method="get" action="/simple-search" class="form-horizontal col-md-12 form-group form-group-lg" 
+    scope="search" role="form">
 						
 			<div id="logo-deposita" class="text-center">
 				<a  id="link-logo-deposita" href="/community-list">
@@ -176,73 +178,29 @@ a.aecampus {
 				<span style="font-size:22px; font-weight:bold; margin-bottom:10px;">
 					
 				</span>
-			</div>
-			
-			
+			</div>  
 		<div class="col-md-4 searchbox">
 			<div class="col-md-11">
 		   		<input type="text" class="form-control " placeholder="Buscar no repositório" 
            name="query" id="tequery-main-page" size="25" style="box-shadow: 4px 3px 5px rgb(101 108 144 / 45%);"/>
 			</div>				
 			<div class="col-md-1">
+
 			   {{-- <button type="submit" class="btn btn-primary pull-left search-button">
            <span class="glyphicon glyphicon-search"></span>
           </button> --}}
 			</div>
 		</div>
 		</form>
+    
 <div class="container row">
-
-
-
-
-
-
-
-
-
-
-
-<div class="aside">
-  <div class="row">
-    <div class="col-md-4">
-           <h3>Comunidades do repositório</h3>
-            <p>Clique em uma comunidade para ver suas coleções</p>
-      <div class="list-group">
-  <div class="list-group-item row">
-  <div class="col-md-12">
-        <h4 class="list-group-item-heading"><a href="/handle/prefix/51">Ciências Agrárias</a>
-        <span class="badge pull-right">595</span>
-        </h4>
-  </div>
-  </div>
-  <div class="list-group-item row">
-  <div class="col-md-12">
-        <h4 class="list-group-item-heading"><a href="/handle/prefix/87">Ciências Biológicas</a>
-        <span class="badge pull-right">455</span>
-        </h4>
-  </div>
-  </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
+  
 <div class="col-md-12">
 
 <!-- <h3 class="facets">Busca facetada</h3> -->
 <div id="facets" class="facetsBox row panel">
-
-       
 	    <div id="facet_contributor" class="col-md-4">
-	    
 	    	<div class="panel panel-success colorborder1">
-	    		
-	    		
-	    	
 		    	<div class="panel-heading facet-panel clickable-panel color1">Orientador<span class="glyphicon glyphicon-plus pull-right"></span></div>
 		    		<ul class="list-group hideFacets"  ><li class="list-group-item"><span class="badge">96</span> <a href="/simple-search?filterquery=Assessoria+de+Comunica%C3%A7%C3%A3o+da+UFAM&amp;filtername=contributor&amp;filtertype=equals"
 					                title="Filtrado por Assessoria de Comunicação da UFAM">
@@ -259,8 +217,6 @@ a.aecampus {
 					                Iolete Ribeiro da Silva</a></li><li class="list-group-item"><span class="badge">19</span> <a href="/simple-search?filterquery=Anderson+Cavalcante+Guimar%C3%A3es&amp;filtername=contributor&amp;filtertype=equals"
 					                title="Filtrado por Anderson Cavalcante Guimarães">
 					                Anderson Cavalcante Guimarães</a></li><li class="list-group-item"><span style="visibility: hidden;">.</span>
-						        
-					            
 					            <a href="?contributor_page=1#facet_contributor"><span class="pull-right">próximo &gt;</span></a>
 					            </li>	</ul>
 	    </div>
@@ -411,13 +367,10 @@ a.aecampus {
    		 
    </div></div>
 
-<script type="text/javascript" src="/static/js/clickable-facet.js"></script>
+<script type="text/javascript" src="{{ url('js/repository_js/static/clickable.js')}}"></script>
 </div>
 <div class="row">
         <div class="col-md-4">
-
-
-
                <h3>Comunidades do repositório</h3>
                 <p>Clique em uma comunidade para ver suas coleções</p>
           <div class="list-group">

@@ -36,11 +36,11 @@
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
-          <li class=""><a href="/"><span class="glyphicon"></span>
+          <li class="">
+          <a href="/"><span class="glyphicon"></span>
             <img src="{{ asset('images/front_images/ico/b.png') }}" style="height: 20px;"/>&nbsp;Inicial</a></li>
-           {{-- <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span>Inicial</a></li> --}}
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegação <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegação<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="/community-list">Comunidades e coleções</a></li>
     <li class="divider"></li>

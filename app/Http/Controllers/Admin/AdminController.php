@@ -98,13 +98,14 @@ class AdminController extends Controller
                 'admin_image' => 'image',
             ];
             $customMessages = [
-                'admin_name_required' => 'Tem que colocar o nome',
-                'admin_name_alpha' => 'Nome Valido tem que colocar',
+                'admin_name.required' => 'Tem que colocar o nome',
+                'admin_name.regex' => 'Nome Valido tem que colocar',
                 'admin_mobile.required' => 'Numero e Obrigatorio',
                 'admin_mobile.numeric' => 'Valido mobile e important',
                 'admin_image.image' => 'Imagem e importante',
             ];
             $this->validate($request, $rules, $customMessages);
+
             //Upload de imagem
             if($request->hasFile('admin_image')) {
                 $image_tmp = $request->file('admin_image');

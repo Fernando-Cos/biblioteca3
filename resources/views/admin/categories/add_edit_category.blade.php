@@ -21,6 +21,16 @@
     </section>
     <section class="content">
       <div class="container-fluid">
+      @if ($errors->any())
+      <div class="alert alert-danger" style="margin: 10px;">
+          <ul>
+              @foreach ($errors->all() as $error)
+                  <li>{{ $error }}</li>
+              @endforeach
+          </ul>
+      </div>
+    @endif
+
         <form name="categoryForm" id="CategoryForm" action="{{ url('admin/add-edit-category') }}" method="POST" enctype="multipart/form-data">@csrf
           <div class="card card-default">
             <div class="card-header">
@@ -42,21 +52,21 @@
                 <label for="category_name">Nome Da Categoria</label>
                 <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria">
               </div>
-              <div class="form-group">
-                <label>Nivel Categoria</label>
-                <select name="parent_id" id="parent_id" class="form-control select2" style="width: 100%;">
-                  <option value="0">Categoria Principal</option>
-                </select>
+
+              <div id="appendCategoriesLevel">
+                @include('admin.categories.append_categories_level')
               </div>
-              <label for="category_name">Disconto da Categoria</label>
-              <input type="text" class="form-control" id="category_discount" name="category_discount" placeholder="Nome da Categoria">
+
+              <label for="category_name">Disconto da Categoria (numero da categoria)</label>
+              <input type="text" class="form-control" id="category_discount" 
+              name="category_discount" placeholder="valor da categoria">
 
               <label for="category_name">Descrição Categoria</label>
               <textarea name="description" id="description" class="form-control" rows="6"></textarea>
 
-              <label for="category_name">Meta Descrição</label>
+              {{-- <label for="category_name">Meta Descrição</label>
                 <textarea id="meta_description" name="meta_description" class="form-control" rows="6" placeholder="defg"></textarea>
-           
+            --}}
           </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -81,13 +91,12 @@
                       </div>
                       <label for="category_name">URL da Categoria</label>
                       <input type="text" class="form-control" id="url" name="url" placeholder="Nome da Categoria">
-                      <div class="form-group">
-                          <label for="category_name">Meta Title</label>
-                          <textarea id="meta_title" name="meta_title" class="form-control" rows="6"></textarea>
-
-                          <label for="category_name">Meta Keyousd</label>
-                          <textarea id="meta_keywords" name="meta_keywords" class="form-control" rows="6" placeholder="defg"></textarea>
-                  
+                      {{-- <div class="form-group">
+                        <label for="category_name">Meta Title</label>
+                        <textarea id="meta_title" name="meta_title" class="form-control" rows="6"></textarea> --}}
+                        {{-- <label for="category_name">Meta Keyousd</label>
+                        <textarea id="meta_keywords" name="meta_keywords" class="form-control" rows="6" placeholder="defg"></textarea> --}}
+                
                    </div> 
                 </div>
                 </div>

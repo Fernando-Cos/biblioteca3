@@ -25,6 +25,23 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
+
+            {{-- Mensagem de alert --}}
+            @if(Session::has('error_message'))
+            <div class="alert alert-warning" role="alert" style="margin-top: 10px;">
+              {{ Session::get('error_message') }}
+              Erro[]
+            </div>
+          @endif
+      
+          @if(Session::has('success_message'))
+          <div class="alert alert-success" role="alert" style="margin-top: 10px;">
+            {{ Session::get('success_message') }}
+          </div>
+        @endif
+
+
+
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Tabelas de dados de Seções</h3>

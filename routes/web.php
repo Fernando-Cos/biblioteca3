@@ -1,5 +1,5 @@
 <?php
-
+// use App\Http\Controllers\Front\IndexController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,16 +11,14 @@
 |
 */
 
-use App\Http\Controllers\Front\IndexController;
-
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::prefix('/admin')->namespace('Admin')->group(function() {
     //Todas as rotas admin do projeto..
-
     Route::match(['get','post'], '/' ,'AdminController@login');
+    
     Route::group(['middleware'=>['admin']],function(){
 
         Route::get('dashboard', 'AdminController@dashboard');
@@ -30,7 +28,6 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
         Route::post('update-current-pwd', 'AdminController@updateCurrentPassword');
         Route::match(['get', 'post'], 'update-admin-details','AdminController@updateAdminDetails');
 
-
         // sections
         Route::get('sections', 'SectionController@sections');
         Route::post('update-section-status', 'SectionController@updateSectionStatus');
@@ -38,10 +35,9 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
         // Categorias
         Route::get('categories','CategoryController@categories');
         Route::post('update-category-status', 'CategoryController@updateCategoryStatus');
-        Route::match(['get', 'post'],'add-edit-category/{id?}','CategoryController@addEditCategory'         
-        );
+        Route::match(['get', 'post'],'add-edit-category/{id?}','CategoryController@addEditCategory'); 
+        Route::post('append-categories-level','CategoryController@appendCategoryLevel');  
     });
-   
 });
 
 Route::namespace('Front')->group(function () {

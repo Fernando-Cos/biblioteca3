@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use Session;
 use App\Category;
 use App\Section;
+use Image;
+use NunoMaduro\Collision\Adapters\Phpunit\Style;
+
 // use function GuzzleHttp\json_encode;
 
 class CategoryController extends Controller
@@ -49,23 +52,59 @@ class CategoryController extends Controller
             // echo "<pre>"; print_r($data); die;
 
 
-             //Upload cateory imagem
+            //Validação das categorias... 
+            $rules = [
+                'category_name' => 'required|regex:/^[\pL\s\-]+$/u',
+                'section_id' => 'required',
+                'url' => 'required',
+                'category_image' => 'image',
+            ];
+            $customMessages = [
+                'category_name.required' => 'Coloque nome da categoria',
+                'category_name.regex' => 'Coloque um nome valido',
+                'section_id.required' => 'Session e Obrigatorio',
+                'url.required' => 'Coloque uma URL',
+                'category_image.image' => 'Categoria Imagem e importante',
+            ];
+            $this->validate($request, $rules, $customMessages);
+
+
+             //Upload category imagem
              if($request->hasFile('category_image')) {
                 $image_tmp = $request->file('category_image');
                 if($image_tmp->isValid()){
                     // get image
                     $extension = $image_tmp->getClientOriginalExtension();
-                    // gerando novas images name
+                    // gerando novos nomdes de imgs
                     $imageName = rand(111,999999).'.'.$extension;
                     $imagePath = 'images/category_images/'.$imageName;
                     // Upload da image
-                    Image::make($image_tmp)->resize(300,400)->save($imagePath);
+                    // Image::make($image_tmp)->resize(300,400)->save($imagePath);
+                    Image::make($image_tmp)->save($imagePath);
                     // salvando a img...
                     $category->category_image = $imageName;
                 }
             }
 
+            if (empty($data['category_discount'])) {
+                $data['category_discount']="";
+            }
 
+            if (empty($data['description'])) {
+                $data['description']="";
+            }
+           
+            if (empty($data['meta_title'])) {
+                $data['meta_title']="";
+            }
+
+            if (empty($data['meta_description'])) {
+                $data['meta_description']="";
+            }
+
+            if (empty($data['meta_keywords'])) {
+                $data['meta_keywords']="";
+            }
 
             $category->parent_id = $data['parent_id'];
             $category->section_id = $data['section_id'];
@@ -78,9 +117,21 @@ class CategoryController extends Controller
             $category->meta_keywords = $data['meta_keywords'];
             $category->status = 1;
             $category->save();
+
+
+            session::flash('success_message','Adicionada com sucesso!');
+            return redirect('admin/categories');
         }
         // Pegando todas as sessoes...
         $getSections = Section::get();
         return view('admin.categories.add_edit_category')->with(compact('title','getSections'));
+    }
+
+
+    public function appendCategoryLevel(Request $request) {
+        if($request->ajax()){
+            $data = $request->all();
+            echo"<pre>"; print_r($data); die;
+        }
     }
 }

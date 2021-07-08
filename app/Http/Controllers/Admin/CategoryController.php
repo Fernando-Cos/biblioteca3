@@ -86,25 +86,25 @@ class CategoryController extends Controller
                 }
             }
 
-            if (empty($data['category_discount'])) {
-                $data['category_discount']="";
-            }
+            // if (empty($data['category_discount'])) {
+            //     $data['category_discount']="";
+            // }
 
-            if (empty($data['description'])) {
-                $data['description']="";
-            }
+            // if (empty($data['description'])) {
+            //     $data['description']="";
+            // }
            
-            if (empty($data['meta_title'])) {
-                $data['meta_title']="";
-            }
+            // if (empty($data['meta_title'])) {
+            //     $data['meta_title']="";
+            // }
 
-            if (empty($data['meta_description'])) {
-                $data['meta_description']="";
-            }
+            // if (empty($data['meta_description'])) {
+            //     $data['meta_description']="";
+            // }
 
-            if (empty($data['meta_keywords'])) {
-                $data['meta_keywords']="";
-            }
+            // if (empty($data['meta_keywords'])) {
+            //     $data['meta_keywords']="";
+            // }
 
             $category->parent_id = $data['parent_id'];
             $category->section_id = $data['section_id'];
@@ -131,7 +131,11 @@ class CategoryController extends Controller
     public function appendCategoryLevel(Request $request) {
         if($request->ajax()){
             $data = $request->all();
-            echo"<pre>"; print_r($data); die;
+            // echo"<pre>"; print_r($data); die;
+            $getCategories = Category::where(['section_id'=>$data['section_id'],'parent_id'=>0,'status'=>1])->get();
+            $getCategories = json_decode(json_encode($getCategories),true);
+            // echo"<pre>"; print_r($getCategories); die;
+            return view(admin.categories.append_categories_level)->with(compact('getCategories'));  
         }
     }
 }

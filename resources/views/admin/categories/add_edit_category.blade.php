@@ -52,11 +52,9 @@
                 <label for="category_name">Nome Da Categoria</label>
                 <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria">
               </div>
-
               <div id="appendCategoriesLevel">
                 @include('admin.categories.append_categories_level')
               </div>
-
               <label for="category_name">Disconto da Categoria (numero da categoria)</label>
               <input type="text" class="form-control" id="category_discount" 
               name="category_discount" placeholder="valor da categoria">
@@ -72,7 +70,7 @@
                   <div class="form-group">
                       <label>Selecione Seções </label>
                       <select name="section_id" id="section_id" class="form-control select2" style="width: 100%;">
-                        <option value="0">Selecione</option>
+                        <option value="">Selecione</option>
                         @foreach($getSections as $section)
                         <option value="{{ $section->id }}">{{ $section->name }}</option>
                         @endforeach

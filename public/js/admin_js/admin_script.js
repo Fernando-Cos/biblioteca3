@@ -19,6 +19,8 @@ $(document).ready(function() {
             }
         });
     });
+    
+
 
     // Atualização das sections status
     $(".updateSectionStatus").click(function() {
@@ -44,6 +46,8 @@ $(document).ready(function() {
         });
     });
     
+
+
     // Atualização da categoria status
     $(".updateCategoryStatus").click(function() {
         var status = $(this).text();
@@ -68,6 +72,9 @@ $(document).ready(function() {
         });
     });
 
+
+
+
     // Nível de categorias de apêndice.
     $('#section_id').change(function() {
         var section_id = $(this).val();
@@ -77,8 +84,8 @@ $(document).ready(function() {
             url:'/admin/append-categories-level',
             data:{section_id:section_id},
             success:function(resp){
-
-            },error:function() {
+               $("#appendCategoriesLevel").html(resp);
+            },error:function(){
                 alert("ERROR");
             }
         });

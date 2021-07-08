@@ -46,7 +46,7 @@
               <div class="card-header">
                 <h3 class="card-title">Tabelas de dados de Seções</h3>
                 <a href="{{ url('admin/add-edit-category') }}"
-                style="max-width: 100px; float:right; display: inline-block;" class="btn btn-block btn-success">Add Categoria</a>
+                style="max-width: 100px; float:right; display: inline-block;" class="btn btn-block btn-success"><b>+</b></a>
               </div>
               <!-- /.card-header -->
             </div>

@@ -10,4 +10,8 @@ class Category extends Model
         // 'parent_id', 'section_id', 'category_name', 'category_image','category_discount','description', 'url',
         // 'status','created_at','updated_at',
     ];
+
+    
+
+    
 }

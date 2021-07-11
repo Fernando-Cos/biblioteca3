@@ -76,17 +76,18 @@ $(document).ready(function() {
 
 
     // Nível de categorias de apêndice.
-    $('#section_id').change(function() {
+    $("#section_id").change(function() {
         var section_id = $(this).val();
         // alert(section_id);
         $.ajax({
             type:'post',
+            method:'post',
             url:'/admin/append-categories-level',
             data:{section_id:section_id},
             success:function(resp){
                $("#appendCategoriesLevel").html(resp);
             },error:function(){
-                alert("ERROR");
+                alert('ERROR');
             }
         });
     });

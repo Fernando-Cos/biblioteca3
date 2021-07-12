@@ -4,8 +4,15 @@
       <option value="0">Categoria Principal</option>
       @if(!empty($getCategories))
         @foreach($getCategories as $category)
-        <option value="{{ $category['id'] }}">{{ $category['category_name'] }}</option>
-        @endforeach
+          <option value="{{ $category['id'] }}">{{ $category['category_name'] }}</option>
+          @endforeach
+          @endif
+              @if(!empty($category['subcategories']))
+                  @foreach($category['subcategories'] as $subcategory)
+                     <option value="{{ $subcategory['id'] }}">&nbsp;&raquo;&nbsp;{{
+                     $subcategory['category_name'] }}</option>
+             
+          @endforeach  
       @endif
     </select>
   </div>

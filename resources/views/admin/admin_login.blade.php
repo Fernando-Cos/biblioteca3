@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in</title>
+  <title>Biblioteca Ses-AM Log in</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -17,11 +17,11 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="{{ url('/') }}"><b>Admin</b><br>Painel Administrativo</a>
+    <a href="{{ url('/') }}"><b>SES - AM</b><br>Painel Administrativo</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
-    <div class="card-body login-card-body">
+    <div class="card-body login-card-body" style="box-shadow: 0 0 10px 5px #6666664d;">
       <p class="login-box-msg">Faça login para iniciar sua sessão</p>
 
 
@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="input-group mb-3">
-      <input name="password" id="password" type="password" class="form-control" placeholder="Password">
+      <input name="password" id="password" type="password" class="form-control" placeholder="Senha">
       <div class="input-group-append">
         <div class="input-group-text">
           <span class="fas fa-lock"></span>
@@ -79,10 +79,10 @@
   </form>
       <div class="social-auth-links text-center mb-3">
         <p>Outras Opçoes</p>
-        <a href="#" class="btn btn-block btn-primary">
+        <a href="#" class="btn btn-block btn-primary" style="box-shadow: 3px 4px 4px #007bffa6;">
           <i class="fab fa-facebook mr-2"></i> Acessar através do facebook
         </a>
-        <a href="#" class="btn btn-block btn-danger">
+        <a href="#" class="btn btn-block btn-danger" style="box-shadow: 3px 4px 4px #bd213052;">
           <i class="fab fa-google-plus mr-2"></i> Acessar através do Google+
         </a>
       </div>

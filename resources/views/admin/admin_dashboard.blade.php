@@ -27,7 +27,7 @@
         <div class="row">
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box " style="background-color:#2e719c;">
+            <div class="small-box " style="background-color:#2e719c;box-shadow: 4px 6px 5px #175d8a7a;">
               <div class="inner">
                 <h3>150</h3>
                 <p>Novos Users</p>
@@ -43,10 +43,9 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-success">
+            <div class="small-box bg-success" style="box-shadow: 4px 6px 5px #175d8a7a;">
               <div class="inner">
                 <h3>5<sup style="font-size: 20px">%</sup></h3>
-
                 <p>Taxa de rejeição</p>
               </div>
               <div class="icon">
@@ -58,7 +57,7 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box " style="background-color:#2e9c90;">
+            <div class="small-box " style="background-color:#2e9c90;box-shadow: 4px 6px 7px #2e9c9096;">
               <div class="inner">
                 <h3>44</h3>
 
@@ -73,7 +72,7 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-danger">
+            <div class="small-box bg-danger" style="box-shadow: 4px 6px 7px #2e9c9096;">
               <div class="inner">
                 <h3>65</h3>
 
@@ -88,7 +87,8 @@
 
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box " style="background-color:#8a5860;">
+            <div class="small-box " style="background-color:#8a5860; box-shadow: 4px 6px 7px #dc354575;
+          }">
               <div class="inner">
                 <h3>65</h3>
 
@@ -103,7 +103,7 @@
 
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box " style="background-color:#9fad15;">
+            <div class="small-box " style="background-color:#9fad15; box-shadow: 4px 6px 7px #9fad157a">
               <div class="inner">
                 <h3>65</h3>
 
@@ -118,7 +118,7 @@
 
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-secondary">
+            <div class="small-box bg-secondary" style=" box-shadow: 4px 6px 7px #6c757d9c;">
               <div class="inner">
                 <h3>652</h3>
                 <p>Importantes</p>
@@ -132,7 +132,7 @@
 
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box" style="background-color:#2e9c90;">
+            <div class="small-box" style="background-color:#2e9c90; box-shadow: 4px 6px 7px #2e9c907a;">
               <div class="inner">
                 <h3>6</h3>
                 <p>Outros</p>

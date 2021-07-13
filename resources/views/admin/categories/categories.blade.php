@@ -67,6 +67,7 @@
                     <th>Sessões</th>
                     <th>URL</th>
                     <th>Status</th>
+                    <th>Ativos</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -91,6 +92,7 @@
                                 {{ $category->id }}" href="javascript:void(0)">Inativo</a>
                             @endif
                         </td>
+                        <td><a href="{{ url('admin/add-edit-category/'.$category->id) }}">Editar</a></td>
                     </tr>
                     @endforeach
                   </tbody>

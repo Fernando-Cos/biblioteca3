@@ -44,8 +44,13 @@ class CategoryController extends Controller
             $title= "Add Categoria";
             // add categoria funcionalidae
             $category = new Category;
+            $categorydata = array();
         } else {
-            $title= "Edit Categoria";
+            // editar categoria funcionalidae
+            $title= "Editar Categoria";
+            $categorydata = Category::where('id',$id)->first();
+            $categorydata = json_decode(json_encode($categorydata),true);
+            // echo"<pre>"; print_r($categorydata); die;
         }
         if($request->isMethod('post')){
             $data = $request->all();
@@ -68,7 +73,6 @@ class CategoryController extends Controller
             ];
             $this->validate($request, $rules, $customMessages);
 
-
              //Upload category imagem
              if($request->hasFile('category_image')) {
                 $image_tmp = $request->file('category_image');
@@ -85,7 +89,6 @@ class CategoryController extends Controller
                     $category->category_image = $imageName;
                 }
             }
-
             // if (empty($data['category_discount'])) {
             //     $data['category_discount']="";
             // }
@@ -93,7 +96,6 @@ class CategoryController extends Controller
             // if (empty($data['description'])) {
             //     $data['description']="";
             // }
-           
             if (empty($data['meta_title'])) {
                 $data['meta_title']="";
             }
@@ -124,7 +126,7 @@ class CategoryController extends Controller
         }
         // Pegando todas as sessoes...
         $getSections = Section::get();
-        return view('admin.categories.add_edit_category')->with(compact('title','getSections'));
+        return view('admin.categories.add_edit_category')->with(compact('title','getSections','categorydata'));
     }
 
 

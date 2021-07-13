@@ -30,27 +30,27 @@
           </ul>
       </div>
     @endif
-
-        <form name="categoryForm" id="CategoryForm" action="{{ url('admin/add-edit-category') }}" method="POST" enctype="multipart/form-data">@csrf
-          <div class="card card-default">
-            <div class="card-header">
-              <h3 class="card-title">Adicionar Categoria</h3>
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
-            </div>
-            <!-- /.card-header -->
+<form name="categoryForm" id="CategoryForm" @if(empty($categorydata['id'])) action="{{ url('admin/add-edit-category') }}" @else action="{{ url('admin/add-edit-category/'.$categorydata['id']) }}" @endif method="POST" enctype="multipart/form-data">@csrf
+  <div class="card card-default">
+    <div class="card-header">
+      <h3 class="card-title">{{ $title }}</h3>
+      <div class="card-tools">
+        <button type="button" class="btn btn-tool" data-card-widget="collapse">
+          <i class="fas fa-minus"></i>
+        </button>
+        <button type="button" class="btn btn-tool" data-card-widget="remove">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <!-- /.card-header -->
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
                 <label for="category_name">Nome Da Categoria</label>
-                <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria">
+                <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria" 
+                @if(!empty($categorydata['category_name'])) value="{{ $categorydata['category_name'] }}" @else value="{{ old('category_name') }}" @endif>
               </div>
               <div id="appendCategoriesLevel">
                 @include('admin.categories.append_categories_level')
@@ -61,7 +61,6 @@
 
               <label for="category_name">Descrição Categoria</label>
               <textarea name="description" id="description" class="form-control" rows="6"></textarea>
-
               {{-- <label for="category_name">Meta Descrição</label>
                 <textarea id="meta_description" name="meta_description" class="form-control" rows="6" placeholder="defg"></textarea>
             --}}
@@ -94,7 +93,6 @@
                         <textarea id="meta_title" name="meta_title" class="form-control" rows="6"></textarea> --}}
                         {{-- <label for="category_name">Meta Keyousd</label>
                         <textarea id="meta_keywords" name="meta_keywords" class="form-control" rows="6" placeholder="defg"></textarea> --}}
-                
                    </div> 
                 </div>
                 </div>

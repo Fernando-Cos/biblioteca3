@@ -44,68 +44,73 @@
       </div>
     </div>
     <!-- /.card-header -->
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-                <label for="category_name">Nome Da Categoria</label>
-                <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria" 
-                @if(!empty($categorydata['category_name'])) value="{{ $categorydata['category_name'] }}" @else value="{{ old('category_name') }}" @endif>
-              </div>
-              <div id="appendCategoriesLevel">
-                @include('admin.categories.append_categories_level')
-              </div>
-              <label for="category_name">Disconto da Categoria (numero da categoria)</label>
-              <input type="text" class="form-control" id="category_discount" 
-              name="category_discount" placeholder="valor da categoria">
-
-              <label for="category_name">Descrição Categoria</label>
-              <textarea name="description" id="description" class="form-control" rows="6"></textarea>
-              {{-- <label for="category_name">Meta Descrição</label>
-                <textarea id="meta_description" name="meta_description" class="form-control" rows="6" placeholder="defg"></textarea>
-            --}}
-          </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                      <label>Selecione Seções </label>
-                      <select name="section_id" id="section_id" class="form-control select2" style="width: 100%;">
-                        <option value="">Selecione</option>
-                        @foreach($getSections as $section)
-                        <option value="{{ $section->id }}">{{ $section->name }}</option>
-                        @endforeach
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="exempleInputFile">Imagem Categoria</label>
-                      <div class="input-group">
-                          <div class="custom-file">
-                              <input type="file" class="custom-file-input" id="category_image" name="category_image">
-                              <label class="custom-file-label" for="category_image">Chosse file</label>
-                          </div>
-                          <div class="input-group-append">
-                              <span class="input-group-text" id="">Upload</span>
-                          </div>
-                      </div>
-                      <label for="category_name">URL da Categoria</label>
-                      <input type="text" class="form-control" id="url" name="url" placeholder="Nome da Categoria">
-                      {{-- <div class="form-group">
-                        <label for="category_name">Meta Title</label>
-                        <textarea id="meta_title" name="meta_title" class="form-control" rows="6"></textarea> --}}
-                        {{-- <label for="category_name">Meta Keyousd</label>
-                        <textarea id="meta_keywords" name="meta_keywords" class="form-control" rows="6" placeholder="defg"></textarea> --}}
-                   </div> 
-                </div>
-                </div>
-              </div>
-              </div>
-            <div class="card-footer">
-            <button type="submit" class="btn btn-dark">Enviar</button>
-          </div>
-      </form>
+<div class="card-body">
+<div class="row">
+  <div class="col-md-6">
+    <div class="form-group">
+        <label for="category_name">Nome Da Categoria</label>
+        <input type="text" class="form-control" name="category_name"  id="category_name" placeholder="Nome da Categoria" 
+        @if(!empty($categorydata['category_name'])) value="{{ $categorydata['category_name'] }}" @else value="{{ old('category_name') }}" @endif>
       </div>
-      <!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+      <div id="appendCategoriesLevel">
+        @include('admin.categories.append_categories_level')
+      </div>
+      <label for="category_name">Disconto da Categoria (numero da categoria)</label>
+      <input type="text" class="form-control" id="category_discount" 
+      name="category_discount" placeholder="valor da categoria"
+      @if(!empty($categorydata['category_discount'])) value="{{ $categorydata['category_discount'] }}" @else value="{{ old('category_discount') }}" @endif>
+
+      <label for="category_name">Descrição Categoria</label>
+      <textarea name="description" id="description" class="form-control" rows="6">
+        @if(!empty($categorydata['description'])){{ $categorydata['description']}}@else{{old('description')}}@endif
+      </textarea>
+      {{-- <label for="category_name">Meta Descrição</label>
+        <textarea id="meta_description" name="meta_description" class="form-control" rows="6" placeholder="defg"></textarea>
+    --}}
   </div>
+        <div class="col-md-6">
+          <div class="form-group">
+              <label>Selecione Seções </label>
+              <select name="section_id" id="section_id" class="form-control select2" style="width: 100%;">
+                <option value="">Selecione</option>
+                @foreach($getSections as $section)
+                <option value="{{ $section->id }}"@if(!empty($categorydata['section_id'])
+                && $categorydata['section_id']==$section->id) selected @endif>{{ $section->name }}</option>
+                @endforeach
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exempleInputFile">Imagem Categoria</label>
+              <div class="input-group">
+                  <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="category_image" name="category_image">
+                      <label class="custom-file-label" for="category_image">Chosse file</label>
+                  </div>
+                  <div class="input-group-append">
+                      <span class="input-group-text" id="">Upload</span>
+                  </div>
+              </div>
+              <label for="category_name">URL da Categoria</label>
+              <input type="text" class="form-control" id="url" name="url" placeholder="Nome da Categoria"
+              @if(!empty($categorydata['url'])) value="{{ $categorydata['url'] }}" @else value="{{ old('url') }}" @endif>
+              {{-- <div class="form-group">
+                <label for="category_name">Meta Title</label>
+                <textarea id="meta_title" name="meta_title" class="form-control" rows="6"></textarea> --}}
+                {{-- <label for="category_name">Meta Keyousd</label>
+                <textarea id="meta_keywords" name="meta_keywords" class="form-control" rows="6" placeholder="defg"></textarea> --}}
+            </div> 
+        </div>
+        </div>
+      </div>
+      </div>
+    <div class="card-footer">
+    <button type="submit" class="btn btn-dark">Enviar</button>
+  </div>
+</form>
+</div>
+<!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+</div>
 
 @endsection

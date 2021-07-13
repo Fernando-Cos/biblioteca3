@@ -41,16 +41,19 @@ class CategoryController extends Controller
     public function addEditCategory(Request $request, $id=null) {
         // echo "Teste "; die;
         if($id=="") {
-            $title= "Add Categoria";
             // add categoria funcionalidae
+            $title= "Add Categoria";
             $category = new Category;
             $categorydata = array();
+            $getCategories = array();
         } else {
             // editar categoria funcionalidae
             $title= "Editar Categoria";
             $categorydata = Category::where('id',$id)->first();
             $categorydata = json_decode(json_encode($categorydata),true);
-            // echo"<pre>"; print_r($categorydata); die;
+            $getCategories = Category::with('subcategories')->where(['parent_id'=>0,'section_id'=>$categorydata['section_id']])->get();
+            $getCategories = json_decode(json_encode($getCategories),true);
+            // echo"<pre>"; print_r($getCategories); die;
         }
         if($request->isMethod('post')){
             $data = $request->all();
@@ -126,7 +129,7 @@ class CategoryController extends Controller
         }
         // Pegando todas as sessoes...
         $getSections = Section::get();
-        return view('admin.categories.add_edit_category')->with(compact('title','getSections','categorydata'));
+        return view('admin.categories.add_edit_category')->with(compact('title','getSections','categorydata','getCategories'));
     }
 
 

@@ -44,3 +44,5 @@
 </div>
 <!-- fim #navigation.span3 -->
 <!-- INCLUIR na página link da ASSA 2030 - Agenda de Saúde Sustentável para as Américas 2030 - https://bvsalud.org/post_vitrines/agenda-de-saude-sustentavel-para-as-americas-2018-2030-assa2030/  -->
+<!-- isso aqui vai ficar dentro da categoria produtos. VERIFICAR possibilidade de incluir Resumos e Legislação do DOE na página; Links (Resumo de Atos Normativos: http://www.saude.am.gov.br/servico/legislacao_atos.php / Legislação Estadual: http://www.saude.am.gov.br/institucional/legislacao_estadual.php/  Legislação Federal: http://www.saude.am.gov.br/institucional/legislacao_federal.php) -->
+<!-- CRIAR aba BVS com uma lista das diversas BVS parceiras: COLOCAR EM UMA TABELA (EXEMPLO DE HISTORIA) -->

@@ -9,9 +9,11 @@
     <div class="card-header"></div>
     <div class="card-body">
         <h1 style="text-align: center">❖ | ISBN</h1>
+
             <button class="btn btn-primary">
                 <a href="https://forms.gle/zNMFznNKx6A1RDig6" target="_blanck" style="color: rgb(255, 255, 255);">Solicitar</a>
             </button>
+            
             <h1>O que é ISBN?</h1>
                 <div class="form-group row">
                 <p style="text-align: justify;">O International Standard Book Number/ Padrão Internacional de Numeração de Livro - 

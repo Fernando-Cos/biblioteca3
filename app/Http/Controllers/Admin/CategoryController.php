@@ -16,7 +16,7 @@ class CategoryController extends Controller
 {
     public function categories() {
         Session::put('page','categories');
-        $categories = Category::with(['section','parentcategory'])->get();
+        $categories = Category::with('section','parentcategory')->get();
         // $categories = json_decode(json_encode($categories));
         // echo "<pre>"; print_r($categories); die;
         return view('admin.categories.categories')->with(compact('categories'));
@@ -46,14 +46,17 @@ class CategoryController extends Controller
             $category = new Category;
             $categorydata = array();
             $getCategories = array();
+            $message = "Category Adicionada Com SUcesso!";
         } else {
             // editar categoria funcionalidae
             $title= "Editar Categoria";
             $categorydata = Category::where('id',$id)->first();
             $categorydata = json_decode(json_encode($categorydata),true);
+            // echo"<pre>"; print_r($getCategories); die;
             $getCategories = Category::with('subcategories')->where(['parent_id'=>0,'section_id'=>$categorydata['section_id']])->get();
             $getCategories = json_decode(json_encode($getCategories),true);
-            // echo"<pre>"; print_r($getCategories); die;
+            $category = Category::find($id);
+            $message = "Category Atualizada Com SUcesso!";
         }
         if($request->isMethod('post')){
             $data = $request->all();
@@ -124,7 +127,7 @@ class CategoryController extends Controller
             $category->save();
 
 
-            session::flash('success_message','Adicionada com sucesso!');
+            session::flash('success_message',$message);
             return redirect('admin/categories');
         }
         // Pegando todas as sessoes...

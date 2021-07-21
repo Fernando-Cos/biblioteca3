@@ -33,7 +33,7 @@
                     </tbody>
                 </table>
 
-        <a href="repositorio-institucional" target="_blank"> 
+        <a href="http://localhost:8080/xmlui/" target="_blank"> 
         <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;"></a>
                 
         <a href="https://riu.ufam.edu.br/">ufam</a>

@@ -32,26 +32,17 @@
 <a href="{{ url('product/boletim')}}">Boletim Informativo</a></li><li class="item-325">				
 </nav>
 	<nav class="principal span9 closed">
-	<h2>Serviços
-		<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>
+	<h2><a href="{{}}" target="_blanck"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>{{-- aqui ele vai direcinar para   uma nova pagina com cadastrar eventos pesquosar no bvsalud--}}
 	</h2>
-<ul>
-<li class="item-281">
-<a href="">Depósito de Teses e Dissertações</a></li><li class="item-282">
-	<a href="">Depósito de Trabalho de Conclusão de Curso</a></li>
-	<li class="item-280"><a href="">Elaboração de ficha catalográfica</a></li>
-	<li class="item-277"><a href="">Políticas de empréstimo</a></li>
-	<li class="item-279"><a href="">Nada consta</a></li>
-	<li class="item-312"><a href="">Doação</a></li>
-	<li class="item-360"><a href="">Formulários</a></li>
-	<li class="item-283"><a href="">Salas de estudo</a></li>
-	<li class="item-307"><a href="">Comutação Bibliográfica</a></li>
-	<li class="item-284"><a href="">Aquisição de acervos</a></li></ul>
+
 	</nav>
 <nav class="principal span9 closed">
-	<h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>
+	 <h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>{{-- saude lieteraria aqui, ele vai redirecionar para mesma pagina mostrando os 3 pojetos e susas acoes  comece bem sua semana, 2 doda de conversa e club de leitura  --}}
 </nav>
 
 </section>
 </div>
 <!-- fim #navigation.span3 -->
+<!-- INCLUIR na página link da ASSA 2030 - Agenda de Saúde Sustentável para as Américas 2030 - https://bvsalud.org/post_vitrines/agenda-de-saude-sustentavel-para-as-americas-2018-2030-assa2030/  -->
+<!-- isso aqui vai ficar dentro da categoria produtos. VERIFICAR possibilidade de incluir Resumos e Legislação do DOE na página; Links (Resumo de Atos Normativos: http://www.saude.am.gov.br/servico/legislacao_atos.php / Legislação Estadual: http://www.saude.am.gov.br/institucional/legislacao_estadual.php/  Legislação Federal: http://www.saude.am.gov.br/institucional/legislacao_federal.php) -->
+<!-- CRIAR aba BVS com uma lista das diversas BVS parceiras: COLOCAR EM UMA TABELA (EXEMPLO DE HISTORIA) -->

@@ -95,7 +95,7 @@
 </article>
 <article class="vdb-card simple">
 <a href="https://viverdeblog.com/aprender-a-escrever/">
-<div class="wrapper" style="background-color: #8870ff;">
+<div class="wrapper" style="background-color: #316d5196;">
 <img src="https://viverdeblog.com/wp-content/uploads/2021/06/aprender-a-escrever.png" alt="10 razões inusitadas para aprender a escrever em 2021" class="">
 </div>
 </a>
@@ -103,19 +103,79 @@
 <h4><a href="https://viverdeblog.com/aprender-a-escrever/" title="10 razões inusitadas para aprender a escrever em 2021">10 razões inusitadas para aprender a escrever em 2021</a></h4>
 </article>
 <article class="vdb-card simple">
-<a href="https://viverdeblog.com/erros-de-escrita/">
-<div class="wrapper" style="background-color: #8870ff;">
+<a href="">
+<div class="wrapper" style="background-color: #477c8c7a;">
 <img src="https://viverdeblog.com/wp-content/uploads/2021/05/erros-de-escrita.png" alt="7 erros de escrita que você comete sem saber ( e que são fáceis de corrigir)" class="">
 </div>
 </a>
-<span><a href="https://viverdeblog.com/erros-de-escrita/">Artigos</a></span>
-<h4><a href="https://viverdeblog.com/erros-de-escrita/" title="7 erros de escrita que você comete sem saber ( e que são fáceis de corrigir)">7 erros de escrita que você comete sem saber ( e que são fáceis de corrigir)</a></h4>
+<span><a href="">Artigos</a></span>
+<h4><a href="" title="7 erros de escrita que você comete sem saber ( e que são fáceis de corrigir)">7 erros de escrita que você comete sem saber ( e que são fáceis de corrigir)</a></h4>
 </article>
 </div>
 </div>
 </div>
 
+<div class="row">
+<div class="col-md-4 col-md-offset-4">
+<nav class="vdb-navigation default circle center margin-top-40 hidden-xs vdb-pagination-links">
+<a href="#" class="pagination-link active">1</a>
+<a href="#" class="pagination-link">2</a> 
+<a href="#" class="pagination-link">3</a> 
+<a href="">mais <i class="material-icons"></i></a>
+</nav>
+</div>
+</div>
+
 <style type="text/css">
+/* inicio paginação */
+.vdb-navigation.default.center {
+    display: inherit;
+    margin: auto;
+    text-align: center;
+}
+
+.button.outline.primary {
+    color: #2db0ee;
+    border-color: #2db0ee;
+}
+.vdb-navigation.default.circle a.active, .vdb-navigation.default.circle a:hover {
+    color: #fff;
+    background-color: #a5adb8;
+}
+
+.vdb-navigation.default.circle a {
+    padding: 4px 11px 6px 12px;
+    color: #a5adb8;
+    border: 1px solid #a5adb8;
+    border-radius: 25px;
+    transition: all .1s linear;
+}
+.vdb-navigation.default.circle a {
+    padding: 4px 11px 6px 12px;
+    color: #a5adb8;
+    border: 1px solid #a5adb8;
+    border-radius: 25px;
+    transition: all .1s linear;
+}
+
+.vdb-navigation.default.circle a {
+    padding: 4px 11px 6px 12px;
+    color: #a5adb8;
+    border: 1px solid #a5adb8;
+    border-radius: 25px;
+    transition: all .1s linear;
+}
+.vdb-navigation.default.circle a i {
+    vertical-align: middle;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+/* fim paginação */
+
+
+
+
+
 .vdb-showcase.col-4 .vdb-card {
     width: 23%;
     vertical-align: top;

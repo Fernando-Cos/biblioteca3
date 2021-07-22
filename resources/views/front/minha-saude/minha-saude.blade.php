@@ -11,7 +11,7 @@
 	<fieldset>
 	<div class="input-append">
 		<label for="portal-searchbox-field" class="hide">Busca:</label>
-		<input type="text" id="portal-searchbox-field" class="searchField" placeholder="Buscar Artigos..." title="Buscar Artigos" name="searchword"  style="border-radius: 4px;">       
+		<input type="text" id="portal-searchbox-field" class="searchField" placeholder="Buscar Artigos..." title="Buscar Artigos" name="searchword"  style="border-radius: 4px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);background: linear-gradient(0, #c7c7c7, #ffffff, #ffffff);">       
 	</div>
     <div class="card-body">
         <h1>Artigos</h1>
@@ -37,11 +37,11 @@
                </tbody>
             </table>
             <div class="col-md-12">
-<div class="vdb-showcase col-4">
+        <div class="vdb-showcase col-4">
 <div class="trail vdb-pagination-content" data-pagination-args="{&quot;args&quot;:{&quot;taxonomy&quot;:&quot;content_format&quot;,&quot;term&quot;:null},&quot;card&quot;:&quot;default&quot;,&quot;hook&quot;:&quot;posts_content&quot;}">
 <article class="vdb-card simple">
 <a href="https://viverdeblog.com/escrever-melhor/">
-<div class="wrapper" style="background-color: #8870ff;">
+<div class="wrapper" style="background-color: #c7c6ce;">
 <img src="https://viverdeblog.com/wp-content/uploads/2021/07/escrever-melhor.png" alt="7 tipos de bloqueios que te impedem de escrever melhor" class="">
 </div>
 </a>
@@ -50,7 +50,7 @@
 </article>
 <article class="vdb-card simple">
 <a href="https://viverdeblog.com/como-manter-o-foco/">
-<div class="wrapper" style="background-color: #8870ff;">
+<div class="wrapper" style="background-color: #8d8a9e7a;">
 <img src="https://viverdeblog.com/wp-content/uploads/2021/07/como-manter-o-foco.png" alt="Como manter o foco e concentração na hora de escrever" class="">
 </div>
 </a>
@@ -136,7 +136,7 @@
     margin-bottom: 12px;
     font-size: 14.3px;
     text-transform: uppercase;
-    font-family: truenoregular;
+    /* font-family: truenoregular; */
     color: #a1adba;
 }
 .vdb-card.simple span a {
@@ -144,8 +144,8 @@
 }
 
 .vdb-card.simple h4 {
-    font-family: truenoregular;
-    font-size: 17.5px;
+    font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 12.5px;
     line-height: 20px;
     /* min-height: 150px; */
 }

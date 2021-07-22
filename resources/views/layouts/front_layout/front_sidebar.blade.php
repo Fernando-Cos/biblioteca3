@@ -25,23 +25,23 @@
 	<nav class="principal span9 closed">
 		<h2>Produtos<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 <ul>
-<li class="item-291">
-<a href="{{ url('product/treinamento')}}" target="_blank">Treinamentos</a></li>
-<li class="item-362"><a href="">Resumo de Atos</a></li><li class="item-323">
-<a href="">Normatização</a></li><li class="item-324">
-<a href="{{ url('product/boletim')}}">Boletim Informativo</a></li><li class="item-325">				
-</nav>
-	<nav class="principal span9 closed">
-	<h2><a href="{{}}" target="_blanck"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>{{-- aqui ele vai direcinar para   uma nova pagina com cadastrar eventos pesquosar no bvsalud--}}
-	</h2>
-
-	</nav>
-<nav class="principal span9 closed">
-	 <h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>{{-- saude lieteraria aqui, ele vai redirecionar para mesma pagina mostrando os 3 pojetos e susas acoes  comece bem sua semana, 2 doda de conversa e club de leitura  --}}
-</nav>
-
-</section>
-</div>
+	<li class="item-291">
+		<a href="{{ url('product/treinamento')}}" target="_blank">Treinamentos</a></li>
+		<li class="item-362"><a href="">Resumo de Atos</a></li><li class="item-323">
+			<a href="">Normatização</a></li><li class="item-324">
+				<a href="{{ url('product/boletim')}}">Boletim Informativo</a></li><li class="item-325"></nav>
+				<nav class="principal span9 closed">
+					<h2><a href="{{}}" target="_blanck"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>{{-- aqui ele vai direcinar para   uma nova pagina com cadastrar eventos pesquosar no bvsalud--}}</h2>
+				</nav>
+				<nav class="principal span9 closed">
+				 <h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>{{-- saude lieteraria aqui, ele vai redirecionar para mesma pagina mostrando os 3 pojetos e susas acoes  comece bem sua semana, 2 doda de conversa e club de leitura  --}}
+			</nav>
+			<nav class="principal span9 closed">
+				<h2>
+					<a href="minha-saude" >Minha Saúde<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>
+                 </nav>
+             </section>
+          </div>
 <!-- fim #navigation.span3 -->
 <!-- INCLUIR na página link da ASSA 2030 - Agenda de Saúde Sustentável para as Américas 2030 - https://bvsalud.org/post_vitrines/agenda-de-saude-sustentavel-para-as-americas-2018-2030-assa2030/  -->
 <!-- isso aqui vai ficar dentro da categoria produtos. VERIFICAR possibilidade de incluir Resumos e Legislação do DOE na página; Links (Resumo de Atos Normativos: http://www.saude.am.gov.br/servico/legislacao_atos.php / Legislação Estadual: http://www.saude.am.gov.br/institucional/legislacao_estadual.php/  Legislação Federal: http://www.saude.am.gov.br/institucional/legislacao_federal.php) -->

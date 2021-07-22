@@ -71,5 +71,8 @@ class IndexController extends Controller
     public function bvs() {
         return view('front.bvs');
     }
+    public function minhaSaude() {
+        return view('front.minha-saude.minha-saude');
+    }
     
 }

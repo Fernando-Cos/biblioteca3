@@ -57,6 +57,7 @@ Route::namespace('Front')->group(function () {
     Route::get('sala-estudo','IndexController@salaEstudo');
     Route::get('saude-literaria', 'IndexController@saudeLiteraria');
     Route::get('bvs', 'IndexController@bvs');
+    Route::get('minha-saude', 'IndexController@minhaSaude');
 });
 
 

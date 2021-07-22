@@ -10,8 +10,6 @@
 	<link rel="stylesheet" href="{{ url('css/front_css/custom.css') }}" type='text/css'/>
 	{{-- <link rel="stylesheet" href="{{ url('css/front_css/bootstrap.min.css') }}" type='text/css'/> --}}
 	<link rel="stylesheet" href="{{ url('css/front_css/style.css') }}" type='text/css'/>
-
-
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<title>@yield('title', 'Página inicial')</title>
 	<link href="{{ asset('images/front_images/ico/favicon1.ico') }}" rel='shortcut icon'/>

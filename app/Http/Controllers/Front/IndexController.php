@@ -53,7 +53,6 @@ class IndexController extends Controller
         return view('front.agendamento');
     }
 
-
     public function fonteInformacao() {
         return view('front.fonte-informacao');
     }
@@ -68,6 +67,12 @@ class IndexController extends Controller
 
     public function saudeLiteraria() {
         return view('front.saude-literaria.saude-literaria');
+    }
+    public function bvs() {
+        return view('front.bvs');
+    }
+    public function minhaSaude() {
+        return view('front.minha-saude.minha-saude');
     }
     
 }

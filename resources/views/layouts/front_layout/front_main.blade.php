@@ -1,15 +1,3 @@
-	{{-- <div class="test" style="padding-left: 0px;
-    padding-right: 0px;">
-	<a href="contatos">
-	<img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a>
-	<a href="contatos">
-	<img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a>
-	<a href="contatos">
-	<img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a><a href="contatos">
-	<img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a><a href="contatos">
-	<img src="{{ asset('images/front_images/header5.png') }}" width="140"/></a>
-
-</div>	 --}}
 	
 <div class="row-fluid module ">
 <div class="outstanding-header">
@@ -214,7 +202,7 @@
 				</div>
 			<div class="tileItem"><h3><a href=""></a></h3>
 				<p>10/05/2021 11h40</p>
-
+				<a href="bvs">
 				<img src="{{ asset('images/front_images/img-bvs.jpg') }}" width="140"/></a>
 				<a href="contatos">
 				<img src="{{ asset('images/front_images/odio.jpg') }}" width="230"/></a>

@@ -89,6 +89,9 @@
                   <div class="input-group-append">
                       <span class="input-group-text" id="">Upload</span>
                   </div>
+                  @if(!empty($categorydata['category_image']))
+                    <img src="{{ asset('images/category_images/'.$categorydata['category_image']) }}"> @endif
+
               </div>
               <label for="category_name">URL da Categoria</label>
               <input type="text" class="form-control" id="url" name="url" placeholder="Nome da Categoria"

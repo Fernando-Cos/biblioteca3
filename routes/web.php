@@ -58,6 +58,8 @@ Route::namespace('Front')->group(function () {
     Route::get('saude-literaria', 'IndexController@saudeLiteraria');
     Route::get('bvs', 'IndexController@bvs');
     Route::get('minha-saude', 'IndexController@minhaSaude');
+    Route::get('eventos', 'IndexController@eventos');
+
 });
 
 

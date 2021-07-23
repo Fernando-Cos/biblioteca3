@@ -28,10 +28,7 @@
                 <td style="" class="colunaID coluna0">
                     <p style="text-align: justify">Há você!: Comece bem sua semana - Quer começar sua semana motivado(a)? Ouça agora mesmo os áudios literários gravados especialmente para você!</p>
             </tbody>
-        </table>
-
-
-
+        </table><br>
 <article class="vdb-card paper horizontal rounded" style="margin-right: 5%;">
 <div class="tag">
 <span class="visible-xs visible-sm">Em Test</span>
@@ -40,7 +37,7 @@
 <a href="">
 <div class="wrapper" style="background-color: #c0d4d6;">
 <div class="brand">
-<img src="https://viverdeblog.com/wp-content/uploads/2016/12/mailchimp.png" alt="MailChimp">
+<img src="https://viverdeblog.com/wp-content/uploads/2016/12/mailchimp.png" alt="">
 </div>
 </div>
 </a>
@@ -49,7 +46,6 @@
 <h5 class="hidden-xs"><a href=""></a></h5>
 <h4 class="hidden-xs hidden-sm">
     Essa música retrata o que verdadeiramente é ser Homem, dono de si mesmo. Corajoso, digno de suas conquistas e responsável por suas falhas.</a></h4>
-
     <div class="pill icon email">
         <a href="http://www.dominiopublico.gov.br/download/som/on000012.mp3">
 <input type="submit" class="rpp has-ripple" value="Ouvir" style=""></a>

@@ -31,7 +31,7 @@
 			<a href="">Normatização</a></li><li class="item-324">
 				<a href="{{ url('product/boletim')}}">Boletim Informativo</a></li><li class="item-325"></nav>
 				<nav class="principal span9 closed">
-					<h2><a href="{{}}" target="_blanck"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>{{-- aqui ele vai direcinar para   uma nova pagina com cadastrar eventos pesquosar no bvsalud--}}</h2>
+					<h2><a href="eventos"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>{{-- aqui ele vai direcinar para   uma nova pagina com cadastrar eventos pesquosar no bvsalud--}}</h2>
 				</nav>
 				<nav class="principal span9 closed">
 				 <h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>{{-- saude lieteraria aqui, ele vai redirecionar para mesma pagina mostrando os 3 pojetos e susas acoes  comece bem sua semana, 2 doda de conversa e club de leitura  --}}

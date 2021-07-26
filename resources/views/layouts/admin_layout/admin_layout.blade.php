@@ -96,6 +96,8 @@
 
 <!-- Custom admin js -->
 <script src="{{ url('js/admin_js/admin_script.js') }}"></script>
+<!-- SweetAlert start js -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 <!-- DataTables  & Plugins -->

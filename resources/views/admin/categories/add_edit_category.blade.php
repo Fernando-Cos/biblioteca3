@@ -30,6 +30,15 @@
           </ul>
       </div>
     @endif
+  {{-- Mensagem de success --}}
+  @if(Session::has('success_message'))
+  <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-top: 10px;">
+    {{ Session::get('success_message') }}
+   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+   </button>
+  </div>
+@endif
 <form name="categoryForm" id="CategoryForm" @if(empty($categorydata['id'])) action="{{ url('admin/add-edit-category') }}" @else action="{{ url('admin/add-edit-category/'.$categorydata['id']) }}" @endif method="POST" enctype="multipart/form-data">@csrf
   <div class="card card-default">
     <div class="card-header">
@@ -89,9 +98,14 @@
                   <div class="input-group-append">
                       <span class="input-group-text" id="">Upload</span>
                   </div>
+                </div>
                   @if(!empty($categorydata['category_image']))
-                    <img src="{{ asset('images/category_images/'.$categorydata['category_image']) }}"> @endif
-
+                  <div>
+                    <img style="width:75px; margin-top: 5px;"src="{{ asset('images/category_images/'.$categorydata['category_image']) }}">
+                    &nbsp;
+                    <a class="confirmDelete" href="javascript:void(0)" record="category-image" recordid="{{ $categorydata['id'] }}" <?php /* href="{{ url('admin/delete-category-image/'.$categorydata['id']) }}" */ ?>>Apagar Imagem</a>
+                  </div>
+                  @endif
               </div>
               <label for="category_name">URL da Categoria</label>
               <input type="text" class="form-control" id="url" name="url" placeholder="Nome da Categoria"

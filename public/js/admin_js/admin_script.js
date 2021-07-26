@@ -91,4 +91,37 @@ $(document).ready(function() {
             }
         });
     });
+
+    // Mensagem de alerta para deletar categoria 
+    // $(".confirmDelete").click(function() {
+    //     var name = $(this).attr("name");
+    //     if(confirm("Tem certeza que deseja excluir esta "+name+"?")){
+    //         return true;
+    //     }
+    //     return false;
+    // });
+
+    // Mensagem de alerta com sweertalert
+    $(".confirmDelete").click(function() {
+        var record = $(this).attr("record");
+        var recordid = $(this).attr("recordid");
+        Swal.fire({
+            title: 'Deseja execulta a operação?',
+            text: "Isso não tera mas volta!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sim, Apagar!'
+          }).then((result) => {
+            if (result.isConfirmed) {
+            //   Swal.fire(
+            //     'Deleted!',
+            //     'Categoria deletada.',
+            //     'success'
+            //   )
+              window.location.href="/admin/delete-"+record+"/"+recordid;
+            }
+        });
+    });
 }); 

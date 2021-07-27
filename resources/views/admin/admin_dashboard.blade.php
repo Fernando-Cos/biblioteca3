@@ -43,7 +43,7 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-success" style="box-shadow: 4px 6px 5px #175d8a7a;">
+            <div class="small-box bg-success" style="box-shadow: 4px 6px 5px #28a745;">
               <div class="inner">
                 <h3>5<sup style="font-size: 20px">%</sup></h3>
                 <p>Taxa de rejeição</p>
@@ -60,7 +60,6 @@
             <div class="small-box " style="background-color:#2e9c90;box-shadow: 4px 6px 7px #2e9c9096;">
               <div class="inner">
                 <h3>44</h3>
-
                 <p>Usuário Registrados</p>
               </div>
               <div class="icon">
@@ -72,10 +71,9 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-danger" style="box-shadow: 4px 6px 7px #2e9c9096;">
+            <div class="small-box bg-danger" style="box-shadow: 4px 6px 7px #c6303ea6;">
               <div class="inner">
                 <h3>65</h3>
-
                 <p>visitantes únicos</p>
               </div>
               <div class="icon">
@@ -84,29 +82,24 @@
               <a href="#" class="small-box-footer">Mas Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box " style="background-color:#8a5860; box-shadow: 4px 6px 7px #dc354575;
-          }">
-              <div class="inner">
-                <h3>65</h3>
-
-                <p>Unique Visitors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">Mas Informações <i class="fas fa-arrow-circle-right"></i></a>
+        <div class="col-lg-3 col-6">
+          <!-- small box -->
+      <div class="small-box " style="background-color:#8a5860; box-shadow: 4px 6px 7px #dc354575;}">
+            <div class="inner">
+              <h3>65</h3>
+              <p>Unique Visitors</p>
             </div>
+            <div class="icon">
+              <i class="ion ion-pie-graph"></i>
+            </div>
+            <a href="#" class="small-box-footer">Mas Informações <i class="fas fa-arrow-circle-right"></i></a>
           </div>
-
+        </div>
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box " style="background-color:#9fad15; box-shadow: 4px 6px 7px #9fad157a">
               <div class="inner">
                 <h3>65</h3>
-
                 <p>Em Manuntenção</p>
               </div>
               <div class="icon">
@@ -115,7 +108,6 @@
               <a href="#" class="small-box-footer">Mas Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
-
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-secondary" style=" box-shadow: 4px 6px 7px #6c757d9c;">
@@ -129,7 +121,6 @@
               <a href="#" class="small-box-footer">Mas Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
-
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box" style="background-color:#2e9c90; box-shadow: 4px 6px 7px #2e9c907a;">
@@ -144,10 +135,10 @@
             </div>
           </div>
           <!-- ./col -->
-        </div>
+        </div><br>
         <!-- /.row -->
         <!-- Main row -->
-        {{-- <div class="row">
+        {{--  <div class="row">
           <!-- Left col -->
           <section class="col-lg-7 connectedSortable">
             <!-- Custom tabs (Charts with tabs)-->
@@ -184,7 +175,7 @@
             <!-- /.card -->
 
             <!-- DIRECT CHAT -->
-            <div class="card direct-chat direct-chat-primary">
+           <div class="card direct-chat direct-chat-primary">
               <div class="card-header">
                 <h3 class="card-title">Direct Chat</h3>
 

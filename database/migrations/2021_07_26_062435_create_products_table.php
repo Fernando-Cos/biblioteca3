@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->string('product_name');
             $table->string('product_code');
             $table->string('main_image');
-            $table->string('description');
+            $table->text('description');
             $table->tinyInteger('status');
             $table->timestamps();
         });

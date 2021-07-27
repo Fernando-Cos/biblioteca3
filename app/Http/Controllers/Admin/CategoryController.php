@@ -113,7 +113,6 @@ class CategoryController extends Controller
             if (empty($data['meta_keywords'])) {
                 $data['meta_keywords']="";
             }
-
             $category->parent_id = $data['parent_id'];
             $category->section_id = $data['section_id'];
             $category->category_name = $data['category_name'];
@@ -125,8 +124,6 @@ class CategoryController extends Controller
             $category->meta_keywords = $data['meta_keywords'];
             $category->status = 1;
             $category->save();
-
-
             session::flash('success_message',$message);
             return redirect('admin/categories');
         }

@@ -110,9 +110,10 @@
 
 <!-- Page specific script -->
 <script>
-  $(function () {
+  $(function() {
     $("#sections").DataTable();
     $("#categories").DataTable();
+    $("#products").DataTable();
 });
 </script>
 

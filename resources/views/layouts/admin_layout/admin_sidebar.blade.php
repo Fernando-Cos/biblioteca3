@@ -86,9 +86,7 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>atualizar detalhes ADM</p>
                 </a>
-
           </li>
-          
           {{-- Catalagos --}}
           @if(Session::get('page')=="sections" || Session::get('page')=="categories")
           <?php $active = "active"; ?>
@@ -125,14 +123,18 @@
               <i class="far fa-circle nav-icon"></i>
               <p>Categorias</p>
             </a>
-
-      </li>
-
-
-
-
-
-
+       </li>
+       @if (Session::get('page')=="products")
+       <?php $active = "active"; ?>
+     @else
+       <?php $active = ""; ?>
+     @endif
+     <li class="nav-item">
+       <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
+         <i class="far fa-circle nav-icon"></i>
+         <p>POST's</p>
+       </a>
+  </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

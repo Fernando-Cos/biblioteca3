@@ -50,9 +50,16 @@
             <td class="colunaID coluna0"><p style="text-align: justify">Para desenvolver no âmbito do Sistema Estadual de Saúde do Amazonas uma cultura voltada para o aprendizado, promovendo o acesso à informação, incentivando o uso desta na geração do novo conhecimento e contribuindo para a melhoria da qualidade de vida. </p>
         </tbody>
     </table>
-    </div>
+    <img src="{{ asset('images/front_images/drawing.svg')}}" class="home-section" alt="Imagem vetorizada de computator e materiais" style="max-width: 40%;
+    padding-block: 5%;"></div>
+    <div class="col-md-6" style="margin-left: 53%; margin-top: -27%;">
+        <h4>O que é <strong>Biblioteca - Ses?</strong></h4>
+            
+        <p>Espaço criado para uma melhor proporcionar aprendizagem e conhecimento favoravais a todos.</p>
     </div>
 </div>
     </div>
+        </div>
+            </div>
 </div>
 @endsection

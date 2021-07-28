@@ -19,69 +19,94 @@
         </div>
       </div><!-- /.container-fluid -->
     </section>
-
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
+
+            {{-- Mensagem de alert --}}
+            @if(Session::has('error_message'))
+            <div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin-top: 10px;">
+              {{ Session::get('error_message') }}
+              Erro[]
+            </div>
+          @endif
+          @if(Session::has('success_message'))
+          <div class="alert alert-success" role="alert" style="margin-top: 10px;">
+            {{ Session::get('success_message') }}
+          </div>
+        @endif
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Tabelas de dados de Seções</h3>
                 <a href="{{ url('admin/add-edit-category') }}"
-                style="max-width: 100px; float:right; display: inline-block;" class="btn btn-block btn-success">Add Categoria</a>
+                style="max-width: 100px; float:right; display: inline-block;" class="btn btn-block btn-success"><b>+</b></a>
               </div>
               <!-- /.card-header -->
             </div>
             <!-- /.card -->
-
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">CATEGORIAS</h3>
               </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <table id="categories" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>URL</th>
-                    <th>Status</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                    @foreach($categories as $category)
-                    <tr>
-                        <td>{{ $category->id }}</td>
-                        <td>{{ $category->category_name }}</td>
-                        <td>{{ $category->url }}</td>
-                        <td>
-                            @if($category->status ==1)
-                                <a class="updateCategoryStatus" id="category-{{ $category->id }}" category_id="
-                                {{ $category ->id }}" href="javascript:void(0)">Ativo</a>
-                            @else 
-                                <a class="updateCategoryStatus" id="category-{{ $category->id }}" category_id="
-                                {{ $category->id }}" href="javascript:void(0)">Inativo</a>
-                            @endif
-                        </td>
-                    </tr>
-                    @endforeach
-                  </tbody>
-                  
-                </table>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
+        <!-- /.card-header -->
+        <div class="card-body">
+          <table id="categories" class="table table-bordered table-striped">
+            <thead>
+            <tr>
+              <th>ID</th>
+              <th>Categoria</th>
+              <th>Categoria Parental</th>
+              <th>Sessões</th>
+              <th>URL</th>
+              <th>Status</th>
+              <th>Ativos</th>
+            </tr>
+            </thead>
+          <tbody>
+            @foreach($categories as $category)
+            @if(!isset($category->parentcategory->category_name))
+              <?php  $parent_category = "Root";?>
+              @else
+            <?php $parent_category = $category->parentcategory->category_name; ?>
+            @endif
+            <tr>
+                <td>{{ $category->id }}</td>
+                <td>{{ $category->category_name }}</td>
+                <td>{{ $parent_category }}</td>
+                <td>{{ $category->section->name }}</td>
+                <td>{{ $category->url }}</td>
+                <td>
+                    @if($category->status ==1)
+                        <a class="updateCategoryStatus" id="category-{{ $category->id }}" category_id="
+                        {{ $category ->id }}" href="javascript:void(0)">Ativo</a>
+                    @else 
+                        <a class="updateCategoryStatus" id="category-{{ $category->id }}" category_id="
+                        {{ $category->id }}" href="javascript:void(0)">Inativo</a>
+                    @endif
+                </td>
+              <td>
+                  <a href="{{ url('admin/add-edit-category/'.$category->id) }}">Editar</a>&nbsp;&nbsp;
+                  {{-- <a class="confirmDelete" name="Category" href="{{ url('admin/delete-category/'.$category->id) }}">Deletar</a> --}}
+                  <a href="javascript:void(0)" class="confirmDelete" record="category" recordid="{{ $category->id }}" <?php /*href="{{ url('admin/delete-category/'.$category->id) }}" */ ?>>Deletar</a>
+              </td>
+              </tr>
+              @endforeach
+            </tbody>
+          </table>
         </div>
-        <!-- /.row -->
+        <!-- /.card-body -->
       </div>
-      <!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+      <!-- /.card -->
+    </div>
+    <!-- /.col -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container-fluid -->
+</section>
+<!-- /.content -->
 </div>
 
 @endsection

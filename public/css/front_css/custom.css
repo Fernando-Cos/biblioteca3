@@ -1,11 +1,37 @@
 
 
+.btn, .btnCinza, .btnForm, .btnAnexo, .team-btn-menu-dropdown.btn {
+    background-color: #666;
+    border-color: RGBA(0,0,0,0.3);
+    box-shadow: inset 0px -2px 0px RGBA(0,0,0,0.2),inset 0px -12px 12px RGBA(0,0,0,0.1);
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    height: auto;
+    line-height: normal;
+    padding: 10px 16px 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    -webkit-transition: background-color 0.3s; /* Safari */
+    transition: background-color 0.3s;
+}
+
+.btn, .btnCinza, .btnDiscreto {
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    margin-top: 3.5px;
+    margin-bottom: 5.5px;
+}
 
 /* ======================================================= */
 
 /* =================== Tabela =========================== */
-
-
 .maisColunas {
     position: absolute;
     right: -31px;
@@ -118,7 +144,8 @@
 .tabelaConsultas {
     position: relative;
     border-top: none;
-    margin-top: 37px;
+    margin-top: 15px;
+    margin-right: 5%;
 }
 
     .tabelaConsultas.noFooter {

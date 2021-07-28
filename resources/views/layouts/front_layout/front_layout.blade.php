@@ -8,9 +8,8 @@
 	<link rel="stylesheet" href="{{ url('css/front_css/font-awesome/css/font-awesome.min.css') }}" type='text/css'/>
 	<base href=""/>
 	<link rel="stylesheet" href="{{ url('css/front_css/custom.css') }}" type='text/css'/>
-
-
-
+	{{-- <link rel="stylesheet" href="{{ url('css/front_css/bootstrap.min.css') }}" type='text/css'/> --}}
+	<link rel="stylesheet" href="{{ url('css/front_css/style.css') }}" type='text/css'/>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<title>@yield('title', 'Página inicial')</title>
 	<link href="{{ asset('images/front_images/ico/favicon1.ico') }}" rel='shortcut icon'/>
@@ -35,6 +34,7 @@
 </head>
 <div id="conteudo">
 <body>
+
 @include('layouts.front_layout.front_header')
 	<div class="row-fluid">
 		<div id="navigation" class="span3">
@@ -46,13 +46,32 @@
 <div id="content" class="span9">
 	<section id="content-section">
 
+
+{{-- 
+<h1>(pergunte a bibliotecaria) quando clicar ele vai para perguntas ja com respostas sobre a biblioteca em si buscar referencia em biblioteca nascional</h1>
+<br>
+
+<br>
+<h1>(bvs) quando clicar vai ter as descrição e logo abaixo vai ter os links. os links vao para cada site.</h1>
+<br>
+<h1>pergunte a bibliotecaria quando clicar ele vai para perguntas ja com respostas sobre a biblioteca em si</h1>
+<br>
+<h1>clicar na imagem quando clicar em (dominio publico ele vai direto pro site.) dominiopublico.gov.br <a href=""></a></h1>
+<br>
+<h1>(clicar na imagem links uteis)clicar na imagem ele vai abrir uma lista de links para (img links uteis), bibliotecaria ainda vai liberar os links <a href=""></a></h1>
+<br>
+<h1>(ministerio da saude )clicar na imagem ele vai abrir um link direto para o site do ministerio da saude <a href=""></a></h1>
+<br> --}}
+
+
 {{-- @include('layouts.front_layout.front_main') --}}
 
 
+{{-- 
+ <div class="row-fluid module ">
+<div class="outstanding-header">  --}}
 
- {{-- <div class="row-fluid module ">
-<div class="outstanding-header"> --}}
-{{--	@include('layouts.front_layout.front_section') --}}
+{{-- @include('layouts.front_layout.front_section') --}}
 
 
 </main>

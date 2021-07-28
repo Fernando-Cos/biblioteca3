@@ -1,9 +1,10 @@
-{{-- <span class="hide">Início do conteúdo da página</span> --}}
+	
 <div class="row-fluid module ">
 <div class="outstanding-header">
 <h2 class="outstanding-title">
 <span>Sistema Biblioteca</span></h2>
 </div>
+
 <div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
 <div class="carousel-inner">
 	<div class="banneritem item active">
@@ -183,6 +184,51 @@
 			<li data-slide-to="15" data-target="#banner-carousel-202" class=""><a href="#" title="Guia de Fontes de Informação">15</a></li>
 			<li data-slide-to="16" data-target="#banner-carousel-202" class=""><a href="#" title="Canal youtube SISTEBIB">16</a></li>
 			<li data-slide-to="17" data-target="#banner-carousel-202" class="last"><a href="#" title="Bases de dados gratuitas sobre coronavírus">17</a></li>
-</ol>
+	</ol>
 </div>
+
+
+<h2 class="outstanding-title"><span>Bases de Dados</span></h2>
 </div>
+<div class="row-fluid module module-box-00">
+	<div class="outstanding-header">			 	
+		<h2 class="outstanding-title">
+			<span>Últimos notícias</span></h2>
+				</div>
+			<div class="tile-collection">
+				<div class="tileItem">
+					<h3><a href=""></a></h3>
+					<p></p>
+				</div>
+			<div class="tileItem"><h3><a href=""></a></h3>
+				<p>10/05/2021 11h40</p>
+				<a href="bvs">
+				<img src="{{ asset('images/front_images/img-bvs.jpg') }}" width="140"/></a>
+				<a href="contatos">
+				<img src="{{ asset('images/front_images/odio.jpg') }}" width="230"/></a>
+				<a href="contatos">
+				<img src="{{ asset('images/front_images/pergunte.png') }}" width="270"/></a>
+				<a href="contatos">
+			</div>
+			<div class="tileItem">
+				<h3><a href=""></a></h3>			
+					<p></p></div>
+						<div class="tileItem">
+							<h3><a href=""></a></h3>			
+								<p></p></div>
+							<div class="tileItem">
+						<h3><a href=""></a></h3>			
+					<p></p>
+				</div></div>
+			<div class="outstanding-footer">
+		<a href="" class="outstanding-link">
+	<span class="text">Acesse a lista completa</span>
+<span class="icon-box">                                          
+<i class="icon-angle-right icon-light"><span class="hide">&nbsp;</span></i>
+</span>
+	</a>	
+		</div>
+		</div>
+	</div>
+
+	

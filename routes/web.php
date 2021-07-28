@@ -1,5 +1,5 @@
 <?php
-
+// use App\Http\Controllers\Front\IndexController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,9 @@
 */
 
 Auth::routes();
+// Route::get('/home', 'HomeController@index')->name('home');
 
+<<<<<<< HEAD
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('/admin')->namespace('Admin')->group(function() {
@@ -20,6 +22,12 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
 
     Route::match(['get','post'], '/' ,'AdminController@login');
 
+=======
+Route::prefix('/admin')->namespace('Admin')->group(function() {
+    //Todas as rotas admin do projeto..
+    Route::match(['get','post'], '/' ,'AdminController@login');
+    
+>>>>>>> 784b4c0f648af2d4ee26982c7cb9e1c2bc410520
     Route::group(['middleware'=>['admin']],function(){
 
         Route::get('dashboard', 'AdminController@dashboard');
@@ -29,7 +37,11 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
         Route::post('update-current-pwd', 'AdminController@updateCurrentPassword');
         Route::match(['get', 'post'], 'update-admin-details','AdminController@updateAdminDetails');
 
+        // sections
+        Route::get('sections', 'SectionController@sections');
+        Route::post('update-section-status', 'SectionController@updateSectionStatus');
 
+<<<<<<< HEAD
         // sections
         Route::get('sections', 'SectionController@sections');
         Route::post('update-section-status', 'SectionController@updateSectionStatus');
@@ -41,6 +53,21 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
         );
     });
    
+=======
+        // Categorias
+        Route::get('categories','CategoryController@categories');
+        Route::post('update-category-status', 'CategoryController@updateCategoryStatus');
+        Route::match(['get', 'post'],'add-edit-category/{id?}','CategoryController@addEditCategory'); 
+        Route::post('append-categories-level','CategoryController@appendCategoryLevel');
+        Route::get('delete-category-image/{id}','CategoryController@deleteCategoryImage');
+        Route::get('delete-category/{id}','CategoryController@deleteCategory');
+
+        // Products
+        Route::get('products','ProductsController@products');
+        Route::post('update-product-status', 'ProductsController@updateProductStatus');
+        Route::get('delete-product/{id}','ProductsController@deleteProduct');
+    });
+>>>>>>> 784b4c0f648af2d4ee26982c7cb9e1c2bc410520
 });
 
 Route::namespace('Front')->group(function () {
@@ -48,6 +75,7 @@ Route::namespace('Front')->group(function () {
     Route::get('memorial', 'IndexController@memorial');
     Route::get('publicacao', 'IndexController@publicacao');
     Route::get('ebooks', 'IndexController@ebooks');
+    // Route::get('descricao', 'IndexController@descricao');
     Route::get('repositorio', 'IndexController@repositorioInstitucional');
     Route::get('contatos', 'IndexController@contatos');
     Route::get('historia', 'IndexController@historia');
@@ -59,7 +87,13 @@ Route::namespace('Front')->group(function () {
     Route::get('apoio-pesquisa', 'IndexController@apoioPesquisa');
     Route::get('sala-estudo','IndexController@salaEstudo');
     Route::get('saude-literaria', 'IndexController@saudeLiteraria');
+    Route::get('bvs', 'IndexController@bvs');
+    Route::get('minha-saude', 'IndexController@minhaSaude');
+    Route::get('eventos', 'IndexController@eventos');
+
 });
+
+
 
 Route::namespace('Front')->group(function () {
     Route::get('product/treinamento', 'ProductController@treinamento');
@@ -67,3 +101,14 @@ Route::namespace('Front')->group(function () {
 
 });
 
+
+Route::namespace('Repositorio')->group(function () {
+    Route::get('repositorio-institucional', 'RepositorioController@indexRepositorio');
+    
+});
+
+
+
+Route::namespace('Ebook')->group(function () {
+    Route::get('ebooks/descricao', 'EbookController@descricao');
+});

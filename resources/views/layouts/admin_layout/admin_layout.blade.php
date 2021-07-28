@@ -37,7 +37,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="{{ asset('images/admin_images/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60" width="60">
   </div>
 
         @include('layouts.admin_layout.admin_sidebar')
@@ -96,6 +96,8 @@
 
 <!-- Custom admin js -->
 <script src="{{ url('js/admin_js/admin_script.js') }}"></script>
+<!-- SweetAlert start js -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 <!-- DataTables  & Plugins -->
@@ -108,9 +110,10 @@
 
 <!-- Page specific script -->
 <script>
-  $(function () {
+  $(function() {
     $("#sections").DataTable();
     $("#categories").DataTable();
+    $("#products").DataTable();
 });
 </script>
 

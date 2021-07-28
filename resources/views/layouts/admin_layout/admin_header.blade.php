@@ -131,7 +131,7 @@
       </li> --}}
       <li class="nav-item">
         <a class="nav-link" href="{{ url('admin/logout') }}" role="button">
-          Logout
+          Sair
         </a>
       </li>
     </ul>

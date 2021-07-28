@@ -8,13 +8,11 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-<<<<<<< HEAD
         <h1>E - BOOKS</h1><BR>
             <h1>Fazer 2 quadrados contento os ebooks, clicando neles vai para a visualização, ou baixar</h1><BR>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
                     
-=======
             <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -80,7 +78,6 @@
             </a>
             <div class="fundo-livro">
                 </div>
->>>>>>> 784b4c0f648af2d4ee26982c7cb9e1c2bc410520
             </div>
         </div>
     <div class="col-md-3">
@@ -128,13 +125,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
             </div>
         </div>
     </div>

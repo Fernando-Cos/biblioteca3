@@ -33,6 +33,9 @@
                     <p style="text-align: justify;">E-mail:<a href="#"> bibliotecases.am@gmail.com </a></p><br>
             </tbody>
         </table>
+        <div class="a" style="position: relative;float: right;margin-block: -33%;">
+            <img src="{{ asset('images/front_images/a.svg')}}" alt="" style="width: 100%;">
+        </div>
     <table class="tabelaConsultas">
         <thead>
             <tr>
@@ -55,9 +58,6 @@
                     <p style="text-align: justify"> Anne Caroline Costa da Silva - </p>
             </tbody>
         </table>
-
-
-        
         </div>
         </div>
     </div>

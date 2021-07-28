@@ -7,7 +7,6 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-        {{-- <h1>REPOSITORIO INSTITUCIONAL</h1><BR> --}}
             <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -32,15 +31,21 @@
                             <p style="text-align: justify">Quis commodo odio aenean sed adipiscing diam donec adipiscing. Eget dolor morbi non arcu risus quis varius quam quisque. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Amet justo donec enim diam vulputate ut pharetra sit. Purus non enim praesent elementum facilisis leo vel fringilla est. Ac felis donec et odio pellentesque. Etiam erat velit scelerisque in dictum. Sed tempus urna et pharetra pharetra. Leo urna molestie at elementum eu facilisis sed odio morbi. Morbi tristique senectus et netus et malesuada fames..</p>
                     </tbody>
                 </table>
-
-        <a href="http://localhost:8080/xmlui/" target="_blank"> 
+        <a href="" target="_blank"> 
         <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;"></a>
-                
         <a href="https://riu.ufam.edu.br/">ufam</a>
-            <div class="form-group row">
+            <div class="form-group row" id="repositorie">
+                <img src="{{ asset('images/front_images/repositorie.png') }}" alt="" style="margin-block: -23%;">
+
                 <div class="content-header-options-1 row-fluid">
             </div>
         </div>
     </div>
 </div>
+
+<style>
+    #repositorie {
+        max-width: 50%;
+    }
+</style>
 @endsection

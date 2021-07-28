@@ -13,7 +13,7 @@ class AdminsTableSeeder extends Seeder
     {
         DB::table('admins')->delete();
         $adminRecords = [
-            ['id'=>1, 'name'=>'admin','type'=>'admin','mobile'=>'98000000','email'=>'admin@admin.com','password'=>'$2y$10$m88BOu4fGfeUXS76pVVRCeZRqy/eMRDAYldze4/5rKcN0waFLLOQ6',
+            ['id'=>1, 'name'=>'admin','type'=>'admin','mobile'=>'98000000','email'=>'admin@gmail.com','password'=>'$2y$10$m88BOu4fGfeUXS76pVVRCeZRqy/eMRDAYldze4/5rKcN0waFLLOQ6',
             'image'=>'','status'=>1
         ],
 

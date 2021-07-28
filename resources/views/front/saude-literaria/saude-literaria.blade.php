@@ -44,14 +44,13 @@
 <div class="content">
 <h5>Click no texto em baixo</h5>
 <h5 class="hidden-xs"><a href=""></a></h5>
-<h4 class="hidden-xs hidden-sm">
-    Essa música retrata o que verdadeiramente é ser Homem, dono de si mesmo. Corajoso, digno de suas conquistas e responsável por suas falhas.</a></h4>
+<h4 class="hidden-xs hidden-sm">Essa música retrata o que verdadeiramente é ser Homem, dono de si mesmo. Corajoso, digno de suas conquistas e responsável por suas falhas.</a></h4>
     <div class="pill icon email">
         <a href="http://www.dominiopublico.gov.br/download/som/on000012.mp3">
 <input type="submit" class="rpp has-ripple" value="Ouvir" style=""></a>
 </div>
-</div>
-</article>
+    </div>
+    </article>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid"> 
             </div>

@@ -65,7 +65,7 @@
 	</div>
 	<div class="sobre" style="background-color: #3b4b5b;">
 		<div class="container">
-				<nav class="menu-servicos pull-right">
+				<nav class="menu-servicos pull-right" style="margin-right: 6%">
 <h2 class="hide">Serviços</h2>
 
 <ul>

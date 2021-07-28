@@ -18,7 +18,7 @@
 <!-- fim .row-fluid -->
 <div class="row-fluid">
 	<div id="logo" class="span8">
-		<a href="/" title=""><img style="max-height: 134px;" src="{{ asset('images/front_images/saude.png')}}" alt=""/>
+		<a href="/" title=""><img style="max-height: 130px;position: relative;bottom: 30px;" src="{{ asset('images/front_images/saude.png')}}" alt=""/>
 			<span class="portal-title-1">Sistema de Biblioteca - SES-AM</span>
 			<h1 class="portal-title corto">BIBLIOTECA</h1>
 			<span class="portal-description">Secretaria de Estado de Saúde do Amazonas</span>

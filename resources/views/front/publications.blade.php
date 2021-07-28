@@ -7,7 +7,11 @@
 <div class="card">
     <div class="card-body">
 	    <h1 class="documentFirstHeading">
-        <a href="">Publicações</a>
+        <a href="">Publicações (Quem vai publicar vai ser as proprias autoras) da biblioteca.</a><br>
+        <a href=""> (sead) site para referencia de blog conteudo como referencia.</a><br>
+        <a href=""> Fazer um filtro de busca para as noticias</a>
+
+
     </h1>
 <ul class="actions"></ul>
 <div class="content-header-options-1 row-fluid">

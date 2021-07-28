@@ -8,6 +8,7 @@
 <div class="card-header"></div>
     <div class="card-body">
         <h1>FONTE DE INFORMAÇÃO</h1><BR>
+            <h1>links para editoras quee disponibilizam livros gratuitamente, quando ele clicar vai para uma outra paginas que ja existe, exemplo machado</h1><BR>
             <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
             </div>

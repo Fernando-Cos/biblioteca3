@@ -1,3 +1,6 @@
+linear-gradient(to bottom, #556b8d 0%, #32435d 100%)
+
+
 <table class="tabelaConsultas">
     <thead>
         <tr>

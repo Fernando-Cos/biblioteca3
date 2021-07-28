@@ -15,33 +15,33 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::prefix('/admin')->namespace('Admin')->group(function() {
-//     //Todas as rotas admin do projeto..
+Route::prefix('/admin')->namespace('Admin')->group(function() {
+    //Todas as rotas admin do projeto..
 
-//     Route::match(['get','post'], '/' ,'AdminController@login');
+    Route::match(['get','post'], '/' ,'AdminController@login');
 
-//     Route::group(['middleware'=>['admin']],function(){
+    Route::group(['middleware'=>['admin']],function(){
 
-//         Route::get('dashboard', 'AdminController@dashboard');
-//         Route::get('logout', 'AdminController@logout');
-//         Route::get('settings', 'AdminController@settings');
-//         Route::post('check-current-pwd', 'AdminController@chkCurrentPassword');
-//         Route::post('update-current-pwd', 'AdminController@updateCurrentPassword');
-//         Route::match(['get', 'post'], 'update-admin-details','AdminController@updateAdminDetails');
+        Route::get('dashboard', 'AdminController@dashboard');
+        Route::get('logout', 'AdminController@logout');
+        Route::get('settings', 'AdminController@settings');
+        Route::post('check-current-pwd', 'AdminController@chkCurrentPassword');
+        Route::post('update-current-pwd', 'AdminController@updateCurrentPassword');
+        Route::match(['get', 'post'], 'update-admin-details','AdminController@updateAdminDetails');
 
 
-//         // sections
-//         Route::get('sections', 'SectionController@sections');
-//         Route::post('update-section-status', 'SectionController@updateSectionStatus');
+        // sections
+        Route::get('sections', 'SectionController@sections');
+        Route::post('update-section-status', 'SectionController@updateSectionStatus');
 
-//         // Categorias
-//         Route::get('categories','CategoryController@categories');
-//         Route::post('update-category-status', 'CategoryController@updateCategoryStatus');
-//         Route::match(['get', 'post'],'add-edit-category/{id?}','CategoryController@addEditCategory'         
-//         );
-//     });
+        // Categorias
+        Route::get('categories','CategoryController@categories');
+        Route::post('update-category-status', 'CategoryController@updateCategoryStatus');
+        Route::match(['get', 'post'],'add-edit-category/{id?}','CategoryController@addEditCategory'         
+        );
+    });
    
-// });
+});
 
 Route::namespace('Front')->group(function () {
     Route::get('/', 'IndexController@index');

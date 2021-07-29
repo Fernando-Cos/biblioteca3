@@ -50,12 +50,13 @@
         <td style="" class="colunaID coluna0">
             <p style="text-align: justify">FLIAA: Cada órgão deverá manter em seu portal um link para o site Página Dados Abertos (link externo),
                 que reúne informações de todas as principais áreas do governo federal..</p>
-    </tbody>
-</table>
-                <div class="content-header-options-1 row-fluid">
-                    
-            </div>
-        </div>
-    </div>
+            </tbody>
+        </table>
+    <div class="content-header-options-1 row-fluid">
+        <img src="{{ asset('images/front_images/data.png')}}" style="max-width: 30%" alt="">
+
 </div>
+    </div>
+        </div>
+             </div>
 @endsection

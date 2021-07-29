@@ -41,6 +41,7 @@
                     </tbody>
                  </table>
                 <div class="content-header-options-1 row-fluid">
+                    <img src="{{ asset('images/front_images/faq-9.svg')}}" style="max-width: 30%" alt="">
             </div>
         </div>
     </div>

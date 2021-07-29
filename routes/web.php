@@ -76,7 +76,8 @@ Route::namespace('Front')->group(function () {
     Route::get('bvs', 'IndexController@bvs');
     Route::get('minha-saude', 'IndexController@minhaSaude');
     Route::get('eventos', 'IndexController@eventos');
-
+    Route::get('perguntas', 'IndexController@perguntas');
+    Route::get('dados-abertos', 'IndexController@dadosAbertos');
 });
 
 

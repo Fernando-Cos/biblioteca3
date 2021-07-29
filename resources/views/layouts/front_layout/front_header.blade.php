@@ -61,24 +61,23 @@
 <!-- fim div.container -->
 <div class="sobre">
 	<div class="container">
-		
 	</div>
-	<div class="sobre" style="background-color: #3b4b5b;">
+		<div class="sobre" style="background-color: #3b4b5b;">
 		<div class="container">
-				<nav class="menu-servicos pull-right" style="margin-right: 6%">
-<h2 class="hide">Serviços</h2>
-
-<ul>
-<li class="item-131"><a href="/perguntas-frequentes.html">Perguntas frequentes</a></li><li class="item-132 parent"><a href="/contato.html">Contato</a></li><li class="item-133"><a href="/servicos-da-denominacao.html">Serviços da [Denominação]</a></li><li class="item-134"><a href="/dados-abertos.html">Dados abertos</a></li></ul>
-<span class="hide">Fim do menu de serviços</span>
-</nav>
-
+			<nav class="menu-servicos pull-right" style="margin-right: 6%">
+				<h2 class="hide">Serviços</h2>
+				<ul>
+					<li class="item-131"><a href="perguntas">Perguntas frequentes</a></li>
+					<li class="item-132 parent"><a href="">Contato</a></li>
+					<li class="item-133"><a href="">Serviços da [Denominação]</a></li>
+					<li class="item-134"><a href="dados-abertos">Dados abertos</a></li></ul>
+					<span class="hide">Fim do menu de serviços</span>
+				</nav>
 		</div>
 		<!-- .container -->
 	</div>
 	<!-- .container -->
 </div>
-
 <!-- fim .sobre -->
 </header>
 <main>

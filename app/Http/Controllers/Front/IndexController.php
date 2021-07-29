@@ -79,5 +79,13 @@ class IndexController extends Controller
     public function eventos() {
         return view('front.eventos.eventos');
     }
+
+    public function perguntas() {
+        return view('front.perguntas');
+    }
+
+    public function dadosAbertos() {
+        return view('front.dados-abertos');
+    }
     
 }

@@ -54,7 +54,6 @@
     padding-block: 5%;"></div>
     <div class="col-md-6" style="margin-left: 53%; margin-top: -27%;">
         <h4>O que é <strong>Biblioteca - Ses?</strong></h4>
-            
         <p>Espaço criado para uma melhor proporcionar aprendizagem e conhecimento favoravais a todos.</p>
     </div>
 </div>

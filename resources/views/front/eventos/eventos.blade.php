@@ -33,9 +33,9 @@
         <span class="hidden-xs hidden-sm">Em Test</span>
     </div>
     <a href="">
-        <div class="wrapper" style="background-color: #c0d4d6;">
+        <div class="wrapper" style="background-color: #9cabb6;">
             <div class="brand">
-                <img src="https://viverdeblog.com/wp-content/uploads/2016/12/mailchimp.png" alt="">
+                <img src="{{ asset('images/front_images/a.jpg')}}" alt="">
             </div>
         </div>
     </a>
@@ -52,9 +52,9 @@
             <span class="hidden-xs hidden-sm">Em Test</span>
         </div>
         <a href="">
-            <div class="wrapper" style="background-color: #c0d4d6;">
+            <div class="wrapper" style="background-color: #9cabb6;">
                 <div class="brand">
-                    <img src="https://viverdeblog.com/wp-content/uploads/2016/12/mailchimp.png" alt="">
+                    <img src="{{ asset('images/front_images/clube-do-livro.jpg')}}" alt="">
                 </div>
             </div>
         </a>
@@ -71,9 +71,9 @@
                 <span class="hidden-xs hidden-sm">Em Test</span>
             </div>
             <a href="">
-                <div class="wrapper" style="background-color: #c0d4d6;">
+                <div class="wrapper" style="background-color: #9cabb6;">
                     <div class="brand">
-                        <img src="https://viverdeblog.com/wp-content/uploads/2016/12/mailchimp.png" alt="">
+                        <img src="{{ asset('images/front_images/clube-on.jpeg') }}" alt="">
                     </div>
                 </div>
             </a>
@@ -85,6 +85,7 @@
                     </div>
                 </div>
             </article>
+            
 <style type="text/css">
     .vdb-showcase.col-1 .vdb-card {
         width: 100%;

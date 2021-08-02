@@ -17,8 +17,8 @@ class CategoryController extends Controller
     public function categories() {
         Session::put('page','categories');
         $categories = Category::with('section','parentcategory')->get();
-        // $categories = json_decode(json_encode($categories));
-        // echo "<pre>"; print_r($categories); die;
+        $categories = json_decode(json_encode($categories));
+        echo "<pre>"; print_r($categories); die;
         return view('admin.categories.categories')->with(compact('categories'));
     }
 

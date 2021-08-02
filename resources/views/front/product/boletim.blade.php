@@ -73,13 +73,22 @@
 </tbody>
 </table>
 {{-- fim table --}}
+
+
+
 <p style="text-align: left;">
     <span style="font-size: 14pt; background-color: #970c10; border-radius: 10px;">
         <a href="" style="background-color: #970c10; color: #ffffff; border-radius: 10px; margin: 40px;">Edições 2020</a></span></p>
 <p style="text-align: left;">
     <span style="font-size: 14pt; background-color: #970c10;  border-radius: 10px;">
         <a href="" style="background-color: #970c10; color: #ffffff; border-radius: 10px; margin: 40px;">Edições 2021</a></span></p>
-<p>&nbsp;</p>
+        
+        <div class="test" style="float: right; width: 50%;">
+            <img src="{{ asset('images/front_images/infor-logo.svg')}}" alt="">
+        </div>    
+        <p>&nbsp;</p>
+
+
 
 {{-- Inicio do alerta p/ questionario --}}
 <div class="alert alert-info" role="alert">

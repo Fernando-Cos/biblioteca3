@@ -22,7 +22,7 @@ $(document).ready(function() {
     
 
 
-    // Atualização das sections status
+    // Atualização das sessoes status
     $(".updateSectionStatus").click(function() {
         var status = $(this).text();
         var section_id = $(this).attr("section_id");

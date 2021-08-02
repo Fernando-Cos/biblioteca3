@@ -11,42 +11,21 @@
                 <div id="content" class="span9 internas">
                     <section id="content-section">
                         <span class="hide">Início do conteúdo da página</span>
-
-                        
-                        
-                            
-                                                            <div class="row-fluid">
-                                                                        
-<div class="item-page">
-<span class="documentCategory">
-            <a href="/ultimas-noticias.html">Últimas notícias</a>		</span>
-
-<h1 class="secondaryHeading">
-        <a href="/ultimas-noticias/140-guia-de-fontes-de-informacao.html">
-     Guia de fontes de informação</a>
-    </h1>
-
-<ul class="actions">
-                </ul>
-
-
-
-
-<div class="content-header-options-1 row-fluid">
-<div class="documentByLine span7">
-    <ul>
-            
-        
-
-                <li class="documentPublished">
-            Publicado: Segunda, 23 de Novembro de 2020, 14h42			</li>
-        
-
+                        <div class="row-fluid">
+                            <div class="item-page">
+                                <span class="documentCategory">
+                                    <a href="/ultimas-noticias.html">Últimas notícias</a></span>
+                                    <h1 class="secondaryHeading">
+                                        <a href="/ultimas-noticias/140-guia-de-fontes-de-informacao.html">Guia de fontes de informação</a>
+                                    </h1>
+                                    <ul class="actions">
+                                    </ul>
+                                    <div class="content-header-options-1 row-fluid">
+                                        <div class="documentByLine span7">
+                                            <ul>
+                                                <li class="documentPublished">Publicado: Segunda, 23 de Novembro de 2020, 14h42			</li>
                 <li class="documentModified">
             Última atualização em Sexta, 27 de Novembro de 2020, 09h29			</li>
-        
-    
-            
     </ul>
 </div>
         <div class="btns-social-like span5" style="">
@@ -74,16 +53,30 @@
     
 </div>
 <!-- fim .content-header-options-1 -->
-
-
-
-
-
-
 <div class="span12">
+    <table class="tabelaConsultas">
+        <thead>
+            <tr>
+                <th style="width: 20px; min-width: 20px;">
+                </th>
+                <th id="thCabecalho1" style="" class="ordenacao1" onclick="">HISTÓRIA
+                    <div class="setasOrdenacao"></div>
+                </th>
+            </tr>
+        </thead>
+<tbody>
+    <tr onclick="">
+        <td>
+            <a id="" title="Visualizar em nova guia" class="link abrirDocNovaAbaConsulta" href="">
+                <span class="icon novaAbaEscuro"></span>
+            </a>
+        </td>
+    <td style="" class="colunaID coluna0"><p style="text-align: justify">FLIEEN 02-04: Visando facilitar o acesso aos conteúdos por área do conhecimento o SISTEBIB, através das Bibliotecas Setoriais, disponibiliza os Guias de Fontes de Informação para os seus usuários..</p>
+</tbody>
+</table>
 <div class="item-page">
 <div>
-<p style="text-align: justify;"><span style="font-size: 12pt;">Visando facilitar o acesso aos conteúdos por área do conhecimento o SISTEBIB, através das Bibliotecas Setoriais, disponibiliza os Guias de Fontes de Informação para os seus usuários.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;"></span></p>
 <p style="text-align: justify;"><span style="font-size: 12pt;">Entre no link da sua biblioteca abaixo a acesse o guia da sua unidade.</span></p>
 <p style="text-align: justify;"><span style="font-size: 12pt; color: #008000;"><strong><a style="color: #008000;" href="https://drive.google.com/file/d/1vVe4xbFqKnLk0glDtXLF2IoP4cnXCNLJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Biblioteca Setorial do Setor Norte - BSSN</a></strong></span><br><span style="font-size: 12pt; color: #000000;"><strong>Áreas do conhecimento</strong>: Ciências Humanas e Letras, Educação e Estudos Sociais.</span></p>
 <p style="text-align: justify;"><span style="font-size: 12pt; color: #000000;"><strong><span style="color: #008000;"><a style="color: #008000;" href="https://drive.google.com/file/d/1USNVRSInaSpOWyPOx9odKOLYQmB-sZhz/view?usp=sharing" target="_blank" rel="noopener noreferrer">Biblioteca Setorial de Ciências Exatas e Engenharias - BSCEE</a></span> </strong></span><br><span style="font-size: 12pt; color: #000000;"><strong>Áreas do conhecimento:</strong> Engenharias (Civil, Elétrica, Mecânica, Produção,&nbsp;Química e Computação), Física, Química, Matemática, Design e Arquitetura.</span></p>

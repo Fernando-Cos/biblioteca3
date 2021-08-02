@@ -38,7 +38,7 @@
     <a href="">
         <div class="wrapper" style="background-color: #c0d4d6;">
             <div class="brand">
-                <img src="https://viverdeblog.com/wp-content/uploads/2016/12/mailchimp.png" alt="">
+                <img src="{{('images/front_images/saude-literaria.jfif')}}" alt="">
             </div>
         </div>
     </a>

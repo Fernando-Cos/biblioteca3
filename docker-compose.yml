@@ -13,7 +13,7 @@ services:
     networks:
       - biblioteca
 
-  db:
+  db_biblioteca:
     image: mysql:5.7
     container_name: biblioteca-db
     restart: unless-stopped

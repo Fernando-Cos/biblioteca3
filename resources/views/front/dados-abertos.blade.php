@@ -54,6 +54,7 @@
         </table>
     <div class="content-header-options-1 row-fluid">
         <img src="{{ asset('images/front_images/data.png')}}" style="max-width: 30%" alt="">
+        <button type="button" class="btn btn-success">Acessar</button>
 
 </div>
     </div>

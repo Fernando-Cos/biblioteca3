@@ -68,7 +68,7 @@
 				<h2 class="hide">Serviços</h2>
 				<ul>
 					<li class="item-131"><a href="perguntas">Perguntas frequentes</a></li>
-					<li class="item-132 parent"><a href="">Contato</a></li>
+					<li class="item-132 parent"><a href="contatos">Contato</a></li>
 					<li class="item-133"><a href="">Serviços da [Denominação]</a></li>
 					<li class="item-134"><a href="dados-abertos">Dados abertos</a></li></ul>
 					<span class="hide">Fim do menu de serviços</span>

@@ -131,7 +131,7 @@
         </label>
         </td>
         <td>
-        <div class="img" style="background-image:url(images/product-1.png)"></div>
+        <div class="img" style="background-image:url(../images/front_images/img-treinamento.png);"></div>
         </td>
         <td>
         <div class="email">
@@ -145,7 +145,7 @@
         </label>
         </td>
         <td>
-        <div class="img" style="background-image:url(images/product-2.png)"></div>
+        <div class="img"  style="background-image:url(../images/front_images/img-treinamento.png);"></div>
         </td>
         <td>
         <div class="email">
@@ -166,9 +166,9 @@
         </label>
         </td>
         <td>
-        <div class="img" style="background-image:url(images/product-3.png)"></div>
+        <div class="img"  style="background-image:url(../images/front_images/img-treinamento.png);"></div>
         </td>
-        <td>
+        <td style="width: 80%;">
         <div class="email">
         <span>Uso do portal de periódicos CAPES/Acesso via CAFÉ</span>
     </div>
@@ -264,7 +264,7 @@
 }
 
 .table tbody td .img {
-    width: 100px;
+    width: 150px;
     height: 80px;
 }
 .img {

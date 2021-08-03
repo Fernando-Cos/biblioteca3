@@ -98,105 +98,107 @@
 <p style="text-align: left;"><span style="font-size: 12pt;"><strong>Após a solicitação por e-mail, datas e horários serão tratados diretamente com o professor (mediante disponibilidade de horário pela equipe do SISTEBIB)</strong></span></p> 
 </div> --}}
 
-    </div>
-
-
-
-
-    <span class="hide">Fim do conteúdo da página</span>
+</div>
+<span class="hide">Fim do conteúdo da página</span>
     <div class="container1">
         <div class="row justify-content-center">
-        <div class="col-md-6 text-center mb-4">
+            <div class="col-md-6 text-center mb-4">
+            </div>
         </div>
-        </div>
+        {{-- Inicio da tabela treinamento --}}
         <div class="row1" style="max-width: 100%;">
-        <div class="col-md-12">
-        {{-- <h3 class="h5 mb-4 text-center">Table Accordion</h3> --}}
-        <div class="table-wrap">
-        <table class="table">
-        <thead class="thead-primary" style="height: 4pc;">
-        <tr>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th>Produtos e serviços</th>
-        <th>&nbsp;</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="alert" role="alert">
-        <td>
-        <label class="checkbox-wrap checkbox-primary">
-        <input type="checkbox" checked="">
-        <span class="checkmark"></span>
-        </label>
-        </td>
-        <td>
-        <div class="img" style="background-image:url(../images/front_images/img-treinamento.png);"></div>
-        </td>
-        <td>
-        <div class="email">
-        <span>Produtos e serviços do SISTEBIB- Site do SISTEBIB:</span>
-        </div>
-      
-        <tr class="alert" role="alert">
-        <td>
-        <label class="checkbox-wrap checkbox-primary">
-        <input type="checkbox">
-        </label>
-        </td>
-        <td>
-        <div class="img"  style="background-image:url(../images/front_images/img-treinamento.png);"></div>
-        </td>
-        <td>
-        <div class="email">
-        <span>Estratégias de busca</span>
-        </div>
-        </td>
-        <td>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true"><i class="fa fa-close"></i></span>
-        </button>
-        </td>
-        </tr>
-        <tr class="alert" role="alert">
-        <td>
-        <label class="checkbox-wrap checkbox-primary">
-        <input type="checkbox">
-        <span class="checkmark"></span>
-        </label>
-        </td>
-        <td>
-        <div class="img"  style="background-image:url(../images/front_images/img-treinamento.png);"></div>
-        </td>
-        <td style="width: 80%;">
-        <div class="email">
-        <span>Uso do portal de periódicos CAPES/Acesso via CAFÉ</span>
-    </div>
-        </td>
-        </td>
-        </td>
-        <td class="border-bottom-0">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true"><i class="fa fa-close"></i></span>
-        </button>
-        </td>
-        </tr>
+            <div class="col-md-12">
+                <h3 class="h5 mb-4 text-center" style="color: #18324e">Tabela dos treinamentos.</h3>
+                <div class="table-wrap">
+                    <table class="table">
+                        <thead class="thead-primary" style="height: 4pc;">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>Imagens</th>
+                                <th>Produtos e serviços</th>
+                                <th>Usúarios</th>
+                            </tr>
+                        </thead>
+                <tbody>
+                    <tr class="alert" role="alert">
+                        <td>
+                            <label class="checkbox-wrap checkbox-primary">
+                                <input type="checkbox" checked="">
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td>
+                            <div class="img" style="background-image:url(../images/front_images/img-treinamento.png);"></div>
+                        </td>
+                        <td>
+                            <div class="email">
+                                <span>Produtos e serviços do SISTEBIB- Site do SISTEBIB:</span>
+                                <p class="test">Site do SISTEBIB: Catálogo online - Sistema Pergamum; Repositório Institucional; Biblioteca de Teses e Dissertações; Ferramentas de apoio ao ensino; Fontes de Informação (gratuitas, restritas e temporárias); Nada Consta; Elaboração de ficha catalográfica; Depósito de teses e dissertações; Depósito de trabalhos de conclusão de curso e publicações da UFAM.</p>
+                            </div>
+                            <tr class="alert" role="alert">
+                                <td>
+                                    <label class="checkbox-wrap checkbox-primary">
+                                        <input type="checkbox">
+                                    </label>
+                                </td>
+                                <td>
+                                    <div class="img"  style="background-image:url(../images/front_images/img-treinamento.png);"></div>
+                                </td>
+                                <td>
+                                    <div class="email">
+                                        <span>Estratégias de busca</span>
+                                        <p class="test">Operadores boleanos; Bases de dados; Criação de termos de busca; Aplicação de booleanos em busca em bases de dados;</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-close"></i></span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="alert" role="alert">
+                                <td>
+                                    <label class="checkbox-wrap checkbox-primary">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                            <td>
+                                <div class="img"  style="background-image:url(../images/front_images/img-treinamento.png);"></div>
+                            </td>
+                        <td style="width: 80%;">
+                            <div class="email">
+                                <span>Uso do portal de periódicos CAPES/Acesso via CAFÉ</span>
+                                <p class="test">Busca por Base; Busca por Livro; Busca por Assunto; Acesso via CAFÉ; Conteúdo gratuito e conteúdo pago; Exemplos de bases disponibilizadas;</p>
+                            </div>
+                        </td>
+                    </td>
+                </td>
+                <td class="border-bottom-0">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-close"></i></span>
+                    </button>
+                </td>
+            </tr>
         </tbody>
         </table>
-        </div>
-        </div>
-        </div>
-        </div>
-</section>
-</div>
-    </div>
-        </div>
     </div>
 </div>
-ds
+</div>
+</div>
+    </section>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
 
 <style>
-    .table-wrap {
+.test {
+    text-indent: 4em;
+}
+
+.table-wrap {
     overflow-x: scroll;
 }
 .table {
@@ -273,6 +275,9 @@ ds
     background-position: center center;
 }
 
-
+span {
+    color: #18324e;
+    font-weight: bold;
+}
 </style>
 @endsection

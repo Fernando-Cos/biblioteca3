@@ -12,7 +12,7 @@
 	<header>
 		<div class="container">
 			<div class="row-fluid accessibility-language-actions-container">
-				<ul id="accessibility">
+				{{-- <ul id="accessibility">
 					<li>
 						<a accesskey="1" href="#content" id="link-conteudo">
 							Ir para o conte&uacute;do
@@ -37,7 +37,7 @@
 							<span>4</span>
 						</a>
 					</li>
-				</ul>
+				</ul> --}}
 			</div>
 			<ul class="pull-right" id="portal-siteactions" style="padding-right: 105px;">
 				<li class="item-140"><a href="/acessibilidade.html" accesskey="5">Acessibilidade</a></li><li class="item-141 toggle-contraste"><a class="toggle-contraste" href="#" accesskey="6">Alto contraste</a></li><li class="item-142"><a href="/mapa-do-site.html" accesskey="7">Mapa do site</a></li></ul>

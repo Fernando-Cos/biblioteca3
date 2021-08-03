@@ -39,9 +39,9 @@
 					</li>
 				</ul>
 			</div>
-			<ul class="pull-right" id="portal-siteactions">
+			<ul class="pull-right" id="portal-siteactions" style="padding-right: 105px;">
 				<li class="item-140"><a href="/acessibilidade.html" accesskey="5">Acessibilidade</a></li><li class="item-141 toggle-contraste"><a class="toggle-contraste" href="#" accesskey="6">Alto contraste</a></li><li class="item-142"><a href="/mapa-do-site.html" accesskey="7">Mapa do site</a></li></ul>
-				<div style="text-align:right;">
+				<div style="text-align:right;padding-right: 90px;">
 					<ul id="accessibility">
 						<li>
 							<a href="#" onclick="sizeFont('conteudo','+');" title="Aumentar a fonte" class="flag nturl notranslate">A+</a>

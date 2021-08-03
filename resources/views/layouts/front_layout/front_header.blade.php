@@ -12,9 +12,71 @@
 	<header>
 		<div class="container">
 			<div class="row-fluid accessibility-language-actions-container">
+				<ul id="accessibility">
+					<li>
+						<a accesskey="1" href="#content" id="link-conteudo">
+							Ir para o conte&uacute;do
+							<span>1</span>
+						</a>
+					</li>
+					<li>
+						<a accesskey="2" href="#navigation" id="link-navegacao">
+							Ir para o menu
+							<span>2</span>
+						</a>
+					</li>
+					<li>
+						<a accesskey="3" href="#portal-searchbox" id="link-buscar">
+							Ir para a busca
+							<span>3</span>
+						</a>
+					</li>
+					<li>
+						<a accesskey="4" href="#footer" id="link-rodape">
+							Ir para o rodap&eacute;
+							<span>4</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="pull-right" id="portal-siteactions">
+				<li class="item-140"><a href="/acessibilidade.html" accesskey="5">Acessibilidade</a></li><li class="item-141 toggle-contraste"><a class="toggle-contraste" href="#" accesskey="6">Alto contraste</a></li><li class="item-142"><a href="/mapa-do-site.html" accesskey="7">Mapa do site</a></li></ul>
+				<div style="text-align:right;">
+					<ul id="accessibility">
+						<li>
+							<a href="#" onclick="sizeFont('conteudo','+');" title="Aumentar a fonte" class="flag nturl notranslate">A+</a>
+						</li>
+						<li>
+							<a href="#" onclick="sizeFont('conteudo','default');" title="Voltar ao tamanho normal" class="flag nturl notranslate">A</a>
+						</li>
+						<li>
+							<a href="#" onclick="sizeFont('conteudo','-');" title="Diminuir a fonte" class="flag nturl notranslate">A-</a>&nbsp;
+						</li>
+									<li>
+											<a href="#" onclick="doGTranslate('pt|pt');return false;" title="Portuguese" class="flag nturl notranslate">PT</a>
+									</li>
+									<li>
+											<a href="#" onclick="doGTranslate('pt|en');return false;" title="English" class="flag nturl notranslate">EN</a>
+									</li>
+									<li>
+											<a href="#" onclick="doGTranslate('pt|es');return false;" title="Spanish" class="flag nturl notranslate">ES</a>&nbsp;
+									</li>
+					</ul>
+				</div>
+			<!-- fim div.span6 -->
+			<div class="span6 language-and-actions-container">
 				<!-- fim div.span6 -->
 	<!-- fim div.span6 -->
+	
 </div>
+
+
+
+
+
+
+
+
 <!-- fim .row-fluid -->
 <div class="row-fluid">
 	<div id="logo" class="span8">

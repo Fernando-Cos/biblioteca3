@@ -16,16 +16,16 @@
                                 <span class="documentCategory">
                                     <a href="/ultimas-noticias.html">Últimas notícias</a></span>
                                     <h1 class="secondaryHeading">
-                                        <a href="/ultimas-noticias/140-guia-de-fontes-de-informacao.html">Guia de fontes de informação</a>
+                                        <a href="/ultimas-noticias/140-guia-de-fontes-de-informacao.html"></a>
                                     </h1>
-                                    <ul class="actions">
-                                    </ul>
-                                    <div class="content-header-options-1 row-fluid">
-                                        <div class="documentByLine span7">
-                                            <ul>
-                                                <li class="documentPublished">Publicado: Segunda, 23 de Novembro de 2020, 14h42			</li>
+                              <ul class="actions">
+                            </ul>
+                        <div class="content-header-options-1 row-fluid">
+                    <div class="documentByLine span7">
+                <ul>
+            <li class="documentPublished">Publicado: Segunda, 23 de Novembro de 2020, 14h42			</li>
                 <li class="documentModified">
-            Última atualização em Sexta, 27 de Novembro de 2020, 09h29			</li>
+            Última atualização em Sexta, 27 de Novembro de 2020, 09h29</li>
     </ul>
 </div>
         <div class="btns-social-like span5" style="">
@@ -59,7 +59,7 @@
             <tr>
                 <th style="width: 20px; min-width: 20px;">
                 </th>
-                <th id="thCabecalho1" style="" class="ordenacao1" onclick="">HISTÓRIA
+                <th id="thCabecalho1" style="" class="ordenacao1" onclick="">Guia de fontes de informação
                     <div class="setasOrdenacao"></div>
                 </th>
             </tr>
@@ -89,25 +89,19 @@
 </div>
 </div>
 </div> 
-
 </div>
 <div class="below-content">
     <div class="line">
     registrado em:
-        <span><a class="link-categoria" rel="tag" href="/ultimas-noticias.html">Últimas notícias</a></span>	</div>
-    
-
+        <span><a class="link-categoria" rel="tag" href="/ultimas-noticias.html">Últimas notícias</a></span>
+    </div>
 </div>
-
-                                                                </div>
-                            
-                            
-                        
-                        <span class="hide">Fim do conteúdo da página</span>
-                    </section>
-                </div>
-                <div class="content-header-options-1 row-fluid">
-            </div>
+</div>
+<span class="hide">Fim do conteúdo da página</span>
+</section>
+    </div>
+    <div class="content-header-options-1 row-fluid">
+    </div>
         </div>
     </div>
 </div>

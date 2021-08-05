@@ -13,6 +13,8 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ url('css/admin_css/adminlte.min.css') }}">
   <link rel="stylesheet" href="{{ url('css/admin_css/custom.css') }}">
+
+  <link rel="shortcut icon" href="images/front_images/ico/favicon-admin.jpg" />
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">

@@ -13,7 +13,6 @@
 
 Auth::routes();
 
-
     //Todas as rotas admin do projeto..
 Route::match(['get','post'], '/' ,'AdminController@login');
 Route::prefix('/admin')->namespace('Admin')->group(function() {
@@ -52,8 +51,15 @@ Route::prefix('/admin')->namespace('Admin')->group(function() {
         Route::get('products','ProductsController@products');
         Route::post('update-product-status', 'ProductsController@updateProductStatus');
         Route::get('delete-product/{id}','ProductsController@deleteProduct');
+
+        // Posts
+        // Route::get('/', 'PostController@index')->name('home');
+
     });
 });
+
+
+
 
 
 Route::namespace('Front')->group(function () {
@@ -94,7 +100,6 @@ Route::namespace('Repositorio')->group(function () {
     Route::get('repositorio-institucional', 'RepositorioController@indexRepositorio');
     
 });
-
 
 
 Route::namespace('Ebook')->group(function () {

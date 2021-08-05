@@ -135,6 +135,78 @@
          <p>POST's</p>
        </a>
   </li>
+
+
+
+
+
+
+
+<!-- Alterar isso aqui depois inicio  -->
+  @if (Session::get('page')=="products")
+       <?php $active = "active"; ?>
+     @else
+       <?php $active = ""; ?>
+     @endif
+     <li class="nav-item">
+       <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
+         <i class="far fa-circle nav-icon"></i>
+         <p>Cadastrar Ebook's</p>
+       </a>
+  </li>
+  <!--  Alterar isso depois fim  -->
+
+<!-- Alterar isso aqui depois inicio  -->
+@if (Session::get('page')=="products")
+       <?php $active = "active"; ?>
+     @else
+       <?php $active = ""; ?>
+     @endif
+     <li class="nav-item">
+       <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
+         <i class="far fa-circle nav-icon"></i>
+         <p>Cadastrar Artigos</p>
+       </a>
+  </li>
+  <!--  Alterar isso depois fim  -->
+  
+  <!-- Alterar isso aqui depois inicio  -->
+  @if (Session::get('page')=="products")
+       <?php $active = "active"; ?>
+     @else
+       <?php $active = ""; ?>
+     @endif
+     <li class="nav-item">
+       <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
+         <i class="far fa-circle nav-icon"></i>
+         <p>Cadastrar Treinamentos</p>
+       </a>
+  </li>
+  <!--  Alterar isso depois fim  -->
+
+  <!-- Alterar isso aqui depois inicio  -->
+  @if (Session::get('page')=="products")
+       <?php $active = "active"; ?>
+     @else
+       <?php $active = ""; ?>
+     @endif
+     <li class="nav-item">
+       <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
+         <i class="far fa-circle nav-icon"></i>
+         <p>Cadastrar Eventos</p>
+       </a>
+  </li>
+  <!--  Alterar isso depois fim  -->
+
+
+
+
+
+
+
+
+
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

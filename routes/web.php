@@ -79,7 +79,6 @@ Route::namespace('Front')->group(function () {
     Route::get('perguntas', 'IndexController@perguntas');
     Route::get('dados-abertos', 'IndexController@dadosAbertos');
     Route::get('resumo-de-atos', 'IndexController@resumoDeAtos');
-
 });
 
 

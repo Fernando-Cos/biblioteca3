@@ -54,7 +54,7 @@
    @include('front.includes.infor-dados')
 </div>
 <img src="{{ asset('images/front_images/atos-normativos.svg')}}" class="home-section" alt="Imagem vetorizada de computator e materiais" style="max-width: 35%;
-    padding-block: 5%;">    
+    padding-block: 10%;">    
 </div>
 
     <div class="col-md-6" style="margin-left: 53%; margin-top: -27%;">

@@ -9,7 +9,7 @@
             <thead>
                 <tr>
                     <td style="width: 10px; text-align: center;" colspan="2">
-                        <p style="text-align: center;"><span style="font-size: 12pt;"><strong>Cursos de Pós-graduação UFAM</strong></span></p>
+                        <p style="text-align: center;"><span style="font-size: 12pt;"><strong>Em teste Ses</strong></span></p>
                     </td>
                 </tr>
             </thead>

@@ -13,9 +13,11 @@ class SectionsTableSeeder extends Seeder
     public function run()
     {
         $sectionsRecords = [
-            ['id'=>1,'name'=>'Men','status'=>1],
-            ['id'=>2,'name'=>'Women','status'=>1],
-            ['id'=>3,'name'=>'Kids','status'=>1],
+            ['id'=>1,'name'=>'Notícias','status'=>1],
+            ['id'=>2,'name'=>'Mas Importantes','status'=>1],
+            ['id'=>3,'name'=>'Menos Importantes','status'=>1],
+            ['id'=>4,'name'=>'Atualidade','status'=>1],
+            ['id'=>5,'name'=>'Em destaques','status'=>1],
         ];
         Section::insert($sectionsRecords);
     }

@@ -27,14 +27,14 @@
 <ul>
 	<li class="item-291">
 		<a href="{{ url('product/treinamento')}}" target="_blank">Treinamentos</a></li>
-		<li class="item-362"><a href="">Resumo de Atos</a></li><li class="item-323">
+		<li class="item-362"><a href="resumo-de-atos">Resumo de Atos</a></li><li class="item-323">
 			<a href="">Normatização</a></li><li class="item-324">
 				<a href="{{ url('product/boletim')}}">Boletim Informativo</a></li><li class="item-325"></nav>
 				<nav class="principal span9 closed">
-					<h2><a href="eventos"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i>{{-- aqui ele vai direcinar para   uma nova pagina com cadastrar eventos pesquosar no bvsalud--}}</h2>
+					<h2><a href="eventos"> Eventos</a><i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2>
 				</nav>
 				<nav class="principal span9 closed">
-				 <h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>{{-- saude lieteraria aqui, ele vai redirecionar para mesma pagina mostrando os 3 pojetos e susas acoes  comece bem sua semana, 2 doda de conversa e club de leitura  --}}
+				 <h2><a href="saude-literaria">Saúde literaria<i class="icon-chevron-up visible-phone visible-tablet pull-right"></i></h2></a>
 			</nav>
 			<nav class="principal span9 closed">
 				<h2>

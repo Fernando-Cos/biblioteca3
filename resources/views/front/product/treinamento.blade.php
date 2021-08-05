@@ -187,11 +187,12 @@
 </div>
 </div>
 
-
-
-ds
-
-
+<img src="{{ asset('images/front_images/treinamento.jpg')}}" class="home-section" alt="Img Treinamento" style="max-width: 40%;
+    padding-block: 5%;">
+<div class="col-md-6" style="margin-left: 53%; margin-top: -27%; color: #5f5050;" >
+        <h4>Informações de treinamentos Ses - AM </h4>
+        <p>Espaço destinado para treinamento dos servidores usúario do sistema e outros serviços.</p>
+    </div>
     </section>
         </div>
         </div>

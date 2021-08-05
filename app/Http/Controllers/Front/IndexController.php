@@ -87,5 +87,9 @@ class IndexController extends Controller
     public function dadosAbertos() {
         return view('front.dados-abertos');
     }
+
+    public function resumoDeAtos() {
+        return view('front.resumo-atos.resumo-de-atos');
+    }
     
 }

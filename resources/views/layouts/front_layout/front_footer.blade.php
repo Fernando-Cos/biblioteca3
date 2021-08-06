@@ -29,7 +29,7 @@
 </div>
 <div class="span3">		
 <nav class="row redes-sociais nav">
-	<h2>Saúde Literaria</h2>
+	<h2>Comunicação</h2>
 <ul>
 <li class="item-136">
 	<a href="https://twitter.com/twiiter">Twitter</a></li>
@@ -43,15 +43,13 @@
 	<h2>Assuntos em Destaques</h2>
 	<ul>
 <li class="item-172">
-	<a href="">Acessibilidade</a></li>
-	<a href="">Acessibilidade</a></li>
-	<a href="">Acessibilidade</a></li>
-	<a href="">Acessibilidade</a></li>
+	<a href="">Em teste</a></li>
+	
 	<li class="item-173">
 	<a href="">Mapa do site</a></li></ul>
 </nav>	
 </div>
-{{-- <span class="hide">Fim da navegação de rodapé</span> --}}
+ <span class="hide">Fim da navegação de rodapé</span>
 	</div>
 	<!-- fim .row -->
 </div>

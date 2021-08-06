@@ -69,12 +69,11 @@
         </a>
     </td>
 <td style="" class="colunaID coluna0">
-    <p style="text-align: justify">FLIEEN 02-04: Com o intuito de trazer cada vez mais informações para a comunidade acadêmica no que diz respeito as atividades desenvolvidas pelo Departamento de Assistência Estudantil - DAEST, lançamos o boletim informativo "FALA DAEST":.</p>
+    <p style="text-align: justify">FLIEEN 02-04: Com o intuito de trazer cada vez mais informações para a comunidade 
+    acadêmica no que diz respeito as atividades desenvolvidas pelo Ses - AM, lançamos o boletim informativo "FALA SES-AM":</p>
 </tbody>
 </table>
 {{-- fim table --}}
-
-
 
 <p style="text-align: left;">
     <span style="font-size: 14pt; background-color: #970c10; border-radius: 10px;">

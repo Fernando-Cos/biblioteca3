@@ -10,7 +10,7 @@
 <!-- fim barra do governo -->
 <div class="layout">
 	<header>
-		<div class="container">tet
+		<div class="container">
 			<div class="row-fluid accessibility-language-actions-container">
 				 <ul id="accessibility">
 					<li>

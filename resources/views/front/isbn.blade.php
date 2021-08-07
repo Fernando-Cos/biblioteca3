@@ -29,7 +29,7 @@
             </thead>
         </tbody>
     </table>
-<div class="form-group row">
+<div class="form-group row" style="margin-right: 0%;">
     <table class="tabelaConsultas">
         <thead>
             <tr>

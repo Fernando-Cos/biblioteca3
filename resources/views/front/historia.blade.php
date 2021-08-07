@@ -59,6 +59,14 @@
 </div>
     </div>
         </div>
-            </div>
+    </div>
 </div>
+
+<style>
+    /* @media (max-width: 767px)
+    .img {
+    margin-left: 7px;
+    margin-right: 2%;
+} */
+</style>
 @endsection

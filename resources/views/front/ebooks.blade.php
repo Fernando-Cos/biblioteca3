@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('title', 'E - Books')
-
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -8,11 +7,8 @@
 <div class="card">
 <div class="card-header"></div>
     <div class="card-body">
-        <h1>E - BOOKS</h1><BR>
-            <h1>Fazer 2 quadrados contento os ebooks, clicando neles vai para a visualização, ou baixar</h1><BR>
-            <div class="form-group row">
+            <div class="form-group row1">
                 <div class="content-header-options-1 row-fluid">
-                    
             <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -34,17 +30,18 @@
             <p style="text-align: justify">FLIEEN 02-04: (DESCRIÇÃO ALTERNATIVA AQUI) com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
         <br></tbody>
     </table><br>
-<div class="form-group row">
+<div class="form-group row1">
     <div class="content-header-options-1 row-fluid">
         <div class="form-group row">
-           <div class="content-header-options-1 row-fluid" style="padding: 15px;">
-            <section id="obraCompleta" class="obraCompleta"> 
-                <div class="imgObraCompleta" style="height: 255px;width: 730px;" id="f">
+           <div class="content-header-options-1 row-fluid" >
+            <section id="obraCompleta" class="obraCompleta" style="margin-left: 0%; margin-right: 0%;"
+        "> 
+                <div class="imgObraCompleta" style="height:200px;" id="f">
                     <img id="imgobraCompleta" src="{{asset('images/front_images/ebooks.jpg')}}" alt=""> 
                 </div> 
                 <div class="container1" id="conteudo">	 
                 <div class="underlineTitulo"></div>
-        <div class="moduletableobras" style="box-shadow: 7px 5px 12px 1px #afb9cc;">
+        <div class="moduletableobras" >
     <div class="row obras">	
             <div class="col-md-3">
                 <div class="obra romance" style="background-image: url(images/front_images/img_ebooks.png);">

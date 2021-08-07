@@ -7,30 +7,39 @@
     <div class="card">
     <div class="card-header"></div>
     <div class="card-body">
-        <h1 style="text-align: center">❖ | ISBN</h1>
-
+        <h1>❖ | ISBN</h1>
             <button class="btn btn-primary">
                 <a href="https://forms.gle/zNMFznNKx6A1RDig6" target="_blanck" style="color: rgb(255, 255, 255);">Solicitar</a>
             </button>
-            
-            <h1>O que é ISBN?</h1>
-                <div class="form-group row">
-                <p style="text-align: justify;">O International Standard Book Number/ Padrão Internacional de Numeração de Livro - 
-                ISBN é um padrão numérico criado com o objetivo de fornecer uma espécie de "RG" para as publicações, funciona como identificador. Esse número é muito difuso por possibilitar que o material seja lido por redes de varejo,
-                bibliotecas e sistemas gerais de catalogação.</p>
-            <h1>Quais publicações podem receber ISBN?</h1>
-                <p style="text-align: justify">O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público,
-                quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
     <table class="tabelaConsultas">
         <thead>
             <tr>
                 <th style="width: 20px; min-width: 20px;">
                 </th>
-                <th id="thCabecalho1" style="" class="ordenacao1" onclick="javascript:carregarBoxCarregando();$('.tabelaConsultas').width($('.tabelaConsultas').width());__doPostBack('ctl00$ctl00$conteudo$conteudo$lnkOrdenar','CodigoExibicao')">
+                <th id="thCabecalho1" style="" class="ordenacao1" >O QUE É ISBN?
+                    <p align="justify">O International Standard Book Number/ Padrão Internacional de Numeração de Livro - 
+                        ISBN é um padrão numérico criado com o objetivo de fornecer uma espécie de "RG" para as publicações, funciona como identificador. Esse número é muito difuso por possibilitar que o material seja lido por redes de varejo,
+                        bibliotecas e sistemas gerais de catalogação. 
+                <th id="thCabecalho1" style="" class="ordenacao1" >QUAIS PUBLICAÇÕES PODEM RECEBER O ISBN?
+                    <p align="justify">O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,
+                        como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público, 
+                        quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
+                    </th>
+                </tr>
+            </thead>
+        </tbody>
+    </table>
+<div class="form-group row">
+    <table class="tabelaConsultas">
+        <thead>
+            <tr>
+                <th style="width: 20px; min-width: 20px;">
+                </th>
+                <th id="thCabecalho1" style="" class="ordenacao1">
                     Exemplo de publicações ISBN
                     <div class="setasOrdenacao"></div>
                 </th>
-                <th id="thCabecalho2" style="" class="" onclick="javascript:carregarBoxCarregando();$('.tabelaConsultas').width($('.tabelaConsultas').width());__doPostBack('ctl00$ctl00$conteudo$conteudo$lnkOrdenar','doc.nome')">
+                <th id="thCabecalho2" style="" class="">
                     Documentos
                     <div class="setasOrdenacao"></div>
                 </th>

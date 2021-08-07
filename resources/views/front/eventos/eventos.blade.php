@@ -33,7 +33,7 @@
         <span class="hidden-xs hidden-sm">Em Test</span>
     </div>
     <a href="">
-        <div class="wrapper" style="background-color: #9cabb6;">
+        <div class="wrapper">
             <div class="brand">
                 <img src="{{ asset('images/front_images/a.jpg')}}" alt="">
             </div>
@@ -52,7 +52,7 @@
             <span class="hidden-xs hidden-sm">Em Test</span>
         </div>
         <a href="">
-            <div class="wrapper" style="background-color: #9cabb6;">
+            <div class="wrapper">
                 <div class="brand">
                     <img src="{{ asset('images/front_images/clube-do-livro.jpg')}}" alt="">
                 </div>
@@ -71,7 +71,7 @@
                 <span class="hidden-xs hidden-sm">Em Test</span>
             </div>
             <a href="">
-                <div class="wrapper" style="background-color: #9cabb6;">
+                <div class="wrapper">
                     <div class="brand">
                         <img src="{{ asset('images/front_images/clube-on.jpeg') }}" alt="">
                     </div>
@@ -115,6 +115,7 @@
         position: absolute;
         text-transform: uppercase;
         background-color: #546477;
+        border-radius: 0% 0% 69% 83%;
     }
     .visible-lg, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block, .visible-md, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-sm, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-xs, .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block {
         display: none!important;

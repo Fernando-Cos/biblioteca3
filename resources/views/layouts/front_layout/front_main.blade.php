@@ -1,4 +1,3 @@
-	
 <div class="row-fluid module ">
 <div class="outstanding-header">
 <h2 class="outstanding-title">

@@ -27,7 +27,7 @@
                 <td class="colunaID coluna0">
                     <p style="text-align: justify;">Este Repositório Institucional tem como propósito reunir, armazenar, organizar, recuperar, preservar e disseminar a produção científica e intelectual da comunidade Ses - AM(docentes, pesquisadores, técnicos e alunos de pós-graduação stricto sensu, lato sensu e graduação, servidores), bem como os documentos que são produzidos no âmbito da Ses - AM(Secretaria Estadual de saúde).</p>
                     <p style="text-align: justify;">O RI - SES tem como objetivo reunir num único local virtual o conjunto da produção científica e acadêmica da Ses - AM, contribuindo para ampliar a visibilidade da Instituição e dos seus pesquisadores, bem como o impacto da investigação, além da preservação da memória intelectual, seja na área das artes, das ciências ou humanidades.
-                        Para depositar sua produção no RI-SES/AM, cadastra-se e envie um e-mail para bibliotecases.am@gmail.com informando qual o vínculo com a Ses (Secretaria estadual de saúde).</p>
+                        Para depositar sua produção no RI-SES/AM, cadastra-se e envie um e-mail para bibliotecases.am@gmail.com informando qual o vínculo com a Ses(Secretaria estadual de saúde).</p>
                 </tbody>
         </table>
         <a href="" target="_blank"> 

@@ -2,13 +2,13 @@
 <div class="row-fluid module ">
 <div class="outstanding-header">
 <h2 class="outstanding-title">
-<span>Sistema Biblioteca</span></h2>
+<span>Portal Biblioteca SES - AM</span></h2>
 </div>
 
 <div class="carousel banner-carousel slide bannergroup " id="banner-carousel-202">
 <div class="carousel-inner">
 	<div class="banneritem item active">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER_TREINA-RIU.png" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
+	<img src="{{ asset('images/front_images/carousel/treinamento-main.png')}}" alt="TREINAMENTO: REPOSITÓRIO UFAM - RIU"/>
 </a>
 <div class="faixa"></div>
 <h1>
@@ -17,7 +17,7 @@
 	<div class="clr"></div>
 </div>
 	<div class="banneritem item ">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/BANNER--TREINA-JUN--002.png"alt=""/>
+	<img src="{{ asset('images/front_images/carousel/treinamento-julho.jpg')}}"  alt=""/>
 </a>
 	<div class="faixa"></div>
 	<h1>
@@ -26,7 +26,7 @@
 		<div class="clr"></div>
 	</div>
 <div class="banneritem item ">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/PROCESSO-DE-CONSULTA.png"alt=""/></a>
+	<img src="{{ asset('images/front_images/carousel/ses.jpg')}}" style="max-width: 100%;" alt=""/></a>
 		<div class="faixa"></div>
 		<h1>
 		<a href="/component/banners/click/36.html">UNIVERSIDADE FEDERAL DO AMAZONAS GESTÃO 2021-2025</a>
@@ -34,24 +34,24 @@
 		<div class="clr"></div>
 	</div>
 <div class="banneritem item ">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/Gale-site.png" alt=""/>
+	<img src="{{ asset('images/front_images/carousel/online.jpg')}}" alt=""/>
 </a>
 	<div class="faixa"></div>
 			<h1>
-		<a href="/component/banners/click/39.html">E-books Gale - Acesso até 10 de junho de 2021</a>
+		<a href="/component/banners/click/39.html"></a>
 			</h1>
 		<div class="clr"></div>
 	</div>
 <div class="banneritem item ">
 <a href="/component/banners/click/38.html" title="">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/APA-SITE.png" alt=""/></a>
+	<img src="{{ asset('images/front_images/carousel/telecom.jpg')}}" alt=""/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/38.html">ACESSO GRATUITO AOS JOURNALS DA APA POR 90 DIAS</a></h1>
 	<div class="clr"></div>
 		</div>
 		<div class="banneritem item ">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/bioscientifica_90-dias.png" alt=""/></a>
+	<img src="{{ asset('images/front_images/carousel/R.jpg')}}" alt=""/></a>
 	<div class="faixa"></div>
 <h1>
 <a href="/component/banners/click/34.html">ACESSO GRATUITO AOS JOURNALS DA BIOSCIENTIFICA POR 90 DIAS</a></h1>
@@ -59,7 +59,7 @@
 		</div>
 			<div class="banneritem item ">
 <a href="/component/banners/click/37.html" title="Treinamentos online do Portal CAPES">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/Capes-site.png" alt="Treinamentos online do Portal CAPES"/></a>
+	<img src="{{ asset('images/front_images/carousel/ebook.jpg')}}" alt="Treinamentos online do Portal CAPES"/></a>
 	<div class="faixa"></div>
 		<h1>
 <a href="/component/banners/click/37.html">Treinamentos online do Portal CAPES</a>
@@ -68,7 +68,7 @@
 	</div>
 <div class="banneritem item ">
 <a href="/component/banners/click/22.html" title="Acesse gratuitamente os journals da SIAM por 90 dias">
-	<img src="https://biblioteca.ufam.edu.br/images/siam.jpg" alt=""/></a>
+	<img src="{{ asset('images/front_images/carousel/telecom.png')}}" alt=""/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/22.html">Acesse gratuitamente os journals da SIAM por 90 dias</a>
@@ -77,16 +77,14 @@
 	</div>
 	<div class="banneritem item ">
 <a href="/component/banners/click/20.html" title="Devolução de livros">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/Devoluo-de-Livros_site3.png" alt=""/></a>
-<div class="faixa"></div>
-	<h1>
-<a href="/component/banners/click/20.html">Devolução de livros</a>
-</h1>
+	<img src="{{ asset('images/front_images/carousel/R.png')}}" alt=""/></a>
+<div class="faixa"></div> 
+<h1><a href="/component/banners/click/20.html">Devolução de livros</a></h1>
 	<div class="clr"></div>
 	</div>
 		<div class="banneritem item ">
 <a href="/component/banners/click/9.html" title="Bibliotecas fechadas - Informações ">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/bibliotecas-fechadas-corrigido.jpg" alt=" " width="746" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/R.jpg')}}" alt="" width="746" height="423"/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/9.html">Bibliotecas fechadas - Informações</a>
@@ -94,7 +92,7 @@
 		<div class="clr"></div>
 	</div>
 	<div class="banneritem item ">
-<img src="https://biblioteca.ufam.edu.br/images/banners/ACOLHIDA--SISTEBIB_CONFERE-JA_SITE.png" alt=""/></a>
+<img src="{{ asset('images/front_images/carousel/online.jpg')}}" alt=""/></a>
 	<div class="faixa"></div>
 		<h1>
 <a href="/component/banners/click/24.html">LIVE ACOLHIDA SISTEBIB 2021</a>
@@ -103,7 +101,7 @@
 	</div>
 	<div class="banneritem item ">
 <a href="/component/banners/click/12.html" title="Agendamento de Treinamentos on-line">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/AGENDAMENTO-TREINAMENTOS-NOVO.jpg" alt="-" width="746" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/telecom.png')}}" alt="-" width="746" height="423"/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/12.html">Agendamento de Treinamentos on-line</a>
@@ -112,7 +110,7 @@
 	</div>
 		<div class="banneritem item ">
 <a href="/component/banners/click/2.html" title="Documentos de acesso restrito BDTD">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/TESES-RESTRICAO-NOVO.jpg" alt="" width="746" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/ebook.jpg')}}" alt="" width="746" height="423"/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/2.html">Depósito de teses e dissertações com restrição de acesso</a>
@@ -121,7 +119,7 @@
 	</div>
 	<div class="banneritem item ">
 <a href="/component/banners/click/13.html" title="E-books ScienceDirect">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/Science-novo.jpg" alt="" width="746" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/online.jpg')}}" alt="" width="746" height="423"/></a>
 	<div class="faixa"></div>
 		<h1>
 <a href="/component/banners/click/13.html">E-books ScienceDirect</a>
@@ -130,8 +128,9 @@
 	</div>
 	<div class="banneritem item ">
 <a href="/component/banners/click/16.html" title="Bases de E-books gratuitos">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/bases-ebooks-novo.jpg" alt="" width="746" height="423"/></a>
-		<div class="faixa"></div>
+	<img src="{{ asset('images/front_images/carousel/telecom.png')}}" alt="" width="746" height="423"/></a>
+		<div class="faixa">
+		</div>
 			<h1>
 <a href="/component/banners/click/16.html">Bases de E-books gratuitos</a>
 	</h1>
@@ -139,7 +138,7 @@
 	</div>
 	<div class="banneritem item ">
 <a href="/component/banners/click/11.html" title="Guia de Fontes de Informação">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/GUIA-SETORIAIS-NOVO.jpg" alt="" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/website.jpg')}}" alt="" height="423"/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/11.html">Guia de Fontes de Informação</a>
@@ -148,16 +147,17 @@
 	</div>
 <div class="banneritem item ">
 <a href="/component/banners/click/7.html" title="Canal youtube SISTEBIB">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/Yotube-novo.jpg" alt="" width="746" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/r.jpg')}}" alt="" width="746" height="423"/></a>
 		<div class="faixa"></div>
 			<h1>
 <a href="/component/banners/click/7.html">Canal youtube SISTEBIB</a>
-	</h1>
-	<div class="clr"></div>
+</h1>
+	<div class="clr">
 	</div>
+</div>
 <div class="banneritem item ">
 <a href="/component/banners/click/15.html" title="Bases de dados gratuitas sobre coronavírus">
-	<img src="https://biblioteca.ufam.edu.br/images/banners/banner_principal/BASES-COVID-NOVO.jpg" alt="" width="746" height="423"/></a>
+	<img src="{{ asset('images/front_images/carousel/online.jpg')}}" alt="" width="746" height="423"/></a>
 		<div class="faixa"></div>
 	<h1>
 <a href="/component/banners/click/15.html">Bases de dados gratuitas sobre coronavírus</a>

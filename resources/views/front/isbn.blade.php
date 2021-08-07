@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('title', 'Isbn Solicitações')
-{{-- @include('front.includes.ficha1') --}}
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -20,8 +19,8 @@
                 ISBN é um padrão numérico criado com o objetivo de fornecer uma espécie de "RG" para as publicações, funciona como identificador. Esse número é muito difuso por possibilitar que o material seja lido por redes de varejo,
                 bibliotecas e sistemas gerais de catalogação.</p>
             <h1>Quais publicações podem receber ISBN?</h1>
-        <p>O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público,
-           quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
+                <p style="text-align: justify">O ISBN é atribuído a publicações monográficas, incluindo produtos relacionados,como publicações disponibilizadas como conjuntos ou como séries completas disponíveis para o público,
+                quer estas publicações e produtos estejam disponíveis gratuitamente ou para compra. Por exemplo:</p>
     <table class="tabelaConsultas">
         <thead>
             <tr>

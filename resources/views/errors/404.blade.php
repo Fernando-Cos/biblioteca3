@@ -2,28 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Erro, Pagina Não encontrada</title>
+    <title>Erro de pagina</title>
 </head>
-<body style="background-color: #d9dce4;">
-    <section style="padding-top: 100px ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2 text-center">
-                    <h1 style="font-size:162px;">404</h1>
-                    <h2>Pagina não encontrada!</h2>
-                    <div class="alert" role="alert" style="background-color: #a71826c7; border-color: #a71826c7; color: white;">
-                       Click no butão <b>voltar</b>.
-                      </div>
-                    <a href="/" class="btn btn-success"> Voltar</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<body>
+    <div id="container"> 
+         <div class="content">
+             <h2>404</h2>
+             <h4>Não encontramos esta pagína!</h4>
+             <p>A pagína solicitada não estar disponivel ou não existe</p>
+             <a href="/">Volta</a>
+         </div>
+    </div>
+    <script type="text/javascript">
+        var container = document.getElementById('container');
+        window.onmousemove = function(e) {
+            var x = - e.clientX / 5,
+                y = - e.clientY / 5;
+            container.style.backgroundPositionX = x + 'px';
+            container.style.backgroundPositionY = y + 'px';
+
+        }
+    </script>
 </body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(32deg, #888a91, #e1e2e6);
+        height: 100vh;
+    }
+
+    #container {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        bottom: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #3123;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+        background: url('../images/front_images/p404.png'), #111111;
+    }
+
+    #container .content {
+        max-width: 600vw;
+        text-align: center;
+    }
+
+    #container .content h2 {
+        font-size: 18vw;
+        color: #fff;
+        line-height: 1em;
+    }
+
+    #container .content h4 {
+        position: relative;
+        font-size: 1.5em;
+        color: #111;
+        background: #fff;
+        font-weight: 300;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+
+    #container .content p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    #container .content a {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        background: #fff;
+        color: rgb(116, 61, 61);
+        text-decoration: none;
+        margin-top: 25px; 
+        border-radius: 25px;
+        border-bottom: 3px solid #eee;
+
+    }
+</style>
 </html>
 

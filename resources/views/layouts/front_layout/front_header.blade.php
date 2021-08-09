@@ -31,12 +31,6 @@
 							<span>3</span>
 						</a>
 					</li>
-					<li>
-						<a accesskey="4" href="#footer" id="link-rodape">
-							Ir para o rodap&eacute;
-							<span>4</span>
-						</a>
-					</li>
 				</ul> 
 			</div>
 			<ul class="pull-right" id="portal-siteactions" style="padding-right: 105px;">
@@ -67,7 +61,6 @@
 			<div class="span6 language-and-actions-container">
 				<!-- fim div.span6 -->
 	<!-- fim div.span6 -->
-	
 </div>
 <!-- fim .row-fluid -->
 <div class="row-fluid">

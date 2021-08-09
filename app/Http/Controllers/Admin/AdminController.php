@@ -38,13 +38,13 @@ class AdminController extends Controller
             $customMessages = [
                 'email.required' => 'Email é Obrigatorio',
                 'email.email' => 'Validação obrigatoria',
-                'password.required' => 'Password Obrigatorio',
+                'password.required' => 'Senha é Obrigatorio',
             ];
             $this->validate($request, $rules, $customMessages);
            if(Auth::guard('admin')->attempt(['email'=>$data['email'], 'password'=>$data['password']])) {
                 return redirect('admin/dashboard');
            } else {
-               Session::flash('error_message', 'Email Invalido ou Senha');
+               Session::flash('error_message', 'Email ou Senha incorretos!');
                return redirect()->back();
            }
         }

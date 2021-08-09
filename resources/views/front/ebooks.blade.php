@@ -127,8 +127,9 @@
     </div>
 </div>
 
-
-
-
-
+<style>
+    .row1 {
+        margin-right: -5%;
+    }
+</style>
 @endsection

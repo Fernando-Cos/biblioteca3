@@ -131,7 +131,7 @@
 <div class="container">
 <div class="row-fluid">
 <section>
-<div class="custom">
+<div class="custom" style="    margin-right: 8%;">
 <center><a href="historia" target="" rel="noopener noreferrer">
 <img src="{{ asset('images/front_images/header.png') }}" width="140"/></a>
 <a href="http://10.200.7.15:8080/Biblivre5/?action=search_bibliographic" target="_black">
@@ -159,3 +159,6 @@
 <div class="row-fluid">
 	<div id="navigation" class="span3">
 		<a href="#" class="visible-phone visible-tablet mainmenu-toggle btn"> --}}
+
+
+

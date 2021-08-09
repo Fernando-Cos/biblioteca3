@@ -23,12 +23,11 @@
                         <div class="content-header-options-1 row-fluid">
                     <div class="documentByLine span7">
                 <ul>
-            <li class="documentPublished">Publicado: Segunda, 23 de Novembro de 2020, 14h42			</li>
-                <li class="documentModified">
-            Última atualização em Sexta, 27 de Novembro de 2020, 09h29</li>
-    </ul>
-</div>
-        <div class="btns-social-like span5" style="">
+            <li class="documentPublished">Publicado: Segunda, 23 de Novembro de 2020, 14h42</li>
+            <li class="documentModified">Última atualização em Sexta, 27 de Novembro de 2020, 09h29</li>
+        </ul>
+    </div>
+<div class="btns-social-like span5" style="">
                                                         <div class="pull-left googleplus">
 <!-- botão google plus -->
 <div id="___plusone_0" style="position: absolute; width: 450px; left: -10000px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I0_1627793732769" name="I0_1627793732769" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;annotation=bubble&amp;hl=pt-BR&amp;origin=https%3A%2F%2Fbiblioteca.ufam.edu.br&amp;url=https%3A%2F%2Fbiblioteca.ufam.edu.br%2Fultimas-noticias%2F140-guia-de-fontes-de-informacao.html&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.pt_BR.yJ2ZnldRVOs.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNor_T42aH35RUGGXEDohNib5MW7Q%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1627793732769&amp;_gfid=I0_1627793732769&amp;parent=https%3A%2F%2Fbiblioteca.ufam.edu.br&amp;pfname=&amp;rpctoken=19361882" data-gapiattached="true"></iframe></div><div class="g-plusone" data-size="medium" data-annotation="bubble" data-gapiscan="true" data-onload="true" data-gapistub="true"></div>

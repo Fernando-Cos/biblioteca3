@@ -150,7 +150,7 @@
      @endif
      <li class="nav-item">
        <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
-         <i class="far fa-circle nav-icon"></i>
+         <i class="fa fa-address-book"></i>
          <p>Cadastrar Ebook's</p>
        </a>
   </li>
@@ -164,7 +164,7 @@
      @endif
      <li class="nav-item">
        <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
-         <i class="far fa-circle nav-icon"></i>
+         <i class="fa fa-archive" ></i>
          <p>Cadastrar Artigos</p>
        </a>
   </li>
@@ -178,7 +178,7 @@
      @endif
      <li class="nav-item">
        <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
-         <i class="far fa-circle nav-icon"></i>
+         <i class="fa fa-briefcase"></i>
          <p>Cadastrar Treinamentos</p>
        </a>
   </li>
@@ -192,7 +192,7 @@
      @endif
      <li class="nav-item">
        <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
-         <i class="far fa-circle nav-icon"></i>
+         <i class="fa fa-calendar"></i>
          <p>Cadastrar Eventos</p>
        </a>
   </li>
@@ -207,7 +207,7 @@
      @endif
      <li class="nav-item">
        <a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
-         <i class="far fa-circle nav-icon"></i>
+         <i class="fa fa-medkit"></i>
          <p>Saúde Literaria </p>
        </a>
   </li>

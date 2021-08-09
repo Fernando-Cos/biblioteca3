@@ -30,12 +30,12 @@
                         Para depositar sua produção no RI-SES/AM, cadastra-se e envie um e-mail para bibliotecases.am@gmail.com informando qual o vínculo com a Ses(Secretaria estadual de saúde).</p>
                 </tbody>
         </table>
-        <a href="" target="_blank"> 
-        <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;"></a>
+       
+        <a href="" target="_blank">
             <div class="form-group row" id="repositorie">
                 <img src="{{ asset('images/front_images/repositorie.png') }}" alt="" style="margin-block: -23%;">
-
                 <div class="content-header-options-1 row-fluid">
+                <input type="button" value="Acessar" class="btn ToRight" style="background: #17a6db;"></a>
             </div>
         </div>
     </div>

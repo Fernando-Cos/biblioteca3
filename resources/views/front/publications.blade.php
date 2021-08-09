@@ -13,7 +13,6 @@
 <div class="item-page">
 	<h3 class="secondaryHeading"><a href="#">Publicações</a></h3>
 <div class="content-header-options-1 row-fluid">
-
 <table class="tabelaConsultas">
                 <thead>
                     <tr>
@@ -32,7 +31,7 @@
                     </a>
                 </td>
             <td style="" class="colunaID coluna0">
-                <p style="text-align: justify"><b>FLIEEN 02-04: Canoa do Tempo – Revista do Programa de Pos-Graduação em História da Universidade Federal do Amazonas.<b></p>
+                <p style="text-align: justify"><b>Canoa do Tempo – Revista do Programa de Pos-Graduação em História da Universidade Federal do Amazonas.<b></p>
                 <p style="text-align: justify; text-indent: 4rem;" >A Revista Canoa do Tempo é uma publicação acadêmica online mantida e editada pelo Programa de Pós Graduação em História UFAM, que se dedica a divulgar resultados inéditos de pesquisas na área de História e interdisciplinar. O conselho científico conta com especialistas pertencentes a instituições reconhecidas nacional e internacionalmente. A Canoa do Tempo é editada semestralmente e composta por trabalhos científicos sob a forma de artigos para dossiê temático, artigos livres, entrevistas e resenhas de livros, promovendo a divulgação da produção científica com ênfase nos estudos voltados para a Amazônia. Os critérios de seleção do tema de cada dossiê estão atentos aos debates historiográficos nacionais e internacionais, incentivando a construção de um diálogo profícuo entre pesquisadores das diferentes regiões brasileiras.</p>
         </tbody>
     </table>
@@ -62,7 +61,7 @@
                     </a>
                 </td>
             <td style="" class="colunaID coluna0">
-                <p style="text-align: justify"><b>FLIEEN 02-04: Manduarisawa – Revista eletrônica discente do curso de História da Universidade Federal do Amazonas.<b></p>
+                <p style="text-align: justify"><b>Manduarisawa – Revista eletrônica discente do curso de História da Universidade Federal do Amazonas.<b></p>
                 <p style="text-align: justify; text-indent: 4rem;">A Manduarisawa nasceu da inquietação de jovens acadêmicos que almejavam contribuir e incentivar a produção do conhecimento científico na Amazônia tendo por objetivo ser um periódico anual, vinculado ao Programa de Pós-Graduação em História da UFAM, que conta com a participação, no seu corpo editorial, dos alunos da graduação do Curso de Licenciatura Plena em História e do Programa de Pós-Graduação em História. Dessa forma, desejamos que a Revista Discente seja um canal de divulgação das pesquisas acadêmicas e um meio no qual possibilita a troca de experiências e saberes. Esperamos que o periódico possa também colaborar de forma significativa para o desenvolvimento intelectual de cada autor(a), parecerista e leitor(a). E por fim, que esse seja um espaço de debate, crítica e reflexão sobre a nossa prática de pesquisa e escrita no campo da História..</p>
         </tbody>
     </table>
@@ -77,16 +76,6 @@
                             <span class="hide">Fim do conteúdo da página</span>
                         </section>
                     </div>
-        <!-- <a href=""> (sead) site para referencia de blog conteudo como referencia.</a><br>
-        <a href=""> Fazer um filtro de busca para as noticias</a>
-    </h1>
-<ul class="actions"></ul>
-<div class="content-header-options-1 row-fluid">
-<div class="documentByLine span7">
-    <span class="documentPublished">Publicado: Sexta, 07 de Fevereiro de 2020, 16h28</span>
-    <span class="separator">|</span><span class="documentModified">Última atualização em Sexta, 08 de Janeiro de 2021, 09h35</span>
-    <span class="separator">|</span>			
-    <span class="documentHits">Acessos: 568</span> -->
             </div>
         </div>
 <div class="form-group row">

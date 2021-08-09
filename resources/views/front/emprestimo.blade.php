@@ -26,7 +26,7 @@
                     </a>
                 </td>
             <td style="" class="colunaID coluna0">
-                <p style="text-align: justify">FLIAA 02-04: O empréstimo de obras físicas da biblioteca é um serviço disponibilizado aos servidores, 
+                <p style="text-align: justify">O empréstimo de obras físicas da biblioteca é um serviço disponibilizado aos servidores, 
                     colaboradores e estagiários da SES-AM. Antes, porém, é necessário fazer o cadastro no Biblivre.</p>
         </tbody>
     </table>
@@ -48,7 +48,7 @@
             </a>
         </td>
     <td style="" class="colunaID coluna0">
-        <p style="text-align: justify">FLIAA 02-04: Para efetuar cadastro o usuário deverá apresentar na Biblioteca os seguintes documentos:</p>
+        <p style="text-align: justify">Para efetuar cadastro o usuário deverá apresentar na Biblioteca os seguintes documentos:</p>
         <h6>Servidor:</h6><p>Crachá ou contracheque + um documento com foto.</p>
         <h6>Colaborador:</h6><p>Contrato ou contracheque + um documento com foto </p>
         <h6>Estagiário:</h6><p>Cópia do contrato + um documento com foto</p>

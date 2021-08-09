@@ -33,7 +33,7 @@
                     </a>
                 </td>
             <td style="" class="colunaID coluna0">
-                <p style="text-align: justify">FLIEEN 02-04:  Dicas Práticas Para Manter a Saúde Em Dia Manter a saúde é cuidar todos os dias do corpo e da mente. 
+                <p style="text-align: justify; text-indent: 2em;">Dicas Práticas Para Manter a Saúde Em Dia Manter a saúde é cuidar todos os dias do corpo e da mente. 
                     Por isso, é necessário seguir alguns hábitos como a boa alimentação, prática de exercícios físicos, entre outras. 
                     Pensando nisso, reunimos neste artigo algumas dicas para se manter saudável.</p>
                </tbody>
@@ -175,9 +175,6 @@
 /* fim paginação */
 
 
-
-
-
 .vdb-showcase.col-4 .vdb-card {
     width: 23%;
     vertical-align: top;
@@ -217,12 +214,6 @@
     color: #3e464f;
 }
 </style>
-
-
-
-
-
-
         <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">
             </div>

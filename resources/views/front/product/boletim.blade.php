@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Boletim de informações Ses - AM')
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -69,7 +69,7 @@
         </a>
     </td>
 <td style="" class="colunaID coluna0">
-    <p style="text-align: justify">FLIEEN 02-04: Com o intuito de trazer cada vez mais informações para a comunidade 
+    <p style="text-align: justify">Com o intuito de trazer cada vez mais informações para a comunidade 
     acadêmica no que diz respeito as atividades desenvolvidas pelo Ses - AM, lançamos o boletim informativo "FALA SES-AM":</p>
 </tbody>
 </table>

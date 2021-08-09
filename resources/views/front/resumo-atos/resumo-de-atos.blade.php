@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('title', 'Atos Normativos da Secretaria Ses - AM')
-
 @section('content')
 <div class="container">
 <div class="row justify-content-center">
@@ -26,7 +25,7 @@
                     </a>
                 </td>
             <td style="" class="colunaID coluna0">
-                <p style="text-align: justify">FLIEEN 02-04: Criado em 27/08/1979 na SESAU com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
+                <p style="text-align: justify">Criado em 27/08/1979 na SESAU com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
         </tbody>
     </table>
 <table class="tabelaConsultas">
@@ -46,7 +45,7 @@
                         <span class="icon novaAbaEscuro"></span>
                     </a>
                 </td>
-            <td class="colunaID coluna0"><p style="text-align: justify">FLIEEN 02-04: Criado em 27/08/1979 na SESAU com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
+            <td class="colunaID coluna0"><p style="text-align: justify">Criado em 27/08/1979 na SESAU com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
         </tbody>
     </table>
     

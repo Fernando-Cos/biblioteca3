@@ -24,8 +24,8 @@
                     <span class="icon novaAbaEscuro"></span>
                 </a>
             </td>
-        <td style="" class="colunaID coluna0"><p style="text-align: justify">FLIEEN 02-04: Ficha catalográfica é um documento que reúne os dados que descrevem uma publicação, de forma padronizada - esse padrão é internacional.</p>
-            <p style="text-align: justify">FLIAAA 02-04: Ela aparece no verso da página de rosto das publicações, oficializando seus dados descritivos. 
+        <td style="" class="colunaID coluna0"><p style="text-align: justify">Ficha catalográfica é um documento que reúne os dados que descrevem uma publicação, de forma padronizada - esse padrão é internacional.</p>
+            <p style="text-align: justify">Ela aparece no verso da página de rosto das publicações, oficializando seus dados descritivos. 
                 Além de padronizar a catalogação da obra, a ficha catalográfica facilita a busca de informações sobre o material.
                 Para solicitar click na imagem abaixo.</p>
             </tbody>

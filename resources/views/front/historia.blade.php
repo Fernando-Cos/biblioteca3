@@ -25,7 +25,7 @@
                         <span class="icon novaAbaEscuro"></span>
                     </a>
                 </td>
-            <td style="" class="colunaID coluna0"><p style="text-align: justify">FLIEEN 02-04: Criado em 27/08/1979 na SESAU com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
+            <td style="" class="colunaID coluna0"><p style="text-align: justify">Criado em 27/08/1979 na SESAU com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
                 <p style="text-align: justify">Depois, passou a ser o Núcleo de Documentação Técnico Científica. Em 2005 tornou-se Gerência de Documentação Técnico Científica, ligada ao Departamento de Tecnologia da Informação.</p>
                 <p style="text-align: justify">Sempre foi mais conhecida como Biblioteca. E em setembro de 2020 “deixa de ser” Gerência de Documentação Técnica – GEDOC, pertencente ao Departamento de Tecnologia da Informação – DETIN, passando a ser incorporado à Gerência de Desenvolvimento de Pessoas e Educação na Saúde – GDPES.</p>
         </tbody>

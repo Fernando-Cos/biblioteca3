@@ -1,7 +1,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="dashboard" class="brand-link">
       <img src="{{ asset('images/admin_images/logo-admin.svg') }}" alt="AdminLTE Logo" class="brand-image elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Administração</span>
     </a>
@@ -227,13 +227,6 @@
        </a>
   </li>
   <!--  Alterar isso depois fim  -->
-
-
-
-
-
-
-
 
 
 

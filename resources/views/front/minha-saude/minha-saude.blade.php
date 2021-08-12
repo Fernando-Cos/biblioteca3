@@ -213,6 +213,7 @@
     cursor: pointer;
     color: #3e464f;
 }
+
 </style>
         <div class="form-group row">
                 <div class="content-header-options-1 row-fluid">

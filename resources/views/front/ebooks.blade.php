@@ -27,15 +27,14 @@
                     </a>
                 </td>
             <td style="" class="colunaID coluna0">
-            <p style="text-align: justify">FLIEEN 02-04: (DESCRIÇÃO ALTERNATIVA AQUI) com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
+            <p style="text-align: justify">(DESCRIÇÃO ALTERNATIVA AQUI) com o nome de Núcleo de Biblioteca, vinculado ao Núcleo de Desenvolvimento de Recursos Humanos da Coordenadoria de Planejamento de Saúde.</p>
         <br></tbody>
     </table><br>
 <div class="form-group row1">
     <div class="content-header-options-1 row-fluid">
         <div class="form-group row">
            <div class="content-header-options-1 row-fluid" >
-            <section id="obraCompleta" class="obraCompleta" style="margin-left: 0%; margin-right: 0%;"
-        "> 
+            <section id="obraCompleta" class="obraCompleta" style="margin-left: 0%; margin-right: 0%;"> 
                 <div class="imgObraCompleta" style="height:200px;" id="f">
                     <img id="imgobraCompleta" src="{{asset('images/front_images/ebooks.jpg')}}" alt=""> 
                 </div> 

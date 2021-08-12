@@ -11,7 +11,6 @@
         <span class="hide">Início do conteúdo da página</span>
         <div class="row-fluid">
 <div class="item-page">
-	<h3 class="secondaryHeading"><a href="#">Publicações</a></h3>
 <div class="content-header-options-1 row-fluid">
 <table class="tabelaConsultas">
                 <thead>
@@ -40,8 +39,10 @@
 		</ul>
 	</div>
 </div>
+<button type="button" class="btn btn-success">Success</button>
 <!-- fim .content-header-options-1 -->
 <p><span style="font-size: 16px;">Página do periódico:<a href="" target="_blank" rel="noopener noreferrer">Em teste</a></span></p>
+
 <hr>
 <table class="tabelaConsultas">
                 <thead>
@@ -65,7 +66,9 @@
                 <p style="text-align: justify; text-indent: 4rem;">A Manduarisawa nasceu da inquietação de jovens acadêmicos que almejavam contribuir e incentivar a produção do conhecimento científico na Amazônia tendo por objetivo ser um periódico anual, vinculado ao Programa de Pós-Graduação em História da UFAM, que conta com a participação, no seu corpo editorial, dos alunos da graduação do Curso de Licenciatura Plena em História e do Programa de Pós-Graduação em História. Dessa forma, desejamos que a Revista Discente seja um canal de divulgação das pesquisas acadêmicas e um meio no qual possibilita a troca de experiências e saberes. Esperamos que o periódico possa também colaborar de forma significativa para o desenvolvimento intelectual de cada autor(a), parecerista e leitor(a). E por fim, que esse seja um espaço de debate, crítica e reflexão sobre a nossa prática de pesquisa e escrita no campo da História..</p>
         </tbody>
     </table>
-<p><span style="font-size: 16px;">Página do periódico: <a href="" target="_blank" rel="noopener noreferrer">Em teste</a></span></p> 
+    <button type="button" class="btn btn-success">Success</button>
+<p><span style="font-size: 16px;">Página do periódico: <a href="" target="_blank" rel="noopener noreferrer">Em teste</a></span></p>
+ 
 </div>
 <div class="below-content">
 		<div class="line">

@@ -9,7 +9,6 @@ use App\Category;
 use App\Section;
 use Image;
 use NunoMaduro\Collision\Adapters\Phpunit\Style;
-
 // use function GuzzleHttp\json_encode;
 
 class CategoryController extends Controller
@@ -46,7 +45,7 @@ class CategoryController extends Controller
             $category = new Category;
             $categorydata = array();
             $getCategories = array();
-            $message = "Category Adicionada Com SUcesso!";
+            $message = "Categoria Adicionada Com Sucesso!";
         } else {
             // editar categoria funcionalidae
             $title= "Editar Categoria";
@@ -56,12 +55,11 @@ class CategoryController extends Controller
             $getCategories = Category::with('subcategories')->where(['parent_id'=>0,'section_id'=>$categorydata['section_id']])->get();
             $getCategories = json_decode(json_encode($getCategories),true);
             $category = Category::find($id);
-            $message = "Category Atualizada Com SUcesso!";
+            $message = "Categoria Atualizada Com Sucesso!";
         }
         if($request->isMethod('post')){
             $data = $request->all();
             // echo "<pre>"; print_r($data); die;
-
 
             //Validação das categorias... 
             $rules = [

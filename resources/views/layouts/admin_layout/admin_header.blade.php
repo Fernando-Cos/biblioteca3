@@ -8,14 +8,13 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="{{ url('admin/dashboard') }}" class="nav-link">Home</a>
       </li>
-      {{-- <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li> --}}
+       <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link" style="color: red;">Em teste</a>
+      </li>
     </ul>
-
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      {{-- <!-- Navbar Search -->
+       <!-- Navbar Search -->
       <li class="nav-item">
         <a class="nav-link" data-widget="navbar-search" href="#" role="button">
           <i class="fas fa-search"></i>
@@ -35,10 +34,10 @@
             </div>
           </form>
         </div>
-      </li> --}}
+      </li> 
 
       <!-- Messages Dropdown Menu -->
-      {{-- <li class="nav-item dropdown">
+       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-comments"></i>
           <span class="badge badge-danger navbar-badge">3</span>
@@ -50,10 +49,10 @@
               <img src="{{ asset('images/admin_images/user1-128x128.jpg')}}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Brad Diesel
+                  Fernando Amaral
                   <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm">Em teste...</p>
                 <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
@@ -66,10 +65,10 @@
               <img src="{{ asset('images/admin_images/user8-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  John Pierce
+                Fernando Amaral
                   <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm">Em teste</p>
                 <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
@@ -82,10 +81,10 @@
               <img src="{{ asset('images/admin_images/user3-128x128.jpg')}}" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Nora Silvester
+                Fernando Amaral
                   <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm">Em teste</p>
                 <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
@@ -128,7 +127,7 @@
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
-      </li> --}}
+      </li> 
       <li class="nav-item">
         <a class="nav-link" href="{{ url('admin/logout') }}" role="button">
           Sair

@@ -28,11 +28,10 @@
     <!-- left column -->
     <div class="col-md-6">
       <!-- general form elements -->
-      <div class="card card-primary">
-        <div class="card-header">
+      <div class="card" >
+        <div class="card-header" style="background-color: #32506e; color: #ffffff; background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(90 92 98));">
           <h3 class="card-title">Atualização de Senha</h3>
         </div>
-
 
         <!-- /.card-header -->
       @if(Session::has('error_message'))
@@ -48,7 +47,6 @@
       Erro[]
     </div>
   @endif
-
 
         <!-- form start -->
         <form>
@@ -67,34 +65,33 @@
             </div>
 
             <div class="form-group">
-              <label for="exampleInputEmail1">Admin Type</label>
+              <label for="exampleInputEmail1">Tipo de Administrador</label>
               <input class="form-control" value="{{ $adminDetails->type }}" readonly="">
             </div>
 
             <div class="form-group">
-              <label for="exampleInputPassword1">Current Password</label>
-              <input type="password" class="form-control" name="current_pwd" id="current_pwd" placeholder="Enter Current Password"
+              <label for="exampleInputPassword1">Senha Atual</label>
+              <input type="password" class="form-control" name="current_pwd" id="current_pwd" placeholder="Adicione a senha atual"
               required="">
             </div>
             <span id="chkCurrentPwd"></span>
 
 
             <div class="form-group">
-              <label for="exampleInputPassword1"> New Password</label>
-              <input type="password" class="form-control" name="new_pwd" id="new_pwd" placeholder="new enter Password" required="">
+              <label for="exampleInputPassword1"> Nova Senha</label>
+              <input type="password" class="form-control" name="new_pwd" id="new_pwd" placeholder="Adicione a senha nova" required="">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Confirme Password</label>
-              <input type="password" class="form-control" name="confirm_pwd" id="confirm_pwd" placeholder="Confirm new Password"
+              <label for="exampleInputPassword1">Confirme a Nova senha</label>
+              <input type="password" class="form-control" name="confirm_pwd" id="confirm_pwd" placeholder="Confirme a sua nova senha"
               required="">
             </div>
           </div>
-          
 
 
       <!-- /.card-body -->
       <div class="card-footer">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Atualizar</button>
       </div>
     </form>
   </div>

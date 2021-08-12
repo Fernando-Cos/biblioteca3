@@ -63,6 +63,7 @@
                         <span class="documentAuthor">Escrito por <strong>Fernando Amaral costa</strong></span>
                     </div>
                 </div>
+                <br>
 	        <div class="cat-items">
         <form action="https://progesp.ufam.edu.br/publicacoes-e-noticias.html" method="post" name="adminForm" id="adminForm">
 	<div class="row-fluid" style="background-color: #0660179e; box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">

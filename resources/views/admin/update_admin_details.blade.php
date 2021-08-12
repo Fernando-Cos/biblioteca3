@@ -13,7 +13,7 @@
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Configurações de admin v1</li>
+            <li class="breadcrumb-item active">Atualizar detalhes</li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -28,8 +28,8 @@
     <!-- left column -->
     <div class="col-md-6">
       <!-- general form elements -->
-      <div class="card card-primary">
-        <div class="card-header">
+      <div class="card">
+        <div class="card-header" style="background-color: #32506e; color: #f4f6f9;">
           <h3 class="card-title">Atualização Admin detalhes</h3>
         </div>
 
@@ -48,8 +48,6 @@
     </div>
   @endif
 
-
-  
 
       @if ($errors->any())
       <div class="alert alert-danger" style="margin: 10px;">
@@ -74,25 +72,24 @@
             </div>
 
             <div class="form-group">
-              <label for="exampleInputEmail1">Admin Type</label>
+              <label for="exampleInputEmail1">Tipo de Administrador</label>
               <input class="form-control" value="{{ Auth::guard('admin')->user()->type }}" readonly="">
             </div>
 
             <div class="form-group">
-              <label for="exampleInputPassword1">Name</label>
+              <label for="exampleInputPassword1">Nome:</label>
               <input type="text" class="form-control" name="admin_name" id="admin_name" placeholder="Enter Enter admin name"  value="{{ Auth::guard('admin')->user()->name }}"
               required="">
             </div>
 
 
-
             <div class="form-group">
-              <label for="exampleInputPassword1">mobile</label>
+              <label for="exampleInputPassword1">Celular:</label>
               <input type="text" class="form-control" value="{{ Auth::guard('admin')->user()->mobile }}" name="admin_mobile" id="admin_mobile" placeholder="Enter admin mobile" required="">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Image</label>
-              <input type="file" class="form-control" name="admin_image" id="admin_image" accept="image/*">
+              <label for="exampleInputPassword1">Imagem:</label>
+              <input type="file" class="form-control" name="admin_image" id="admin_image" accept="image/*" style="padding-bottom: 7%;">
                 @if (!empty(Auth::guard('admin')->user()->image))
                     <a target="_blank" href="{{ url('images/admin_images/
                     admin_photos/'.Auth::guard('admin')->user()->image) }}">View Imagem</a>
@@ -106,7 +103,7 @@
 
       <!-- /.card-body -->
       <div class="card-footer">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
       </div>
     </form>
   </div>

@@ -138,6 +138,31 @@
 
 
 
+<!-- Alterar isso aqui depois inicio  -->
+@if (Session::get('page')=="products")
+<?php $active = "active"; ?>
+@else
+<?php $active = ""; ?>
+@endif
+<li class="nav-item">
+<a href="{{ url('admin/products') }}" class="nav-link {{ $active }}">
+  <i class="fa fa-address-book"></i>
+  <p>Cadastro de informações</p>
+</a>
+</li>
+<!--  Alterar isso depois fim  -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -154,6 +179,8 @@
        </a>
   </li>
   <!--  Alterar isso depois fim  -->
+
+
 
 <!-- Alterar isso aqui depois inicio  -->
 @if (Session::get('page')=="products")

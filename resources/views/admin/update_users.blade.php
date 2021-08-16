@@ -35,7 +35,7 @@
                 <tr>
                   <th>Nome</th>
                   <th>User_Id</th>
-                  <!-- <td>E-mail</td> -->
+                  <th>E-mail</th>
                   <th>Criado Em:</th>
                   <th>Atualizado Em:</th>
                   <th>Ativo</th>
@@ -43,119 +43,29 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td>Trident</td>
-                  <td>Internet Explorer 4.0</td>
-                  <td>Win 95+</td>
-                  <td> 4</td>
-                  <td>X</td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet Explorer 5.0</td>
-                  <td>Win 95+</td>
-                  <td>5</td>
-                  <td>C</td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet Explorer 5.5</td>
-                  <td>Win 95+</td>
-                  <td>5.5</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 6
+                  <td>fernando Amaral</td>
+                  <td>User123</td>
+                  <td>user@gmail.com</td>
+                  <td>12/12/12</td>
+                  <td>11/11/21</td>
+                  <td>
+                      <button class="btn btn-success">teste</button>
+                      <button class="btn btn-success">teste</button>
+                      <button class="btn btn-success">teste</button>
                   </td>
-                  <td>Win 98+</td>
-                  <td>6</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet Explorer 7</td>
-                  <td>Win XP SP2+</td>
-                  <td>7</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>AOL browser (AOL desktop)</td>
-                  <td>Win XP</td>
-                  <td>6</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Firefox 1.0</td>
-                  <td>Win 98+ / OSX.2+</td>
-                  <td>1.7</td>
-                  <td>A</td>
                 </tr>
                 <tr>
                   <td>fernando Amaral</td>
                   <td>User123</td>
+                  <td>user@gmail.com</td>
                   <td>12/12/12</td>
                   <td>11/11/21</td>
-                  <td>Ativo</td>
+                  <td>
+                      <button class="btn btn-success">teste</button>
+                      <button class="btn btn-success">teste</button>
+                      <button class="btn btn-success">teste</button>
+                  </td>
                 </tr>
-                <tr>
-                  <td>fernando Amaral</td>
-                  <td>User123</td>
-                  <td>12/12/12</td>
-                  <td>11/11/21</td>
-                  <td>Ativo</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Firefox 3.0</td>
-                  <td>Win 2k+ / OSX.3+</td>
-                  <td>1.9</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Camino 1.0</td>
-                  <td>OSX.2+</td>
-                  <td>1.8</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Camino 1.5</td>
-                  <td>OSX.3+</td>
-                  <td>1.8</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Netscape 7.2</td>
-                  <td>Win 95+ / Mac OS 8.6-9.2</td>
-                  <td>1.7</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Netscape Browser 8</td>
-                  <td>Win 98SE+</td>
-                  <td>1.7</td>
-                  <td>A</td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Netscape Navigator 9</td>
-                  <td>Win 98+ / OSX.2+</td>
-                  <td>1.8</td>
-                  <td>A</td>
-                </tr>
-                <!-- <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
-                </tr> -->
                 </tfoot>
               </table>
             </div>

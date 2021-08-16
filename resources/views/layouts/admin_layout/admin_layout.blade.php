@@ -29,6 +29,9 @@
   <link rel="stylesheet" href="{{ url('plugins/daterangepicker/daterangepicker.css') }}">
   <!-- summernote -->
   <link rel="stylesheet" href="{{ url('plugins/summernote/summernote-bs4.min.css') }}">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="{{ url('plugins/datatables/dataTables.bootstrap4.css')}}">
+  
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -67,6 +70,10 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="{{ url('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<!-- DataTables -->
+<script src="{{ url('plugins/datatables/jquery.dataTables.js')}}"></script>
+<script src="{{ url('plugins/datatables/dataTables.bootstrap4.js')}}"></script>
+
 <!-- Select2 -->
 <script src="{{url('plugins/select2/js/select2.full.min.js') }}"></script>
 <!-- ChartJS -->
@@ -114,6 +121,7 @@
     $("#sections").DataTable();
     $("#categories").DataTable();
     $("#products").DataTable();
+    $("#users").DataTable();
 });
 </script>
 

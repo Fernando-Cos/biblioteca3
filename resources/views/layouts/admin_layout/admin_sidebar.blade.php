@@ -83,7 +83,7 @@
               <li class="nav-item">
                 <a href="{{ url('admin/update-admin-details') }}" class="nav-link {{ $active }}">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>atualizar detalhes ADM</p>
+                  <p>Atualizar detalhes ADM</p>
                 </a>
           </li>
 
@@ -101,12 +101,11 @@
               @endif
               <li class="nav-item">
                 <a href="{{ url('admin/update-users') }}" class="nav-link {{ $active }}">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>atualizar Usúarios</p>
+                <i class="fa fa-user-circle nav-icon" aria-hidden="true" > </i>
+                  <p>Atualizar Usúarios</p>
                 </a>
           </li>
           <!-- Alterar isso aqui depois -->
-
 
 
 

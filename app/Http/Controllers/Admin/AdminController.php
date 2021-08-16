@@ -132,4 +132,10 @@ class AdminController extends Controller
     }
 
 
+
+    public function updateUsers() {
+        return view('admin.update_users');
+    }
+
+
 }

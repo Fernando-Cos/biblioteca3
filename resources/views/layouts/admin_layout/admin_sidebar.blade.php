@@ -89,16 +89,18 @@
 
 
 
+          
+
 
 
           <!-- Alterar isso aqui depois -->
-          @if (Session::get('page')=="update-admin-details")
+          @if (Session::get('page')=="update-users")
                 <?php $active = "active"; ?>
               @else
                 <?php $active = ""; ?>
               @endif
               <li class="nav-item">
-                <a href="{{ url('admin/update-admin-details') }}" class="nav-link {{ $active }}">
+                <a href="{{ url('admin/update-users') }}" class="nav-link {{ $active }}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>atualizar Usúarios</p>
                 </a>
@@ -108,7 +110,40 @@
 
 
 
+
+
           
+          <!-- Alterar isso aqui depois -->
+          @if (Session::get('page')=="update-admin-details1")
+                <?php $active = "active"; ?>
+              @else
+                <?php $active = ""; ?>
+              @endif
+              <li class="nav-item">
+                <a href="{{ url('admin/update-admin-details') }}" class="nav-link {{ $active }}">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p style="color:red;">Em teste</p>
+                </a>
+          </li>
+          <!-- Alterar isso aqui depois -->
+
+          <!-- Alterar isso aqui depois -->
+            @if (Session::get('page')=="update-admin-details1")
+                <?php $active = "active"; ?>
+              @else
+                <?php $active = ""; ?>
+              @endif
+              <li class="nav-item">
+                <a href="{{ url('admin/update-admin-details') }}" class="nav-link {{ $active }}">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p style="color:red;">Em teste</p>
+                </a>
+          </li>
+          <!-- Alterar isso aqui depois -->
+
+
+
+
 
 
           {{-- Catalagos --}}

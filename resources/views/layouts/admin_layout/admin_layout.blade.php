@@ -100,6 +100,8 @@
 <script src="{{ url('js/admin_js/demo.js') }}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ url('js/admin_js/pages/dashboard.js') }}"></script>
+<!-- FastClick -->
+<script src="{{url('plugins/fastclick/fastclick.js')}}"></script>
 
 <!-- Custom admin js -->
 <script src="{{ url('js/admin_js/admin_script.js') }}"></script>

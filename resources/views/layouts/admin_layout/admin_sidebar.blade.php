@@ -86,6 +86,31 @@
                   <p>atualizar detalhes ADM</p>
                 </a>
           </li>
+
+
+
+
+
+          <!-- Alterar isso aqui depois -->
+          @if (Session::get('page')=="update-admin-details")
+                <?php $active = "active"; ?>
+              @else
+                <?php $active = ""; ?>
+              @endif
+              <li class="nav-item">
+                <a href="{{ url('admin/update-admin-details') }}" class="nav-link {{ $active }}">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>atualizar Usúarios</p>
+                </a>
+          </li>
+          <!-- Alterar isso aqui depois -->
+
+
+
+
+          
+
+
           {{-- Catalagos --}}
           @if(Session::get('page')=="sections" || Session::get('page')=="categories")
           <?php $active = "active"; ?>

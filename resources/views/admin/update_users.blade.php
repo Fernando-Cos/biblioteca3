@@ -50,7 +50,7 @@
                   <td>11/11/21</td>
                   <td>
                       <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#viewModal">
+                    <button type="button" class="btn btn-primary mb-1" data-toggle="modal" data-target="#viewModal">
                           <i class="fa fa-eye"></i>
                     </button>
                     <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#editModal">
@@ -69,11 +69,11 @@
                   <td>11/11/21</td>
                   <td>
                       <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#viewModal">
+                  <button type="button" class="btn btn-primary mb-1" data-toggle="modal" data-target="#viewModal">
                      <i class="fa fa-eye"></i>
                   </button>
                   <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#editModal">
-                  <i class="fa fa-picel"></i>
+                  <i class="fa fa-pincel"></i>
                   </button>
                   <button type="button" class="btn btn-danger mb-1" data-toggle="modal" data-target="#deleteModal">
                       <i class="fa fa-trash"></i>

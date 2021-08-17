@@ -19,13 +19,12 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="{{ url('/') }}"><b>SES - AM</b><br>Painel Administrativo</a>
+    <a href="{{ url('/admin') }}"><b>SES - AM</b><br>Painel Administrativo</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body" style="box-shadow: 0 0 10px 5px #6666664d;">
       <p class="login-box-msg">Faça login para iniciar sua sessão</p>
-
 
 
       @if(Session::has('error_message'))

@@ -13,7 +13,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">DataTables</li>
+              <li class="breadcrumb-item active">Dados de Usúarios</li>
             </ol>
           </div>
         </div>
@@ -76,58 +76,129 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="fas fa-edit"></i>
-                  Modal Examples
+                  Em Teste
                 </h3>
               </div>
               <div class="card-body">
 
-                <!-- EM TESTE -->
-                <!-- Button trigger modal -->
-                <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-                Launch demo modal
-                </button> -->
+<!-- EM TESTE -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+Launch demo modal
+</button> -->
 
-                <!-- Modal -->
-                <!-- <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Em teste</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body" style = "color: red;">
-                    EM TESTE!
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fehar</button>
-                    <button type="button" class="btn btn-primary">Salvar e Sair</button>
-                  </div>
-                </div>
-                </div>
-                </div> -->
-                <!-- EM TESTE -->
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalScrollableTitle">Em teste</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body" style = "color: red;">
+    EM TESTE!
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fehar</button>
+    <button type="button" class="btn btn-primary">Salvar e Sair</button>
+  </div>
+</div>
+</div>
+</div> -->
+<!-- EM TESTE -->
 
 
-                
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary mb-1" data=toggle="modal"
-                    data-target="#smallmodal">
-                    Small
-                </button>
 
-                <button type="button" class="btn btn-secondary mb-1" data=toggle="modal"
-                    data-target="#mediumModal">
-                    Meduim 
-                </button>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary mb-1" data-toggle="modal"
+    data-target="#viewModal">
+    Visualizar
+</button>
 
-                <button type="button" class="btn btn-secondary mb-1" data=toggle="modal"
-                    data-target="#staticModal">
-                    Statics
-                </button>
+<button type="button" class="btn btn-secondary mb-1" data-toggle="modal"
+    data-target="#editModal">
+    Editar 
+</button>
 
-                <!-- Modal -->
+<button type="button" class="btn btn-secondary mb-1" data-toggle="modal"
+    data-target="#deleteModal">
+    Deletar
+</button>
+
+<!-- Modal -->  
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelleadby="deleteModalLabel" >
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="deleteModalLabel">static model</h5>
+          <button type="button" class="close" data-dismiss="model" aria-label="Close">
+              <span aria-hidden="true">x</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p style="color: red;">
+            Em teste...
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-secondary">Confirmar</button>
+       </div>
+      </div>
+    </div>
+</div>  
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelleadby="editModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editModalLabel">Medium Modal</h5>
+          <button type="button" class="close" data-dismiss="model" aria-label="Close">
+              <span aria-hidden="true">x</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-secondary">Confirmar</button>
+       </div>
+      </div>
+    </div>
+</div> 
+
+<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelleadby="viewModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="viewModalLabel"> Small Modal</h5>
+          <button type="button" class="close" data-dismiss="model" aria-label="Close">
+              <span aria-hidden="true">x</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-secondary">Confirmar</button>
+       </div>
+      </div>
+    </div>
+</div>
 
 
               

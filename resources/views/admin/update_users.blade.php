@@ -50,17 +50,14 @@
                   <td>11/11/21</td>
                   <td>
                       <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-secondary mb-1" data-toggle="modal"
-                        data-target="#viewModal">
-                        Visualizar
+                    <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#viewModal">
+                          <i class="fa fa-eye"></i>
                     </button>
-                    <button type="button" class="btn btn-secondary mb-1" data-toggle="modal"
-                        data-target="#editModal">
-                        Editar 
+                    <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#editModal">
+                          <i class="fa fa-picel"></i>
                     </button>
-                    <button type="button" class="btn btn-secondary mb-1" data-toggle="modal"
-                        data-target="#deleteModal">
-                        Deletar
+                    <button type="button" class="btn btn-danger mb-1" data-toggle="modal" data-target="#deleteModal">
+                          <i class="fa fa-trash"></i>
                     </button>
                   </td>
                 </tr>
@@ -73,13 +70,13 @@
                   <td>
                       <!-- Button trigger modal -->
                   <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#viewModal">
-                      Visualizar
+                     <i class="fa fa-eye"></i>
                   </button>
                   <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#editModal">
-                      Editar 
+                  <i class="fa fa-picel"></i>
                   </button>
-                  <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#deleteModal">
-                      Deletar
+                  <button type="button" class="btn btn-danger mb-1" data-toggle="modal" data-target="#deleteModal">
+                      <i class="fa fa-trash"></i>
                   </button>
                   </td>
                 </tr>
@@ -113,7 +110,7 @@ style="display: none;">
         <div class="modal-header">
           <h5 class="modal-title" id="deleteModalLabel">Apagar dados</h5>
           <button type="button" class="close" data-dismiss="model" aria-label="Close">
-              <span aria-hidden="true" data-dismiss="modal">x</span>
+              <span aria-hidden="true" data-dismiss="modal">&times;</span>
           </button>
         </div>
         <div class="modal-body">
@@ -135,7 +132,7 @@ style="display: none;">
         <div class="modal-header">
           <h5 class="modal-title" id="viewModalLabel">Visualizar dados</h5>
           <button type="button" class="close" data-dismiss="model" aria-label="Close">
-              <span aria-hidden="true" data-dismiss="modal">x</span>
+              <span aria-hidden="true" data-dismiss="modal">&times;</span>
           </button>
         </div>
         <div class="modal-body">
@@ -160,7 +157,7 @@ style="display: none;">
         <div class="modal-header">
           <h5 class="modal-title" id="editModalLabel"> Editar Dados</h5>
           <button type="button" class="close" data-dismiss="model" aria-label="Close">
-              <span aria-hidden="true" data-dismiss="modal">x</span>
+              <span aria-hidden="true" data-dismiss="modal">&times;</span>
           </button>
         </div>
         <div class="modal-body">

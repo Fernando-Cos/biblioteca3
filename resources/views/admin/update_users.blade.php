@@ -81,16 +81,14 @@
               </div>
               <div class="card-body">
 
-
-
                 <!-- EM TESTE -->
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
                 Launch demo modal
-                </button>
+                </button> -->
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <!-- <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -108,12 +106,36 @@
                   </div>
                 </div>
                 </div>
-                </div>
+                </div> -->
                 <!-- EM TESTE -->
 
 
-
                 
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary mb-1" data=toggle="modal"
+                    data-target="#smallmodal">
+                    Small
+                </button>
+
+                <button type="button" class="btn btn-secondary mb-1" data=toggle="modal"
+                    data-target="#mediumModal">
+                    Meduim 
+                </button>
+
+                <button type="button" class="btn btn-secondary mb-1" data=toggle="modal"
+                    data-target="#staticModal">
+                    Statics
+                </button>
+
+                <!-- Modal -->
+
+
+              
+
+
+
+
+
                 <!-- 
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-default">
                   Launch Default Modal

@@ -72,7 +72,6 @@
             <!-- /.card-body -->
           </div>
 
-          
           <div class="card card-primary card-outline">
               <div class="card-header">
                 <h3 class="card-title">
@@ -81,6 +80,41 @@
                 </h3>
               </div>
               <div class="card-body">
+
+
+
+                <!-- EM TESTE -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Em teste</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body" style = "color: red;">
+                    EM TESTE!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fehar</button>
+                    <button type="button" class="btn btn-primary">Salvar e Sair</button>
+                  </div>
+                </div>
+                </div>
+                </div>
+                <!-- EM TESTE -->
+
+
+
+                
+                <!-- 
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-default">
                   Launch Default Modal
                 </button>
@@ -118,7 +152,7 @@
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-overlay">
                   Launch Modal with Overlay
                 </button>
-              </div>
+              </div> -->
               <!-- /.card -->
             </div>
         </div>

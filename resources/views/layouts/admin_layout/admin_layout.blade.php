@@ -73,7 +73,6 @@
 <!-- DataTables -->
 <script src="{{ url('plugins/datatables/jquery.dataTables.js')}}"></script>
 <script src="{{ url('plugins/datatables/dataTables.bootstrap4.js')}}"></script>
-
 <!-- Select2 -->
 <script src="{{url('plugins/select2/js/select2.full.min.js') }}"></script>
 <!-- ChartJS -->
@@ -103,6 +102,7 @@
 <!-- FastClick -->
 <script src="{{url('plugins/fastclick/fastclick.js')}}"></script>
 
+
 <!-- Custom admin js -->
 <script src="{{ url('js/admin_js/admin_script.js') }}"></script>
 <!-- SweetAlert start js -->
@@ -113,10 +113,23 @@
 <script src="{{ url('plugins/datatables/jquery.dataTables.min.js') }}"></script>
 <script src="{{ url('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
 
+<!-- DataTables  & Plugins -->
+<!-- <script src="{{ url('plugins/datatables/jquery.dataTables.min.js')}}"></script>
+<script src="{{ url('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{ url('plugins/datatables-responsive/js/dataTables.responsive.min.js')}}"></script>
+<script src="{{ url('plugins/datatables-responsive/js/responsive.bootstrap4.min.js')}}"></script>
+<script src="{{ url('plugins/datatables-buttons/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{ url('plugins/datatables-buttons/js/buttons.bootstrap4.min.js')}}"></script>
+<script src="{{ url('plugins/jszip/jszip.min.js')}}"></script>
+<script src="{{ url('plugins/pdfmake/pdfmake.min.js')}}"></script>
+<script src="{{ url('plugins/pdfmake/vfs_fonts.js') }}"></script>
+<script src="{{ url('plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
+<script src="{{ url('plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
+<script src="{{ url('plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script> -->
+
 <script>
     $('.select2').select2();
 </script>
-
 <!-- Page specific script -->
 <script>
   $(function() {

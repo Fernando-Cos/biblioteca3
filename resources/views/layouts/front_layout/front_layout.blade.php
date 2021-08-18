@@ -47,9 +47,9 @@
 	<div class="chat_box" style="bottom: 11%;">
 		<div class="conv-form-wrapper">
 		<form action="" method="GET" class="hidden">
-			<select name="programmer" data-conv-question="Olá! Por aqui voçê pode estar tirando suas duvidas.">
-				<option value="yes">Yes</option>
-				<option value="no">No</option>
+			<select name="programmer" data-conv-question="Olá! Por aqui voçê pode estar tirando suas duvidas!">
+				<option value="yes">Sim</option>
+				<option value="no">Não</option>
 			</select>
 			<div data-conv-fork="programmer">
 				<div data-conv-case="yes">

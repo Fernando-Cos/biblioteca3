@@ -8,9 +8,11 @@
 	<link rel="stylesheet" href="{{ url('css/front_css/font-awesome/css/font-awesome.min.css') }}" type='text/css'/>
 	<base href=""/>
 	<link rel="stylesheet" href="{{ url('css/front_css/custom.css') }}" type='text/css'/>
-	{{-- <link rel="stylesheet" href="{{ url('css/front_css/bootstrap.min.css') }}" type='text/css'/> --}}
+	<link rel="stylesheet" href="{{ url('css/front_css/bootstrap.min.css') }}" type='text/css'/>
 	<link rel="stylesheet" href="{{ url('css/front_css/style.css') }}" type='text/css'/>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css">
+
 	<title>@yield('title') | Ses - AM</title>
 	<link href="{{ asset('images/front_images/ico/favicon1.ico') }}" rel='shortcut icon'/>
 	{{-- <script type="application/json" class="joomla-script-options new">{"csrf.token":"c50ee43b98f577753931d0543aec93ea","system.paths":{"root":"","base":""}}</script> --}}
@@ -30,9 +32,41 @@
 	<script type="text/javascript"></script>
 	{{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script> --}}
 	{{-- <style type="text/css">#goog-gt-tt{display:none!important}.goog-te-banner-frame{display:none!important}.goog-te-menu-value:hover{text-decoration:none!important}body{top:0!important}#google_translate_element2{display:none!important}</style> --}}
-</head>
+	
+	{{-- ChatBot --}}
+	<link rel="stylesheet" type="text/css" href="{{ url('css/front_css/jquery.convform.css')}}">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text-javascript"></script>
+	{{-- ChatBot --}}
+	</head>
 <div id="conteudo">
 <body class="font-lato">
+	{{-- chatbot --}}
+	<div class="chat_icon">
+		<i class="fa fa-commenting" aria-hidden="true"></i>
+	</div>
+	<div class="chat_box" style="bottom: 11%;">
+		<div class="conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+			<select name="programmer" data-conv-question="So, are you a programmer? (this question will fork the conversation based on your answer)">
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+			<div data-conv-fork="programmer">
+				<div data-conv-case="yes">
+					 <input type="text" data-conv-question="A fellow programmer! Cool." data-no-answer="true">
+				</div>
+				<div data-conv-case="no">
+					<select name="thought" data-conv-question="Have you ever thought about learning? Programming is fun!">
+						<option value="yes">Yes</option>
+						<option value="no">No..</option>
+					</select>
+				</div>
+			</div>
+		</form>
+	</div>
+	</div>
+	{{-- chatbot --}}
+
 
 
 @include('layouts.front_layout.front_header')
@@ -55,11 +89,12 @@
 <script src="{{ url('js/front_js/jquery.cookie.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
 <script src="{{ url('js/front_js/template.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
 <script src="{{ url('js/front_js/verde.js') }}" type="text/javascript"></script><noscript>&nbsp;<!-- item para fins de acessibilidade --></noscript>
-{{-- <script src="{{ url('js/front_js/jquery.lightbox-0.5.js') }}"></script> --}}
+<script src="{{ url('js/front_js/jquery.lightbox-0.5.js') }}"></script>
+<script src="{{ url('js/front_js/custom.js') }}"></script>
+<script type="text/javascript" src="{{url('js/front_js/jquery.convform.js')}}"></script>
+
+
 </body>
 	</div>
-
-	<style>
-		
-	</style>
+	
 </html>

@@ -1,4 +1,39 @@
+/* chatbot */
+.chat_icon {
+    position: fixed;
+    right: 30px;
+    bottom: 6px;
+    font-size: 80px;
+    color: #066017c9;
+    cursor: pointer;
+    z-index: 1000;
+}
 
+.chat_box {
+    position: fixed;
+    right: 3px;
+    bottom: 63px;
+    width: 400px;
+    height: 75vh;
+    background: #34b75cb5;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+}
+.chat_box.active {
+    transform: scaleY(1);
+}
+
+.hidden {
+    display: none !important;
+} 
+
+/* .conv-form-wrapper textarea {
+    height: 30px;
+    overflow: hidden;
+    resize: none;
+} */
+/* chatbot */
 
 .btn, .btnCinza, .btnForm, .btnAnexo, .team-btn-menu-dropdown.btn {
     background-color: #666;

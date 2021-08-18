@@ -27,7 +27,7 @@
                         </a>
                     </td>
                 <td style="" class="colunaID coluna0">
-                    <p style="text-align: justify">FLIAA: Área em que o portal deve disponibilizar informações sobre os trabalhos realizados pelo órgão.</p>
+                    <p style="text-align: justify">Área em que o portal deve disponibilizar informações sobre os trabalhos realizados pelo órgão.</p>
             </tbody>
         </table>
         <table class="tabelaConsultas">
@@ -48,7 +48,7 @@
                 </a>
             </td>
         <td style="" class="colunaID coluna0">
-            <p style="text-align: justify">FLIAA: Cada órgão deverá manter em seu portal um link para o site Página Dados Abertos (link externo),
+            <p style="text-align: justify">Cada órgão deverá manter em seu portal um link para o site Página Dados Abertos (link externo),
                 que reúne informações de todas as principais áreas do governo federal..</p>
             </tbody>
         </table>

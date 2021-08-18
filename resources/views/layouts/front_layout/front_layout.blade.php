@@ -47,20 +47,18 @@
 	<div class="chat_box" style="bottom: 11%;">
 		<div class="conv-form-wrapper">
 		<form action="" method="GET" class="hidden">
-			<select name="programmer" data-conv-question="Olá! Por aqui voçê pode estar tirando suas duvidas!">
-				<option value="yes">Sim</option>
-				<option value="no">Não</option>
+			<select name="category" data-conv-question="Olá! Por aqui voçê pode estar tirando suas duvidas!">
+				<option value="webDevelopment">Dev Sistema?</option>
+				<option value="digitalMarketing">Marketing Digital?</option>
 			</select>
-			<div data-conv-fork="programmer">
-				<div data-conv-case="yes">
-					 <input type="text" data-conv-question="A fellow programmer! Cool." data-no-answer="true">
+			<div data-conv-fork="category">
+				<div data-conv-case="webDevelopment">
+					 <input type="text" data-conv-question="por favor, me diga seu nome de domínio.">
 				</div>
-				<div data-conv-case="no">
-					<select name="thought" data-conv-question="Have you ever thought about learning? Programming is fun!">
-						<option value="yes">Yes</option>
-						<option value="no">No..</option>
-					</select>
-				</div>
+				<div data-conv-case="digitalMarketing">
+					<input type="text" data-conv-question="por favor, me diga o nome da sua compania">
+			   </div>
+				
 			</div>
 		</form>
 	</div>

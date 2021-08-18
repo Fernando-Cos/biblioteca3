@@ -253,7 +253,7 @@ div.conv-form-wrapper  div#messages div.message {
 }
 div.conv-form-wrapper  div#messages div.message.to {
     background: #efefef;
-    color: #6f6f6f;
+    color: #c33333;
     float: left;
     border-top-left-radius: 0;
 }

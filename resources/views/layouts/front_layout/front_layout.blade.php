@@ -47,18 +47,25 @@
 	<div class="chat_box" style="bottom: 11%;">
 		<div class="conv-form-wrapper">
 		<form action="" method="GET" class="hidden">
-			<select name="category" data-conv-question="Olá! Por aqui voçê pode estar tirando suas duvidas!">
+			<select name="category" data-conv-question="Olá! Por aqui voçê pode estar tirando suas duvidas! (EM TESTE)">
 				<option value="webDevelopment">Dev Sistema?</option>
 				<option value="digitalMarketing">Marketing Digital?</option>
 			</select>
 			<div data-conv-fork="category">
 				<div data-conv-case="webDevelopment">
-					 <input type="text" data-conv-question="por favor, me diga seu nome de domínio.">
+					 <input type="text" name="domain_name" data-conv-question="por favor, me diga seu nome de domínio.">
 				</div>
 				<div data-conv-case="digitalMarketing">
-					<input type="text" data-conv-question="por favor, me diga o nome da sua compania">
+					<input type="text" name="company_name" data-conv-question="por favor, me diga o nome da sua compania">
 			   </div>
-				
+			</div>
+			<div data-conv-case="digitalMarketing">
+				<input type="text" name="name" data-conv-question="Confirme ?">
+				<input data-conv-question="Digite seu e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" id="email" type="email" name="email" required placeholder="What's your e-mail?">
+					{{-- <option value="confirm">Confirmar ?</option> --}}
+					<select data-conv-question="Please Conform">
+						<option value="confirm">Conform</option>
+				</select>
 			</div>
 		</form>
 	</div>

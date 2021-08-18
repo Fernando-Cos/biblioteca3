@@ -16,7 +16,7 @@
 
   <link rel="shortcut icon" href="images/front_images/ico/favicon-admin.jpg" />
 </head>
-<body class="hold-transition login-page">
+<body class="hold-transition login-page" style="background: linear-gradient(to bottom, #ffffff, #58646f);">
 <div class="login-box">
   <div class="login-logo">
     <a href="{{ url('/admin') }}"><b>SES - AM</b><br>Painel Administrativo</a>
@@ -24,7 +24,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body" style="box-shadow: 0 0 10px 5px #6666664d;">
-      <p class="login-box-msg">Faça login para iniciar sua sessão</p>
+      <p class="login-box-msg" style="font-family: inherit;">Faça login para iniciar sua sessão</p>
 
 
       @if(Session::has('error_message'))

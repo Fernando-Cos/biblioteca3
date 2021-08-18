@@ -33,6 +33,10 @@
     overflow: hidden;
     resize: none;
 } */
+
+#messages {
+    padding: 20px;
+}
 /* chatbot */
 
 .btn, .btnCinza, .btnForm, .btnAnexo, .team-btn-menu-dropdown.btn {

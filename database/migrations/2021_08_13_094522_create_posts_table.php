@@ -22,10 +22,7 @@ class CreatePostsTable extends Migration
             $table->string('sub_title')->nullable();
             $table->text('details');
             $table->string('sub_title')->nullable();
-            $table->enum('post_type')->nullable();
-            $table->enum('is_published',['1', '0']);
             $table->timestamps();
-
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }

@@ -19,8 +19,7 @@ class CreateCategoryMainsTable extends Migration
             $table->string('thumbnail')->nullable();
             $table->string('name')->unique();
             $table->string('slug')->unique();
-            $table->enum('is_published',['1', '0']);
-            // $table->tinyInteger('status');
+            $table->tinyInteger('status');
             $table->timestamps();
             
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

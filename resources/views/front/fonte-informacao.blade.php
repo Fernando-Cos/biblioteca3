@@ -25,7 +25,7 @@
                 <span class="icon novaAbaEscuro"></span>
             </a>
         </td>
-    <td style="" class="colunaID coluna0"><p style="text-align: justify">FLIEEN 02-04: Visando facilitar o acesso aos conteúdos por área do conhecimento o SISTEBIB, através das Bibliotecas Setoriais, disponibiliza os Guias de Fontes de Informação para os seus usuários..</p>
+    <td style="" class="colunaID coluna0"><p style="text-align: justify">Visando facilitar o acesso aos conteúdos por área do conhecimento o SISTEBIB, através das Bibliotecas Setoriais, disponibiliza os Guias de Fontes de Informação para os seus usuários..</p>
 </tbody>
 </table>
                 <div id="content" class="span9 internas">

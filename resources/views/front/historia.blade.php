@@ -53,7 +53,7 @@
     </table>
     <img src="{{ asset('images/front_images/drawing.svg')}}" class="home-section" alt="Imagem vetorizada de computator e materiais" style="max-width: 40%;
     padding-block: 5%;"></div>
-    <div class="col-md-6" style="margin-left: 53%; margin-top: -27%;">
+    <div class="col-md-6" style="margin-left: 47%; margin-top:-29%;     width: 44%;">
         <h4>O que é <strong>Biblioteca - Ses?</strong></h4>
         <p>Espaço criado para uma melhor proporcionar aprendizagem e conhecimento favoravais a todos.</p>
     </div>

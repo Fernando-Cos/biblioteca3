@@ -66,7 +66,7 @@
         </a>
     </td>
 <td style="" class="colunaID coluna0">
-    <p style="text-align: justify">FLIEEN 02-04: O Sistema de Bibliotecas disponibiliza a lista de capacitações on-line que serão oferecidas mediante agendamento para toda a comunidade da SES - AM.</p>
+    <p style="text-align: justify">O Sistema de Bibliotecas disponibiliza a lista de capacitações on-line que serão oferecidas mediante agendamento para toda a comunidade da SES - AM.</p>
 </tbody>
 </table>
 {{-- <p style="text-align: center;">
